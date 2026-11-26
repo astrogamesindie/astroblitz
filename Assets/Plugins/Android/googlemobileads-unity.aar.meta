@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cae514165f5d4bbbbd9c4bbceb947a28
+PluginImporter:
+  serializedVersion: 2
+  isPreloaded: 0
+  platformData:
+  - first:
+      Any:
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}

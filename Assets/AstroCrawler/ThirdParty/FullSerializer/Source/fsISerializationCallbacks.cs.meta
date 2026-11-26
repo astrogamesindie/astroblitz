@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5c184b0c2ca7f7c449f586d00cfb1f4d
+timeCreated: 1451205262
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/fsISerializationCallbacks.cs
+  uploadId: 957878

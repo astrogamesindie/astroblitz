@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d10fb90baa449eab6d8b03bf904d2f, type: 3}
+  m_Name: AndroidAds
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.AndroidAdsConfig
+  androidAppId: ca-app-pub-6786791460039462~4341250352
+  bannerId: ca-app-pub-6786791460039462/4966093004
+  rewardedId: ca-app-pub-6786791460039462/6887522645
+  interstitialId: ca-app-pub-6786791460039462/5519371163
+  appOpenId: ca-app-pub-6786791460039462/1384685030
+  iosAppId: ca-app-pub-6786791460039462~4024572074
+  iosBannerId: ca-app-pub-6786791460039462/9480253740
+  iosInterstitialId: ca-app-pub-6786791460039462/1009280511
+  iosRewardedId: ca-app-pub-6786791460039462/1378227437
+  iosAppOpenId: ca-app-pub-6786791460039462/9065145769
+  interstitialIntervalSeconds: 90
+  appOpenBackgroundSeconds: 30
+  useTestAds: 0
+  officialPreviewInEditor: 1
+  rewardCoins: 100

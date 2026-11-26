@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: f584c912780c470ba7b009e8daf85c86
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+  - first:
+      Any:
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      iPhone: iOS
+    second:
+      enabled: 1
+      settings:
+        AddToEmbeddedBinaries: false
+  userData: Official Google Mobile Ads Unity 11.5.0 native adapter

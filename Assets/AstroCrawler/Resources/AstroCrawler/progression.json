@@ -1,0 +1,14 @@
+{
+  "xpBase": 10,
+  "xpPerLevel": 17,
+  "maxLevel": 12,
+  "bossLevelDrops": 3,
+  "bossDropOrbs": 6,
+  "waveBreak": 1,
+  "orbScatterSpeed": 2.2,
+  "orbMagnetDelay": 0.35,
+  "orbSpeed": 5,
+  "orbAcceleration": 16,
+  "orbCollectRadius": 0.5,
+  "maxActiveOrbs": 80
+}

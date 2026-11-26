@@ -1,0 +1,362 @@
+[
+  {
+    "id": "vanguard",
+    "name": "Vanguarda-7",
+    "tagline": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+    "identity": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+    "maxHp": 100,
+    "fireInterval": 0.3,
+    "damagePerShot": 8,
+    "baseProjectiles": 1,
+    "tint": "FF6B4A",
+    "deck": [
+      {
+        "cardId": "battle_fury"
+      },
+      {
+        "cardId": "wild_volley"
+      },
+      {
+        "cardId": "overdrive_recharge"
+      },
+      {
+        "cardId": "adrenaline"
+      },
+      {
+        "cardId": "executioner"
+      },
+      {
+        "cardId": "overdrive_fury"
+      }
+    ],
+    "special": {
+      "kind": "Overdrive",
+      "name": "Sobrecarga ofensiva",
+      "nameEn": "Offensive overdrive",
+      "nameEs": "Sobrecarga ofensiva",
+      "description": "Por 6s: dobra a cadência de tiro.",
+      "descriptionEn": "Double fire rate for 6s.",
+      "descriptionEs": "Duplica la cadencia de tiro durante 6s.",
+      "cooldown": 25,
+      "duration": 6,
+      "damageScale": 1,
+      "fireRateScale": 2,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "bastion",
+    "name": "Bastião Aegis",
+    "tagline": "Não é a mais rápida a atirar, mas é a última a cair.",
+    "identity": "Fortificação: repulsão, destroços e blindagem contra dano.",
+    "maxHp": 160,
+    "fireInterval": 0.42,
+    "damagePerShot": 12,
+    "baseProjectiles": 1,
+    "tint": "5BD6A0",
+    "deck": [
+      {
+        "cardId": "repulsion_field"
+      },
+      {
+        "cardId": "debris_wall"
+      },
+      {
+        "cardId": "armor_plating"
+      },
+      {
+        "cardId": "thorn_hull"
+      },
+      {
+        "cardId": "lasting_aegis"
+      },
+      {
+        "cardId": "shield_mend"
+      }
+    ],
+    "special": {
+      "kind": "Aegis",
+      "name": "Égide de emergência",
+      "nameEn": "Emergency aegis",
+      "nameEs": "Égida de emergencia",
+      "description": "Fica invulnerável por 4s.",
+      "descriptionEn": "Become invulnerable for 4s.",
+      "descriptionEs": "Es invulnerable durante 4s.",
+      "cooldown": 35,
+      "duration": 4,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "spectre",
+    "name": "Espectro Nulo",
+    "tagline": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+    "identity": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+    "maxHp": 80,
+    "fireInterval": 0.34,
+    "damagePerShot": 9,
+    "baseProjectiles": 1,
+    "tint": "B274FF",
+    "deck": [
+      {
+        "cardId": "critical_pulse"
+      },
+      {
+        "cardId": "temporal_distortion"
+      },
+      {
+        "cardId": "temporal_paralysis"
+      },
+      {
+        "cardId": "temporal_rift"
+      },
+      {
+        "cardId": "paradox"
+      },
+      {
+        "cardId": "time_echo"
+      }
+    ],
+    "special": {
+      "kind": "Stasis",
+      "name": "Estase temporal",
+      "nameEn": "Temporal stasis",
+      "nameEs": "Estasis temporal",
+      "description": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "descriptionEn": "Freeze all enemies, including the boss, for 3s.",
+      "descriptionEs": "Congela a todos los enemigos, incluido el jefe, por 3s.",
+      "cooldown": 30,
+      "duration": 3,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora Médica",
+    "tagline": "Uma nave de suporte que reconstrói o próprio casco.",
+    "identity": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+    "maxHp": 90,
+    "fireInterval": 0.32,
+    "damagePerShot": 8,
+    "baseProjectiles": 1,
+    "tint": "FF87C8",
+    "deck": [
+      {
+        "cardId": "emergency_repair"
+      },
+      {
+        "cardId": "impact_charge"
+      },
+      {
+        "cardId": "support_drones"
+      },
+      {
+        "cardId": "overheal"
+      },
+      {
+        "cardId": "vital_pulse"
+      },
+      {
+        "cardId": "emergency_protocol"
+      }
+    ],
+    "special": {
+      "kind": "Repair",
+      "name": "Reparo restaurador",
+      "nameEn": "Restorative repair",
+      "nameEs": "Reparación restauradora",
+      "description": "Recupera 30% da vida máxima instantaneamente.",
+      "descriptionEn": "Instantly restore 30% of maximum HP.",
+      "descriptionEs": "Recupera al instante 30% de la vida máxima.",
+      "cooldown": 30,
+      "duration": 0,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0.3
+    }
+  },
+  {
+    "id": "orion",
+    "name": "Orion",
+    "tagline": "Canhões pesados: cada disparo precisa contar.",
+    "identity": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+    "maxHp": 125,
+    "fireInterval": 0.48,
+    "damagePerShot": 16,
+    "baseProjectiles": 1,
+    "tint": "FFC857",
+    "deck": [
+      {
+        "cardId": "siege_round"
+      },
+      {
+        "cardId": "chain_lightning"
+      },
+      {
+        "cardId": "boss_hunter"
+      },
+      {
+        "cardId": "railgun"
+      },
+      {
+        "cardId": "target_mark"
+      },
+      {
+        "cardId": "resonance"
+      }
+    ],
+    "special": {
+      "kind": "Amplify",
+      "name": "Amplificação de dano",
+      "nameEn": "Damage amplification",
+      "nameEs": "Amplificación de daño",
+      "description": "Dobra o dano do canhão por 5s.",
+      "descriptionEn": "Double cannon damage for 5s.",
+      "descriptionEs": "Duplica el daño del cañón durante 5s.",
+      "cooldown": 28,
+      "duration": 5,
+      "damageScale": 2,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "noel",
+    "name": "Noel Polar",
+    "tagline": "Listras de bengala doce e um arsenal de inverno.",
+    "identity": "Natal: bolas de neve, gelo e presentes explosivos.",
+    "maxHp": 105,
+    "fireInterval": 0.33,
+    "damagePerShot": 8,
+    "baseProjectiles": 1,
+    "tint": "F04B61",
+    "deck": [
+      {
+        "cardId": "bouncing_snowball"
+      },
+      {
+        "cardId": "giant_snowball"
+      },
+      {
+        "cardId": "frost_circle"
+      },
+      {
+        "cardId": "gift_bombs"
+      },
+      {
+        "cardId": "ice_shards"
+      },
+      {
+        "cardId": "snowstorm"
+      }
+    ],
+    "special": {
+      "kind": "ChristmasStar",
+      "name": "Estrela Natalina",
+      "nameEn": "Christmas Star",
+      "nameEs": "Estrella Navideña",
+      "description": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "descriptionEn": "Mark enemies in range: they take 35% more damage for 6s.",
+      "descriptionEs": "Marca a los enemigos al alcance: reciben un 35% más de daño durante 6s.",
+      "cooldown": 30,
+      "duration": 6,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "arvore",
+    "name": "Pinheiro Natalino",
+    "tagline": "Natal: bolas de neve, gelo e presentes explosivos.",
+    "identity": "Natal: bolas de neve, gelo e presentes explosivos.",
+    "maxHp": 105,
+    "fireInterval": 0.33,
+    "damagePerShot": 8,
+    "baseProjectiles": 1,
+    "tint": "00C936",
+    "deck": [
+      {
+        "cardId": "bouncing_snowball"
+      },
+      {
+        "cardId": "giant_snowball"
+      },
+      {
+        "cardId": "frost_circle"
+      },
+      {
+        "cardId": "gift_bombs"
+      },
+      {
+        "cardId": "ice_shards"
+      },
+      {
+        "cardId": "snowstorm"
+      }
+    ],
+    "special": {
+      "kind": "ChristmasStar",
+      "name": "Estrela Natalina",
+      "nameEn": "Christmas Star",
+      "nameEs": "Estrella Navideña",
+      "description": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "descriptionEn": "Mark enemies in range: they take 35% more damage for 6s.",
+      "descriptionEs": "Marca a los enemigos al alcance: reciben un 35% más de daño durante 6s.",
+      "cooldown": 30,
+      "duration": 6,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  },
+  {
+    "id": "neve",
+    "name": "Cristal Polar",
+    "tagline": "Natal: bolas de neve, gelo e presentes explosivos.",
+    "identity": "Natal: bolas de neve, gelo e presentes explosivos.",
+    "maxHp": 105,
+    "fireInterval": 0.33,
+    "damagePerShot": 8,
+    "baseProjectiles": 1,
+    "tint": "7CDFF5",
+    "deck": [
+      {
+        "cardId": "bouncing_snowball"
+      },
+      {
+        "cardId": "giant_snowball"
+      },
+      {
+        "cardId": "frost_circle"
+      },
+      {
+        "cardId": "gift_bombs"
+      },
+      {
+        "cardId": "ice_shards"
+      },
+      {
+        "cardId": "snowstorm"
+      }
+    ],
+    "special": {
+      "kind": "ChristmasStar",
+      "name": "Estrela Natalina",
+      "nameEn": "Christmas Star",
+      "nameEs": "Estrella Navideña",
+      "description": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "descriptionEn": "Mark enemies in range: they take 35% more damage for 6s.",
+      "descriptionEs": "Marca a los enemigos al alcance: reciben un 35% más de daño durante 6s.",
+      "cooldown": 30,
+      "duration": 6,
+      "damageScale": 1,
+      "fireRateScale": 1,
+      "healFraction": 0
+    }
+  }
+]

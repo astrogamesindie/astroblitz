@@ -1,0 +1,2712 @@
+{
+  "entries": [
+    {
+      "key": "REINICIAR?",
+      "value": "फिर से शुरू करें?"
+    },
+    {
+      "key": "Volta à onda 1 com a mesma nave e fase.\nAs melhorias desta run se perdem.",
+      "value": "इसी जहाज और स्तर के साथ लहर 1 से शुरू करें।\nइस प्रयास के अपग्रेड खो जाएंगे।"
+    },
+    {
+      "key": "REINICIAR",
+      "value": "फिर से शुरू करें"
+    },
+    {
+      "key": "SAIR DA RUN?",
+      "value": "यह प्रयास छोड़ें?"
+    },
+    {
+      "key": "A run termina aqui e o progresso se perde.",
+      "value": "यह प्रयास यहीं समाप्त होगा और इसकी प्रगति खो जाएगी।"
+    },
+    {
+      "key": "SAIR",
+      "value": "छोड़ें"
+    },
+    {
+      "key": "PAUSA",
+      "value": "रोका गया"
+    },
+    {
+      "key": "SISTEMA EM PAUSA",
+      "value": "सिस्टम रोका गया"
+    },
+    {
+      "key": "CONTINUAR",
+      "value": "जारी रखें"
+    },
+    {
+      "key": "MENU",
+      "value": "मेनू"
+    },
+    {
+      "key": "VOLTAR",
+      "value": "वापस"
+    },
+    {
+      "key": "ONDA ",
+      "value": "लहर "
+    },
+    {
+      "key": " VIDA",
+      "value": " ढाँचा"
+    },
+    {
+      "key": "slot vazio",
+      "value": "खाली स्लॉट"
+    },
+    {
+      "key": "ASSALTO",
+      "value": "आक्रमण"
+    },
+    {
+      "key": "FORTIFICACAO",
+      "value": "किलेबंदी"
+    },
+    {
+      "key": "GRAVITACIONAL",
+      "value": "गुरुत्व"
+    },
+    {
+      "key": "SUPORTE",
+      "value": "सहायता"
+    },
+    {
+      "key": "ARTILHARIA",
+      "value": "तोपखाना"
+    },
+    {
+      "key": "COMUM",
+      "value": "सामान्य"
+    },
+    {
+      "key": "MELHORIA",
+      "value": "अपग्रेड"
+    },
+    {
+      "key": " CONCLUÍDO",
+      "value": " पूर्ण"
+    },
+    {
+      "key": " LIMPA",
+      "value": " पूर्ण"
+    },
+    {
+      "key": "  ·  ATIVA",
+      "value": "  · सक्रिय"
+    },
+    {
+      "key": " INIMIGO",
+      "value": " दुश्मन"
+    },
+    {
+      "key": " INIMIGOS",
+      "value": " दुश्मन"
+    },
+    {
+      "key": "   ·   ESCUDO ",
+      "value": "   · शील्ड "
+    },
+    {
+      "key": "NAVE NV ",
+      "value": "जहाज स्तर "
+    },
+    {
+      "key": "MÁXIMO",
+      "value": "अधिकतम"
+    },
+    {
+      "key": "MELHORIAS  ·  ",
+      "value": "उन्नयन ·  "
+    },
+    {
+      "key": "Nenhuma ainda",
+      "value": "अभी कोई नहीं"
+    },
+    {
+      "key": "NÍVEL ",
+      "value": "स्तर "
+    },
+    {
+      "key": "RECOMPENSAS",
+      "value": "पुरस्कार"
+    },
+    {
+      "key": "RECOMPENSA DIÁRIA",
+      "value": "दैनिक पुरस्कार"
+    },
+    {
+      "key": "ASSISTA E GANHE",
+      "value": "वीडियो देखकर पाएं"
+    },
+    {
+      "key": "COLETADA",
+      "value": "प्राप्त"
+    },
+    {
+      "key": "COLETAR",
+      "value": "प्राप्त करें"
+    },
+    {
+      "key": "Nova recompensa em ",
+      "value": "अगला इनाम "
+    },
+    {
+      "key": "Assista um vídeo para dobrar.",
+      "value": "इसे दोगुना करने के लिए एक वीडियो देखें।"
+    },
+    {
+      "key": "UPGRADES",
+      "value": "उन्नयन"
+    },
+    {
+      "key": "ESCOLHA SUA NAVE",
+      "value": "अपना जहाज चुनें"
+    },
+    {
+      "key": "SELECIONADA",
+      "value": "चयनित"
+    },
+    {
+      "key": "SELECIONAR",
+      "value": "चुनें"
+    },
+    {
+      "key": "VIDA",
+      "value": "ढाँचा"
+    },
+    {
+      "key": "DANO",
+      "value": "क्षति"
+    },
+    {
+      "key": "TIROS/S",
+      "value": "शॉट/सेकंड"
+    },
+    {
+      "key": "DANO/S",
+      "value": "डीपीएस"
+    },
+    {
+      "key": "DECK  ·  ",
+      "value": "डेक ·  "
+    },
+    {
+      "key": " CARTAS  ·  6 COMUNS + 3 EXCLUSIVAS",
+      "value": " कार्ड · 6 सामान्य + 3 विशिष्ट"
+    },
+    {
+      "key": "Recarga: ",
+      "value": "कूलडाउन: "
+    },
+    {
+      "key": "Duração: ",
+      "value": "अवधि: "
+    },
+    {
+      "key": "ATIVA · ",
+      "value": "सक्रिय · "
+    },
+    {
+      "key": "EM RECARGA · ",
+      "value": "रिचार्ज हो रहा है · "
+    },
+    {
+      "key": "PRONTA",
+      "value": "तैयार"
+    },
+    {
+      "key": "Recarga restante: ",
+      "value": "कूलडाउन शेष: "
+    },
+    {
+      "key": "HABILIDADE ESPECIAL",
+      "value": "विशेष योग्यता"
+    },
+    {
+      "key": "Recarga Ofensiva",
+      "value": "आक्रामक रिचार्ज"
+    },
+    {
+      "key": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "आक्रामक ओवरड्राइव का कूलडाउन 15% कम करता है।"
+    },
+    {
+      "key": "Recarga Ofensiva Avançada",
+      "value": "उन्नत आक्रामक रिचार्ज"
+    },
+    {
+      "key": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "आक्रामक ओवरड्राइव का कूलडाउन 25% कम करता है।"
+    },
+    {
+      "key": "Recarga Ofensiva Máxima",
+      "value": "अधिकतम आक्रामक रिचार्ज"
+    },
+    {
+      "key": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "आक्रामक ओवरड्राइव का कूलडाउन 35% कम करता है।"
+    },
+    {
+      "key": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+      "value": "अपराध: हत्याओं पर उपचार, गंभीर हिट और आक्रामक ओवरड्राइव रिचार्ज।"
+    },
+    {
+      "key": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+      "value": "समर्थन: स्व-मरम्मत, उपचार पर मिसाइलें और ड्रोन का समर्थन।"
+    },
+    {
+      "key": "Blindagem Reforçada",
+      "value": "प्रबलित कवच"
+    },
+    {
+      "key": "Reduz em 10% todo o dano recebido durante a run.",
+      "value": "इस प्रयास में प्राप्त होने वाली सभी क्षति 10% कम होती है।"
+    },
+    {
+      "key": "Blindagem Avançada",
+      "value": "उन्नत कवच"
+    },
+    {
+      "key": "Reduz em 18% todo o dano recebido durante a run.",
+      "value": "इस प्रयास में प्राप्त होने वाली सभी क्षति 18% कम होती है।"
+    },
+    {
+      "key": "Blindagem Inabalável",
+      "value": "अटूट कवच"
+    },
+    {
+      "key": "Reduz em 25% todo o dano recebido durante a run.",
+      "value": "इस प्रयास में प्राप्त होने वाली सभी क्षति 25% कम होती है।"
+    },
+    {
+      "key": "Caça ao Chefe",
+      "value": "बॉस हंटर"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +25% de dano.",
+      "value": "बॉस को निशाना बनाने वाले तोप के शॉट +25% क्षति देते हैं।"
+    },
+    {
+      "key": "Predador de Chefes",
+      "value": "बॉस प्रीडेटर"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +40% de dano.",
+      "value": "बॉस को निशाना बनाने वाले तोप के शॉट +40% क्षति देते हैं।"
+    },
+    {
+      "key": "Flagelo dos Chefes",
+      "value": "बॉस स्कॉर्ज"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +60% de dano.",
+      "value": "बॉस को निशाना बनाने वाले तोप के शॉट +60% क्षति देते हैं।"
+    },
+    {
+      "key": "Fortificação: repulsão, destroços e blindagem contra dano.",
+      "value": "किलेबंदी: प्रतिकर्षण, मलबा और क्षति कम करने वाला कवच।"
+    },
+    {
+      "key": "Pulso Crítico",
+      "value": "क्रिटिकल पल्स"
+    },
+    {
+      "key": "Após 10s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "लड़ाई के 10 सेकंड बाद अगला शॉट निश्चित क्रिटिकल होता है। शॉट के बाद समय फिर शुरू होता है; चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Ritmo Crítico",
+      "value": "क्रिटिकल लय"
+    },
+    {
+      "key": "Após 7s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "लड़ाई के 7 सेकंड बाद अगला शॉट निश्चित क्रिटिकल होता है। शॉट के बाद समय फिर शुरू होता है; चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Ressonância Crítica",
+      "value": "क्रिटिकल अनुनाद"
+    },
+    {
+      "key": "Após 5s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "लड़ाई के 5 सेकंड बाद अगला शॉट निश्चित क्रिटिकल होता है। शॉट के बाद समय फिर शुरू होता है; चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +60%.",
+      "value": "फायरिंग दर स्थायी रूप से +60% बढ़ती है।"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +85%.",
+      "value": "फायरिंग दर स्थायी रूप से +85% बढ़ती है।"
+    },
+    {
+      "key": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+      "value": "नियंत्रण और सटीकता: गारंटीकृत क्रिटिकल हिट, धीमी और अस्थायी पक्षाघात।"
+    },
+    {
+      "key": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "क्रिटिकल संभावना स्थायी रूप से 12% है। गुणक x2 + स्थायी बोनस।"
+    },
+    {
+      "key": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "क्रिटिकल संभावना स्थायी रूप से 25% है। गुणक x2 + स्थायी बोनस।"
+    },
+    {
+      "key": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "क्रिटिकल संभावना स्थायी रूप से 32% है। गुणक x2 + स्थायी बोनस।"
+    },
+    {
+      "key": "Arco Voltaico",
+      "value": "विद्युत चाप"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+      "value": "तोप का शॉट लगने पर पास के 2 अन्य दुश्मनों तक बिजली पहुँचती है। हर लक्ष्य को 12 क्षति। अंतराल: 3 सेकंड।"
+    },
+    {
+      "key": "Corrente Voltaica",
+      "value": "विद्युत श्रृंखला"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+      "value": "तोप का शॉट लगने पर पास के 3 अन्य दुश्मनों तक बिजली पहुँचती है। हर लक्ष्य को 18 क्षति। अंतराल: 2.5 सेकंड।"
+    },
+    {
+      "key": "Tempestade Voltaica",
+      "value": "विद्युत तूफ़ान"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+      "value": "तोप का शॉट लगने पर पास के 4 अन्य दुश्मनों तक बिजली पहुँचती है। हर लक्ष्य को 25 क्षति। अंतराल: 2 सेकंड।"
+    },
+    {
+      "key": "Disparo de Cerco",
+      "value": "घेराबंदी शॉट"
+    },
+    {
+      "key": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+      "value": "लड़ाई के 8 सेकंड बाद एक शॉट तैयार होता है, जिसका विस्फोट क्षेत्र में 40 क्षति देता है। चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Artilharia de Cerco",
+      "value": "घेराबंदी तोपखाना"
+    },
+    {
+      "key": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+      "value": "लड़ाई के 6 सेकंड बाद एक शॉट तैयार होता है, जिसका विस्फोट क्षेत्र में 65 क्षति देता है। चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Devastação de Cerco",
+      "value": "घेराबंदी विनाश"
+    },
+    {
+      "key": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+      "value": "लड़ाई के 4 सेकंड बाद एक शॉट तैयार होता है, जिसका विस्फोट क्षेत्र में 90 क्षति देता है। चार्ज जमा नहीं होते।"
+    },
+    {
+      "key": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+      "value": "आर्टिलरी: चेन लाइटनिंग, घेराबंदी शॉट और मालिकों के खिलाफ बोनस क्षति।"
+    },
+    {
+      "key": "Aurora Médica",
+      "value": "मेडिकल अरोरा"
+    },
+    {
+      "key": "Orion",
+      "value": "ओरियन"
+    },
+    {
+      "key": "Uma nave de suporte que reconstrói o próprio casco.",
+      "value": "एक सहायक जहाज जो अपने पतवार का पुनर्निर्माण स्वयं करता है।"
+    },
+    {
+      "key": "Sustentação: reparo e defesa mantêm a nave no combate.",
+      "value": "स्थिरता: मरम्मत और रक्षा जहाज को युद्ध में बनाए रखती है।"
+    },
+    {
+      "key": "Canhões pesados: cada disparo precisa contar.",
+      "value": "भारी तोपें: प्रत्येक शॉट को गिना जाना चाहिए।"
+    },
+    {
+      "key": "Artilharia pesada: dano e explosões compensam a cadência baixa.",
+      "value": "भारी तोपखाने: क्षति और विस्फोट कम आग दर की भरपाई करते हैं।"
+    },
+    {
+      "key": "Vanguarda-7",
+      "value": "वेंगार्ड-7"
+    },
+    {
+      "key": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+      "value": "लड़ाई को जल्दी खत्म करने के लिए बनाया गया है, न कि लंबे समय तक टिके रहने के लिए।"
+    },
+    {
+      "key": "Ofensiva pura: deck inclinado para Ataque Duplo e Tiro Penetrante, reforçado por cartas de alto risco e alto retorno que recompensam jogar agressivo.",
+      "value": "शुद्ध आक्रमण: डबल अटैक और पियर्सिंग शॉट के आसपास बनाया गया एक डेक, जो उच्च जोखिम वाले कार्डों द्वारा समर्थित है जो आक्रामक खेल को पुरस्कृत करते हैं।"
+    },
+    {
+      "key": "Bastião Aegis",
+      "value": "एजिस बैस्टियन"
+    },
+    {
+      "key": "Não é a mais rápida a atirar, mas é a última a cair.",
+      "value": "यह सबसे तेज़ शॉट नहीं है, लेकिन गिरने वाला आखिरी शॉट है।"
+    },
+    {
+      "key": "Tanque de longa duração: deck inclinado para Defesa e Buraco Negro, reforçado por cartas de controle e sustentação.",
+      "value": "एक टिकाऊ टैंक: शील्ड और ब्लैक होल के चारों ओर बनाया गया एक डेक, नियंत्रण और टिकाऊ कार्ड के साथ।"
+    },
+    {
+      "key": "Espectro Nulo",
+      "value": "नल स्पेक्टर"
+    },
+    {
+      "key": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+      "value": "एक प्रायोगिक प्रोटोटाइप जो अपने चारों ओर की जगह को मोड़ता है: शक्तिशाली, लेकिन नाजुक।"
+    },
+    {
+      "key": "Builds de área e sinergia: deck inclinado para Mísseis e Buraco Negro, reforçado por cartas gravitacionais que aprofundam o combo de agrupar e detonar.",
+      "value": "क्षेत्र क्षति और तालमेल: मिसाइलों और ब्लैक होल के चारों ओर बनाया गया एक डेक, गुरुत्वाकर्षण कार्ड के साथ जो विस्फोट से पहले दुश्मनों को एक साथ खींचता है।"
+    },
+    {
+      "key": "Salva Quádrupla",
+      "value": "चौगुनी सलामी"
+    },
+    {
+      "key": "Dispara 4 projéteis em paralelo, permanentemente.",
+      "value": "स्थायी रूप से 4 प्रोजेक्टाइल को एक साथ फायर करता है।"
+    },
+    {
+      "key": "Aegis Total",
+      "value": "पूर्ण एजिस"
+    },
+    {
+      "key": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+      "value": "हर 12 सेकंड की लड़ाई में 3 अवरोध भरता है। इस्तेमाल होने तक बने रहते हैं।"
+    },
+    {
+      "key": "Chuva de Mísseis",
+      "value": "मिसाइल वर्षा"
+    },
+    {
+      "key": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+      "value": "जब दुश्मन सीमा में हों तो युद्ध के हर 5 सेकंड में बड़े क्षेत्र को नुकसान पहुंचाने वाली 4 मिसाइलें दागता है।"
+    },
+    {
+      "key": "Singularidade",
+      "value": "सिंगुलैरिटी"
+    },
+    {
+      "key": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+      "value": "10-सेकंड का एक विशाल ब्लैक होल बनाता है जो अंत में हर 14 सेकंड में जोरदार विस्फोट करता है।"
+    },
+    {
+      "key": "Lança Penetrante",
+      "value": "पियर्सिंग लांस"
+    },
+    {
+      "key": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+      "value": "स्थायी छेदन और प्रति शॉट +25% क्षति (कुल +45%)।"
+    },
+    {
+      "key": "Overdrive Máximo",
+      "value": "अधिकतम ओवरड्राइव"
+    },
+    {
+      "key": "Tempestade Restauradora",
+      "value": "पुनर्स्थापन तूफ़ान"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+      "value": "HP वापस मिलने पर हर दिशा में 10 सीधी मिसाइलें दागता है। हर मिसाइल 24 क्षति देती है। पूर्ण HP पर सक्रिय नहीं होता।"
+    },
+    {
+      "key": "Tempestade Selvagem",
+      "value": "जंगली तूफ़ान"
+    },
+    {
+      "key": "Fúria Inesgotável",
+      "value": "अंतहीन रोष"
+    },
+    {
+      "key": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "हर दुश्मन को हराने पर जहाज के अधिकतम HP का 3% वापस मिलता है।\n\nस्थायी प्रभाव"
+    },
+    {
+      "key": "Repulsão Total",
+      "value": "पूर्ण प्रतिकर्षण"
+    },
+    {
+      "key": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+      "value": "हर 6 सेकंड में 260 त्रिज्या के भीतर दुश्मनों को धकेलता है और 4 सेकंड के लिए 50% धीमा करता है।"
+    },
+    {
+      "key": "Autorreparo Total",
+      "value": "पूर्ण स्व-मरम्मत"
+    },
+    {
+      "key": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+      "value": "हर 15 सेकंड में 40% HP वापस मिलता है और इस्तेमाल हुए अधिकतम 2 अतिरिक्त अवरोध भरते हैं।"
+    },
+    {
+      "key": "Muralha Inabalável",
+      "value": "अटूट दीवार"
+    },
+    {
+      "key": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+      "value": "हर 10 सेकंड में 45 HP का अवरोध बनता है, जो 12 सेकंड रहता है।"
+    },
+    {
+      "key": "Estase Temporal",
+      "value": "समय ठहराव"
+    },
+    {
+      "key": "Esquadrão de Elite",
+      "value": "विशिष्ट दस्ता"
+    },
+    {
+      "key": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+      "value": "हर 20 सेकंड में 4 ड्रोन 18 सेकंड तक सहायता करते हैं। हर ड्रोन का शॉट 8 क्षति देता है।"
+    },
+    {
+      "key": "Ataque Duplo",
+      "value": "दोहरा हमला"
+    },
+    {
+      "key": "Dobra permanentemente o número de projéteis disparados pela nave.",
+      "value": "जहाज द्वारा दागे गए प्रक्षेप्यों की संख्या को स्थायी रूप से दोगुना कर देता है।"
+    },
+    {
+      "key": "Ataque Triplo",
+      "value": "ट्रिपल अटैक"
+    },
+    {
+      "key": "Triplica permanentemente os projéteis disparados pela nave.",
+      "value": "जहाज द्वारा दागे गए प्रक्षेप्यों को स्थायी रूप से तीन गुना कर देता है।"
+    },
+    {
+      "key": "Defesa",
+      "value": "शील्ड"
+    },
+    {
+      "key": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+      "value": "हर 15 सेकंड की लड़ाई में 1 अवरोध भरता है। इस्तेमाल होने तक बने रहते हैं।"
+    },
+    {
+      "key": "Escudo Reforçado",
+      "value": "मज़बूत ढाल"
+    },
+    {
+      "key": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+      "value": "हर 15 सेकंड की लड़ाई में 2 अवरोध भरता है। इस्तेमाल होने तक बने रहते हैं।"
+    },
+    {
+      "key": "Mísseis",
+      "value": "मिसाइलें"
+    },
+    {
+      "key": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "जब दुश्मन सीमा में हों तो युद्ध के हर 6 सेकंड में स्वचालित रूप से 2 होमिंग मिसाइलें दागता है।"
+    },
+    {
+      "key": "Enxame de Mísseis",
+      "value": "मिसाइल झुंड"
+    },
+    {
+      "key": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "जब दुश्मन सीमा में हों तो युद्ध के हर 6 सेकंड में स्वचालित रूप से 3 क्षेत्र-नुकसान मिसाइलें दागता है।"
+    },
+    {
+      "key": "Buraco Negro",
+      "value": "ब्लैक होल"
+    },
+    {
+      "key": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+      "value": "हर 16 सेकंड में सीमा में दुश्मनों पर 6 सेकंड का ब्लैक होल बनाता है।"
+    },
+    {
+      "key": "Colapso Estelar",
+      "value": "तारकीय पतन"
+    },
+    {
+      "key": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+      "value": "एक बड़ा 9 सेकंड का ब्लैक होल बनाता है जो हर 16 सेकंड में अंत में फट जाता है।"
+    },
+    {
+      "key": "Tiro Penetrante",
+      "value": "भेदी शॉट"
+    },
+    {
+      "key": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+      "value": "प्रक्षेप्य नष्ट होने के बजाय स्थायी रूप से दुश्मनों को छेद देते हैं।"
+    },
+    {
+      "key": "Perfuração Total",
+      "value": "पूर्ण भेदन"
+    },
+    {
+      "key": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+      "value": "शेष प्लेथ्रू के लिए स्थायी छेदन और प्रति शॉट +20% क्षति।"
+    },
+    {
+      "key": "Sobrecarga de Motores",
+      "value": "इंजन ओवरलोड"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +30%.",
+      "value": "फायरिंग दर स्थायी रूप से +30% बढ़ती है।"
+    },
+    {
+      "key": "Overdrive Total",
+      "value": "पूर्ण ओवरड्राइव"
+    },
+    {
+      "key": "Salva Restauradora",
+      "value": "पुनर्स्थापन सलामी"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+      "value": "HP वापस मिलने पर हर दिशा में 6 सीधी मिसाइलें दागता है। हर मिसाइल 12 क्षति देती है। पूर्ण HP पर सक्रिय नहीं होता।"
+    },
+    {
+      "key": "Barragem Restauradora",
+      "value": "पुनर्स्थापन बौछार"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+      "value": "HP वापस मिलने पर हर दिशा में 8 सीधी मिसाइलें दागता है। हर मिसाइल 18 क्षति देती है। पूर्ण HP पर सक्रिय नहीं होता।"
+    },
+    {
+      "key": "Rajada Selvagem",
+      "value": "उग्र सलामी"
+    },
+    {
+      "key": "Fogo Descontrolado",
+      "value": "बेकाबू गोलीबारी"
+    },
+    {
+      "key": "Fúria de Batalha",
+      "value": "युद्ध क्रोध"
+    },
+    {
+      "key": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "हर दुश्मन को हराने पर जहाज के अधिकतम HP का 1% वापस मिलता है।\n\nस्थायी प्रभाव"
+    },
+    {
+      "key": "Fúria Implacável",
+      "value": "निरंतर रोष"
+    },
+    {
+      "key": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "हर दुश्मन को हराने पर जहाज के अधिकतम HP का 2% वापस मिलता है।\n\nस्थायी प्रभाव"
+    },
+    {
+      "key": "Campo de Repulsão",
+      "value": "प्रतिकर्षण क्षेत्र"
+    },
+    {
+      "key": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+      "value": "जब दुश्मन सीमा में हों तो हर 10 सेकंड में आस-पास के दुश्मनों को दूर धकेलता है।"
+    },
+    {
+      "key": "Repulsão Amplificada",
+      "value": "प्रबल प्रतिकर्षण"
+    },
+    {
+      "key": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+      "value": "हर 8 सेकंड में 180 त्रिज्या के भीतर दुश्मनों को धकेलता है और 3 सेकंड के लिए 30% धीमा करता है।"
+    },
+    {
+      "key": "Reparo de Emergência",
+      "value": "आपातकालीन मरम्मत"
+    },
+    {
+      "key": "Restaura 20% do HP máximo a cada 20s de combate.",
+      "value": "हर 20 सेकंड की लड़ाई में अधिकतम HP का 20% वापस मिलता है।"
+    },
+    {
+      "key": "Autorreparo Avançado",
+      "value": "उन्नत स्व-मरम्मत"
+    },
+    {
+      "key": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+      "value": "हर 18 सेकंड में 30% HP वापस मिलता है और इस्तेमाल हुए अधिकतम 1 अतिरिक्त अवरोध भरते हैं।"
+    },
+    {
+      "key": "Muralha de Destroços",
+      "value": "मलबे की दीवार"
+    },
+    {
+      "key": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+      "value": "हर 12 सेकेंड में निकटतम खतरे के सामने एक अवरोध (10 एचपी) बनाता है।"
+    },
+    {
+      "key": "Muralha Reforçada",
+      "value": "मज़बूत दीवार"
+    },
+    {
+      "key": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+      "value": "हर 12 सेकंड में 25 HP का अवरोध बनता है, जो 9 सेकंड रहता है।"
+    },
+    {
+      "key": "Distorção Temporal",
+      "value": "समय विकृति"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+      "value": "सभी दुश्मनों की गति स्थायी रूप से 10% कम होती है।"
+    },
+    {
+      "key": "Paralisia Temporal",
+      "value": "समय पक्षाघात"
+    },
+    {
+      "key": "Dilatação Temporal",
+      "value": "समय विस्तार"
+    },
+    {
+      "key": "Dilatação Absoluta",
+      "value": "पूर्ण समय विस्तार"
+    },
+    {
+      "key": "Estase Absoluta",
+      "value": "पूर्ण ठहराव"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+      "value": "सभी दुश्मनों की गति स्थायी रूप से 20% कम होती है।"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+      "value": "सभी दुश्मनों की गति स्थायी रूप से 30% कम होती है।"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+      "value": "स्थायी प्रभाव: दायरे में 5% या कम HP वाले दुश्मन लकवाग्रस्त होते हैं।"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+      "value": "स्थायी प्रभाव: दायरे में 10% या कम HP वाले दुश्मन लकवाग्रस्त होते हैं।"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+      "value": "स्थायी प्रभाव: दायरे में 20% या कम HP वाले दुश्मन लकवाग्रस्त होते हैं।"
+    },
+    {
+      "key": "Drones de Apoio",
+      "value": "सहायक ड्रोन"
+    },
+    {
+      "key": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+      "value": "हर 22 सेकंड में, दो ड्रोन 12 सेकंड तक जहाज की परिक्रमा करते हैं और हर 1.2 सेकंड में दुश्मनों पर गोलीबारी करते हैं।"
+    },
+    {
+      "key": "Esquadrão de Apoio",
+      "value": "सहायक दस्ता"
+    },
+    {
+      "key": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+      "value": "हर 22 सेकंड में 3 ड्रोन 15 सेकंड तक सहायता करते हैं। हर ड्रोन का शॉट 7 क्षति देता है।"
+    },
+    {
+      "key": "Meteoro Pequeno",
+      "value": "छोटा उल्कापिंड"
+    },
+    {
+      "key": "Meteoro Médio",
+      "value": "मध्यम उल्कापिंड"
+    },
+    {
+      "key": "Meteoro Grande",
+      "value": "बड़ा उल्कापिंड"
+    },
+    {
+      "key": "Batedor",
+      "value": "स्काउट"
+    },
+    {
+      "key": "Interceptador",
+      "value": "इंटरसेप्टर"
+    },
+    {
+      "key": "Fragata",
+      "value": "फ्रिगेट"
+    },
+    {
+      "key": "Núcleo Aberrante",
+      "value": "एबरैंट कोर"
+    },
+    {
+      "key": "6 Meteoros Pequenos",
+      "value": "6 छोटे उल्कापिंड"
+    },
+    {
+      "key": "8 Pequenos + 2 Médios",
+      "value": "8 छोटे + 2 मध्यम उल्काएँ"
+    },
+    {
+      "key": "10 Meteoros Médios",
+      "value": "10 मध्यम उल्काएँ"
+    },
+    {
+      "key": "4 Grandes + 6 Pequenos",
+      "value": "4 बड़े + 6 छोटे उल्कापिंड"
+    },
+    {
+      "key": "10 Meteoros mistos + 2 Batedores",
+      "value": "10 मिश्रित उल्का + 2 स्काउट्स"
+    },
+    {
+      "key": "6 Batedores + 6 Médios",
+      "value": "6 स्काउट्स + 6 मध्यम उल्काएँ"
+    },
+    {
+      "key": "4 Interceptadores + 8 Pequenos",
+      "value": "4 इंटरसेप्टर + 8 छोटे उल्कापिंड"
+    },
+    {
+      "key": "8 Meteoros Grandes",
+      "value": "8 बड़े उल्कापिंड"
+    },
+    {
+      "key": "6 Interceptadores + 6 Batedores",
+      "value": "6 इंटरसेप्टर + 6 स्काउट्स"
+    },
+    {
+      "key": "MINI-CHEFE: 1 Fragata + 10 Batedores",
+      "value": "मिनीबॉस: 1 फ्रिगेट + 10 स्काउट्स"
+    },
+    {
+      "key": "10 Grandes + 4 Interceptadores",
+      "value": "10 बड़े उल्काएं + 4 इंटरसेप्टर"
+    },
+    {
+      "key": "10 Batedores + 6 Interceptadores",
+      "value": "10 स्काउट्स + 6 इंटरसेप्टर"
+    },
+    {
+      "key": "2 Fragatas + 8 Médios",
+      "value": "2 फ्रिगेट + 8 मध्यम उल्काएँ"
+    },
+    {
+      "key": "ENXAME DENSO: 12 Interceptadores",
+      "value": "घना झुंड: 12 इंटरसेप्टर"
+    },
+    {
+      "key": "3 Fragatas + 10 Batedores",
+      "value": "3 फ्रिगेट + 10 स्काउट्स"
+    },
+    {
+      "key": "16 Meteoros mistos",
+      "value": "16 मिश्रित उल्काएँ"
+    },
+    {
+      "key": "4 Fragatas + 8 Interceptadores",
+      "value": "4 फ्रिगेट + 8 इंटरसेप्टर"
+    },
+    {
+      "key": "ENXAME MÁXIMO: 20 Batedores",
+      "value": "अधिकतम झुंड: 20 स्काउट्स"
+    },
+    {
+      "key": "GAUNTLET: 5 Fragatas + 10 Grandes + 10 Batedores",
+      "value": "गौंटलेट: 5 फ्रिगेट + 10 बड़े उल्का + 10 स्काउट्स"
+    },
+    {
+      "key": "CHEFE FINAL: Núcleo Aberrante",
+      "value": "अंतिम बॉस: एबर्रैंट कोर"
+    },
+    {
+      "key": "SELEÇÃO DE MELHORIA",
+      "value": "अपग्रेड चुनें"
+    },
+    {
+      "key": " ESCOLHA EM ESPERA",
+      "value": " प्रतीक्षा चुनें"
+    },
+    {
+      "key": " ESCOLHAS EM ESPERA",
+      "value": " पिक्स प्रतीक्षारत हैं"
+    },
+    {
+      "key": "NAVE  ·  NÍVEL ",
+      "value": "जहाज · स्तर "
+    },
+    {
+      "key": "NOVA",
+      "value": "नया"
+    },
+    {
+      "key": "NÚCLEO DESTRUÍDO",
+      "value": "कोर नष्ट हो गया"
+    },
+    {
+      "key": "TENTE OUTRA VEZ!",
+      "value": "फिर से कोशिश करें!"
+    },
+    {
+      "key": "CAMPANHA COMPLETA",
+      "value": "अभियान पूर्ण"
+    },
+    {
+      "key": "NOVO",
+      "value": "नया"
+    },
+    {
+      "key": "PRÓXIMO NÍVEL  ·  ",
+      "value": "अगला स्तर ·  "
+    },
+    {
+      "key": "ONDAS ",
+      "value": "लहरें  "
+    },
+    {
+      "key": " CRÉDITOS",
+      "value": " क्रेडिट"
+    },
+    {
+      "key": "MELHORIAS ",
+      "value": "उन्नयन "
+    },
+    {
+      "key": "CONCLUÍDO",
+      "value": "साफ़ किया गया"
+    },
+    {
+      "key": " NÍVEIS CONCLUÍDOS",
+      "value": " स्तर साफ़ हो गया"
+    },
+    {
+      "key": "Conclua o {0} com esta nave para liberar.",
+      "value": "अनलॉक करने के लिए इसी जहाज से {0} पूरा करें।"
+    },
+    {
+      "key": "BLOQUEADA",
+      "value": "लॉक"
+    },
+    {
+      "key": "RETRATO",
+      "value": "लंबवत"
+    },
+    {
+      "key": "PAISAGEM",
+      "value": "क्षैतिज"
+    },
+    {
+      "key": "LIGADO",
+      "value": "चालू"
+    },
+    {
+      "key": "DESLIGADO",
+      "value": "बंद"
+    },
+    {
+      "key": "JOGAR",
+      "value": "खेलें"
+    },
+    {
+      "key": "FASES",
+      "value": "चरण"
+    },
+    {
+      "key": " ONDAS",
+      "value": " लहरें"
+    },
+    {
+      "key": "AJUSTES",
+      "value": "सेटिंग्स"
+    },
+    {
+      "key": "MÚSICA",
+      "value": "संगीत"
+    },
+    {
+      "key": "EFEITOS",
+      "value": "प्रभाव"
+    },
+    {
+      "key": "VOLUME",
+      "value": "वॉल्यूम"
+    },
+    {
+      "key": "IDIOMA",
+      "value": "भाषा"
+    },
+    {
+      "key": "TELA",
+      "value": "स्क्रीन"
+    },
+    {
+      "key": "REMOVER ANÚNCIOS",
+      "value": "विज्ञापन हटाएं"
+    },
+    {
+      "key": "Compra única e permanente. Jogue sem anúncios.",
+      "value": "एक स्थायी खरीद। विज्ञापन के बिना खेलें."
+    },
+    {
+      "key": "ADQUIRIDO",
+      "value": "खरीदा"
+    },
+    {
+      "key": "INDISPONÍVEL",
+      "value": "अनुपलब्ध"
+    },
+    {
+      "key": "RESTAURAR COMPRAS",
+      "value": "खरीदारी बहाल करें"
+    },
+    {
+      "key": "Disponível na versão Android pelo Google Play.",
+      "value": "Google Play के माध्यम से Android पर उपलब्ध है।"
+    },
+    {
+      "key": "Aguardando Google Play…",
+      "value": "Google Play की प्रतीक्षा है…"
+    },
+    {
+      "key": "Não foi possível consultar a loja. Use Restaurar para tentar novamente.",
+      "value": "स्टोर से संपर्क नहीं हो सका। पुनः प्रयास करने के लिए पुनर्स्थापना का उपयोग करें।"
+    },
+    {
+      "key": "Pagamento pendente. A remoção será ativada após a confirmação.",
+      "value": "भुगतान लंबित। पुष्टि के बाद विज्ञापन हटा दिये जायेंगे।"
+    },
+    {
+      "key": "Anúncios removidos nesta conta.",
+      "value": "इस खाते के लिए विज्ञापन हटा दिए गए।"
+    },
+    {
+      "key": "Compra cancelada. Nenhuma alteração aplicada.",
+      "value": "खरीदारी रद्द। कोई परिवर्तन लागू नहीं किया गया."
+    },
+    {
+      "key": "Já comprou? Restaure usando a mesma conta Google Play.",
+      "value": "पहले से ही खरीदा हुआ? उसी Google Play खाते से पुनर्स्थापित करें."
+    },
+    {
+      "key": "Nave no máximo.",
+      "value": "जहाज के सभी अपग्रेड पूर्ण हैं।"
+    },
+    {
+      "key": "Restam só ",
+      "value": "केवल "
+    },
+    {
+      "key": " níveis.",
+      "value": " स्तर बाकी हैं।"
+    },
+    {
+      "key": "Faltam ",
+      "value": "ज़रूरत: "
+    },
+    {
+      "key": " créditos  ·  termine runs para ganhar",
+      "value": " और क्रेडिट · प्रयास पूरे करके पाएं"
+    },
+    {
+      "key": "Cada compra: +1 nível num atributo aleatório",
+      "value": "प्रत्येक खरीदारी: एक यादृच्छिक विशेषता के लिए +1 स्तर"
+    },
+    {
+      "key": "NÍVEIS ",
+      "value": "स्तर "
+    },
+    {
+      "key": "MÁX",
+      "value": "अधिकतम"
+    },
+    {
+      "key": "RESTAM ",
+      "value": "केवल "
+    },
+    {
+      "key": "+1 NÍVEL",
+      "value": "+1 स्तर"
+    },
+    {
+      "key": "+5 NÍVEIS",
+      "value": "+5 स्तर"
+    },
+    {
+      "key": "ATUALIZAÇÃO NECESSÁRIA",
+      "value": "अद्यतन की आवश्यकता है"
+    },
+    {
+      "key": "CONSULTANDO A LOJA",
+      "value": "स्टोर की जाँच"
+    },
+    {
+      "key": "Verificando se existe uma nova versão…",
+      "value": "नए संस्करण की जाँच की जा रही है…"
+    },
+    {
+      "key": "Conclua a atualização no Google Play para continuar.",
+      "value": "जारी रखने के लिए Google Play अपडेट पूरा करें।"
+    },
+    {
+      "key": "A atualização ainda é necessária. Tente novamente ou abra a loja para atualizar.",
+      "value": "अद्यतन अभी भी आवश्यक है। पुनः प्रयास करें या अपडेट करने के लिए स्टोर खोलें।"
+    },
+    {
+      "key": "Existe uma versão mais recente na loja. Atualize o Astro Blitz para continuar jogando.",
+      "value": "एक नया संस्करण स्टोर में उपलब्ध है। खेलना जारी रखने के लिए Astro Blitz को अपडेट करें।"
+    },
+    {
+      "key": "ATUALIZAR AGORA",
+      "value": "अभी अपडेट करें"
+    },
+    {
+      "key": "VERIFICAR NOVAMENTE",
+      "value": "फिर से जांचें"
+    },
+    {
+      "key": "VER ANÚNCIO PARA RENASCER",
+      "value": "विज्ञापन देखकर पुनर्जीवित हों"
+    },
+    {
+      "key": "TENTAR CARREGAR ANÚNCIO",
+      "value": "विज्ञापन फिर लोड करें"
+    },
+    {
+      "key": "Aguardando conclusão do anúncio…",
+      "value": "विज्ञापन पूरा होने की प्रतीक्षा में…"
+    },
+    {
+      "key": "Uma vez por partida. A recompensa exige concluir o anúncio.",
+      "value": "प्रति प्लेथ्रू एक बार। इनाम अर्जित करने के लिए विज्ञापन पूरा करें।"
+    },
+    {
+      "key": "Anúncio indisponível. Aguarde o carregamento ou tente mais tarde.",
+      "value": "विज्ञापन अनुपलब्ध। लोड होने तक प्रतीक्षा करें या बाद में प्रयास करें."
+    },
+    {
+      "key": "Disponível em ",
+      "value": "फिर उपलब्ध: "
+    },
+    {
+      "key": "Aguardando anúncio…",
+      "value": "विज्ञापन की प्रतीक्षा में…"
+    },
+    {
+      "key": "Anúncio indisponível",
+      "value": "विज्ञापन अनुपलब्ध"
+    },
+    {
+      "key": "PRIVACIDADE DOS ANÚNCIOS",
+      "value": "विज्ञापन गोपनीयता विकल्प"
+    },
+    {
+      "key": "Cadência de tiro",
+      "value": "फायरिंग दर"
+    },
+    {
+      "key": "Dano",
+      "value": "क्षति"
+    },
+    {
+      "key": "Vida",
+      "value": "ढाँचा"
+    },
+    {
+      "key": "Recuperação de vida",
+      "value": "स्वास्थ्य पुनर्जनन"
+    },
+    {
+      "key": "Esquiva",
+      "value": "बचाव"
+    },
+    {
+      "key": "Créditos por partida",
+      "value": "प्रति प्लेथ्रू क्रेडिट"
+    },
+    {
+      "key": "Chance crítica",
+      "value": "क्रिटिकल संभावना"
+    },
+    {
+      "key": "Dano crítico",
+      "value": "क्रिटिकल क्षति"
+    },
+    {
+      "key": "% velocidade",
+      "value": "% फायरिंग दर"
+    },
+    {
+      "key": "% dano",
+      "value": "% क्षति"
+    },
+    {
+      "key": "% vida",
+      "value": "% ढाँचा"
+    },
+    {
+      "key": " vida/s",
+      "value": " HP/सेकंड"
+    },
+    {
+      "key": "% esquiva",
+      "value": "% बचाव"
+    },
+    {
+      "key": "% créditos",
+      "value": "% क्रेडिट"
+    },
+    {
+      "key": "% chance",
+      "value": "% संभावना"
+    },
+    {
+      "key": "% dano crítico",
+      "value": "% क्रिटिकल क्षति"
+    },
+    {
+      "key": "Primeiro contato. Sobreviva à rota original de 10 ondas.",
+      "value": "पहला संपर्क। मूल 10-तरंग मार्ग से बचे रहें।"
+    },
+    {
+      "key": "A invasão acelera. Mais batedores, reforços e ondas densas.",
+      "value": "आक्रमण तेज हो गया। अधिक स्काउट्स, सुदृढीकरण और घनी लहरें।"
+    },
+    {
+      "key": "Interceptadores rápidos e fragatas fecham o cerco.",
+      "value": "तेज़ इंटरसेप्टर और फ़्रिगेट नेट को बंद कर देते हैं।"
+    },
+    {
+      "key": "Batedores e interceptadores chegam juntos. Fragatas surgem antes do chefe.",
+      "value": "स्काउट्स और इंटरसेप्टर एक साथ पहुंचे। फ्रिगेट्स बॉस के सामने आते हैं।"
+    },
+    {
+      "key": "As fragatas chegam mais cedo e o enxame não para de crescer.",
+      "value": "फ्रिगेट पहले पहुंचते हैं और झुंड बढ़ता रहता है।"
+    },
+    {
+      "key": "Ondas lotadas. O fogo cruzado cobra caro de quem tem pouca vida.",
+      "value": "भीड़ भरी लहरें। पतली पतवार के लिए गोलीबारी महंगी पड़ती है।"
+    },
+    {
+      "key": "Escoltas reforçadas. O Núcleo Aberrante chega com um exército.",
+      "value": "प्रबलित एस्कॉर्ट्स। एबर्रैंट कोर एक सेना लाता है।"
+    },
+    {
+      "key": "Pressão total desde a primeira onda. Cada erro custa caro.",
+      "value": "पहली लहर से पूरा दबाव। हर गलती मायने रखती है."
+    },
+    {
+      "key": "O limite do setor. Só naves muito bem equipadas chegam ao chefe.",
+      "value": "सेक्टर का किनारा। केवल सुसज्जित जहाज़ ही बॉस तक पहुँचते हैं।"
+    },
+    {
+      "key": "O último nível. Enxames, fragatas e um Núcleo no auge da força.",
+      "value": "अंतिम स्तर। झुंड, फ़्रिगेट और एक कोर पूरी ताकत से।"
+    },
+    {
+      "key": "Sobrecarga ofensiva",
+      "value": "आक्रामक ओवरड्राइव"
+    },
+    {
+      "key": "Por 6s: dobra a cadência de tiro.",
+      "value": "6 सेकंड के लिए फायरिंग दर दोगुनी होती है।"
+    },
+    {
+      "key": "Égide de emergência",
+      "value": "आपातकालीन ढाल"
+    },
+    {
+      "key": "Fica invulnerável por 4s.",
+      "value": "4 सेकंड के लिए अजेय हो जाएं।"
+    },
+    {
+      "key": "Estase temporal",
+      "value": "समय ठहराव"
+    },
+    {
+      "key": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "value": "बॉस सहित सभी दुश्मनों को 3 सेकंड के लिए रोकता है।"
+    },
+    {
+      "key": "Reparo restaurador",
+      "value": "पुनर्स्थापन मरम्मत"
+    },
+    {
+      "key": "Recupera 30% da vida máxima instantaneamente.",
+      "value": "अधिकतम HP का 30% तुरंत वापस मिलता है।"
+    },
+    {
+      "key": "Amplificação de dano",
+      "value": "क्षति वृद्धि"
+    },
+    {
+      "key": "Dobra o dano do canhão por 5s.",
+      "value": "5 सेकंड के लिए तोप की क्षति दोगुनी होती है।"
+    },
+    {
+      "key": "ESQUIVA",
+      "value": "बचाव"
+    },
+    {
+      "key": "Lâminas Orbitais",
+      "value": "परिक्रमा करते ब्लेड"
+    },
+    {
+      "key": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+      "value": "दो ब्लेड जहाज की परिक्रमा करते हैं और उन दुश्मनों को काटते हैं जिन्हें वे छूते हैं: प्रति कट 10 क्षति।"
+    },
+    {
+      "key": "Anel de Lâminas",
+      "value": "ब्लेड वलय"
+    },
+    {
+      "key": "Três lâminas orbitam a nave: 14 de dano por corte.",
+      "value": "तीन ब्लेड जहाज की परिक्रमा करते हैं: प्रति कट 14 क्षति।"
+    },
+    {
+      "key": "Tempestade de Lâminas",
+      "value": "ब्लेड स्टॉर्म"
+    },
+    {
+      "key": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+      "value": "व्यापक कक्षा पर चार ब्लेड: प्रति कट 18 क्षति।"
+    },
+    {
+      "key": "Estilhaços",
+      "value": "छर्रे"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+      "value": "नष्ट हुए दुश्मन 3 छर्रों में फटते हैं। हर छर्रा 6 क्षति पहुँचाता है।"
+    },
+    {
+      "key": "Chuva de Estilhaços",
+      "value": "छर्रे की बारिश"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+      "value": "नष्ट हुए दुश्मन 4 छर्रों में फटते हैं। हर छर्रा 9 क्षति पहुँचाता है।"
+    },
+    {
+      "key": "Tempestade de Estilhaços",
+      "value": "छर्रों का तूफ़ान"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+      "value": "नष्ट हुए दुश्मन 6 छर्रों में फटते हैं। हर छर्रा 12 क्षति पहुँचाता है।"
+    },
+    {
+      "key": "Disparo Diagonal",
+      "value": "विकर्ण गोलीबारी"
+    },
+    {
+      "key": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+      "value": "प्रत्येक वॉली 50% क्षति पर 2 विकर्ण शॉट भी फायर करती है।"
+    },
+    {
+      "key": "Leque Diagonal",
+      "value": "विकर्ण फैलाव"
+    },
+    {
+      "key": "Os 2 tiros em diagonal causam 75% do dano.",
+      "value": "2 विकर्ण शॉट्स से 75% क्षति होती है।"
+    },
+    {
+      "key": "Leque Total",
+      "value": "पूर्ण फैलाव"
+    },
+    {
+      "key": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+      "value": "प्रत्येक वॉली में 75% क्षति पर 4 फैन्ड शॉट फायर होते हैं।"
+    },
+    {
+      "key": "Aura de Plasma",
+      "value": "प्लाज्मा आभा"
+    },
+    {
+      "key": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+      "value": "जहाज के करीबी दुश्मन प्रति सेकंड 8 नुकसान उठाते हैं।"
+    },
+    {
+      "key": "Coroa de Plasma",
+      "value": "प्लाज्मा क्राउन"
+    },
+    {
+      "key": "Aura maior: 12 de dano por segundo.",
+      "value": "बड़ी आभा: प्रति सेकंड 12 क्षति।"
+    },
+    {
+      "key": "Sol de Plasma",
+      "value": "प्लाज्मा सूर्य"
+    },
+    {
+      "key": "Aura máxima: 18 de dano por segundo.",
+      "value": "अधिकतम आभा: प्रति सेकंड 18 क्षति।"
+    },
+    {
+      "key": "Nova Solar",
+      "value": "सोलर नोवा"
+    },
+    {
+      "key": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+      "value": "हर 7 सेकंड में, एक ऊर्जा तरंग आस-पास के दुश्मनों पर हमला करती है: 20 क्षति।"
+    },
+    {
+      "key": "Erupção Solar",
+      "value": "सौर ज्वाला"
+    },
+    {
+      "key": "A cada 6s, uma onda maior: 32 de dano.",
+      "value": "हर 6 सेकंड में, एक बड़ी लहर: 32 क्षति।"
+    },
+    {
+      "key": "Supernova",
+      "value": "सुपरनोवा"
+    },
+    {
+      "key": "A cada 5s, uma onda ainda maior: 48 de dano.",
+      "value": "हर 5 सेकंड में, एक और भी बड़ी लहर: 48 क्षति।"
+    },
+    {
+      "key": "Ataque Orbital",
+      "value": "कक्षीय प्रहार"
+    },
+    {
+      "key": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+      "value": "प्रत्येक 5 सेकेंड में, एक उपग्रह सीमा में 2 दुश्मनों पर हमला करता है: प्रत्येक को 22 क्षति।"
+    },
+    {
+      "key": "Bombardeio Orbital",
+      "value": "कक्षीय बमबारी"
+    },
+    {
+      "key": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+      "value": "प्रत्येक 4.5 सेकेंड में, 3 दुश्मनों पर हमला करता है: प्रत्येक को 28 क्षति।"
+    },
+    {
+      "key": "Chuva Orbital",
+      "value": "कक्षीय वर्षा"
+    },
+    {
+      "key": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+      "value": "हर 4 सेकेंड में, 4 दुश्मनों पर हमला करता है: प्रत्येक को 36 नुकसान।"
+    },
+    {
+      "key": "Ímã Gravitacional",
+      "value": "गुरुत्वाकर्षण चुंबक"
+    },
+    {
+      "key": "Ganha 15% a mais de XP.",
+      "value": "15% अधिक XP मिलता है।"
+    },
+    {
+      "key": "Campo Gravitacional",
+      "value": "गुरुत्वाकर्षण क्षेत्र"
+    },
+    {
+      "key": "Ganha 30% a mais de XP.",
+      "value": "30% अधिक XP मिलता है।"
+    },
+    {
+      "key": "Singularidade Magnética",
+      "value": "चुंबकीय विलक्षणता"
+    },
+    {
+      "key": "Ganha 50% a mais de XP.",
+      "value": "50% अधिक XP मिलता है।"
+    },
+    {
+      "key": "Nanorreparo",
+      "value": "नैनो मरम्मत"
+    },
+    {
+      "key": "Recupera 0,4% do HP máximo por segundo.",
+      "value": "प्रति सेकंड अधिकतम HP का 0.4% पुनर्प्राप्त करें।"
+    },
+    {
+      "key": "Enxame Nanorreparador",
+      "value": "मरम्मत झुंड"
+    },
+    {
+      "key": "Recupera 0,7% do HP máximo por segundo.",
+      "value": "प्रति सेकंड अधिकतम HP का 0.7% पुनर्प्राप्त करें।"
+    },
+    {
+      "key": "Regeneração Total",
+      "value": "पूर्ण पुनर्जनन"
+    },
+    {
+      "key": "Recupera 1% do HP máximo por segundo.",
+      "value": "प्रति सेकंड अधिकतम HP का 1% पुनर्प्राप्त करें।"
+    },
+    {
+      "key": "Núcleo Fênix",
+      "value": "फीनिक्स कोर"
+    },
+    {
+      "key": "Uma vez por partida, ao ser destruída, a nave renasce com 30% do HP.",
+      "value": "हर मुकाबले में एक बार, नष्ट होने पर जहाज 30% HP के साथ पुनर्जीवित होता है।"
+    },
+    {
+      "key": "Núcleo Fênix Ardente",
+      "value": "धधकते फीनिक्स कोर"
+    },
+    {
+      "key": "Renasce uma vez com 45% do HP e empurra os inimigos próximos.",
+      "value": "45% HP के साथ एक बार पुनर्जन्म, आस-पास के दुश्मनों को दूर धकेलना।"
+    },
+    {
+      "key": "Renascer Estelar",
+      "value": "तारकीय पुनर्जन्म"
+    },
+    {
+      "key": "Renasce uma vez com 60% do HP, empurra e causa 60 de dano ao redor.",
+      "value": "एक बार 60% HP के साथ पुनर्जीवित होता है, आस-पास के दुश्मनों को पीछे धकेलकर 60 क्षति पहुँचाता है।"
+    },
+    {
+      "key": "Adrenalina",
+      "value": "एड्रेनालाईन"
+    },
+    {
+      "key": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+      "value": "हर दुश्मन को नष्ट करने पर 3 सेकंड के लिए गोलीबारी की दर +4%, अधिकतम 5 बार तक जुड़ता है।"
+    },
+    {
+      "key": "Adrenalina Pura",
+      "value": "शुद्ध एड्रेनालाईन"
+    },
+    {
+      "key": "+5% de cadência por abate, acumulando até 6 vezes.",
+      "value": "हर दुश्मन को नष्ट करने पर गोलीबारी की दर +5%, अधिकतम 6 बार तक जुड़ता है।"
+    },
+    {
+      "key": "Frenesi",
+      "value": "उन्माद"
+    },
+    {
+      "key": "+6% de cadência por abate, acumulando até 8 vezes.",
+      "value": "हर दुश्मन को नष्ट करने पर गोलीबारी की दर +6%, अधिकतम 8 बार तक जुड़ता है।"
+    },
+    {
+      "key": "Tiro de Misericórdia",
+      "value": "दया शॉट"
+    },
+    {
+      "key": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+      "value": "तोप के गोले 12% HP या उससे कम (बॉस को छोड़कर) पर दुश्मनों को तुरंत नष्ट कर देते हैं।"
+    },
+    {
+      "key": "Execução",
+      "value": "संहार"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 18% do HP.",
+      "value": "18% HP या उससे कम पर दुश्मनों को तुरंत नष्ट करें।"
+    },
+    {
+      "key": "Sentença Final",
+      "value": "अंतिम दंड"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 25% do HP.",
+      "value": "25% HP या उससे कम पर दुश्मनों को तुरंत नष्ट करें।"
+    },
+    {
+      "key": "Sobrecarga Furiosa",
+      "value": "उग्र ओवरड्राइव"
+    },
+    {
+      "key": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+      "value": "आक्रामक ओवरड्राइव के दौरान तोप की क्षति +25%।"
+    },
+    {
+      "key": "Fúria Sobrecarregada",
+      "value": "अतिभारित रोष"
+    },
+    {
+      "key": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+      "value": "आक्रामक ओवरड्राइव के दौरान क्षति +40%। हर दुश्मन को नष्ट करने पर अवधि 0.2 सेकंड बढ़ती है।"
+    },
+    {
+      "key": "Sobrecarga Infernal",
+      "value": "नरकीय ओवरड्राइव"
+    },
+    {
+      "key": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+      "value": "आक्रामक ओवरड्राइव के दौरान क्षति +60%। हर दुश्मन को नष्ट करने पर अवधि 0.3 सेकंड बढ़ती है।"
+    },
+    {
+      "key": "Casco Espinhoso",
+      "value": "कांटेदार पतवार"
+    },
+    {
+      "key": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+      "value": "जब कोई दुश्मन जहाज को छूता है, भले ही अवरुद्ध हो, तो स्पाइक्स इसके चारों ओर 20 नुकसान पहुंचाते हैं।"
+    },
+    {
+      "key": "Espinhos Reforçados",
+      "value": "प्रबलित कांटे"
+    },
+    {
+      "key": "Os espinhos causam 35 de dano numa área maior.",
+      "value": "स्पाइक्स एक बड़े क्षेत्र में 35 क्षति पहुंचाते हैं।"
+    },
+    {
+      "key": "Retaliação Total",
+      "value": "संपूर्ण प्रतिशोध"
+    },
+    {
+      "key": "Os espinhos causam 55 de dano numa área ainda maior.",
+      "value": "स्पाइक्स और भी बड़े क्षेत्र में 55 नुकसान पहुंचाते हैं।"
+    },
+    {
+      "key": "Égide Prolongada",
+      "value": "दीर्घकालिक ढाल"
+    },
+    {
+      "key": "A Égide de emergência dura +1s.",
+      "value": "आपातकालीन ढाल की अवधि +1 सेकंड।"
+    },
+    {
+      "key": "Égide Persistente",
+      "value": "टिकाऊ ढाल"
+    },
+    {
+      "key": "A Égide de emergência dura +2s.",
+      "value": "आपातकालीन ढाल की अवधि +2 सेकंड।"
+    },
+    {
+      "key": "Égide Eterna",
+      "value": "शाश्वत ढाल"
+    },
+    {
+      "key": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+      "value": "आपातकालीन ढाल की अवधि +3 सेकंड। सक्रिय होने पर दुश्मनों को पीछे धकेलती है।"
+    },
+    {
+      "key": "Escudo Regenerativo",
+      "value": "पुनर्योजी शील्ड"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+      "value": "ढाल से हर हमला रोकने पर अधिकतम HP का 3% बहाल होता है।"
+    },
+    {
+      "key": "Escudo Vital",
+      "value": "वाइटल शील्ड"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+      "value": "ढाल से हर हमला रोकने पर अधिकतम HP का 5% बहाल होता है।"
+    },
+    {
+      "key": "Escudo Restaurador",
+      "value": "पुनर्स्थापन ढाल"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+      "value": "ढाल से हर हमला रोकने पर अधिकतम HP का 8% बहाल होता है।"
+    },
+    {
+      "key": "Fenda Temporal",
+      "value": "समय दरार"
+    },
+    {
+      "key": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+      "value": "हर 9 सेकंड में दायरे के सबसे बड़े समूह पर दरार खुलती है: 3 सेकंड के लिए 50% धीमापन और 10 क्षति।"
+    },
+    {
+      "key": "Fenda Ampliada",
+      "value": "चौड़ी दरार"
+    },
+    {
+      "key": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+      "value": "हर 8 सेकंड में बड़ी दरार खुलती है: 4 सेकंड के लिए 60% धीमापन और 16 क्षति।"
+    },
+    {
+      "key": "Colapso Temporal",
+      "value": "समय पतन"
+    },
+    {
+      "key": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+      "value": "हर 7 सेकंड में अधिकतम दरार खुलती है: 5 सेकंड के लिए 70% धीमापन और 24 क्षति।"
+    },
+    {
+      "key": "Paradoxo",
+      "value": "विरोधाभास"
+    },
+    {
+      "key": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+      "value": "हर दुश्मन को नष्ट करने पर समय ठहराव का कूलडाउन 0.3 सेकंड कम होता है।"
+    },
+    {
+      "key": "Paradoxo Cíclico",
+      "value": "चक्रीय विरोधाभास"
+    },
+    {
+      "key": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+      "value": "हर दुश्मन को नष्ट करने पर समय ठहराव का कूलडाउन 0.5 सेकंड कम होता है।"
+    },
+    {
+      "key": "Paradoxo Absoluto",
+      "value": "पूर्ण विरोधाभास"
+    },
+    {
+      "key": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+      "value": "हर दुश्मन को नष्ट करने पर समय ठहराव का कूलडाउन 0.8 सेकंड कम होता है।"
+    },
+    {
+      "key": "Eco Temporal",
+      "value": "समय प्रतिध्वनि"
+    },
+    {
+      "key": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+      "value": "तोप के प्रहार से 60% क्षति पर 0.3 सेकेंड बाद दोहराने की 15% संभावना है।"
+    },
+    {
+      "key": "Eco Duplo",
+      "value": "डबल इको"
+    },
+    {
+      "key": "25% de chance de eco, com 80% do dano.",
+      "value": "25% इको चांस, 80% क्षति पर।"
+    },
+    {
+      "key": "Eco Infinito",
+      "value": "अनंत प्रतिध्वनि"
+    },
+    {
+      "key": "35% de chance de eco, com 100% do dano.",
+      "value": "35% इको चांस, 100% क्षति पर।"
+    },
+    {
+      "key": "Sobrecura",
+      "value": "अतिरिक्त उपचार"
+    },
+    {
+      "key": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+      "value": "अधिकतम HP से ज़्यादा उपचार ढाल बनता है: हर 10% अतिरिक्त उपचार पर 1 हमला रोकने की क्षमता (अधिकतम 1)।"
+    },
+    {
+      "key": "Sobrecura Blindada",
+      "value": "बख्तरबंद अतिरिक्त उपचार"
+    },
+    {
+      "key": "Guarda até 2 bloqueios do excesso de cura.",
+      "value": "अतिरिक्त उपचार से अधिकतम 2 हमले रोकने की क्षमता जमा होती है।"
+    },
+    {
+      "key": "Sobrecura Total",
+      "value": "पूर्ण अतिरिक्त उपचार"
+    },
+    {
+      "key": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+      "value": "अधिकतम 3 हमले रोकने की क्षमता जमा होती है। हर 7% अतिरिक्त उपचार पर 1 क्षमता मिलती है।"
+    },
+    {
+      "key": "Pulso Vital",
+      "value": "जीवन स्पंदन"
+    },
+    {
+      "key": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+      "value": "हर उपचार पर स्पंदन निकलता है। स्पंदन आस-पास के दुश्मनों को बहाल HP के 2 गुना क्षति पहुँचाता है। अधिकतम हर 1 सेकंड में एक बार।"
+    },
+    {
+      "key": "Onda Vital",
+      "value": "जीवन तरंग"
+    },
+    {
+      "key": "O pulso causa 3x o HP recuperado numa área maior.",
+      "value": "स्पंदन आस-पास के दुश्मनों को बहाल HP के 3 गुना क्षति पहुँचाता है। क्षेत्र बड़ा होता है।"
+    },
+    {
+      "key": "Explosão Vital",
+      "value": "जीवन विस्फोट"
+    },
+    {
+      "key": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+      "value": "स्पंदन आस-पास के दुश्मनों को बहाल HP के 4 गुना क्षति पहुँचाता है। क्षेत्र और बड़ा होता है।"
+    },
+    {
+      "key": "Protocolo de Emergência",
+      "value": "आपातकालीन प्रोटोकॉल"
+    },
+    {
+      "key": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+      "value": "HP 30% से नीचे गिरने पर तुरंत 20% बहाल होता है। 40 सेकंड के युद्ध के बाद फिर तैयार होता है।"
+    },
+    {
+      "key": "Protocolo Avançado",
+      "value": "उन्नत प्रोटोकॉल"
+    },
+    {
+      "key": "Recupera 30% na hora. Rearma após 35s de combate.",
+      "value": "तुरंत 30% बहाल होता है। 35 सेकंड के युद्ध के बाद फिर तैयार होता है।"
+    },
+    {
+      "key": "Protocolo Total",
+      "value": "कुल प्रोटोकॉल"
+    },
+    {
+      "key": "Recupera 40% na hora. Rearma após 30s de combate.",
+      "value": "तुरंत 40% बहाल होता है। 30 सेकंड के युद्ध के बाद फिर तैयार होता है।"
+    },
+    {
+      "key": "Canhão de Trilho",
+      "value": "रेलगन"
+    },
+    {
+      "key": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+      "value": "हर 7वें सेकंड में, एक किरण मैदान को सीमा में सबसे कठिन दुश्मन की ओर पार करती है: लाइन पर हर चीज को 45 नुकसान।"
+    },
+    {
+      "key": "Trilho Acelerado",
+      "value": "त्वरित रेलगन"
+    },
+    {
+      "key": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+      "value": "हर 6 सेकेंड में, एक चौड़ी बीम: लाइन पर 70 क्षति।"
+    },
+    {
+      "key": "Trilho Aniquilador",
+      "value": "विनाशक रेलगन"
+    },
+    {
+      "key": "A cada 5s, feixe máximo: 100 de dano na linha.",
+      "value": "प्रत्येक 5 सेकेंड में, अधिकतम बीम: लाइन पर 100 क्षति।"
+    },
+    {
+      "key": "Marcação de Alvo",
+      "value": "लक्ष्य चिह्न"
+    },
+    {
+      "key": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+      "value": "प्रत्येक 4 सेकंड में, सीमा में सबसे कठिन दुश्मन को चिह्नित किया जाता है: यह 4 सेकंड के लिए हर चीज़ से +30% नुकसान उठाता है।"
+    },
+    {
+      "key": "Marcação Precisa",
+      "value": "सटीक लक्ष्य चिह्न"
+    },
+    {
+      "key": "A cada 3,5s: +45% de dano no alvo marcado.",
+      "value": "प्रत्येक 3.5 सेकंड: चिह्नित लक्ष्य पर +45% क्षति।"
+    },
+    {
+      "key": "Marcação Letal",
+      "value": "घातक लक्ष्य चिह्न"
+    },
+    {
+      "key": "A cada 3s: +60% de dano no alvo marcado.",
+      "value": "प्रत्येक 3 सेकंड: चिह्नित लक्ष्य पर +60% क्षति।"
+    },
+    {
+      "key": "Ressonância",
+      "value": "अनुनाद"
+    },
+    {
+      "key": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+      "value": "क्षति वृद्धि सक्रिय होने पर एक तरंग दायरे के सभी दुश्मनों को 50 क्षति पहुँचाती है।"
+    },
+    {
+      "key": "Ressonância Ampliada",
+      "value": "प्रवर्धित अनुनाद"
+    },
+    {
+      "key": "A onda causa 80 de dano.",
+      "value": "लहर 80 क्षति पहुंचाती है।"
+    },
+    {
+      "key": "Ressonância Total",
+      "value": "कुल अनुनाद"
+    },
+    {
+      "key": "A onda causa 120 de dano e atordoa por 1s.",
+      "value": "लहर 120 नुकसान पहुंचाती है और 1 सेकंड के लिए अचेत कर देती है।"
+    },
+    {
+      "key": "LOGAR",
+      "value": "लॉग इन करें"
+    },
+    {
+      "key": "CONTA",
+      "value": "खाता"
+    },
+    {
+      "key": "Faça login para salvar seu progresso na nuvem.",
+      "value": "अपनी प्रगति क्लाउड में सहेजने के लिए लॉग इन करें।"
+    },
+    {
+      "key": "AGORA NÃO",
+      "value": "अभी नहीं"
+    },
+    {
+      "key": "Salve o progresso na conta",
+      "value": "अपनी प्रगति खाते में सहेजें"
+    },
+    {
+      "key": "SALVE SEU PROGRESSO",
+      "value": "अपनी प्रगति सहेजें"
+    },
+    {
+      "key": "MODO INFINITO",
+      "value": "अंतहीन मोड"
+    },
+    {
+      "key": "Ciclos sem fim: 4 ondas e um chefe. XP 25% menor. Nível máximo 12.",
+      "value": "लगातार चक्र: 4 लहरें और एक बॉस। 25% कम XP। अधिकतम स्तर 12।"
+    },
+    {
+      "key": "Conclua o Nível 3 com qualquer nave para liberar.",
+      "value": "अनलॉक करने के लिए किसी भी जहाज से स्तर 3 पूरा करें।"
+    },
+    {
+      "key": "4 ONDAS + CHEFE",
+      "value": "4 लहरें + बॉस"
+    },
+    {
+      "key": "Toque para escolher. Segure para ver os detalhes.",
+      "value": "चुनने के लिए टैप करें। विवरण देखने के लिए दबाकर रखें।"
+    },
+    {
+      "key": "Tiros Extras",
+      "value": "अतिरिक्त गोलियाँ"
+    },
+    {
+      "key": "Escudo Recarregável",
+      "value": "रीचार्ज होने वाली ढाल"
+    },
+    {
+      "key": "Mísseis Teleguiados",
+      "value": "लक्ष्यभेदी मिसाइलें"
+    },
+    {
+      "key": "Tiros Perfurantes",
+      "value": "भेदक गोलियाँ"
+    },
+    {
+      "key": "Cadência Aumentada",
+      "value": "तेज़ गोलीबारी"
+    },
+    {
+      "key": "Mísseis ao Curar",
+      "value": "उपचार पर मिसाइलें"
+    },
+    {
+      "key": "Chance Crítica",
+      "value": "क्रिटिकल की संभावना"
+    },
+    {
+      "key": "Cura por Abate",
+      "value": "वध पर उपचार"
+    },
+    {
+      "key": "Repulsão Periódica",
+      "value": "नियमित धक्का"
+    },
+    {
+      "key": "Cura Periódica",
+      "value": "नियमित उपचार"
+    },
+    {
+      "key": "Barreira de Destroços",
+      "value": "मलबे का अवरोध"
+    },
+    {
+      "key": "Tiro Explosivo",
+      "value": "विस्फोटक गोली"
+    },
+    {
+      "key": "Crítico Garantido",
+      "value": "निश्चित क्रिटिकल"
+    },
+    {
+      "key": "Lentidão Global",
+      "value": "सभी शत्रु धीमे"
+    },
+    {
+      "key": "Paralisia por Vida Baixa",
+      "value": "कम स्वास्थ्य पर पक्षाघात"
+    },
+    {
+      "key": "Raios em Cadeia",
+      "value": "श्रृंखलाबद्ध बिजली"
+    },
+    {
+      "key": "Drones Atiradores",
+      "value": "गोलीबारी ड्रोन"
+    },
+    {
+      "key": "Sobrecarga Mais Rápida",
+      "value": "ओवरड्राइव का तेज़ रीचार्ज"
+    },
+    {
+      "key": "Redução de Dano",
+      "value": "क्षति में कमी"
+    },
+    {
+      "key": "Dano contra Chefes",
+      "value": "बॉस को अधिक क्षति"
+    },
+    {
+      "key": "Estilhaços por Abate",
+      "value": "वध पर छर्रे"
+    },
+    {
+      "key": "Tiros Diagonais",
+      "value": "तिरछी गोलियाँ"
+    },
+    {
+      "key": "Aura de Dano",
+      "value": "क्षति आभा"
+    },
+    {
+      "key": "Explosão Periódica",
+      "value": "नियमित विस्फोट"
+    },
+    {
+      "key": "Bombardeio por Satélite",
+      "value": "उपग्रह बमबारी"
+    },
+    {
+      "key": "Bônus de XP",
+      "value": "अनुभव बोनस"
+    },
+    {
+      "key": "Regeneração de Vida",
+      "value": "स्वास्थ्य पुनर्जनन"
+    },
+    {
+      "key": "Reviver",
+      "value": "पुनर्जीवन"
+    },
+    {
+      "key": "Cadência por Abate",
+      "value": "वध पर तेज़ गोलीबारी"
+    },
+    {
+      "key": "Execução por Vida Baixa",
+      "value": "कम स्वास्थ्य पर वध"
+    },
+    {
+      "key": "Dano na Sobrecarga",
+      "value": "ओवरड्राइव में अधिक क्षति"
+    },
+    {
+      "key": "Espinhos ao Colidir",
+      "value": "टक्कर पर काँटे"
+    },
+    {
+      "key": "Égide Duradoura",
+      "value": "लंबी एजिस अवधि"
+    },
+    {
+      "key": "Cura ao Bloquear",
+      "value": "रोकने पर उपचार"
+    },
+    {
+      "key": "Fenda de Lentidão",
+      "value": "धीमा करने वाली दरार"
+    },
+    {
+      "key": "Recarga da Estase por Abate",
+      "value": "वध पर स्टेसिस रीचार्ज"
+    },
+    {
+      "key": "Repetição de Acertos",
+      "value": "वार की पुनरावृत्ति"
+    },
+    {
+      "key": "Escudo por Excesso de Cura",
+      "value": "अतिरिक्त उपचार से ढाल"
+    },
+    {
+      "key": "Dano ao Curar",
+      "value": "उपचार पर क्षति"
+    },
+    {
+      "key": "Cura de Emergência",
+      "value": "आपात उपचार"
+    },
+    {
+      "key": "Feixe Perfurante",
+      "value": "भेदक किरण"
+    },
+    {
+      "key": "Alvo Vulnerável",
+      "value": "कमज़ोर लक्ष्य"
+    },
+    {
+      "key": "Explosão na Amplificação",
+      "value": "एम्प्लिफाई पर विस्फोट"
+    },
+    {
+      "key": "Toque para escolher. Toque em i para ver os detalhes.",
+      "value": "चुनने के लिए टैप करें। विवरण देखने के लिए i पर टैप करें।"
+    },
+    {
+      "key": "BÔNUS DE BOAS-VINDAS",
+      "value": "दैनिक बोनस"
+    },
+    {
+      "key": "Entre no jogo em 5 dias diferentes e ganhe uma recompensa por dia.",
+      "value": "5 DAY खेलें और हर DAY एक पुरस्कार प्राप्त करें!"
+    },
+    {
+      "key": "LOGIN DIÁRIO",
+      "value": "दैनिक पुरस्कार"
+    },
+    {
+      "key": "DIA ",
+      "value": "DAY "
+    },
+    {
+      "key": "CARTA",
+      "value": "कार्ड"
+    },
+    {
+      "key": "RESGATAR DIA ",
+      "value": "प्राप्त करें: DAY "
+    },
+    {
+      "key": "VOLTE AMANHÃ",
+      "value": "बाद में फिर खेलें"
+    },
+    {
+      "key": "Dia 5: créditos para comprar uma nave nova!",
+      "value": "DAY 5: नए जहाज के लिए क्रेडिट!"
+    },
+    {
+      "key": "Nova carta no deck base: ",
+      "value": "मूल डेक में नया कार्ड: "
+    },
+    {
+      "key": "  ·  o valor de uma nave!",
+      "value": "  ·  एक जहाज के लिए!"
+    },
+    {
+      "key": "BÔNUS CONCLUÍDO",
+      "value": "बोनस पूर्ण"
+    },
+    {
+      "key": "PRIVACIDADE E CONTA",
+      "value": "गोपनीयता और खाता"
+    },
+    {
+      "key": "Gerencie seus dados e sua conta. Excluir a conta do jogo apaga o progresso local e na nuvem.",
+      "value": "अपना डेटा और खाता प्रबंधित करें। गेम खाता मिटाने से डिवाइस और क्लाउड की प्रगति मिट जाएगी।"
+    },
+    {
+      "key": "POLÍTICA DE PRIVACIDADE",
+      "value": "गोपनीयता नीति"
+    },
+    {
+      "key": "GERENCIAR CONTA UNITY",
+      "value": "UNITY खाता प्रबंधित करें"
+    },
+    {
+      "key": "EXCLUIR CONTA DO JOGO",
+      "value": "गेम खाता मिटाएँ"
+    },
+    {
+      "key": "A conta Unity é compartilhada com outros jogos e pode ser gerenciada separadamente. Compras da loja não são apagadas.",
+      "value": "Unity खाता अन्य गेमों में भी उपयोग होता है और अलग से प्रबंधित किया जा सकता है। स्टोर की खरीदारी नहीं मिटेगी।"
+    },
+    {
+      "key": "Excluir permanentemente sua conta do jogo e todo o progresso? Esta ação não pode ser desfeita.",
+      "value": "क्या आप गेम खाता और पूरी प्रगति स्थायी रूप से मिटाना चाहते हैं? यह कार्रवाई वापस नहीं की जा सकती।"
+    },
+    {
+      "key": "CONFIRMAR EXCLUSÃO",
+      "value": "मिटाने की पुष्टि करें"
+    },
+    {
+      "key": "Não foi possível concluir. Verifique a conexão e tente novamente.",
+      "value": "पूरा नहीं हो सका। कनेक्शन जाँचें और फिर से कोशिश करें।"
+    },
+    {
+      "key": "Bola de Neve Ricocheteante",
+      "value": "उछलता हिमगोला"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+      "value": "हर 12 सेकंड में हिमगोला स्क्रीन की सीमाओं से 6 सेकंड तक उछलता है और छूने पर 18 क्षति देता है।"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+      "value": "हर 12 सेकंड में हिमगोला स्क्रीन की सीमाओं से 8 सेकंड तक उछलता है और छूने पर 26 क्षति देता है।"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+      "value": "हर 12 सेकंड में हिमगोला स्क्रीन की सीमाओं से 10 सेकंड तक उछलता है और छूने पर 36 क्षति देता है।"
+    },
+    {
+      "key": "Bola de Neve Gigante",
+      "value": "विशाल हिमगोला"
+    },
+    {
+      "key": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+      "value": "हर 16 सेकंड में 6 सेकंड के लिए दुश्मनों को भेदने वाला विशाल हिमगोला: 65 क्षति और 45% धीमापन।"
+    },
+    {
+      "key": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+      "value": "हर 15 सेकंड में 6 सेकंड के लिए दुश्मनों को भेदने वाला विशाल हिमगोला: 100 क्षति और 45% धीमापन।"
+    },
+    {
+      "key": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+      "value": "हर 14 सेकंड में 6 सेकंड के लिए दुश्मनों को भेदने वाला विशाल हिमगोला: 145 क्षति और 45% धीमापन।"
+    },
+    {
+      "key": "Círculo de Gelo",
+      "value": "बर्फ का घेरा"
+    },
+    {
+      "key": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "हर 14 सेकंड में जहाज के चारों ओर 5 सेकंड बर्फ: हर 0.5 सेकंड में 8 क्षति और 35% धीमापन।"
+    },
+    {
+      "key": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+      "value": "हर 13 सेकंड में जहाज के चारों ओर 6 सेकंड बर्फ: हर 0.5 सेकंड में 12 क्षति और 45% धीमापन।"
+    },
+    {
+      "key": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+      "value": "हर 12 सेकंड में जहाज के चारों ओर 7 सेकंड बर्फ: हर 0.5 सेकंड में 16 क्षति और 55% धीमापन।"
+    },
+    {
+      "key": "Presentes Explosivos",
+      "value": "विस्फोटक उपहार"
+    },
+    {
+      "key": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+      "value": "हर 11 सेकंड में दिख रहे दुश्मन की जगह उपहार रखें। 1 सेकंड बाद फटकर क्षेत्र में 70 क्षति देता है।"
+    },
+    {
+      "key": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+      "value": "हर 10 सेकंड में दिख रहे दुश्मन की जगह उपहार रखें। 1 सेकंड बाद फटकर क्षेत्र में 105 क्षति देता है।"
+    },
+    {
+      "key": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+      "value": "हर 9 सेकंड में दिख रहे दुश्मन की जगह उपहार रखें। 1 सेकंड बाद फटकर क्षेत्र में 150 क्षति देता है।"
+    },
+    {
+      "key": "Estilhaços de Gelo",
+      "value": "बर्फ के टुकड़े"
+    },
+    {
+      "key": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+      "value": "हर 9 सेकंड में सभी दिशाओं में 6 क्रिस्टल: 20 भेदन क्षति और 15% धीमापन।"
+    },
+    {
+      "key": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+      "value": "हर 8 सेकंड में सभी दिशाओं में 8 क्रिस्टल: 30 भेदन क्षति और 20% धीमापन।"
+    },
+    {
+      "key": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+      "value": "हर 7 सेकंड में सभी दिशाओं में 10 क्रिस्टल: 42 भेदन क्षति और 25% धीमापन।"
+    },
+    {
+      "key": "Nevasca Localizada",
+      "value": "स्थानीय बर्फीला तूफान"
+    },
+    {
+      "key": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+      "value": "हर 18 सेकंड में दुश्मनों पर 4 सेकंड के लिए अधिकतम 2 बर्फीले क्षेत्र: हर 0.5 सेकंड में 10 क्षति और 30% धीमापन।"
+    },
+    {
+      "key": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "हर 17 सेकंड में दुश्मनों पर 5 सेकंड के लिए अधिकतम 3 बर्फीले क्षेत्र: हर 0.5 सेकंड में 15 क्षति और 35% धीमापन।"
+    },
+    {
+      "key": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+      "value": "हर 16 सेकंड में दुश्मनों पर 6 सेकंड के लिए अधिकतम 4 बर्फीले क्षेत्र: हर 0.5 सेकंड में 21 क्षति और 40% धीमापन।"
+    },
+    {
+      "key": "Noel Polar",
+      "value": "ध्रुवीय नोएल"
+    },
+    {
+      "key": "Listras de bengala doce e um arsenal de inverno.",
+      "value": "कैंडी जैसी धारियाँ और सर्दियों का शस्त्रागार।"
+    },
+    {
+      "key": "Natal: bolas de neve, gelo e presentes explosivos.",
+      "value": "क्रिसमस: हिमगोले, बर्फ और विस्फोटक उपहार।"
+    },
+    {
+      "key": "Estrela Natalina",
+      "value": "क्रिसमस तारा"
+    },
+    {
+      "key": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "value": "दायरे के दुश्मनों को चिह्नित करें: 6 सेकंड तक 35% अधिक क्षति लेते हैं।"
+    },
+    {
+      "key": "NATAL",
+      "value": "क्रिसमस"
+    },
+    {
+      "key": "NOTAS DA VERSÃO",
+      "value": "संस्करण की जानकारी"
+    },
+    {
+      "key": "DÚVIDAS, FEEDBACK E BUGS",
+      "value": "सवाल, प्रतिक्रिया और त्रुटियाँ"
+    },
+    {
+      "key": "FALE COM A EQUIPE",
+      "value": "टीम से संपर्क करें"
+    },
+    {
+      "key": "Escolha o assunto e escreva sua mensagem.",
+      "value": "विषय चुनें और अपना संदेश लिखें।"
+    },
+    {
+      "key": "DÚVIDA",
+      "value": "सवाल"
+    },
+    {
+      "key": "FEEDBACK",
+      "value": "प्रतिक्रिया"
+    },
+    {
+      "key": "BUG",
+      "value": "त्रुटि"
+    },
+    {
+      "key": "Escreva sua mensagem aqui…",
+      "value": "यहाँ अपना संदेश लिखें…"
+    },
+    {
+      "key": "Inclui versão, plataforma e idioma; não inclui dados da conta.",
+      "value": "संस्करण, प्लेटफ़ॉर्म और भाषा शामिल हैं; खाते का डेटा नहीं।"
+    },
+    {
+      "key": "ABRIR E-MAIL",
+      "value": "ईमेल खोलें"
+    },
+    {
+      "key": "COPIAR MENSAGEM",
+      "value": "संदेश कॉपी करें"
+    },
+    {
+      "key": "Mensagem e contato copiados.",
+      "value": "संदेश और संपर्क कॉपी किए गए।"
+    },
+    {
+      "key": "Você revisará e enviará pelo seu aplicativo de e-mail.",
+      "value": "आप अपने ईमेल ऐप में जाँचकर भेजेंगे।"
+    },
+    {
+      "key": "Revise e envie no aplicativo de e-mail. Se não abrir, use Copiar.",
+      "value": "ईमेल ऐप में जाँचकर भेजें। ऐप न खुले तो कॉपी करें।"
+    },
+    {
+      "key": "Melhorias e correções nesta versão.",
+      "value": "इस संस्करण में सुधार और त्रुटि समाधान।"
+    },
+    {
+      "key": "Novidade: Noel Polar, a nave de Natal com listras vermelhas e brancas.",
+      "value": "नई ध्रुवीय नोएल: लाल और सफेद धारियों वाला क्रिसमस जहाज।"
+    },
+    {
+      "key": "Seis cartas exclusivas: bolas de neve, círculo de gelo, presentes explosivos, estilhaços e nevasca.",
+      "value": "छह विशेष कार्ड: हिमगोले, बर्फ का घेरा, विस्फोटक उपहार, बर्फ के टुकड़े और बर्फीला तूफान।"
+    },
+    {
+      "key": "Estrela Natalina: inimigos marcados recebem 35% mais dano durante 6 segundos.",
+      "value": "क्रिसमस तारा: चिह्नित दुश्मन 6 सेकंड तक 35% अधिक क्षति लेते हैं।"
+    },
+    {
+      "key": "Novo canal de suporte para dúvidas, sugestões e relatos de bugs.",
+      "value": "सवाल, सुझाव और त्रुटि रिपोर्ट के लिए नया सहायता माध्यम।"
+    },
+    {
+      "key": "MODOS DE JOGO",
+      "value": "गेम मोड"
+    },
+    {
+      "key": "MODO DE JOGO",
+      "value": "गेम मोड"
+    },
+    {
+      "key": "CAMPANHA",
+      "value": "अभियान"
+    },
+    {
+      "key": "10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
+      "value": "10 स्तर, हर स्तर के अंत में एक बॉस। हर जहाज की अपनी प्रगति है।"
+    },
+    {
+      "key": "Pontue destruindo inimigos e vencendo ondas. Os 50 melhores entram no ranking.",
+      "value": "दुश्मनों को नष्ट करें और लहरें पार करें। TOP 50 में जगह पाएं"
+    },
+    {
+      "key": "RECORDE ",
+      "value": "अधिकतम "
+    },
+    {
+      "key": "NÍVEIS",
+      "value": "स्तर"
+    },
+    {
+      "key": "RANKING",
+      "value": "RANKING"
+    },
+    {
+      "key": "SELECIONADO",
+      "value": "चयनित"
+    },
+    {
+      "key": "BLOQUEADO",
+      "value": "लॉक"
+    },
+    {
+      "key": "SEU RECORDE  ",
+      "value": "अपना अधिकतम  "
+    },
+    {
+      "key": "POSIÇÃO ",
+      "value": "जगह "
+    },
+    {
+      "key": "CARREGANDO...",
+      "value": "लोड हो रहा है..."
+    },
+    {
+      "key": "Ninguém pontuou ainda. Seja o primeiro!",
+      "value": "अभी तक कोई नहीं है। पहले आप हों!"
+    },
+    {
+      "key": "Entre no {0} para ver o ranking e enviar seus pontos.",
+      "value": "TOP 50 देखने के लिए {0} में लॉग इन करें।"
+    },
+    {
+      "key": "ENTRAR",
+      "value": "लॉग इन"
+    },
+    {
+      "key": "Não foi possível carregar o ranking. Verifique a internet.",
+      "value": "लोड नहीं हो सका। कनेक्शन जांचें"
+    },
+    {
+      "key": "O ranking ainda não está disponível nesta versão.",
+      "value": "इस संस्करण में TOP 50 अभी उपलब्ध नहीं है।"
+    },
+    {
+      "key": "O ranking funciona no celular, pelo Play Games ou Game Center.",
+      "value": "TOP 50 केवल Play Games या Game Center के साथ उपलब्ध है।"
+    },
+    {
+      "key": "ATUALIZAR",
+      "value": "अपडेट"
+    },
+    {
+      "key": "PONTOS ",
+      "value": "कुल "
+    },
+    {
+      "key": "NOVO RECORDE!",
+      "value": "नया अधिकतम!"
+    },
+    {
+      "key": "BÔNUS DE EVOLUÇÃO +",
+      "value": "प्रगति बोनस +"
+    },
+    {
+      "key": "PRÓXIMA CARTA EXCLUSIVA",
+      "value": "अगला विशेष कार्ड"
+    },
+    {
+      "key": "FALTAM {0} NÍVEIS",
+      "value": "{0} स्तर बाकी"
+    },
+    {
+      "key": "FALTA 1 NÍVEL!",
+      "value": "केवल 1 स्तर बाकी!"
+    },
+    {
+      "key": "TODAS AS CARTAS DA NAVE LIBERADAS",
+      "value": "सभी जहाज कार्ड अनलॉक"
+    },
+    {
+      "key": "NOVA CARTA EXCLUSIVA!",
+      "value": "नया विशेष कार्ड!"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas desta nave.",
+      "value": "यह कार्ड इस जहाज के लिए उपलब्ध है।"
+    },
+    {
+      "key": "TOQUE PARA CONTINUAR",
+      "value": "जारी रखने के लिए टैप करें"
+    },
+    {
+      "key": "NOVA CARTA!",
+      "value": "नया कार्ड!"
+    },
+    {
+      "key": "DECK BASE",
+      "value": "मूल डेक"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas de todas as naves.",
+      "value": "यह कार्ड हर जहाज के लिए उपलब्ध है।"
+    },
+    {
+      "key": "COMPRAR",
+      "value": "खरीदारी करें"
+    },
+    {
+      "key": "AGUARDE",
+      "value": "प्रतीक्षा करें"
+    },
+    {
+      "key": "LOJA INDISPONÍVEL",
+      "value": "स्टोर उपलब्ध नहीं"
+    },
+    {
+      "key": "OFERTA",
+      "value": "विशेष"
+    },
+    {
+      "key": "A OFERTA ACABA EM ",
+      "value": "खत्म होने में "
+    },
+    {
+      "key": "OFERTA ENCERRADA",
+      "value": "समाप्त"
+    },
+    {
+      "key": "RECEBIDO!",
+      "value": "प्राप्त हुआ!"
+    },
+    {
+      "key": "+1000 MINÉRIOS (FROTA COMPLETA)",
+      "value": "+1000 क्रेडिट (सभी जहाज)"
+    },
+    {
+      "key": "1 NAVE ALEATÓRIA",
+      "value": "1 यादृच्छिक जहाज"
+    },
+    {
+      "key": "MINÉRIOS",
+      "value": "क्रेडिट"
+    },
+    {
+      "key": "FECHAR",
+      "value": "बंद करें"
+    },
+    {
+      "key": "Tudo já está na sua conta.",
+      "value": "सभी इनाम खाते में हैं।"
+    },
+    {
+      "key": "Pagamento pendente. O pacote chega após a confirmação.",
+      "value": "भुगतान लंबित। पुष्टि के बाद इनाम दिए जाएंगे।"
+    },
+    {
+      "key": "Não foi possível consultar a loja.",
+      "value": "स्टोर से संपर्क नहीं हो सका।"
+    },
+    {
+      "key": "Compra única. Só uma vez por conta.",
+      "value": "एक बार की खरीद। हर खाते में एक बार।"
+    },
+    {
+      "key": "PASSIVA · ",
+      "value": "स्थायी · "
+    },
+    {
+      "key": "CALOR DE FOCO",
+      "value": "लगातार शॉट"
+    },
+    {
+      "key": "Tiros seguidos no mesmo alvo esquentam: até +40% de dano.",
+      "value": "एक ही लक्ष्य पर लगातार शॉट: अधिकतम +40% क्षति।"
+    },
+    {
+      "key": "CANHÃO DE IMPACTO",
+      "value": "प्रभाव तोप"
+    },
+    {
+      "key": "Tiros empurram. 3 placas orbitais atiram em quem chegar perto.",
+      "value": "शॉट दुश्मनों को धकेलता है। 3 ढाल जहाज की परिक्रमा करते हैं और पास के दुश्मनों पर गोलीबारी करते हैं।"
+    },
+    {
+      "key": "TIRO DE FASE",
+      "value": "समय शॉट"
+    },
+    {
+      "key": "Atravessa, deixa lento e se repete em eco. Alvo lento leva crítico.",
+      "value": "दुश्मनों को छेद देता है, धीमा करता है; हर शॉट दो बार। धीमे लक्ष्य पर निश्चित क्रिटिकल होता है।"
+    },
+    {
+      "key": "SUTURA",
+      "value": "उपचार शॉट"
+    },
+    {
+      "key": "Mira o mais fraco. Abates soltam orbes de cura; o excesso vira escudo.",
+      "value": "सबसे कमज़ोर दुश्मन को निशाना बनाता है। नष्ट करने पर उपचार के गोले; अतिरिक्त उपचार ढाल बनता है।"
+    },
+    {
+      "key": "ARTILHARIA DE CERCO",
+      "value": "घेराबंदी तोपखाना"
+    },
+    {
+      "key": "Mira o mais forte. A cada 5 tiros, um disparo carregado explode.",
+      "value": "सबसे भारी दुश्मन को निशाना बनाता है। हर 5 शॉट में एक चार्ज शॉट विस्फोट करता है।"
+    },
+    {
+      "key": "Pinheiro Natalino",
+      "value": "क्रिसमस वृक्ष"
+    },
+    {
+      "key": "Cristal Polar",
+      "value": "ध्रुवीय क्रिस्टल"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+      "value": "घातक क्षति पर 30% HP और 2 सेकंड की प्रतिरक्षा के साथ पुनर्जीवित हों। पुनः उपयोग: 60 सेकंड की लड़ाई।"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+      "value": "घातक क्षति पर 45% HP और 2 सेकंड की प्रतिरक्षा के साथ पुनर्जीवित हों और शत्रुओं को धकेलें। पुनः उपयोग: 60 सेकंड की लड़ाई।"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+      "value": "घातक क्षति पर 60% HP और 2 सेकंड की प्रतिरक्षा के साथ पुनर्जीवित हों, शत्रुओं को धकेलें और क्षेत्र में 60 क्षति दें। पुनः उपयोग: 60 सेकंड की लड़ाई।"
+    },
+    {
+      "key": "A cada 6 tiros do canhão, o último é crítico garantido.",
+      "value": "तोप के हर 6 शॉट में अंतिम शॉट निश्चित क्रिटिकल होता है।"
+    },
+    {
+      "key": "A cada 5 tiros do canhão, o último é crítico garantido.",
+      "value": "तोप के हर 5 शॉट में अंतिम शॉट निश्चित क्रिटिकल होता है।"
+    },
+    {
+      "key": "A cada 4 tiros do canhão, o último é crítico garantido.",
+      "value": "तोप के हर 4 शॉट में अंतिम शॉट निश्चित क्रिटिकल होता है।"
+    },
+    {
+      "key": "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+      "value": "Astro Blitz में आपका स्वागत है! लॉन्च से खेलने के लिए धन्यवाद।"
+    },
+    {
+      "key": "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+      "value": "अनोखे जहाज़ उड़ाएँ, हर स्तर पर सुधार चुनें और दस स्तरों में एबरैंट कोर को हराएँ।"
+    },
+    {
+      "key": "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+      "value": "यह सिर्फ़ पहला संस्करण है: खेल को बेहतर बनाने के लिए हर हफ़्ते अपडेट आएँगे।"
+    },
+    {
+      "key": "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo.",
+      "value": "सवाल, सुझाव या त्रुटि? नीचे दिए बटन से टीम से बात करें।"
+    },
+    {
+      "key": "Compra única e permanente. Sem anúncios e recompensas sem vídeo.",
+      "value": "एक स्थायी खरीद। विज्ञापन नहीं और वीडियो के बिना इनाम."
+    },
+    {
+      "key": "NAVES",
+      "value": "जहाज"
+    }
+  ]
+}

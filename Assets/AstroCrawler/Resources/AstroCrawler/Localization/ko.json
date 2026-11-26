@@ -1,0 +1,2712 @@
+{
+  "entries": [
+    {
+      "key": "REINICIAR?",
+      "value": "다시 시작할까요?"
+    },
+    {
+      "key": "Volta à onda 1 com a mesma nave e fase.\nAs melhorias desta run se perdem.",
+      "value": "같은 함선과 스테이지로 웨이브 1부터 다시 시작합니다.\n이번 플레이의 강화는 사라집니다."
+    },
+    {
+      "key": "REINICIAR",
+      "value": "다시 시작"
+    },
+    {
+      "key": "SAIR DA RUN?",
+      "value": "이번 플레이를 종료할까요?"
+    },
+    {
+      "key": "A run termina aqui e o progresso se perde.",
+      "value": "이번 플레이가 종료되며 진행 상황을 잃습니다."
+    },
+    {
+      "key": "SAIR",
+      "value": "나가기"
+    },
+    {
+      "key": "PAUSA",
+      "value": "일시중지됨"
+    },
+    {
+      "key": "SISTEMA EM PAUSA",
+      "value": "시스템이 일시 중지되었습니다."
+    },
+    {
+      "key": "CONTINUAR",
+      "value": "계속하기"
+    },
+    {
+      "key": "MENU",
+      "value": "메뉴"
+    },
+    {
+      "key": "VOLTAR",
+      "value": "뒤로"
+    },
+    {
+      "key": "ONDA ",
+      "value": "웨이브 "
+    },
+    {
+      "key": " VIDA",
+      "value": " 선체"
+    },
+    {
+      "key": "slot vazio",
+      "value": "빈 슬롯"
+    },
+    {
+      "key": "ASSALTO",
+      "value": "강습"
+    },
+    {
+      "key": "FORTIFICACAO",
+      "value": "요새화"
+    },
+    {
+      "key": "GRAVITACIONAL",
+      "value": "중력"
+    },
+    {
+      "key": "SUPORTE",
+      "value": "고객 지원"
+    },
+    {
+      "key": "ARTILHARIA",
+      "value": "포격"
+    },
+    {
+      "key": "COMUM",
+      "value": "공통"
+    },
+    {
+      "key": "MELHORIA",
+      "value": "업그레이드"
+    },
+    {
+      "key": " CONCLUÍDO",
+      "value": " 클리어"
+    },
+    {
+      "key": " LIMPA",
+      "value": " 클리어"
+    },
+    {
+      "key": "  ·  ATIVA",
+      "value": "  · 활성"
+    },
+    {
+      "key": " INIMIGO",
+      "value": " 적"
+    },
+    {
+      "key": " INIMIGOS",
+      "value": " 적"
+    },
+    {
+      "key": "   ·   ESCUDO ",
+      "value": "   · 쉴드 "
+    },
+    {
+      "key": "NAVE NV ",
+      "value": "함선 레벨 "
+    },
+    {
+      "key": "MÁXIMO",
+      "value": "최대"
+    },
+    {
+      "key": "MELHORIAS  ·  ",
+      "value": "업그레이드 ·  "
+    },
+    {
+      "key": "Nenhuma ainda",
+      "value": "아직 없음"
+    },
+    {
+      "key": "NÍVEL ",
+      "value": "레벨 "
+    },
+    {
+      "key": "RECOMPENSAS",
+      "value": "보상"
+    },
+    {
+      "key": "RECOMPENSA DIÁRIA",
+      "value": "일일 보상"
+    },
+    {
+      "key": "ASSISTA E GANHE",
+      "value": "시청하고 받기"
+    },
+    {
+      "key": "COLETADA",
+      "value": "수령 완료"
+    },
+    {
+      "key": "COLETAR",
+      "value": "받기"
+    },
+    {
+      "key": "Nova recompensa em ",
+      "value": "다음 보상 "
+    },
+    {
+      "key": "Assista um vídeo para dobrar.",
+      "value": "동영상을 시청하여 두 배로 늘리세요."
+    },
+    {
+      "key": "UPGRADES",
+      "value": "업그레이드"
+    },
+    {
+      "key": "ESCOLHA SUA NAVE",
+      "value": "함선 선택"
+    },
+    {
+      "key": "SELECIONADA",
+      "value": "선택됨"
+    },
+    {
+      "key": "SELECIONAR",
+      "value": "선택"
+    },
+    {
+      "key": "VIDA",
+      "value": "선체"
+    },
+    {
+      "key": "DANO",
+      "value": "피해"
+    },
+    {
+      "key": "TIROS/S",
+      "value": "발사/초"
+    },
+    {
+      "key": "DANO/S",
+      "value": "DPS"
+    },
+    {
+      "key": "DECK  ·  ",
+      "value": "덱 ·  "
+    },
+    {
+      "key": " CARTAS  ·  6 COMUNS + 3 EXCLUSIVAS",
+      "value": " 카드 · 일반 6개 + 독점 3개"
+    },
+    {
+      "key": "Recarga: ",
+      "value": "재사용 대기시간: "
+    },
+    {
+      "key": "Duração: ",
+      "value": "기간: "
+    },
+    {
+      "key": "ATIVA · ",
+      "value": "활성 · "
+    },
+    {
+      "key": "EM RECARGA · ",
+      "value": "재사용 대기 중 · "
+    },
+    {
+      "key": "PRONTA",
+      "value": "준비 완료"
+    },
+    {
+      "key": "Recarga restante: ",
+      "value": "남은 쿨타임: "
+    },
+    {
+      "key": "HABILIDADE ESPECIAL",
+      "value": "특수 능력"
+    },
+    {
+      "key": "Recarga Ofensiva",
+      "value": "공격 재충전"
+    },
+    {
+      "key": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "공격 오버드라이브의 재사용 대기시간이 15% 감소합니다."
+    },
+    {
+      "key": "Recarga Ofensiva Avançada",
+      "value": "고급 공격 재충전"
+    },
+    {
+      "key": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "공격 오버드라이브의 재사용 대기시간이 25% 감소합니다."
+    },
+    {
+      "key": "Recarga Ofensiva Máxima",
+      "value": "최대 공격 재충전"
+    },
+    {
+      "key": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "공격 오버드라이브의 재사용 대기시간이 35% 감소합니다."
+    },
+    {
+      "key": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+      "value": "공격: 처치 시 치유, 치명타 및 공격적인 오버드라이브 재충전."
+    },
+    {
+      "key": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+      "value": "지원: 자가 수리, 미사일 치유 및 드론 지원."
+    },
+    {
+      "key": "Blindagem Reforçada",
+      "value": "강화갑옷"
+    },
+    {
+      "key": "Reduz em 10% todo o dano recebido durante a run.",
+      "value": "이번 플레이 동안 받는 모든 피해가 10% 감소합니다."
+    },
+    {
+      "key": "Blindagem Avançada",
+      "value": "고급 갑옷"
+    },
+    {
+      "key": "Reduz em 18% todo o dano recebido durante a run.",
+      "value": "이번 플레이 동안 받는 모든 피해가 18% 감소합니다."
+    },
+    {
+      "key": "Blindagem Inabalável",
+      "value": "깨지지 않는 갑옷"
+    },
+    {
+      "key": "Reduz em 25% todo o dano recebido durante a run.",
+      "value": "이번 플레이 동안 받는 모든 피해가 25% 감소합니다."
+    },
+    {
+      "key": "Caça ao Chefe",
+      "value": "보스 헌터"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +25% de dano.",
+      "value": "보스를 조준한 주포 사격의 피해가 +25% 증가합니다."
+    },
+    {
+      "key": "Predador de Chefes",
+      "value": "보스 프레데터"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +40% de dano.",
+      "value": "보스를 조준한 주포 사격의 피해가 +40% 증가합니다."
+    },
+    {
+      "key": "Flagelo dos Chefes",
+      "value": "보스 스컬지"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +60% de dano.",
+      "value": "보스를 조준한 주포 사격의 피해가 +60% 증가합니다."
+    },
+    {
+      "key": "Fortificação: repulsão, destroços e blindagem contra dano.",
+      "value": "요새: 반발력, 파편, 피해 감소 갑옷."
+    },
+    {
+      "key": "Pulso Crítico",
+      "value": "치명타 펄스"
+    },
+    {
+      "key": "Após 10s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "전투 10초 후 다음 사격은 반드시 치명타입니다. 발사 후 다시 계산하며 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Ritmo Crítico",
+      "value": "치명타 리듬"
+    },
+    {
+      "key": "Após 7s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "전투 7초 후 다음 사격은 반드시 치명타입니다. 발사 후 다시 계산하며 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Ressonância Crítica",
+      "value": "치명타 공명"
+    },
+    {
+      "key": "Após 5s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "전투 5초 후 다음 사격은 반드시 치명타입니다. 발사 후 다시 계산하며 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +60%.",
+      "value": "연사 속도가 영구적으로 +60% 증가합니다."
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +85%.",
+      "value": "연사 속도가 영구적으로 +85% 증가합니다."
+    },
+    {
+      "key": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+      "value": "제어 및 정확성: 치명타, 느리고 일시적인 마비를 보장합니다."
+    },
+    {
+      "key": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "치명타 확률이 영구적으로 12%가 됩니다. 배율 x2 + 영구 보너스."
+    },
+    {
+      "key": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "치명타 확률이 영구적으로 25%가 됩니다. 배율 x2 + 영구 보너스."
+    },
+    {
+      "key": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "치명타 확률이 영구적으로 32%가 됩니다. 배율 x2 + 영구 보너스."
+    },
+    {
+      "key": "Arco Voltaico",
+      "value": "전격 아크"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+      "value": "주포 적중 시 주변의 다른 적 최대 2명에게 전격을 가합니다. 대상당 피해 12, 발동 간격 3초."
+    },
+    {
+      "key": "Corrente Voltaica",
+      "value": "연쇄 전격"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+      "value": "주포 적중 시 주변의 다른 적 최대 3명에게 전격을 가합니다. 대상당 피해 18, 발동 간격 2.5초."
+    },
+    {
+      "key": "Tempestade Voltaica",
+      "value": "전격 폭풍"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+      "value": "주포 적중 시 주변의 다른 적 최대 4명에게 전격을 가합니다. 대상당 피해 25, 발동 간격 2초."
+    },
+    {
+      "key": "Disparo de Cerco",
+      "value": "공성 사격"
+    },
+    {
+      "key": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+      "value": "전투 8초 후 범위 피해 40의 폭발탄을 충전합니다. 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Artilharia de Cerco",
+      "value": "공성 포격"
+    },
+    {
+      "key": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+      "value": "전투 6초 후 범위 피해 65의 폭발탄을 충전합니다. 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Devastação de Cerco",
+      "value": "공성 섬멸"
+    },
+    {
+      "key": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+      "value": "전투 4초 후 범위 피해 90의 폭발탄을 충전합니다. 충전은 중첩되지 않습니다."
+    },
+    {
+      "key": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+      "value": "포병: 연쇄 번개, 공성 사격, 보스에 대한 추가 피해."
+    },
+    {
+      "key": "Aurora Médica",
+      "value": "메디컬 오로라"
+    },
+    {
+      "key": "Orion",
+      "value": "오리온"
+    },
+    {
+      "key": "Uma nave de suporte que reconstrói o próprio casco.",
+      "value": "자체 선체를 재건하는 지원선입니다."
+    },
+    {
+      "key": "Sustentação: reparo e defesa mantêm a nave no combate.",
+      "value": "지탱: 수리 및 방어로 함선을 전투 상태로 유지합니다."
+    },
+    {
+      "key": "Canhões pesados: cada disparo precisa contar.",
+      "value": "무거운 대포: 모든 사격이 중요합니다."
+    },
+    {
+      "key": "Artilharia pesada: dano e explosões compensam a cadência baixa.",
+      "value": "중포: 피해와 폭발이 낮은 발사 속도를 상쇄합니다."
+    },
+    {
+      "key": "Vanguarda-7",
+      "value": "뱅가드-7"
+    },
+    {
+      "key": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+      "value": "긴 전투에서 살아남기 위해서가 아니라 빠르게 전투를 끝내기 위해 만들어졌습니다."
+    },
+    {
+      "key": "Ofensiva pura: deck inclinado para Ataque Duplo e Tiro Penetrante, reforçado por cartas de alto risco e alto retorno que recompensam jogar agressivo.",
+      "value": "순수한 공격: 이중 공격과 관통 사격을 중심으로 구축된 덱으로, 공격적인 플레이에 보상을 주는 고위험 카드가 뒷받침됩니다."
+    },
+    {
+      "key": "Bastião Aegis",
+      "value": "이지스 요새"
+    },
+    {
+      "key": "Não é a mais rápida a atirar, mas é a última a cair.",
+      "value": "가장 빠른 사격은 아니지만 가장 늦게 떨어지는 사격이다."
+    },
+    {
+      "key": "Tanque de longa duração: deck inclinado para Defesa e Buraco Negro, reforçado por cartas de controle e sustentação.",
+      "value": "튼튼한 탱크: 쉴드와 블랙홀을 중심으로 구축된 덱으로, 제어 카드와 유지 카드가 있습니다."
+    },
+    {
+      "key": "Espectro Nulo",
+      "value": "널 스펙터"
+    },
+    {
+      "key": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+      "value": "주위 공간을 휘게 하는 실험적 프로토타입: 강력하지만 취약합니다."
+    },
+    {
+      "key": "Builds de área e sinergia: deck inclinado para Mísseis e Buraco Negro, reforçado por cartas gravitacionais que aprofundam o combo de agrupar e detonar.",
+      "value": "지역 피해 및 시너지 효과: 미사일과 블랙홀을 중심으로 구축된 덱으로, 폭발하기 전에 적을 끌어당기는 중력 카드가 있습니다."
+    },
+    {
+      "key": "Salva Quádrupla",
+      "value": "4연발 일제사격"
+    },
+    {
+      "key": "Dispara 4 projéteis em paralelo, permanentemente.",
+      "value": "4개의 발사체를 나란히 영구적으로 발사합니다."
+    },
+    {
+      "key": "Aegis Total",
+      "value": "완전 이지스"
+    },
+    {
+      "key": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+      "value": "전투 12초마다 방어 횟수를 3회 충전합니다. 소모될 때까지 유지됩니다."
+    },
+    {
+      "key": "Chuva de Mísseis",
+      "value": "미사일 비"
+    },
+    {
+      "key": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+      "value": "적들이 범위 내에 있을 때 전투 중 5초마다 더 큰 범위 피해를 주는 미사일 4개를 발사합니다."
+    },
+    {
+      "key": "Singularidade",
+      "value": "특이점"
+    },
+    {
+      "key": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+      "value": "14초마다 마지막에 세게 폭발하는 거대한 10초 블랙홀을 생성합니다."
+    },
+    {
+      "key": "Lança Penetrante",
+      "value": "꿰뚫는 창"
+    },
+    {
+      "key": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+      "value": "영구 관통 및 추가 발사당 피해 +25%(총 +45%)."
+    },
+    {
+      "key": "Overdrive Máximo",
+      "value": "최대 오버드라이브"
+    },
+    {
+      "key": "Tempestade Restauradora",
+      "value": "회복 폭풍"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+      "value": "HP를 회복할 때마다 모든 방향으로 직진 미사일 10발을 발사합니다. 발당 피해 24. HP가 가득 차면 발동하지 않습니다."
+    },
+    {
+      "key": "Tempestade Selvagem",
+      "value": "와일드 템페스트"
+    },
+    {
+      "key": "Fúria Inesgotável",
+      "value": "끝없는 분노"
+    },
+    {
+      "key": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "적을 처치할 때마다 함선 최대 HP의 3%를 회복합니다.\n\n영구 효과"
+    },
+    {
+      "key": "Repulsão Total",
+      "value": "완전 반발"
+    },
+    {
+      "key": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+      "value": "6초마다 반경 260의 적을 밀어내고 4초 동안 50% 둔화시킵니다."
+    },
+    {
+      "key": "Autorreparo Total",
+      "value": "완전 자가 수리"
+    },
+    {
+      "key": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+      "value": "15초마다 HP를 40% 회복하고, 소모된 추가 방어를 최대 2회 보충합니다."
+    },
+    {
+      "key": "Muralha Inabalável",
+      "value": "불굴의 방벽"
+    },
+    {
+      "key": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+      "value": "10초마다 HP 45, 지속시간 12초의 방벽을 생성합니다."
+    },
+    {
+      "key": "Estase Temporal",
+      "value": "시간 정지"
+    },
+    {
+      "key": "Esquadrão de Elite",
+      "value": "정예 편대"
+    },
+    {
+      "key": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+      "value": "20초마다 드론 4대가 18초 동안 지원합니다. 각 드론의 발당 피해는 8입니다."
+    },
+    {
+      "key": "Ataque Duplo",
+      "value": "이중 공격"
+    },
+    {
+      "key": "Dobra permanentemente o número de projéteis disparados pela nave.",
+      "value": "함선에서 발사하는 발사체 수를 영구적으로 두 배로 늘립니다."
+    },
+    {
+      "key": "Ataque Triplo",
+      "value": "삼중 공격"
+    },
+    {
+      "key": "Triplica permanentemente os projéteis disparados pela nave.",
+      "value": "함선에서 발사하는 발사체의 양을 영구적으로 3배로 늘립니다."
+    },
+    {
+      "key": "Defesa",
+      "value": "방패"
+    },
+    {
+      "key": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+      "value": "전투 15초마다 방어 횟수를 1회 충전합니다. 소모될 때까지 유지됩니다."
+    },
+    {
+      "key": "Escudo Reforçado",
+      "value": "강화 방패"
+    },
+    {
+      "key": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+      "value": "전투 15초마다 방어 횟수를 2회 충전합니다. 소모될 때까지 유지됩니다."
+    },
+    {
+      "key": "Mísseis",
+      "value": "미사일"
+    },
+    {
+      "key": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "적이 범위 내에 있을 때 전투 중 6초마다 호밍 미사일 2개를 자동으로 발사합니다."
+    },
+    {
+      "key": "Enxame de Mísseis",
+      "value": "미사일 떼"
+    },
+    {
+      "key": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "적이 범위 내에 있을 때 전투 6초마다 지역 피해 미사일 3개를 자동으로 발사합니다."
+    },
+    {
+      "key": "Buraco Negro",
+      "value": "블랙홀"
+    },
+    {
+      "key": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+      "value": "16초마다 범위 내의 적에게 6초 블랙홀을 생성합니다."
+    },
+    {
+      "key": "Colapso Estelar",
+      "value": "항성 붕괴"
+    },
+    {
+      "key": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+      "value": "매 16초마다 폭발하는 더 큰 9초 블랙홀을 생성합니다."
+    },
+    {
+      "key": "Tiro Penetrante",
+      "value": "관통 샷"
+    },
+    {
+      "key": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+      "value": "투사체가 파괴되는 대신 영구적으로 적을 관통합니다."
+    },
+    {
+      "key": "Perfuração Total",
+      "value": "완전 관통"
+    },
+    {
+      "key": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+      "value": "나머지 플레이 기간 동안 영구적인 관통이 적용되며 샷당 데미지가 20% 증가합니다."
+    },
+    {
+      "key": "Sobrecarga de Motores",
+      "value": "엔진 과부하"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +30%.",
+      "value": "연사 속도가 영구적으로 +30% 증가합니다."
+    },
+    {
+      "key": "Overdrive Total",
+      "value": "완전 오버드라이브"
+    },
+    {
+      "key": "Salva Restauradora",
+      "value": "회복 일제사격"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+      "value": "HP를 회복할 때마다 모든 방향으로 직진 미사일 6발을 발사합니다. 발당 피해 12. HP가 가득 차면 발동하지 않습니다."
+    },
+    {
+      "key": "Barragem Restauradora",
+      "value": "회복 탄막"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+      "value": "HP를 회복할 때마다 모든 방향으로 직진 미사일 8발을 발사합니다. 발당 피해 18. HP가 가득 차면 발동하지 않습니다."
+    },
+    {
+      "key": "Rajada Selvagem",
+      "value": "무차별 일제사격"
+    },
+    {
+      "key": "Fogo Descontrolado",
+      "value": "폭주 사격"
+    },
+    {
+      "key": "Fúria de Batalha",
+      "value": "전투의 분노"
+    },
+    {
+      "key": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "적을 처치할 때마다 함선 최대 HP의 1%를 회복합니다.\n\n영구 효과"
+    },
+    {
+      "key": "Fúria Implacável",
+      "value": "가차없는 분노"
+    },
+    {
+      "key": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "적을 처치할 때마다 함선 최대 HP의 2%를 회복합니다.\n\n영구 효과"
+    },
+    {
+      "key": "Campo de Repulsão",
+      "value": "반발장"
+    },
+    {
+      "key": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+      "value": "적들이 범위 내에 있을 때 10초마다 근처의 적을 밀어냅니다."
+    },
+    {
+      "key": "Repulsão Amplificada",
+      "value": "증폭 반발"
+    },
+    {
+      "key": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+      "value": "8초마다 반경 180의 적을 밀어내고 3초 동안 30% 둔화시킵니다."
+    },
+    {
+      "key": "Reparo de Emergência",
+      "value": "긴급 수리"
+    },
+    {
+      "key": "Restaura 20% do HP máximo a cada 20s de combate.",
+      "value": "전투 20초마다 최대 HP의 20%를 회복합니다."
+    },
+    {
+      "key": "Autorreparo Avançado",
+      "value": "고급 자가 수리"
+    },
+    {
+      "key": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+      "value": "18초마다 HP를 30% 회복하고, 소모된 추가 방어를 최대 1회 보충합니다."
+    },
+    {
+      "key": "Muralha de Destroços",
+      "value": "잔해벽"
+    },
+    {
+      "key": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+      "value": "12초마다 가장 가까운 위협 앞에 장벽(10HP)을 생성합니다."
+    },
+    {
+      "key": "Muralha Reforçada",
+      "value": "강화 방벽"
+    },
+    {
+      "key": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+      "value": "12초마다 HP 25, 지속시간 9초의 방벽을 생성합니다."
+    },
+    {
+      "key": "Distorção Temporal",
+      "value": "시간 왜곡"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+      "value": "모든 적의 이동 속도가 영구적으로 10% 감소합니다."
+    },
+    {
+      "key": "Paralisia Temporal",
+      "value": "시간 마비"
+    },
+    {
+      "key": "Dilatação Temporal",
+      "value": "시간 팽창"
+    },
+    {
+      "key": "Dilatação Absoluta",
+      "value": "절대 시간 팽창"
+    },
+    {
+      "key": "Estase Absoluta",
+      "value": "절대 정지"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+      "value": "모든 적의 이동 속도가 영구적으로 20% 감소합니다."
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+      "value": "모든 적의 이동 속도가 영구적으로 30% 감소합니다."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+      "value": "영구 효과: 범위 내에서 HP가 5% 이하인 적은 마비됩니다."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+      "value": "영구 효과: 범위 내에서 HP가 10% 이하인 적은 마비됩니다."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+      "value": "영구 효과: 범위 내에서 HP가 20% 이하인 적은 마비됩니다."
+    },
+    {
+      "key": "Drones de Apoio",
+      "value": "지원 드론"
+    },
+    {
+      "key": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+      "value": "22초마다 두 대의 드론이 12초 동안 함선 주위를 돌며 1.2초마다 범위 내의 적에게 사격합니다."
+    },
+    {
+      "key": "Esquadrão de Apoio",
+      "value": "지원 편대"
+    },
+    {
+      "key": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+      "value": "22초마다 드론 3대가 15초 동안 지원합니다. 각 드론의 발당 피해는 7입니다."
+    },
+    {
+      "key": "Meteoro Pequeno",
+      "value": "소형 운석"
+    },
+    {
+      "key": "Meteoro Médio",
+      "value": "중형 운석"
+    },
+    {
+      "key": "Meteoro Grande",
+      "value": "대형 운석"
+    },
+    {
+      "key": "Batedor",
+      "value": "스카우트"
+    },
+    {
+      "key": "Interceptador",
+      "value": "인터셉터"
+    },
+    {
+      "key": "Fragata",
+      "value": "프리깃함"
+    },
+    {
+      "key": "Núcleo Aberrante",
+      "value": "이상 코어"
+    },
+    {
+      "key": "6 Meteoros Pequenos",
+      "value": "6개의 작은 운석"
+    },
+    {
+      "key": "8 Pequenos + 2 Médios",
+      "value": "소형 운석 8개 + 중형 운석 2개"
+    },
+    {
+      "key": "10 Meteoros Médios",
+      "value": "중형 운석 10개"
+    },
+    {
+      "key": "4 Grandes + 6 Pequenos",
+      "value": "대형 운석 4개 + 소형 운석 6개"
+    },
+    {
+      "key": "10 Meteoros mistos + 2 Batedores",
+      "value": "혼합 운석 10개 + 정찰병 2명"
+    },
+    {
+      "key": "6 Batedores + 6 Médios",
+      "value": "정찰병 6명 + 중형 운석 6개"
+    },
+    {
+      "key": "4 Interceptadores + 8 Pequenos",
+      "value": "요격기 4개 + 작은 운석 8개"
+    },
+    {
+      "key": "8 Meteoros Grandes",
+      "value": "8개의 대형 운석"
+    },
+    {
+      "key": "6 Interceptadores + 6 Batedores",
+      "value": "요격기 6개 + 스카우트 6명"
+    },
+    {
+      "key": "MINI-CHEFE: 1 Fragata + 10 Batedores",
+      "value": "미니보스: 프리깃함 1대 + 정찰병 10명"
+    },
+    {
+      "key": "10 Grandes + 4 Interceptadores",
+      "value": "대형 운석 10개 + 인터셉터 4개"
+    },
+    {
+      "key": "10 Batedores + 6 Interceptadores",
+      "value": "스카우트 10명 + 요격기 6명"
+    },
+    {
+      "key": "2 Fragatas + 8 Médios",
+      "value": "호위함 2척 + 중형 운석 8척"
+    },
+    {
+      "key": "ENXAME DENSO: 12 Interceptadores",
+      "value": "밀집된 떼: 요격기 12개"
+    },
+    {
+      "key": "3 Fragatas + 10 Batedores",
+      "value": "프리깃함 3척 + 정찰함 10척"
+    },
+    {
+      "key": "16 Meteoros mistos",
+      "value": "16개의 혼합 운석"
+    },
+    {
+      "key": "4 Fragatas + 8 Interceptadores",
+      "value": "프리깃함 4척 + 요격기 8척"
+    },
+    {
+      "key": "ENXAME MÁXIMO: 20 Batedores",
+      "value": "최대 무리: 20명의 정찰병"
+    },
+    {
+      "key": "GAUNTLET: 5 Fragatas + 10 Grandes + 10 Batedores",
+      "value": "건틀릿: 프리깃 5척 + 대형 운석 10척 + 스카우트 10명"
+    },
+    {
+      "key": "CHEFE FINAL: Núcleo Aberrante",
+      "value": "최종 보스: 이상 코어"
+    },
+    {
+      "key": "SELEÇÃO DE MELHORIA",
+      "value": "강화 선택"
+    },
+    {
+      "key": " ESCOLHA EM ESPERA",
+      "value": " 선택 대기 중"
+    },
+    {
+      "key": " ESCOLHAS EM ESPERA",
+      "value": " 선택 대기 중"
+    },
+    {
+      "key": "NAVE  ·  NÍVEL ",
+      "value": "함선 · 레벨 "
+    },
+    {
+      "key": "NOVA",
+      "value": "새로운"
+    },
+    {
+      "key": "NÚCLEO DESTRUÍDO",
+      "value": "코어가 파괴됨"
+    },
+    {
+      "key": "TENTE OUTRA VEZ!",
+      "value": "다시 도전!"
+    },
+    {
+      "key": "CAMPANHA COMPLETA",
+      "value": "캠페인 완료"
+    },
+    {
+      "key": "NOVO",
+      "value": "새로운"
+    },
+    {
+      "key": "PRÓXIMO NÍVEL  ·  ",
+      "value": "다음 레벨 ·  "
+    },
+    {
+      "key": "ONDAS ",
+      "value": "웨이브  "
+    },
+    {
+      "key": " CRÉDITOS",
+      "value": " 크레딧"
+    },
+    {
+      "key": "MELHORIAS ",
+      "value": "업그레이드 "
+    },
+    {
+      "key": "CONCLUÍDO",
+      "value": "삭제됨"
+    },
+    {
+      "key": " NÍVEIS CONCLUÍDOS",
+      "value": " 레벨 클리어"
+    },
+    {
+      "key": "Conclua o {0} com esta nave para liberar.",
+      "value": "이 함선으로 {0}을(를) 클리어하면 해제됩니다."
+    },
+    {
+      "key": "BLOQUEADA",
+      "value": "잠김"
+    },
+    {
+      "key": "RETRATO",
+      "value": "세로"
+    },
+    {
+      "key": "PAISAGEM",
+      "value": "가로"
+    },
+    {
+      "key": "LIGADO",
+      "value": "ON"
+    },
+    {
+      "key": "DESLIGADO",
+      "value": "꺼짐"
+    },
+    {
+      "key": "JOGAR",
+      "value": "플레이"
+    },
+    {
+      "key": "FASES",
+      "value": "단계"
+    },
+    {
+      "key": " ONDAS",
+      "value": " 웨이브"
+    },
+    {
+      "key": "AJUSTES",
+      "value": "설정"
+    },
+    {
+      "key": "MÚSICA",
+      "value": "음악"
+    },
+    {
+      "key": "EFEITOS",
+      "value": "효과"
+    },
+    {
+      "key": "VOLUME",
+      "value": "볼륨"
+    },
+    {
+      "key": "IDIOMA",
+      "value": "언어"
+    },
+    {
+      "key": "TELA",
+      "value": "화면"
+    },
+    {
+      "key": "REMOVER ANÚNCIOS",
+      "value": "광고 제거"
+    },
+    {
+      "key": "Compra única e permanente. Jogue sem anúncios.",
+      "value": "영구 구매 1회. 광고 없이 플레이하세요."
+    },
+    {
+      "key": "ADQUIRIDO",
+      "value": "구매함"
+    },
+    {
+      "key": "INDISPONÍVEL",
+      "value": "사용할 수 없음"
+    },
+    {
+      "key": "RESTAURAR COMPRAS",
+      "value": "구매 복원"
+    },
+    {
+      "key": "Disponível na versão Android pelo Google Play.",
+      "value": "Google Play를 통해 Android에서 이용 가능합니다."
+    },
+    {
+      "key": "Aguardando Google Play…",
+      "value": "Google Play를 기다리는 중…"
+    },
+    {
+      "key": "Não foi possível consultar a loja. Use Restaurar para tentar novamente.",
+      "value": "매장에 연락할 수 없습니다. 복원을 사용하여 다시 시도하세요."
+    },
+    {
+      "key": "Pagamento pendente. A remoção será ativada após a confirmação.",
+      "value": "결제 보류 중입니다. 광고는 확인 후 삭제됩니다."
+    },
+    {
+      "key": "Anúncios removidos nesta conta.",
+      "value": "이 계정의 광고가 삭제되었습니다."
+    },
+    {
+      "key": "Compra cancelada. Nenhuma alteração aplicada.",
+      "value": "구매가 취소되었습니다. 적용된 변경사항이 없습니다."
+    },
+    {
+      "key": "Já comprou? Restaure usando a mesma conta Google Play.",
+      "value": "이미 구매하셨나요? 동일한 Google Play 계정으로 복원하세요."
+    },
+    {
+      "key": "Nave no máximo.",
+      "value": "함선 강화가 완료되었습니다."
+    },
+    {
+      "key": "Restam só ",
+      "value": "남은 레벨: "
+    },
+    {
+      "key": " níveis.",
+      "value": " 레벨 남음."
+    },
+    {
+      "key": "Faltam ",
+      "value": "필요: "
+    },
+    {
+      "key": " créditos  ·  termine runs para ganhar",
+      "value": " 크레딧 · 플레이를 완료해 획득"
+    },
+    {
+      "key": "Cada compra: +1 nível num atributo aleatório",
+      "value": "구매할 때마다 무작위 속성 레벨 +1"
+    },
+    {
+      "key": "NÍVEIS ",
+      "value": "레벨 "
+    },
+    {
+      "key": "MÁX",
+      "value": "최대"
+    },
+    {
+      "key": "RESTAM ",
+      "value": "남은 수: "
+    },
+    {
+      "key": "+1 NÍVEL",
+      "value": "+1레벨"
+    },
+    {
+      "key": "+5 NÍVEIS",
+      "value": "+5레벨"
+    },
+    {
+      "key": "ATUALIZAÇÃO NECESSÁRIA",
+      "value": "업데이트 필요"
+    },
+    {
+      "key": "CONSULTANDO A LOJA",
+      "value": "가게 확인 중"
+    },
+    {
+      "key": "Verificando se existe uma nova versão…",
+      "value": "최신 버전을 확인하는 중…"
+    },
+    {
+      "key": "Conclua a atualização no Google Play para continuar.",
+      "value": "계속하려면 Google Play 업데이트를 완료하세요."
+    },
+    {
+      "key": "A atualização ainda é necessária. Tente novamente ou abra a loja para atualizar.",
+      "value": "업데이트가 여전히 필요합니다. 다시 시도하거나 스토어를 열어 업데이트하세요."
+    },
+    {
+      "key": "Existe uma versão mais recente na loja. Atualize o Astro Blitz para continuar jogando.",
+      "value": "스토어에서 최신 버전을 구입할 수 있습니다. 계속 플레이하려면 Astro Blitz를 업데이트하세요."
+    },
+    {
+      "key": "ATUALIZAR AGORA",
+      "value": "지금 업데이트"
+    },
+    {
+      "key": "VERIFICAR NOVAMENTE",
+      "value": "다시 확인하세요"
+    },
+    {
+      "key": "VER ANÚNCIO PARA RENASCER",
+      "value": "광고 보고 부활"
+    },
+    {
+      "key": "TENTAR CARREGAR ANÚNCIO",
+      "value": "광고 다시 불러오기"
+    },
+    {
+      "key": "Aguardando conclusão do anúncio…",
+      "value": "광고 완료를 기다리는 중…"
+    },
+    {
+      "key": "Uma vez por partida. A recompensa exige concluir o anúncio.",
+      "value": "재생당 한 번. 보상을 받으려면 광고를 완료하세요."
+    },
+    {
+      "key": "Anúncio indisponível. Aguarde o carregamento ou tente mais tarde.",
+      "value": "광고를 사용할 수 없습니다. 로드될 때까지 기다리거나 나중에 시도하세요."
+    },
+    {
+      "key": "Disponível em ",
+      "value": "다시 가능: "
+    },
+    {
+      "key": "Aguardando anúncio…",
+      "value": "광고를 기다리는 중…"
+    },
+    {
+      "key": "Anúncio indisponível",
+      "value": "광고를 볼 수 없음"
+    },
+    {
+      "key": "PRIVACIDADE DOS ANÚNCIOS",
+      "value": "광고 개인정보 보호 옵션"
+    },
+    {
+      "key": "Cadência de tiro",
+      "value": "연사 속도"
+    },
+    {
+      "key": "Dano",
+      "value": "피해"
+    },
+    {
+      "key": "Vida",
+      "value": "선체"
+    },
+    {
+      "key": "Recuperação de vida",
+      "value": "건강 재생"
+    },
+    {
+      "key": "Esquiva",
+      "value": "회피"
+    },
+    {
+      "key": "Créditos por partida",
+      "value": "플레이당 크레딧"
+    },
+    {
+      "key": "Chance crítica",
+      "value": "치명타 확률"
+    },
+    {
+      "key": "Dano crítico",
+      "value": "치명타 피해"
+    },
+    {
+      "key": "% velocidade",
+      "value": "% 연사 속도"
+    },
+    {
+      "key": "% dano",
+      "value": "% 피해"
+    },
+    {
+      "key": "% vida",
+      "value": "% 선체"
+    },
+    {
+      "key": " vida/s",
+      "value": " HP/초"
+    },
+    {
+      "key": "% esquiva",
+      "value": "% 회피"
+    },
+    {
+      "key": "% créditos",
+      "value": "% 크레딧"
+    },
+    {
+      "key": "% chance",
+      "value": "% 확률"
+    },
+    {
+      "key": "% dano crítico",
+      "value": "% 치명타 피해"
+    },
+    {
+      "key": "Primeiro contato. Sobreviva à rota original de 10 ondas.",
+      "value": "첫 번째 접촉. 원래의 10웨이브 경로에서 살아남으세요."
+    },
+    {
+      "key": "A invasão acelera. Mais batedores, reforços e ondas densas.",
+      "value": "침공이 가속화된다. 더 많은 정찰병, 지원군 및 빽빽한 파도."
+    },
+    {
+      "key": "Interceptadores rápidos e fragatas fecham o cerco.",
+      "value": "고속 요격기와 프리깃함이 그물을 닫습니다."
+    },
+    {
+      "key": "Batedores e interceptadores chegam juntos. Fragatas surgem antes do chefe.",
+      "value": "정찰기와 요격기가 함께 도착합니다. 프리깃이 보스 앞에 나타납니다."
+    },
+    {
+      "key": "As fragatas chegam mais cedo e o enxame não para de crescer.",
+      "value": "프리깃함은 더 일찍 도착하고 떼는 계속해서 늘어납니다."
+    },
+    {
+      "key": "Ondas lotadas. O fogo cruzado cobra caro de quem tem pouca vida.",
+      "value": "붐비는 파도. Crossfire는 얇은 선체에 비용이 많이 듭니다."
+    },
+    {
+      "key": "Escoltas reforçadas. O Núcleo Aberrante chega com um exército.",
+      "value": "호위 강화. Aberrant Core는 군대를 가져옵니다."
+    },
+    {
+      "key": "Pressão total desde a primeira onda. Cada erro custa caro.",
+      "value": "첫 번째 파도의 최대 압력. 모든 실수가 중요합니다."
+    },
+    {
+      "key": "O limite do setor. Só naves muito bem equipadas chegam ao chefe.",
+      "value": "섹터의 가장자리. 잘 갖춰진 배만이 보스에게 다가갈 수 있습니다."
+    },
+    {
+      "key": "O último nível. Enxames, fragatas e um Núcleo no auge da força.",
+      "value": "최종 레벨. 스웜(Swarm), 호위함 및 코어(Core)가 최대 전력으로 작동합니다."
+    },
+    {
+      "key": "Sobrecarga ofensiva",
+      "value": "공격 오버드라이브"
+    },
+    {
+      "key": "Por 6s: dobra a cadência de tiro.",
+      "value": "6초 동안 연사 속도가 두 배가 됩니다."
+    },
+    {
+      "key": "Égide de emergência",
+      "value": "긴급 이지스"
+    },
+    {
+      "key": "Fica invulnerável por 4s.",
+      "value": "4초 동안 무적 상태가 됩니다."
+    },
+    {
+      "key": "Estase temporal",
+      "value": "시간 정지"
+    },
+    {
+      "key": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "value": "보스를 포함한 모든 적을 3초 동안 정지시킵니다."
+    },
+    {
+      "key": "Reparo restaurador",
+      "value": "회복 수리"
+    },
+    {
+      "key": "Recupera 30% da vida máxima instantaneamente.",
+      "value": "최대 HP의 30%를 즉시 회복합니다."
+    },
+    {
+      "key": "Amplificação de dano",
+      "value": "피해 증폭"
+    },
+    {
+      "key": "Dobra o dano do canhão por 5s.",
+      "value": "5초 동안 주포 피해가 두 배가 됩니다."
+    },
+    {
+      "key": "ESQUIVA",
+      "value": "회피"
+    },
+    {
+      "key": "Lâminas Orbitais",
+      "value": "회전 칼날"
+    },
+    {
+      "key": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+      "value": "두 개의 칼날이 함선 주위를 돌며 닿는 적을 베어버립니다. 타격당 피해량은 10입니다."
+    },
+    {
+      "key": "Anel de Lâminas",
+      "value": "칼날 고리"
+    },
+    {
+      "key": "Três lâminas orbitam a nave: 14 de dano por corte.",
+      "value": "배 주위를 도는 세 개의 칼날: 타격당 피해량 14."
+    },
+    {
+      "key": "Tempestade de Lâminas",
+      "value": "블레이드 스톰"
+    },
+    {
+      "key": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+      "value": "더 넓은 궤도에 있는 4개의 블레이드: 타격당 피해량이 18입니다."
+    },
+    {
+      "key": "Estilhaços",
+      "value": "파편"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+      "value": "파괴된 적들은 3개의 파편으로 폭발합니다: 각각 6의 피해를 줍니다."
+    },
+    {
+      "key": "Chuva de Estilhaços",
+      "value": "파편 비"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+      "value": "파괴된 적들은 4개의 파편으로 폭발합니다: 각각 9의 피해를 줍니다."
+    },
+    {
+      "key": "Tempestade de Estilhaços",
+      "value": "파편 폭풍"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+      "value": "파괴된 적들은 6개의 파편으로 폭발합니다: 각각 12의 피해를 줍니다."
+    },
+    {
+      "key": "Disparo Diagonal",
+      "value": "대각선 사격"
+    },
+    {
+      "key": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+      "value": "또한 모든 일제 사격은 50% 데미지로 대각선 2발을 발사합니다."
+    },
+    {
+      "key": "Leque Diagonal",
+      "value": "대각선 확산"
+    },
+    {
+      "key": "Os 2 tiros em diagonal causam 75% do dano.",
+      "value": "2개의 대각선 사격은 75%의 피해를 줍니다."
+    },
+    {
+      "key": "Leque Total",
+      "value": "전면 확산"
+    },
+    {
+      "key": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+      "value": "모든 일제 사격은 75% 데미지로 부채꼴 사격을 4발 발사합니다."
+    },
+    {
+      "key": "Aura de Plasma",
+      "value": "플라즈마 오라"
+    },
+    {
+      "key": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+      "value": "배에 가까이 있는 적들은 초당 8의 피해를 입습니다."
+    },
+    {
+      "key": "Coroa de Plasma",
+      "value": "플라즈마 크라운"
+    },
+    {
+      "key": "Aura maior: 12 de dano por segundo.",
+      "value": "더 큰 오라: 초당 12 피해."
+    },
+    {
+      "key": "Sol de Plasma",
+      "value": "플라즈마 썬"
+    },
+    {
+      "key": "Aura máxima: 18 de dano por segundo.",
+      "value": "최대 오라: 초당 18 데미지."
+    },
+    {
+      "key": "Nova Solar",
+      "value": "솔라노바"
+    },
+    {
+      "key": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+      "value": "7초마다 에너지 파동이 주변 적에게 적중합니다. 피해는 20입니다."
+    },
+    {
+      "key": "Erupção Solar",
+      "value": "태양 플레어"
+    },
+    {
+      "key": "A cada 6s, uma onda maior: 32 de dano.",
+      "value": "6초마다 더 큰 파도: 32 피해."
+    },
+    {
+      "key": "Supernova",
+      "value": "초신성"
+    },
+    {
+      "key": "A cada 5s, uma onda ainda maior: 48 de dano.",
+      "value": "5초마다 더 큰 파도가 발생해 피해량이 48입니다."
+    },
+    {
+      "key": "Ataque Orbital",
+      "value": "궤도 공격"
+    },
+    {
+      "key": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+      "value": "5초마다 위성이 범위 내의 적 2명을 공격합니다. 각각 22의 피해를 줍니다."
+    },
+    {
+      "key": "Bombardeio Orbital",
+      "value": "궤도 폭격"
+    },
+    {
+      "key": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+      "value": "4.5초마다 적 3명을 공격합니다. 각각 28의 피해를 줍니다."
+    },
+    {
+      "key": "Chuva Orbital",
+      "value": "궤도비"
+    },
+    {
+      "key": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+      "value": "4초마다 적 4명을 공격합니다. 각각 36의 피해를 줍니다."
+    },
+    {
+      "key": "Ímã Gravitacional",
+      "value": "중력 자석"
+    },
+    {
+      "key": "Ganha 15% a mais de XP.",
+      "value": "획득 XP가 15% 증가합니다."
+    },
+    {
+      "key": "Campo Gravitacional",
+      "value": "중력장"
+    },
+    {
+      "key": "Ganha 30% a mais de XP.",
+      "value": "획득 XP가 30% 증가합니다."
+    },
+    {
+      "key": "Singularidade Magnética",
+      "value": "자기 특이점"
+    },
+    {
+      "key": "Ganha 50% a mais de XP.",
+      "value": "획득 XP가 50% 증가합니다."
+    },
+    {
+      "key": "Nanorreparo",
+      "value": "나노수리"
+    },
+    {
+      "key": "Recupera 0,4% do HP máximo por segundo.",
+      "value": "초당 최대 HP의 0.4%를 회복합니다."
+    },
+    {
+      "key": "Enxame Nanorreparador",
+      "value": "수리 군집"
+    },
+    {
+      "key": "Recupera 0,7% do HP máximo por segundo.",
+      "value": "초당 최대 HP의 0.7%를 회복합니다."
+    },
+    {
+      "key": "Regeneração Total",
+      "value": "완전 재생"
+    },
+    {
+      "key": "Recupera 1% do HP máximo por segundo.",
+      "value": "초당 최대 HP의 1%를 회복합니다."
+    },
+    {
+      "key": "Núcleo Fênix",
+      "value": "피닉스 코어"
+    },
+    {
+      "key": "Uma vez por partida, ao ser destruída, a nave renasce com 30% do HP.",
+      "value": "한 판에 한 번, 파괴되면 HP 30%로 부활합니다."
+    },
+    {
+      "key": "Núcleo Fênix Ardente",
+      "value": "타오르는 피닉스 코어"
+    },
+    {
+      "key": "Renasce uma vez com 45% do HP e empurra os inimigos próximos.",
+      "value": "HP 45%로 1회 다시 태어나 근처의 적을 밀어냅니다."
+    },
+    {
+      "key": "Renascer Estelar",
+      "value": "별의 환생"
+    },
+    {
+      "key": "Renasce uma vez com 60% do HP, empurra e causa 60 de dano ao redor.",
+      "value": "HP가 60%인 상태로 1회 다시 태어나 주변에 60의 피해를 주고 밀어냅니다."
+    },
+    {
+      "key": "Adrenalina",
+      "value": "아드레날린"
+    },
+    {
+      "key": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+      "value": "적을 처치할 때마다 3초 동안 발사 속도가 4% 증가하며 최대 5번까지 중첩됩니다."
+    },
+    {
+      "key": "Adrenalina Pura",
+      "value": "순수한 아드레날린"
+    },
+    {
+      "key": "+5% de cadência por abate, acumulando até 6 vezes.",
+      "value": "처치당 발사 속도가 5% 증가하며 최대 6번까지 중첩됩니다."
+    },
+    {
+      "key": "Frenesi",
+      "value": "프렌지"
+    },
+    {
+      "key": "+6% de cadência por abate, acumulando até 8 vezes.",
+      "value": "처치당 발사 속도가 6% 증가하며 최대 8번까지 중첩됩니다."
+    },
+    {
+      "key": "Tiro de Misericórdia",
+      "value": "메르시 샷"
+    },
+    {
+      "key": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+      "value": "캐논은 HP가 12% 이하인 적을 즉시 파괴합니다(보스 제외)."
+    },
+    {
+      "key": "Execução",
+      "value": "처형"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 18% do HP.",
+      "value": "HP가 18% 이하인 적을 즉시 파괴합니다."
+    },
+    {
+      "key": "Sentença Final",
+      "value": "최후의 심판"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 25% do HP.",
+      "value": "HP가 25% 이하인 적을 즉시 파괴합니다."
+    },
+    {
+      "key": "Sobrecarga Furiosa",
+      "value": "격노 오버드라이브"
+    },
+    {
+      "key": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+      "value": "공격 오버드라이브 중 대포 피해가 25% 증가합니다."
+    },
+    {
+      "key": "Fúria Sobrecarregada",
+      "value": "과충전된 분노"
+    },
+    {
+      "key": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+      "value": "공격 오버드라이브 중 피해 +40%. 적 처치마다 지속 시간이 0.2초 늘어납니다."
+    },
+    {
+      "key": "Sobrecarga Infernal",
+      "value": "지옥불 오버드라이브"
+    },
+    {
+      "key": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+      "value": "공격 오버드라이브 중 피해 +60%. 적 처치마다 지속 시간이 0.3초 늘어납니다."
+    },
+    {
+      "key": "Casco Espinhoso",
+      "value": "가시선체"
+    },
+    {
+      "key": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+      "value": "적이 배에 닿으면 막혀도 주변에 스파이크가 20의 피해를 줍니다."
+    },
+    {
+      "key": "Espinhos Reforçados",
+      "value": "강화된 가시"
+    },
+    {
+      "key": "Os espinhos causam 35 de dano numa área maior.",
+      "value": "가시는 더 넓은 지역에 걸쳐 35의 피해를 줍니다."
+    },
+    {
+      "key": "Retaliação Total",
+      "value": "총 보복"
+    },
+    {
+      "key": "Os espinhos causam 55 de dano numa área ainda maior.",
+      "value": "가시는 훨씬 더 넓은 지역에 걸쳐 55의 피해를 줍니다."
+    },
+    {
+      "key": "Égide Prolongada",
+      "value": "연장 이지스"
+    },
+    {
+      "key": "A Égide de emergência dura +1s.",
+      "value": "긴급 이지스 지속 시간 +1초."
+    },
+    {
+      "key": "Égide Persistente",
+      "value": "지속 이지스"
+    },
+    {
+      "key": "A Égide de emergência dura +2s.",
+      "value": "긴급 이지스 지속 시간 +2초."
+    },
+    {
+      "key": "Égide Eterna",
+      "value": "영원한 이지스"
+    },
+    {
+      "key": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+      "value": "긴급 이지스 지속 시간 +3초. 발동 시 적을 밀어냅니다."
+    },
+    {
+      "key": "Escudo Regenerativo",
+      "value": "재생 보호막"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+      "value": "보호막으로 공격을 막을 때마다 최대 HP의 3%를 회복합니다."
+    },
+    {
+      "key": "Escudo Vital",
+      "value": "바이탈 쉴드"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+      "value": "보호막으로 공격을 막을 때마다 최대 HP의 5%를 회복합니다."
+    },
+    {
+      "key": "Escudo Restaurador",
+      "value": "회복 보호막"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+      "value": "보호막으로 공격을 막을 때마다 최대 HP의 8%를 회복합니다."
+    },
+    {
+      "key": "Fenda Temporal",
+      "value": "시간 균열"
+    },
+    {
+      "key": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+      "value": "9초마다 범위 내 가장 큰 그룹에 균열이 열립니다. 3초 동안 50% 둔화되고 10의 피해를 줍니다."
+    },
+    {
+      "key": "Fenda Ampliada",
+      "value": "넓어진 균열"
+    },
+    {
+      "key": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+      "value": "8초마다 더 큰 균열이 발생합니다. 4초 동안 60% 둔화되고 16의 피해를 줍니다."
+    },
+    {
+      "key": "Colapso Temporal",
+      "value": "시간 붕괴"
+    },
+    {
+      "key": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+      "value": "7초마다 최대 균열: 5초 동안 70% 둔화 및 24 피해."
+    },
+    {
+      "key": "Paradoxo",
+      "value": "역설"
+    },
+    {
+      "key": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+      "value": "적 처치마다 시간 정지 재사용 대기시간이 0.3초 감소합니다."
+    },
+    {
+      "key": "Paradoxo Cíclico",
+      "value": "순환 역설"
+    },
+    {
+      "key": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+      "value": "적 처치마다 시간 정지 재사용 대기시간이 0.5초 감소합니다."
+    },
+    {
+      "key": "Paradoxo Absoluto",
+      "value": "절대 역설"
+    },
+    {
+      "key": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+      "value": "적 처치마다 시간 정지 재사용 대기시간이 0.8초 감소합니다."
+    },
+    {
+      "key": "Eco Temporal",
+      "value": "시간의 메아리"
+    },
+    {
+      "key": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+      "value": "대포 공격은 15% 확률로 60% 데미지로 0.3초 후에 반복됩니다."
+    },
+    {
+      "key": "Eco Duplo",
+      "value": "더블에코"
+    },
+    {
+      "key": "25% de chance de eco, com 80% do dano.",
+      "value": "25% 확률로 공격이 반복되어 원래 피해의 80%를 줍니다."
+    },
+    {
+      "key": "Eco Infinito",
+      "value": "무한 에코"
+    },
+    {
+      "key": "35% de chance de eco, com 100% do dano.",
+      "value": "35% 확률로 공격이 반복되어 원래 피해의 100%를 줍니다."
+    },
+    {
+      "key": "Sobrecura",
+      "value": "초과 치유"
+    },
+    {
+      "key": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+      "value": "최대 HP를 넘는 치유가 보호막이 됩니다. 초과 치유량이 최대 HP의 10%에 도달할 때마다 방어 횟수 1회 획득(최대 1회)."
+    },
+    {
+      "key": "Sobrecura Blindada",
+      "value": "장갑 초과 치유"
+    },
+    {
+      "key": "Guarda até 2 bloqueios do excesso de cura.",
+      "value": "초과 치유로 방어 횟수를 최대 2회 저장합니다."
+    },
+    {
+      "key": "Sobrecura Total",
+      "value": "완전 초과 치유"
+    },
+    {
+      "key": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+      "value": "방어 횟수를 최대 3회 저장합니다. 초과 치유량이 최대 HP의 7%에 도달할 때마다 1회 획득합니다."
+    },
+    {
+      "key": "Pulso Vital",
+      "value": "생명 파동"
+    },
+    {
+      "key": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+      "value": "치유할 때마다 파동을 방출해 주변의 적에게 회복한 HP의 2배만큼 피해를 줍니다. 1초에 1회만 발동합니다."
+    },
+    {
+      "key": "Onda Vital",
+      "value": "생명 물결"
+    },
+    {
+      "key": "O pulso causa 3x o HP recuperado numa área maior.",
+      "value": "파동이 더 넓은 범위의 적에게 회복한 HP의 3배만큼 피해를 줍니다."
+    },
+    {
+      "key": "Explosão Vital",
+      "value": "생명 폭발"
+    },
+    {
+      "key": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+      "value": "파동이 한층 더 넓은 범위의 적에게 회복한 HP의 4배만큼 피해를 줍니다."
+    },
+    {
+      "key": "Protocolo de Emergência",
+      "value": "긴급 프로토콜"
+    },
+    {
+      "key": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+      "value": "HP가 30% 미만으로 떨어지면 즉시 20%를 회복합니다. 전투 40초 후 다시 발동할 수 있습니다."
+    },
+    {
+      "key": "Protocolo Avançado",
+      "value": "고급 프로토콜"
+    },
+    {
+      "key": "Recupera 30% na hora. Rearma após 35s de combate.",
+      "value": "즉시 30%를 회복합니다. 전투 35초 후 다시 발동할 수 있습니다."
+    },
+    {
+      "key": "Protocolo Total",
+      "value": "토탈 프로토콜"
+    },
+    {
+      "key": "Recupera 40% na hora. Rearma após 30s de combate.",
+      "value": "즉시 40%를 회복합니다. 전투 30초 후 다시 발동할 수 있습니다."
+    },
+    {
+      "key": "Canhão de Trilho",
+      "value": "레일건"
+    },
+    {
+      "key": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+      "value": "7초마다 광선이 경기장을 가로질러 범위 내에서 가장 강한 적을 향해 이동합니다. 라인에 있는 모든 것에 45의 피해를 줍니다."
+    },
+    {
+      "key": "Trilho Acelerado",
+      "value": "가속 레일건"
+    },
+    {
+      "key": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+      "value": "6초마다 더 넓은 광선: 라인에 70의 피해를 줍니다."
+    },
+    {
+      "key": "Trilho Aniquilador",
+      "value": "섬멸 레일건"
+    },
+    {
+      "key": "A cada 5s, feixe máximo: 100 de dano na linha.",
+      "value": "5초마다 최대 광선: 라인에 100 데미지."
+    },
+    {
+      "key": "Marcação de Alvo",
+      "value": "대상 표식"
+    },
+    {
+      "key": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+      "value": "4초마다 범위 내 가장 강한 적에게 표식을 남깁니다. 표식 대상은 4초 동안 모든 피해를 30% 더 받습니다."
+    },
+    {
+      "key": "Marcação Precisa",
+      "value": "정밀 표식"
+    },
+    {
+      "key": "A cada 3,5s: +45% de dano no alvo marcado.",
+      "value": "3.5초마다: 표시된 대상에 대한 피해량이 45% 증가합니다."
+    },
+    {
+      "key": "Marcação Letal",
+      "value": "치명적 표식"
+    },
+    {
+      "key": "A cada 3s: +60% de dano no alvo marcado.",
+      "value": "3초마다: 표시된 대상에 대한 피해가 60% 증가합니다."
+    },
+    {
+      "key": "Ressonância",
+      "value": "공명"
+    },
+    {
+      "key": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+      "value": "피해 증폭 발동 시 파동이 범위 내 모든 적에게 50의 피해를 줍니다."
+    },
+    {
+      "key": "Ressonância Ampliada",
+      "value": "증폭된 공명"
+    },
+    {
+      "key": "A onda causa 80 de dano.",
+      "value": "파도는 80의 피해를 줍니다."
+    },
+    {
+      "key": "Ressonância Total",
+      "value": "총공명"
+    },
+    {
+      "key": "A onda causa 120 de dano e atordoa por 1s.",
+      "value": "파도는 120의 피해를 입히고 1초 동안 기절시킵니다."
+    },
+    {
+      "key": "LOGAR",
+      "value": "로그인"
+    },
+    {
+      "key": "CONTA",
+      "value": "계정"
+    },
+    {
+      "key": "Faça login para salvar seu progresso na nuvem.",
+      "value": "로그인하여 진행 상황을 클라우드에 저장하세요."
+    },
+    {
+      "key": "AGORA NÃO",
+      "value": "나중에"
+    },
+    {
+      "key": "Salve o progresso na conta",
+      "value": "진행 상황을 계정에 저장"
+    },
+    {
+      "key": "SALVE SEU PROGRESSO",
+      "value": "진행 상황 저장"
+    },
+    {
+      "key": "MODO INFINITO",
+      "value": "무한 모드"
+    },
+    {
+      "key": "Ciclos sem fim: 4 ondas e um chefe. XP 25% menor. Nível máximo 12.",
+      "value": "4개 웨이브와 보스를 끝없이 반복합니다. XP 획득량 25% 감소. 최대 레벨 12."
+    },
+    {
+      "key": "Conclua o Nível 3 com qualquer nave para liberar.",
+      "value": "아무 함선으로 레벨 3을 완료하면 잠금 해제됩니다."
+    },
+    {
+      "key": "4 ONDAS + CHEFE",
+      "value": "4 웨이브 + 보스"
+    },
+    {
+      "key": "Toque para escolher. Segure para ver os detalhes.",
+      "value": "탭하여 선택하세요. 길게 누르면 상세 정보를 볼 수 있습니다."
+    },
+    {
+      "key": "Tiros Extras",
+      "value": "추가 탄환"
+    },
+    {
+      "key": "Escudo Recarregável",
+      "value": "자동 충전 보호막"
+    },
+    {
+      "key": "Mísseis Teleguiados",
+      "value": "유도 미사일"
+    },
+    {
+      "key": "Tiros Perfurantes",
+      "value": "관통 사격"
+    },
+    {
+      "key": "Cadência Aumentada",
+      "value": "공격 속도 증가"
+    },
+    {
+      "key": "Mísseis ao Curar",
+      "value": "회복 시 미사일"
+    },
+    {
+      "key": "Chance Crítica",
+      "value": "치명타 확률"
+    },
+    {
+      "key": "Cura por Abate",
+      "value": "처치 시 회복"
+    },
+    {
+      "key": "Repulsão Periódica",
+      "value": "주기적 밀쳐내기"
+    },
+    {
+      "key": "Cura Periódica",
+      "value": "주기적 회복"
+    },
+    {
+      "key": "Barreira de Destroços",
+      "value": "잔해 방벽"
+    },
+    {
+      "key": "Tiro Explosivo",
+      "value": "폭발 사격"
+    },
+    {
+      "key": "Crítico Garantido",
+      "value": "확정 치명타"
+    },
+    {
+      "key": "Lentidão Global",
+      "value": "모든 적 감속"
+    },
+    {
+      "key": "Paralisia por Vida Baixa",
+      "value": "체력 낮은 적 마비"
+    },
+    {
+      "key": "Raios em Cadeia",
+      "value": "연쇄 번개"
+    },
+    {
+      "key": "Drones Atiradores",
+      "value": "사격 드론"
+    },
+    {
+      "key": "Sobrecarga Mais Rápida",
+      "value": "오버드라이브 재사용 단축"
+    },
+    {
+      "key": "Redução de Dano",
+      "value": "받는 피해 감소"
+    },
+    {
+      "key": "Dano contra Chefes",
+      "value": "보스 피해 증가"
+    },
+    {
+      "key": "Estilhaços por Abate",
+      "value": "처치 시 파편"
+    },
+    {
+      "key": "Tiros Diagonais",
+      "value": "대각선 사격"
+    },
+    {
+      "key": "Aura de Dano",
+      "value": "피해 오라"
+    },
+    {
+      "key": "Explosão Periódica",
+      "value": "주기적 폭발"
+    },
+    {
+      "key": "Bombardeio por Satélite",
+      "value": "위성 포격"
+    },
+    {
+      "key": "Bônus de XP",
+      "value": "경험치 보너스"
+    },
+    {
+      "key": "Regeneração de Vida",
+      "value": "체력 재생"
+    },
+    {
+      "key": "Reviver",
+      "value": "부활"
+    },
+    {
+      "key": "Cadência por Abate",
+      "value": "처치 시 공격 속도 증가"
+    },
+    {
+      "key": "Execução por Vida Baixa",
+      "value": "체력 낮은 적 처형"
+    },
+    {
+      "key": "Dano na Sobrecarga",
+      "value": "오버드라이브 피해 증가"
+    },
+    {
+      "key": "Espinhos ao Colidir",
+      "value": "충돌 시 가시 반격"
+    },
+    {
+      "key": "Égide Duradoura",
+      "value": "이지스 지속 시간 증가"
+    },
+    {
+      "key": "Cura ao Bloquear",
+      "value": "막기 시 회복"
+    },
+    {
+      "key": "Fenda de Lentidão",
+      "value": "감속 균열"
+    },
+    {
+      "key": "Recarga da Estase por Abate",
+      "value": "처치 시 정지 재사용 단축"
+    },
+    {
+      "key": "Repetição de Acertos",
+      "value": "명중 반복"
+    },
+    {
+      "key": "Escudo por Excesso de Cura",
+      "value": "초과 회복 보호막"
+    },
+    {
+      "key": "Dano ao Curar",
+      "value": "회복 시 피해"
+    },
+    {
+      "key": "Cura de Emergência",
+      "value": "긴급 회복"
+    },
+    {
+      "key": "Feixe Perfurante",
+      "value": "관통 광선"
+    },
+    {
+      "key": "Alvo Vulnerável",
+      "value": "취약한 표적"
+    },
+    {
+      "key": "Explosão na Amplificação",
+      "value": "증폭 발동 시 폭발"
+    },
+    {
+      "key": "Toque para escolher. Toque em i para ver os detalhes.",
+      "value": "카드를 눌러 선택하세요. 자세한 정보는 i를 누르세요."
+    },
+    {
+      "key": "BÔNUS DE BOAS-VINDAS",
+      "value": "환영 보너스"
+    },
+    {
+      "key": "Entre no jogo em 5 dias diferentes e ganhe uma recompensa por dia.",
+      "value": "서로 다른 5일 동안 접속하고 매일 보상을 받으세요."
+    },
+    {
+      "key": "LOGIN DIÁRIO",
+      "value": "일일 로그인"
+    },
+    {
+      "key": "DIA ",
+      "value": "DAY "
+    },
+    {
+      "key": "CARTA",
+      "value": "카드"
+    },
+    {
+      "key": "RESGATAR DIA ",
+      "value": "받기: DAY "
+    },
+    {
+      "key": "VOLTE AMANHÃ",
+      "value": "내일 다시 오세요"
+    },
+    {
+      "key": "Dia 5: créditos para comprar uma nave nova!",
+      "value": "DAY 5: 새 우주선을 살 수 있는 크레딧!"
+    },
+    {
+      "key": "Nova carta no deck base: ",
+      "value": "베이스 덱의 새 카드: "
+    },
+    {
+      "key": "  ·  o valor de uma nave!",
+      "value": "  ·  우주선 한 대 가격!"
+    },
+    {
+      "key": "BÔNUS CONCLUÍDO",
+      "value": "보너스 완료"
+    },
+    {
+      "key": "PRIVACIDADE E CONTA",
+      "value": "개인정보 및 계정"
+    },
+    {
+      "key": "Gerencie seus dados e sua conta. Excluir a conta do jogo apaga o progresso local e na nuvem.",
+      "value": "데이터와 계정을 관리하세요. 게임 계정을 삭제하면 기기와 클라우드의 진행 상황이 삭제됩니다."
+    },
+    {
+      "key": "POLÍTICA DE PRIVACIDADE",
+      "value": "개인정보 처리방침"
+    },
+    {
+      "key": "GERENCIAR CONTA UNITY",
+      "value": "UNITY 계정 관리"
+    },
+    {
+      "key": "EXCLUIR CONTA DO JOGO",
+      "value": "게임 계정 삭제"
+    },
+    {
+      "key": "A conta Unity é compartilhada com outros jogos e pode ser gerenciada separadamente. Compras da loja não são apagadas.",
+      "value": "Unity 계정은 다른 게임과 공유되며 별도로 관리할 수 있습니다. 스토어 구매 내역은 삭제되지 않습니다."
+    },
+    {
+      "key": "Excluir permanentemente sua conta do jogo e todo o progresso? Esta ação não pode ser desfeita.",
+      "value": "게임 계정과 모든 진행 상황을 영구 삭제할까요? 이 작업은 되돌릴 수 없습니다."
+    },
+    {
+      "key": "CONFIRMAR EXCLUSÃO",
+      "value": "삭제 확인"
+    },
+    {
+      "key": "Não foi possível concluir. Verifique a conexão e tente novamente.",
+      "value": "완료하지 못했습니다. 연결을 확인하고 다시 시도하세요."
+    },
+    {
+      "key": "Bola de Neve Ricocheteante",
+      "value": "튕기는 눈덩이"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+      "value": "12초마다 눈덩이가 화면 가장자리에서 6초 동안 튕기며 접촉 시 18 피해를 줍니다."
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+      "value": "12초마다 눈덩이가 화면 가장자리에서 8초 동안 튕기며 접촉 시 26 피해를 줍니다."
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+      "value": "12초마다 눈덩이가 화면 가장자리에서 10초 동안 튕기며 접촉 시 36 피해를 줍니다."
+    },
+    {
+      "key": "Bola de Neve Gigante",
+      "value": "거대 눈덩이"
+    },
+    {
+      "key": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+      "value": "16초마다 6초 동안 적을 관통하는 거대 눈덩이를 발사합니다. 피해 65, 감속 45%."
+    },
+    {
+      "key": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+      "value": "15초마다 6초 동안 적을 관통하는 거대 눈덩이를 발사합니다. 피해 100, 감속 45%."
+    },
+    {
+      "key": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+      "value": "14초마다 6초 동안 적을 관통하는 거대 눈덩이를 발사합니다. 피해 145, 감속 45%."
+    },
+    {
+      "key": "Círculo de Gelo",
+      "value": "얼음 원"
+    },
+    {
+      "key": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "14초마다 기체 주위에 5초간 얼음 지대를 만듭니다. 0.5초마다 피해 8, 감속 35%."
+    },
+    {
+      "key": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+      "value": "13초마다 기체 주위에 6초간 얼음 지대를 만듭니다. 0.5초마다 피해 12, 감속 45%."
+    },
+    {
+      "key": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+      "value": "12초마다 기체 주위에 7초간 얼음 지대를 만듭니다. 0.5초마다 피해 16, 감속 55%."
+    },
+    {
+      "key": "Presentes Explosivos",
+      "value": "폭발 선물"
+    },
+    {
+      "key": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+      "value": "11초마다 화면에 보이는 적의 위치에 선물을 놓습니다. 1초 후 폭발해 범위 피해 70를 줍니다."
+    },
+    {
+      "key": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+      "value": "10초마다 화면에 보이는 적의 위치에 선물을 놓습니다. 1초 후 폭발해 범위 피해 105를 줍니다."
+    },
+    {
+      "key": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+      "value": "9초마다 화면에 보이는 적의 위치에 선물을 놓습니다. 1초 후 폭발해 범위 피해 150를 줍니다."
+    },
+    {
+      "key": "Estilhaços de Gelo",
+      "value": "얼음 파편"
+    },
+    {
+      "key": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+      "value": "9초마다 모든 방향으로 얼음 결정 6개를 발사합니다. 관통 피해 20, 감속 15%."
+    },
+    {
+      "key": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+      "value": "8초마다 모든 방향으로 얼음 결정 8개를 발사합니다. 관통 피해 30, 감속 20%."
+    },
+    {
+      "key": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+      "value": "7초마다 모든 방향으로 얼음 결정 10개를 발사합니다. 관통 피해 42, 감속 25%."
+    },
+    {
+      "key": "Nevasca Localizada",
+      "value": "국지 눈보라"
+    },
+    {
+      "key": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+      "value": "18초마다 적의 위치에 최대 2개의 눈보라 지대를 4초간 만듭니다. 0.5초마다 피해 10, 감속 30%."
+    },
+    {
+      "key": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "17초마다 적의 위치에 최대 3개의 눈보라 지대를 5초간 만듭니다. 0.5초마다 피해 15, 감속 35%."
+    },
+    {
+      "key": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+      "value": "16초마다 적의 위치에 최대 4개의 눈보라 지대를 6초간 만듭니다. 0.5초마다 피해 21, 감속 40%."
+    },
+    {
+      "key": "Noel Polar",
+      "value": "폴라 노엘"
+    },
+    {
+      "key": "Listras de bengala doce e um arsenal de inverno.",
+      "value": "캔디케인 무늬와 겨울 무장."
+    },
+    {
+      "key": "Natal: bolas de neve, gelo e presentes explosivos.",
+      "value": "크리스마스: 눈덩이, 얼음, 폭발 선물."
+    },
+    {
+      "key": "Estrela Natalina",
+      "value": "크리스마스 별"
+    },
+    {
+      "key": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "value": "범위 내 적을 표식합니다. 6초 동안 받는 피해가 35% 증가합니다."
+    },
+    {
+      "key": "NATAL",
+      "value": "크리스마스"
+    },
+    {
+      "key": "NOTAS DA VERSÃO",
+      "value": "업데이트 노트"
+    },
+    {
+      "key": "DÚVIDAS, FEEDBACK E BUGS",
+      "value": "질문, 의견 및 버그"
+    },
+    {
+      "key": "FALE COM A EQUIPE",
+      "value": "팀에 문의하기"
+    },
+    {
+      "key": "Escolha o assunto e escreva sua mensagem.",
+      "value": "주제를 선택하고 메시지를 작성하세요."
+    },
+    {
+      "key": "DÚVIDA",
+      "value": "질문"
+    },
+    {
+      "key": "FEEDBACK",
+      "value": "의견"
+    },
+    {
+      "key": "BUG",
+      "value": "버그"
+    },
+    {
+      "key": "Escreva sua mensagem aqui…",
+      "value": "여기에 메시지를 작성하세요…"
+    },
+    {
+      "key": "Inclui versão, plataforma e idioma; não inclui dados da conta.",
+      "value": "버전, 플랫폼, 언어가 포함됩니다. 계정 정보는 포함되지 않습니다."
+    },
+    {
+      "key": "ABRIR E-MAIL",
+      "value": "이메일 열기"
+    },
+    {
+      "key": "COPIAR MENSAGEM",
+      "value": "메시지 복사"
+    },
+    {
+      "key": "Mensagem e contato copiados.",
+      "value": "메시지와 연락처를 복사했습니다."
+    },
+    {
+      "key": "Você revisará e enviará pelo seu aplicativo de e-mail.",
+      "value": "이메일 앱에서 검토한 후 직접 전송합니다."
+    },
+    {
+      "key": "Revise e envie no aplicativo de e-mail. Se não abrir, use Copiar.",
+      "value": "이메일 앱에서 검토하고 전송하세요. 열리지 않으면 복사를 이용하세요."
+    },
+    {
+      "key": "Melhorias e correções nesta versão.",
+      "value": "이번 버전의 개선 및 오류 수정."
+    },
+    {
+      "key": "Novidade: Noel Polar, a nave de Natal com listras vermelhas e brancas.",
+      "value": "신규 기체 폴라 노엘: 빨간색과 흰색 줄무늬의 크리스마스 함선."
+    },
+    {
+      "key": "Seis cartas exclusivas: bolas de neve, círculo de gelo, presentes explosivos, estilhaços e nevasca.",
+      "value": "전용 카드 6종: 눈덩이, 얼음 원, 폭발 선물, 얼음 파편, 눈보라."
+    },
+    {
+      "key": "Estrela Natalina: inimigos marcados recebem 35% mais dano durante 6 segundos.",
+      "value": "크리스마스 별: 표식된 적이 6초 동안 받는 피해가 35% 증가합니다."
+    },
+    {
+      "key": "Novo canal de suporte para dúvidas, sugestões e relatos de bugs.",
+      "value": "질문, 제안, 버그 신고를 위한 새로운 지원 창구."
+    },
+    {
+      "key": "MODOS DE JOGO",
+      "value": "게임 모드"
+    },
+    {
+      "key": "MODO DE JOGO",
+      "value": "게임 모드"
+    },
+    {
+      "key": "CAMPANHA",
+      "value": "캠페인"
+    },
+    {
+      "key": "10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
+      "value": "10개 레벨, 각 레벨 끝에 보스가 있습니다. 기체마다 진행 상황이 별도로 저장됩니다."
+    },
+    {
+      "key": "Pontue destruindo inimigos e vencendo ondas. Os 50 melhores entram no ranking.",
+      "value": "적을 처치하고 웨이브를 클리어하면 점수를 받습니다. 상위 50명이 순위표에 표시됩니다."
+    },
+    {
+      "key": "RECORDE ",
+      "value": "최고 점수 "
+    },
+    {
+      "key": "NÍVEIS",
+      "value": "레벨"
+    },
+    {
+      "key": "RANKING",
+      "value": "순위표"
+    },
+    {
+      "key": "SELECIONADO",
+      "value": "선택됨"
+    },
+    {
+      "key": "BLOQUEADO",
+      "value": "잠김"
+    },
+    {
+      "key": "SEU RECORDE  ",
+      "value": "내 최고 점수  "
+    },
+    {
+      "key": "POSIÇÃO ",
+      "value": "순위 "
+    },
+    {
+      "key": "CARREGANDO...",
+      "value": "불러오는 중..."
+    },
+    {
+      "key": "Ninguém pontuou ainda. Seja o primeiro!",
+      "value": "아직 점수가 없습니다. 첫 번째가 되어 보세요!"
+    },
+    {
+      "key": "Entre no {0} para ver o ranking e enviar seus pontos.",
+      "value": "{0}에 로그인하면 순위표를 보고 점수를 저장할 수 있습니다."
+    },
+    {
+      "key": "ENTRAR",
+      "value": "로그인"
+    },
+    {
+      "key": "Não foi possível carregar o ranking. Verifique a internet.",
+      "value": "순위표를 불러오지 못했습니다. 연결을 확인하세요."
+    },
+    {
+      "key": "O ranking ainda não está disponível nesta versão.",
+      "value": "이 버전에서는 아직 순위표를 사용할 수 없습니다."
+    },
+    {
+      "key": "O ranking funciona no celular, pelo Play Games ou Game Center.",
+      "value": "순위표는 Play Games 또는 Game Center가 있는 기기에서 이용할 수 있습니다."
+    },
+    {
+      "key": "ATUALIZAR",
+      "value": "새로고침"
+    },
+    {
+      "key": "PONTOS ",
+      "value": "점수 "
+    },
+    {
+      "key": "NOVO RECORDE!",
+      "value": "새 최고 점수!"
+    },
+    {
+      "key": "BÔNUS DE EVOLUÇÃO +",
+      "value": "성장 보너스 +"
+    },
+    {
+      "key": "PRÓXIMA CARTA EXCLUSIVA",
+      "value": "다음 전용 카드"
+    },
+    {
+      "key": "FALTAM {0} NÍVEIS",
+      "value": "{0}레벨 남음"
+    },
+    {
+      "key": "FALTA 1 NÍVEL!",
+      "value": "1레벨 남음!"
+    },
+    {
+      "key": "TODAS AS CARTAS DA NAVE LIBERADAS",
+      "value": "기체 카드 모두 해제"
+    },
+    {
+      "key": "NOVA CARTA EXCLUSIVA!",
+      "value": "새 전용 카드!"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas desta nave.",
+      "value": "이제 이 기체의 선택에 나타날 수 있습니다."
+    },
+    {
+      "key": "TOQUE PARA CONTINUAR",
+      "value": "탭하여 계속"
+    },
+    {
+      "key": "NOVA CARTA!",
+      "value": "새 카드!"
+    },
+    {
+      "key": "DECK BASE",
+      "value": "공용 덱"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas de todas as naves.",
+      "value": "이제 모든 기체의 선택에 나타날 수 있습니다."
+    },
+    {
+      "key": "COMPRAR",
+      "value": "구매"
+    },
+    {
+      "key": "AGUARDE",
+      "value": "기다리세요"
+    },
+    {
+      "key": "LOJA INDISPONÍVEL",
+      "value": "스토어를 사용할 수 없음"
+    },
+    {
+      "key": "OFERTA",
+      "value": "특가"
+    },
+    {
+      "key": "A OFERTA ACABA EM ",
+      "value": "특가 종료까지 "
+    },
+    {
+      "key": "OFERTA ENCERRADA",
+      "value": "특가 종료"
+    },
+    {
+      "key": "RECEBIDO!",
+      "value": "지급 완료!"
+    },
+    {
+      "key": "+1000 MINÉRIOS (FROTA COMPLETA)",
+      "value": "+1000 크레딧 (함대 완성)"
+    },
+    {
+      "key": "1 NAVE ALEATÓRIA",
+      "value": "무작위 기체 1대"
+    },
+    {
+      "key": "MINÉRIOS",
+      "value": "크레딧"
+    },
+    {
+      "key": "FECHAR",
+      "value": "닫기"
+    },
+    {
+      "key": "Tudo já está na sua conta.",
+      "value": "모두 계정에 지급되었습니다."
+    },
+    {
+      "key": "Pagamento pendente. O pacote chega após a confirmação.",
+      "value": "결제 보류 중입니다. 확인 후 지급됩니다."
+    },
+    {
+      "key": "Não foi possível consultar a loja.",
+      "value": "스토어에 연결할 수 없습니다."
+    },
+    {
+      "key": "Compra única. Só uma vez por conta.",
+      "value": "1회 한정 구매. 계정당 1회."
+    },
+    {
+      "key": "PASSIVA · ",
+      "value": "패시브 · "
+    },
+    {
+      "key": "CALOR DE FOCO",
+      "value": "집중 열기"
+    },
+    {
+      "key": "Tiros seguidos no mesmo alvo esquentam: até +40% de dano.",
+      "value": "같은 적을 연속 타격하면 피해 최대 +40%."
+    },
+    {
+      "key": "CANHÃO DE IMPACTO",
+      "value": "충격 캐논"
+    },
+    {
+      "key": "Tiros empurram. 3 placas orbitais atiram em quem chegar perto.",
+      "value": "탄이 적을 밀어냅니다. 주위를 도는 판 3개가 가까운 적에게 사격합니다."
+    },
+    {
+      "key": "TIRO DE FASE",
+      "value": "위상 사격"
+    },
+    {
+      "key": "Atravessa, deixa lento e se repete em eco. Alvo lento leva crítico.",
+      "value": "관통하고 둔화 효과를 주며 메아리로 반복됩니다. 둔화된 적은 치명타를 받습니다."
+    },
+    {
+      "key": "SUTURA",
+      "value": "치유 연결"
+    },
+    {
+      "key": "Mira o mais fraco. Abates soltam orbes de cura; o excesso vira escudo.",
+      "value": "가장 약한 적을 노립니다. 처치 시 회복 구슬이 나오고 초과 회복은 보호막이 됩니다."
+    },
+    {
+      "key": "ARTILHARIA DE CERCO",
+      "value": "공성 포격"
+    },
+    {
+      "key": "Mira o mais forte. A cada 5 tiros, um disparo carregado explode.",
+      "value": "가장 강한 적을 노립니다. 5발마다 충전탄이 폭발합니다."
+    },
+    {
+      "key": "Pinheiro Natalino",
+      "value": "크리스마스 트리"
+    },
+    {
+      "key": "Cristal Polar",
+      "value": "극지 수정"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+      "value": "치명적인 피해를 받으면 체력 30%로 부활하고 2초간 무적입니다. 재사용: 전투 시간 60초."
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+      "value": "치명적인 피해를 받으면 체력 45%로 부활하고 2초간 무적이며 적을 밀어냅니다. 재사용: 전투 시간 60초."
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+      "value": "치명적인 피해를 받으면 체력 60%로 부활하고 2초간 무적이며 적을 밀어내고 범위 피해 60을 줍니다. 재사용: 전투 시간 60초."
+    },
+    {
+      "key": "A cada 6 tiros do canhão, o último é crítico garantido.",
+      "value": "대포를 6발 쏠 때마다 마지막 탄환은 확정 치명타가 됩니다."
+    },
+    {
+      "key": "A cada 5 tiros do canhão, o último é crítico garantido.",
+      "value": "대포를 5발 쏠 때마다 마지막 탄환은 확정 치명타가 됩니다."
+    },
+    {
+      "key": "A cada 4 tiros do canhão, o último é crítico garantido.",
+      "value": "대포를 4발 쏠 때마다 마지막 탄환은 확정 치명타가 됩니다."
+    },
+    {
+      "key": "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+      "value": "Astro Blitz에 오신 것을 환영합니다! 출시부터 함께해 주셔서 감사합니다."
+    },
+    {
+      "key": "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+      "value": "개성 있는 함선을 조종하고, 레벨마다 강화를 고르고, 10개 스테이지에서 이상 코어를 물리치세요."
+    },
+    {
+      "key": "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+      "value": "이것은 첫 번째 버전일 뿐입니다. 게임을 더 좋게 만들기 위해 매주 업데이트할 예정입니다."
+    },
+    {
+      "key": "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo.",
+      "value": "질문, 아이디어, 버그가 있나요? 아래 버튼으로 팀에 알려 주세요."
+    },
+    {
+      "key": "Compra única e permanente. Sem anúncios e recompensas sem vídeo.",
+      "value": "영구 구매 1회. 광고 없이, 동영상 없이 보상 받기."
+    },
+    {
+      "key": "NAVES",
+      "value": "함선"
+    }
+  ]
+}

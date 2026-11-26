@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 36487fa6a5984d3a80bc98eca8a2b9e6
+PluginImporter:
+  serializedVersion: 2
+  isPreloaded: 0
+  isExplicitlyReferenced: 0
+  platformData:
+  - first:
+      Any:
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+        OS: AnyOS
+  - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      iPhone: iOS
+    second:
+      enabled: 1
+      settings: {}
+  userData: Official Google Mobile Ads 11.5.0 - Editor and supported mobile platforms
+  assetBundleName:
+  assetBundleVariant:

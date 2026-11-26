@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_temporal_rift
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: temporal_rift
+    name: "Fenda de Lentidão"
+    description: "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de
+      lentid\xE3o por 3s e 10 de dano."
+    evolvedName: "Fenda de Lentidão"
+    evolvedDescription: "A cada 8s, fenda maior: 60% de lentid\xE3o por 4s e 16 de
+      dano."
+    maxName: "Fenda de Lentidão"
+    maxDescription: "A cada 7s, fenda m\xE1xima: 70% de lentid\xE3o por 5s e 24 de
+      dano."
+    category: 3
+    effect: 39
+    tint: B274FF
+    starter: 0
+    unlockLevel: 10
+    baseParams:
+      entries:
+      - key: cooldown
+        value: 9
+      - key: radius
+        value: 110
+      - key: slow
+        value: 0.5
+      - key: slowDuration
+        value: 3
+      - key: damage
+        value: 10
+    evolvedParams:
+      entries:
+      - key: cooldown
+        value: 8
+      - key: radius
+        value: 130
+      - key: slow
+        value: 0.6
+      - key: slowDuration
+        value: 4
+      - key: damage
+        value: 16
+    maxParams:
+      entries:
+      - key: cooldown
+        value: 7
+      - key: radius
+        value: 150
+      - key: slow
+        value: 0.7
+      - key: slowDuration
+        value: 5
+      - key: damage
+        value: 24

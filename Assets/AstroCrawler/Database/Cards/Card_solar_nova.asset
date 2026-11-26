@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_solar_nova
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: solar_nova
+    name: "Explosão Periódica"
+    description: "A cada 7s, uma onda de energia atinge os inimigos pr\xF3ximos:
+      20 de dano."
+    evolvedName: "Explosão Periódica"
+    evolvedDescription: 'A cada 6s, uma onda maior: 32 de dano.'
+    maxName: "Explosão Periódica"
+    maxDescription: 'A cada 5s, uma onda ainda maior: 48 de dano.'
+    category: 0
+    effect: 28
+    tint: 3A6EA5
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: cooldown
+        value: 7
+      - key: damage
+        value: 20
+      - key: radius
+        value: 150
+    evolvedParams:
+      entries:
+      - key: cooldown
+        value: 6
+      - key: damage
+        value: 32
+      - key: radius
+        value: 175
+    maxParams:
+      entries:
+      - key: cooldown
+        value: 5
+      - key: damage
+        value: 48
+      - key: radius
+        value: 205

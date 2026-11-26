@@ -1,0 +1,8 @@
+# Pontes Java chamadas pelo C# via JNI (AndroidJavaObject/AndroidJavaClass): nomes e membros não podem mudar.
+-keep class com.astrocrawler.** { *; }
+-keepclassmembers class com.astrocrawler.** { *; }
+# Preserva anotações e assinaturas genéricas usadas por Billing, Play Games e Firebase.
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod
+# Linhas legíveis nos stack traces do Play Console (mapping.txt).
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile

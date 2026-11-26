@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 20508ae67ca581a45971d80ce9ad36dc
+timeCreated: 1480555092
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/Aot/Editor/fsAotConfigurationEditor.cs
+  uploadId: 957878

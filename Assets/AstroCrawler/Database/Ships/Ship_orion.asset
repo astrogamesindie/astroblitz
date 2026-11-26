@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586efcd7dd84a143ab9f9dc2c896cca, type: 3}
+  m_Name: Ship_orion
+  m_EditorClassIdentifier: 
+  definition:
+    id: orion
+    name: Orion
+    tagline: "Canh\xF5es pesados: cada disparo precisa contar."
+    identity: 'Artilharia: raios em cadeia, disparos de cerco e dano extra contra
+      chefes.'
+    special:
+      kind: 5
+      name: "Amplifica\xE7\xE3o de dano"
+      nameEn: Damage amplification
+      nameEs: "Amplificaci\xF3n de da\xF1o"
+      description: "Dobra o dano do canh\xE3o por 5s."
+      descriptionEn: Double cannon damage for 5s.
+      descriptionEs: "Duplica el da\xF1o del ca\xF1\xF3n durante 5s."
+      cooldown: 28
+      duration: 5
+      damageScale: 2
+      fireRateScale: 1
+      healFraction: 0
+    maxHp: 125
+    fireInterval: 0.48
+    damagePerShot: 16
+    baseProjectiles: 1
+    tint: FFC857
+    deck:
+    - cardId: siege_round
+    - cardId: chain_lightning
+    - cardId: boss_hunter
+    - cardId: railgun
+    - cardId: target_mark
+    - cardId: resonance

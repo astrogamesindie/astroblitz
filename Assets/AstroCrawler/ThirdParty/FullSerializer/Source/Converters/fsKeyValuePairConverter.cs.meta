@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6208cfecdf1374c4b847c6f0b1d555fe
+timeCreated: 1451205257
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/Converters/fsKeyValuePairConverter.cs
+  uploadId: 957878

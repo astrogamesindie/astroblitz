@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_overdrive_fury
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: overdrive_fury
+    name: "Dano na Sobrecarga"
+    description: "Durante a Sobrecarga ofensiva, o canh\xE3o causa +25% de dano."
+    evolvedName: "Dano na Sobrecarga"
+    evolvedDescription: +40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.
+    maxName: "Dano na Sobrecarga"
+    maxDescription: +60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.
+    category: 1
+    effect: 35
+    tint: FF6B4A
+    starter: 0
+    unlockLevel: 60
+    baseParams:
+      entries:
+      - key: damageBonus
+        value: 0.25
+      - key: killExtend
+        value: 0
+      - key: maxExtend
+        value: 4
+      - key: duration
+        value: 10
+    evolvedParams:
+      entries:
+      - key: damageBonus
+        value: 0.4
+      - key: killExtend
+        value: 0.2
+    maxParams:
+      entries:
+      - key: damageBonus
+        value: 0.6
+      - key: killExtend
+        value: 0.3

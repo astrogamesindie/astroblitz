@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 13d9316ed30c02f49aa6996e4b1720b8
+timeCreated: 1536155272
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/Demo/Fonts/FontsLicense.txt
+  uploadId: 957878

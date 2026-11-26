@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_black_hole
+  m_EditorClassIdentifier: 
+  definition:
+    id: black_hole
+    name: "Buraco Negro"
+    description: Cria um buraco negro de 6s sobre os inimigos no alcance, a cada
+      16s.
+    evolvedName: "Buraco Negro"
+    evolvedDescription: Cria um buraco negro maior de 9s que explode ao final, a
+      cada 16s.
+    maxName: "Buraco Negro"
+    maxDescription: "Cria um buraco negro enorme de 10s que explode com for\xE7a
+      ao final, a cada 14s."
+    category: 0
+    effect: 3
+    tint: 3A6EA5
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: radius
+        value: 150
+      - key: duration
+        value: 6
+      - key: dps
+        value: 18
+      - key: pull
+        value: 1.8
+      - key: collapseDamage
+        value: 0
+      - key: cooldown
+        value: 16
+    evolvedParams:
+      entries:
+      - key: radius
+        value: 220
+      - key: duration
+        value: 9
+      - key: dps
+        value: 24
+      - key: pull
+        value: 2.2
+      - key: collapseDamage
+        value: 100
+      - key: cooldown
+        value: 16
+    maxParams:
+      entries:
+      - key: radius
+        value: 280
+      - key: duration
+        value: 10
+      - key: dps
+        value: 30
+      - key: pull
+        value: 2.6
+      - key: collapseDamage
+        value: 160
+      - key: cooldown
+        value: 14

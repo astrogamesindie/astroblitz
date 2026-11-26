@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_orbital_blades
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: orbital_blades
+    name: "Lâminas Orbitais"
+    description: "Duas l\xE2minas orbitam a nave e cortam os inimigos que encostam:
+      10 de dano por corte."
+    evolvedName: "Lâminas Orbitais"
+    evolvedDescription: "Tr\xEAs l\xE2minas orbitam a nave: 14 de dano por corte."
+    maxName: "Lâminas Orbitais"
+    maxDescription: "Quatro l\xE2minas numa \xF3rbita mais larga: 18 de dano por
+      corte."
+    category: 0
+    effect: 24
+    tint: 3A6EA5
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: blades
+        value: 2
+      - key: damage
+        value: 10
+      - key: orbit
+        value: 100
+      - key: spin
+        value: 220
+      - key: hitInterval
+        value: 0.45
+      - key: duration
+        value: 10
+    evolvedParams:
+      entries:
+      - key: blades
+        value: 3
+      - key: damage
+        value: 14
+      - key: orbit
+        value: 105
+    maxParams:
+      entries:
+      - key: blades
+        value: 4
+      - key: damage
+        value: 18
+      - key: orbit
+        value: 120

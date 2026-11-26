@@ -1,0 +1,3111 @@
+[
+  {
+    "id": "double_attack",
+    "name": "Tiros Extras",
+    "description": "Dobra permanentemente o número de projéteis disparados pela nave.",
+    "evolvedName": "Tiros Extras",
+    "evolvedDescription": "Triplica permanentemente os projéteis disparados pela nave.",
+    "category": "Common",
+    "effect": "DoubleAttack",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "projectiles",
+          "value": 2
+        },
+        {
+          "key": "duration",
+          "value": 8
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "projectiles",
+          "value": 3
+        },
+        {
+          "key": "duration",
+          "value": 12
+        }
+      ]
+    },
+    "maxName": "Tiros Extras",
+    "maxDescription": "Dispara 4 projéteis em paralelo, permanentemente.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "projectiles",
+          "value": 4
+        },
+        {
+          "key": "duration",
+          "value": 12
+        }
+      ]
+    },
+    "starter": true
+  },
+  {
+    "id": "shield",
+    "name": "Escudo Recarregável",
+    "description": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+    "evolvedName": "Escudo Recarregável",
+    "evolvedDescription": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+    "category": "Common",
+    "effect": "Shield",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "charges",
+          "value": 1
+        },
+        {
+          "key": "duration",
+          "value": 15
+        },
+        {
+          "key": "cooldown",
+          "value": 15
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "charges",
+          "value": 2
+        },
+        {
+          "key": "duration",
+          "value": 20
+        },
+        {
+          "key": "cooldown",
+          "value": 15
+        }
+      ]
+    },
+    "maxName": "Escudo Recarregável",
+    "maxDescription": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "charges",
+          "value": 3
+        },
+        {
+          "key": "duration",
+          "value": 20
+        },
+        {
+          "key": "cooldown",
+          "value": 12
+        }
+      ]
+    },
+    "starter": true
+  },
+  {
+    "id": "missiles",
+    "name": "Mísseis Teleguiados",
+    "description": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+    "evolvedName": "Mísseis Teleguiados",
+    "evolvedDescription": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+    "category": "Common",
+    "effect": "Missiles",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "count",
+          "value": 2
+        },
+        {
+          "key": "fireInterval",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 25
+        },
+        {
+          "key": "splashRadius",
+          "value": 0
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "count",
+          "value": 3
+        },
+        {
+          "key": "fireInterval",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 34
+        },
+        {
+          "key": "splashRadius",
+          "value": 90
+        }
+      ]
+    },
+    "maxName": "Mísseis Teleguiados",
+    "maxDescription": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "count",
+          "value": 4
+        },
+        {
+          "key": "fireInterval",
+          "value": 5
+        },
+        {
+          "key": "damage",
+          "value": 36
+        },
+        {
+          "key": "splashRadius",
+          "value": 100
+        }
+      ]
+    },
+    "starter": false
+  },
+  {
+    "id": "black_hole",
+    "name": "Buraco Negro",
+    "description": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+    "evolvedName": "Buraco Negro",
+    "evolvedDescription": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+    "category": "Common",
+    "effect": "BlackHole",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 150
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "dps",
+          "value": 18
+        },
+        {
+          "key": "pull",
+          "value": 1.8
+        },
+        {
+          "key": "collapseDamage",
+          "value": 0
+        },
+        {
+          "key": "cooldown",
+          "value": 16
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 220
+        },
+        {
+          "key": "duration",
+          "value": 9
+        },
+        {
+          "key": "dps",
+          "value": 24
+        },
+        {
+          "key": "pull",
+          "value": 2.2
+        },
+        {
+          "key": "collapseDamage",
+          "value": 100
+        },
+        {
+          "key": "cooldown",
+          "value": 16
+        }
+      ]
+    },
+    "maxName": "Buraco Negro",
+    "maxDescription": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 280
+        },
+        {
+          "key": "duration",
+          "value": 10
+        },
+        {
+          "key": "dps",
+          "value": 30
+        },
+        {
+          "key": "pull",
+          "value": 2.6
+        },
+        {
+          "key": "collapseDamage",
+          "value": 160
+        },
+        {
+          "key": "cooldown",
+          "value": 14
+        }
+      ]
+    },
+    "starter": false
+  },
+  {
+    "id": "piercing_shot",
+    "name": "Tiros Perfurantes",
+    "description": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+    "evolvedName": "Tiros Perfurantes",
+    "evolvedDescription": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+    "category": "Common",
+    "effect": "PiercingShot",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 8
+        },
+        {
+          "key": "permanent",
+          "value": 0
+        },
+        {
+          "key": "damageBonus",
+          "value": 0
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 8
+        },
+        {
+          "key": "permanent",
+          "value": 1
+        },
+        {
+          "key": "damageBonus",
+          "value": 0.2
+        }
+      ]
+    },
+    "maxName": "Tiros Perfurantes",
+    "maxDescription": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 8
+        },
+        {
+          "key": "permanent",
+          "value": 1
+        },
+        {
+          "key": "damageBonus",
+          "value": 0.25
+        }
+      ]
+    },
+    "starter": false
+  },
+  {
+    "id": "engine_overload",
+    "name": "Cadência Aumentada",
+    "description": "Aumenta permanentemente a cadência de tiro em +30%.",
+    "evolvedName": "Cadência Aumentada",
+    "evolvedDescription": "Aumenta permanentemente a cadência de tiro em +60%.",
+    "category": "Common",
+    "effect": "EngineOverload",
+    "tint": "3A6EA5",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "fireRateBonus",
+          "value": 0.3
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "fireRateBonus",
+          "value": 0.6
+        },
+        {
+          "key": "duration",
+          "value": 14
+        }
+      ]
+    },
+    "maxName": "Cadência Aumentada",
+    "maxDescription": "Aumenta permanentemente a cadência de tiro em +85%.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "fireRateBonus",
+          "value": 0.85
+        },
+        {
+          "key": "duration",
+          "value": 14
+        }
+      ]
+    },
+    "starter": true
+  },
+  {
+    "id": "impact_charge",
+    "name": "Mísseis ao Curar",
+    "description": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+    "evolvedName": "Mísseis ao Curar",
+    "evolvedDescription": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+    "category": "Aurora",
+    "effect": "ImpactCharge",
+    "tint": "FF87C8",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "missiles",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 12
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "missiles",
+          "value": 8
+        },
+        {
+          "key": "damage",
+          "value": 18
+        }
+      ]
+    },
+    "maxName": "Mísseis ao Curar",
+    "maxDescription": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "missiles",
+          "value": 10
+        },
+        {
+          "key": "damage",
+          "value": 24
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "wild_volley",
+    "name": "Chance Crítica",
+    "description": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+    "evolvedName": "Chance Crítica",
+    "evolvedDescription": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+    "category": "Vanguard",
+    "effect": "WildVolley",
+    "tint": "FF6B4A",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "critChance",
+          "value": 0.12
+        },
+        {
+          "key": "duration",
+          "value": 8
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "critChance",
+          "value": 0.25
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "maxName": "Chance Crítica",
+    "maxDescription": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "critChance",
+          "value": 0.32
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "battle_fury",
+    "name": "Cura por Abate",
+    "description": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+    "evolvedName": "Cura por Abate",
+    "evolvedDescription": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+    "category": "Vanguard",
+    "effect": "BattleFury",
+    "tint": "FF6B4A",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 10
+        },
+        {
+          "key": "returnCards",
+          "value": 1
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 15
+        },
+        {
+          "key": "returnCards",
+          "value": 2
+        }
+      ]
+    },
+    "maxName": "Cura por Abate",
+    "maxDescription": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "duration",
+          "value": 15
+        },
+        {
+          "key": "returnCards",
+          "value": 3
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "repulsion_field",
+    "name": "Repulsão Periódica",
+    "description": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+    "evolvedName": "Repulsão Periódica",
+    "evolvedDescription": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+    "category": "Bastion",
+    "effect": "RepulsionField",
+    "tint": "5BD6A0",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 120
+        },
+        {
+          "key": "push",
+          "value": 3.5
+        },
+        {
+          "key": "slow",
+          "value": 0
+        },
+        {
+          "key": "slowDuration",
+          "value": 0
+        },
+        {
+          "key": "cooldown",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 180
+        },
+        {
+          "key": "push",
+          "value": 4.5
+        },
+        {
+          "key": "slow",
+          "value": 0.3
+        },
+        {
+          "key": "slowDuration",
+          "value": 3
+        },
+        {
+          "key": "cooldown",
+          "value": 8
+        }
+      ]
+    },
+    "maxName": "Repulsão Periódica",
+    "maxDescription": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 260
+        },
+        {
+          "key": "push",
+          "value": 5.5
+        },
+        {
+          "key": "slow",
+          "value": 0.5
+        },
+        {
+          "key": "slowDuration",
+          "value": 4
+        },
+        {
+          "key": "cooldown",
+          "value": 6
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "emergency_repair",
+    "name": "Cura Periódica",
+    "description": "Restaura 20% do HP máximo a cada 20s de combate.",
+    "evolvedName": "Cura Periódica",
+    "evolvedDescription": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+    "category": "Aurora",
+    "effect": "EmergencyRepair",
+    "tint": "FF87C8",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "healPercent",
+          "value": 0.2
+        },
+        {
+          "key": "extraShield",
+          "value": 0
+        },
+        {
+          "key": "shieldDuration",
+          "value": 0
+        },
+        {
+          "key": "cooldown",
+          "value": 20
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "healPercent",
+          "value": 0.3
+        },
+        {
+          "key": "extraShield",
+          "value": 1
+        },
+        {
+          "key": "shieldDuration",
+          "value": 5
+        },
+        {
+          "key": "cooldown",
+          "value": 18
+        }
+      ]
+    },
+    "maxName": "Cura Periódica",
+    "maxDescription": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "healPercent",
+          "value": 0.4
+        },
+        {
+          "key": "extraShield",
+          "value": 2
+        },
+        {
+          "key": "shieldDuration",
+          "value": 5
+        },
+        {
+          "key": "cooldown",
+          "value": 15
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "debris_wall",
+    "name": "Barreira de Destroços",
+    "description": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+    "evolvedName": "Barreira de Destroços",
+    "evolvedDescription": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+    "category": "Bastion",
+    "effect": "DebrisWall",
+    "tint": "5BD6A0",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "hp",
+          "value": 10
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "size",
+          "value": 1.1
+        },
+        {
+          "key": "distance",
+          "value": 2.4
+        },
+        {
+          "key": "cooldown",
+          "value": 12
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "hp",
+          "value": 25
+        },
+        {
+          "key": "duration",
+          "value": 9
+        },
+        {
+          "key": "size",
+          "value": 1.35
+        },
+        {
+          "key": "distance",
+          "value": 2.4
+        },
+        {
+          "key": "cooldown",
+          "value": 12
+        }
+      ]
+    },
+    "maxName": "Barreira de Destroços",
+    "maxDescription": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "hp",
+          "value": 45
+        },
+        {
+          "key": "duration",
+          "value": 12
+        },
+        {
+          "key": "size",
+          "value": 1.6
+        },
+        {
+          "key": "distance",
+          "value": 2.4
+        },
+        {
+          "key": "cooldown",
+          "value": 10
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "siege_round",
+    "name": "Tiro Explosivo",
+    "description": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+    "evolvedName": "Tiro Explosivo",
+    "evolvedDescription": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+    "category": "Orion",
+    "effect": "SiegeRound",
+    "tint": "FFC857",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 8
+        },
+        {
+          "key": "explosionDamage",
+          "value": 40
+        },
+        {
+          "key": "explosionRadius",
+          "value": 100
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 6
+        },
+        {
+          "key": "explosionDamage",
+          "value": 65
+        },
+        {
+          "key": "explosionRadius",
+          "value": 120
+        }
+      ]
+    },
+    "maxName": "Tiro Explosivo",
+    "maxDescription": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 4
+        },
+        {
+          "key": "explosionDamage",
+          "value": 90
+        },
+        {
+          "key": "explosionRadius",
+          "value": 150
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "critical_pulse",
+    "name": "Crítico Garantido",
+    "description": "A cada 6 tiros do canhão, o último é crítico garantido.",
+    "evolvedName": "Crítico Garantido",
+    "evolvedDescription": "A cada 5 tiros do canhão, o último é crítico garantido.",
+    "category": "Spectre",
+    "effect": "GuaranteedCritical",
+    "tint": "B274FF",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "shots",
+          "value": 6
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "shots",
+          "value": 5
+        }
+      ]
+    },
+    "maxName": "Crítico Garantido",
+    "maxDescription": "A cada 4 tiros do canhão, o último é crítico garantido.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "shots",
+          "value": 4
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "temporal_distortion",
+    "name": "Lentidão Global",
+    "description": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+    "evolvedName": "Lentidão Global",
+    "evolvedDescription": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+    "category": "Spectre",
+    "effect": "TemporalDistortion",
+    "tint": "B274FF",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "slow",
+          "value": 0.1
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "slow",
+          "value": 0.2
+        }
+      ]
+    },
+    "maxName": "Lentidão Global",
+    "maxDescription": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "slow",
+          "value": 0.3
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "temporal_paralysis",
+    "name": "Paralisia por Vida Baixa",
+    "description": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+    "evolvedName": "Paralisia por Vida Baixa",
+    "evolvedDescription": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+    "maxName": "Paralisia por Vida Baixa",
+    "maxDescription": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+    "category": "Spectre",
+    "effect": "TemporalParalysis",
+    "tint": "B274FF",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "paralyzeThreshold",
+          "value": 0.05
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "paralyzeThreshold",
+          "value": 0.1
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "paralyzeThreshold",
+          "value": 0.2
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "chain_lightning",
+    "name": "Raios em Cadeia",
+    "description": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+    "evolvedName": "Raios em Cadeia",
+    "evolvedDescription": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+    "category": "Orion",
+    "effect": "ChainLightning",
+    "tint": "FFC857",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "jumps",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 12
+        },
+        {
+          "key": "jumpRadius",
+          "value": 150
+        },
+        {
+          "key": "cooldown",
+          "value": 3
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "jumps",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 18
+        },
+        {
+          "key": "jumpRadius",
+          "value": 170
+        },
+        {
+          "key": "cooldown",
+          "value": 2.5
+        }
+      ]
+    },
+    "maxName": "Raios em Cadeia",
+    "maxDescription": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "jumps",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 25
+        },
+        {
+          "key": "jumpRadius",
+          "value": 190
+        },
+        {
+          "key": "cooldown",
+          "value": 2
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "support_drones",
+    "name": "Drones Atiradores",
+    "description": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+    "evolvedName": "Drones Atiradores",
+    "evolvedDescription": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+    "category": "Aurora",
+    "effect": "SupportDrones",
+    "tint": "FF87C8",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "drones",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 5
+        },
+        {
+          "key": "fireInterval",
+          "value": 1.2
+        },
+        {
+          "key": "duration",
+          "value": 12
+        },
+        {
+          "key": "cooldown",
+          "value": 22
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "drones",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 7
+        },
+        {
+          "key": "fireInterval",
+          "value": 1
+        },
+        {
+          "key": "duration",
+          "value": 15
+        },
+        {
+          "key": "cooldown",
+          "value": 22
+        }
+      ]
+    },
+    "maxName": "Drones Atiradores",
+    "maxDescription": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "drones",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 8
+        },
+        {
+          "key": "fireInterval",
+          "value": 0.9
+        },
+        {
+          "key": "duration",
+          "value": 18
+        },
+        {
+          "key": "cooldown",
+          "value": 20
+        }
+      ]
+    },
+    "unlockLevel": 0
+  },
+  {
+    "id": "overdrive_recharge",
+    "category": "Vanguard",
+    "effect": "SpecialCooldown",
+    "name": "Sobrecarga Mais Rápida",
+    "description": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.15
+        }
+      ]
+    },
+    "evolvedName": "Sobrecarga Mais Rápida",
+    "evolvedDescription": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.25
+        }
+      ]
+    },
+    "maxName": "Sobrecarga Mais Rápida",
+    "maxDescription": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.35
+        }
+      ]
+    },
+    "tint": "FF6B4A",
+    "unlockLevel": 0
+  },
+  {
+    "id": "armor_plating",
+    "category": "Bastion",
+    "effect": "ArmorPlating",
+    "name": "Redução de Dano",
+    "description": "Reduz em 10% todo o dano recebido durante a run.",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "damageReduction",
+          "value": 0.1
+        }
+      ]
+    },
+    "evolvedName": "Redução de Dano",
+    "evolvedDescription": "Reduz em 18% todo o dano recebido durante a run.",
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damageReduction",
+          "value": 0.18
+        }
+      ]
+    },
+    "maxName": "Redução de Dano",
+    "maxDescription": "Reduz em 25% todo o dano recebido durante a run.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "damageReduction",
+          "value": 0.25
+        }
+      ]
+    },
+    "tint": "5BD6A0",
+    "unlockLevel": 0
+  },
+  {
+    "id": "boss_hunter",
+    "category": "Orion",
+    "effect": "BossHunter",
+    "name": "Dano contra Chefes",
+    "description": "Disparos do canhão mirados no chefe causam +25% de dano.",
+    "baseParams": {
+      "entries": [
+        {
+          "key": "bossDamageBonus",
+          "value": 0.25
+        }
+      ]
+    },
+    "evolvedName": "Dano contra Chefes",
+    "evolvedDescription": "Disparos do canhão mirados no chefe causam +40% de dano.",
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "bossDamageBonus",
+          "value": 0.4
+        }
+      ]
+    },
+    "maxName": "Dano contra Chefes",
+    "maxDescription": "Disparos do canhão mirados no chefe causam +60% de dano.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "bossDamageBonus",
+          "value": 0.6
+        }
+      ]
+    },
+    "tint": "FFC857",
+    "unlockLevel": 0
+  },
+  {
+    "id": "orbital_blades",
+    "name": "Lâminas Orbitais",
+    "description": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+    "evolvedName": "Lâminas Orbitais",
+    "evolvedDescription": "Três lâminas orbitam a nave: 14 de dano por corte.",
+    "category": "Common",
+    "effect": "OrbitalBlades",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "blades",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 10
+        },
+        {
+          "key": "orbit",
+          "value": 100
+        },
+        {
+          "key": "spin",
+          "value": 220
+        },
+        {
+          "key": "hitInterval",
+          "value": 0.45
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "blades",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 14
+        },
+        {
+          "key": "orbit",
+          "value": 105
+        }
+      ]
+    },
+    "maxName": "Lâminas Orbitais",
+    "maxDescription": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "blades",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 18
+        },
+        {
+          "key": "orbit",
+          "value": 120
+        }
+      ]
+    }
+  },
+  {
+    "id": "shrapnel",
+    "name": "Estilhaços por Abate",
+    "description": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+    "evolvedName": "Estilhaços por Abate",
+    "evolvedDescription": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+    "category": "Common",
+    "effect": "Shrapnel",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "fragments",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 6
+        },
+        {
+          "key": "interval",
+          "value": 0.12
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "fragments",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 9
+        }
+      ]
+    },
+    "maxName": "Estilhaços por Abate",
+    "maxDescription": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "fragments",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "diagonal_shot",
+    "name": "Tiros Diagonais",
+    "description": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+    "evolvedName": "Tiros Diagonais",
+    "evolvedDescription": "Os 2 tiros em diagonal causam 75% do dano.",
+    "category": "Common",
+    "effect": "DiagonalShot",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "pairs",
+          "value": 1
+        },
+        {
+          "key": "angle",
+          "value": 25
+        },
+        {
+          "key": "damageScale",
+          "value": 0.5
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damageScale",
+          "value": 0.75
+        }
+      ]
+    },
+    "maxName": "Tiros Diagonais",
+    "maxDescription": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "pairs",
+          "value": 2
+        },
+        {
+          "key": "damageScale",
+          "value": 0.75
+        }
+      ]
+    }
+  },
+  {
+    "id": "plasma_aura",
+    "name": "Aura de Dano",
+    "description": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+    "evolvedName": "Aura de Dano",
+    "evolvedDescription": "Aura maior: 12 de dano por segundo.",
+    "category": "Common",
+    "effect": "PlasmaAura",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 100
+        },
+        {
+          "key": "dps",
+          "value": 8
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 120
+        },
+        {
+          "key": "dps",
+          "value": 12
+        }
+      ]
+    },
+    "maxName": "Aura de Dano",
+    "maxDescription": "Aura máxima: 18 de dano por segundo.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "radius",
+          "value": 145
+        },
+        {
+          "key": "dps",
+          "value": 18
+        }
+      ]
+    }
+  },
+  {
+    "id": "solar_nova",
+    "name": "Explosão Periódica",
+    "description": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+    "evolvedName": "Explosão Periódica",
+    "evolvedDescription": "A cada 6s, uma onda maior: 32 de dano.",
+    "category": "Common",
+    "effect": "SolarNova",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 7
+        },
+        {
+          "key": "damage",
+          "value": 20
+        },
+        {
+          "key": "radius",
+          "value": 150
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 32
+        },
+        {
+          "key": "radius",
+          "value": 175
+        }
+      ]
+    },
+    "maxName": "Explosão Periódica",
+    "maxDescription": "A cada 5s, uma onda ainda maior: 48 de dano.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 5
+        },
+        {
+          "key": "damage",
+          "value": 48
+        },
+        {
+          "key": "radius",
+          "value": 205
+        }
+      ]
+    }
+  },
+  {
+    "id": "orbital_strike",
+    "name": "Bombardeio por Satélite",
+    "description": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+    "evolvedName": "Bombardeio por Satélite",
+    "evolvedDescription": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+    "category": "Common",
+    "effect": "OrbitalStrike",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 5
+        },
+        {
+          "key": "targets",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 22
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 4.5
+        },
+        {
+          "key": "targets",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 28
+        }
+      ]
+    },
+    "maxName": "Bombardeio por Satélite",
+    "maxDescription": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 4
+        },
+        {
+          "key": "targets",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 36
+        }
+      ]
+    }
+  },
+  {
+    "id": "gravity_magnet",
+    "name": "Bônus de XP",
+    "description": "Ganha 15% a mais de XP.",
+    "evolvedName": "Bônus de XP",
+    "evolvedDescription": "Ganha 30% a mais de XP.",
+    "category": "Common",
+    "effect": "GravityMagnet",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "xpBonus",
+          "value": 0.15
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "xpBonus",
+          "value": 0.3
+        }
+      ]
+    },
+    "maxName": "Bônus de XP",
+    "maxDescription": "Ganha 50% a mais de XP.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "xpBonus",
+          "value": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "id": "nano_repair",
+    "name": "Regeneração de Vida",
+    "description": "Recupera 0,4% do HP máximo por segundo.",
+    "evolvedName": "Regeneração de Vida",
+    "evolvedDescription": "Recupera 0,7% do HP máximo por segundo.",
+    "category": "Common",
+    "effect": "NanoRepair",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "regen",
+          "value": 0.004
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "regen",
+          "value": 0.007
+        }
+      ]
+    },
+    "maxName": "Regeneração de Vida",
+    "maxDescription": "Recupera 1% do HP máximo por segundo.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "regen",
+          "value": 0.01
+        }
+      ]
+    }
+  },
+  {
+    "id": "phoenix_core",
+    "name": "Reviver",
+    "description": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+    "evolvedName": "Reviver",
+    "evolvedDescription": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+    "category": "Common",
+    "effect": "PhoenixCore",
+    "tint": "3A6EA5",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "reviveHp",
+          "value": 0.3
+        },
+        {
+          "key": "push",
+          "value": 0
+        },
+        {
+          "key": "blastDamage",
+          "value": 0
+        },
+        {
+          "key": "rearm",
+          "value": 60
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "reviveHp",
+          "value": 0.45
+        },
+        {
+          "key": "push",
+          "value": 4
+        }
+      ]
+    },
+    "maxName": "Reviver",
+    "maxDescription": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "reviveHp",
+          "value": 0.6
+        },
+        {
+          "key": "push",
+          "value": 5
+        },
+        {
+          "key": "blastDamage",
+          "value": 60
+        }
+      ]
+    }
+  },
+  {
+    "id": "adrenaline",
+    "name": "Cadência por Abate",
+    "description": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+    "evolvedName": "Cadência por Abate",
+    "evolvedDescription": "+5% de cadência por abate, acumulando até 6 vezes.",
+    "category": "Vanguard",
+    "effect": "KillStreak",
+    "tint": "FF6B4A",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 0.04
+        },
+        {
+          "key": "maxStacks",
+          "value": 5
+        },
+        {
+          "key": "stackDuration",
+          "value": 3
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 0.05
+        },
+        {
+          "key": "maxStacks",
+          "value": 6
+        }
+      ]
+    },
+    "maxName": "Cadência por Abate",
+    "maxDescription": "+6% de cadência por abate, acumulando até 8 vezes.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 0.06
+        },
+        {
+          "key": "maxStacks",
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "executioner",
+    "name": "Execução por Vida Baixa",
+    "description": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+    "evolvedName": "Execução por Vida Baixa",
+    "evolvedDescription": "Destroem na hora inimigos com até 18% do HP.",
+    "category": "Vanguard",
+    "effect": "Execution",
+    "tint": "FF6B4A",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.12
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.18
+        }
+      ]
+    },
+    "maxName": "Execução por Vida Baixa",
+    "maxDescription": "Destroem na hora inimigos com até 25% do HP.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.25
+        }
+      ]
+    }
+  },
+  {
+    "id": "overdrive_fury",
+    "name": "Dano na Sobrecarga",
+    "description": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+    "evolvedName": "Dano na Sobrecarga",
+    "evolvedDescription": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+    "category": "Vanguard",
+    "effect": "OverdriveFury",
+    "tint": "FF6B4A",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "damageBonus",
+          "value": 0.25
+        },
+        {
+          "key": "killExtend",
+          "value": 0
+        },
+        {
+          "key": "maxExtend",
+          "value": 4
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damageBonus",
+          "value": 0.4
+        },
+        {
+          "key": "killExtend",
+          "value": 0.2
+        }
+      ]
+    },
+    "maxName": "Dano na Sobrecarga",
+    "maxDescription": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "damageBonus",
+          "value": 0.6
+        },
+        {
+          "key": "killExtend",
+          "value": 0.3
+        }
+      ]
+    }
+  },
+  {
+    "id": "thorn_hull",
+    "name": "Espinhos ao Colidir",
+    "description": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+    "evolvedName": "Espinhos ao Colidir",
+    "evolvedDescription": "Os espinhos causam 35 de dano numa área maior.",
+    "category": "Bastion",
+    "effect": "Thorns",
+    "tint": "5BD6A0",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 20
+        },
+        {
+          "key": "radius",
+          "value": 110
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 35
+        },
+        {
+          "key": "radius",
+          "value": 135
+        }
+      ]
+    },
+    "maxName": "Espinhos ao Colidir",
+    "maxDescription": "Os espinhos causam 55 de dano numa área ainda maior.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 55
+        },
+        {
+          "key": "radius",
+          "value": 160
+        }
+      ]
+    }
+  },
+  {
+    "id": "lasting_aegis",
+    "name": "Égide Duradoura",
+    "description": "A Égide de emergência dura +1s.",
+    "evolvedName": "Égide Duradoura",
+    "evolvedDescription": "A Égide de emergência dura +2s.",
+    "category": "Bastion",
+    "effect": "SpecialDuration",
+    "tint": "5BD6A0",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 1
+        },
+        {
+          "key": "push",
+          "value": 0
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 2
+        }
+      ]
+    },
+    "maxName": "Égide Duradoura",
+    "maxDescription": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "bonus",
+          "value": 3
+        },
+        {
+          "key": "push",
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "shield_mend",
+    "name": "Cura ao Bloquear",
+    "description": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+    "evolvedName": "Cura ao Bloquear",
+    "evolvedDescription": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+    "category": "Bastion",
+    "effect": "ShieldMend",
+    "tint": "5BD6A0",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "heal",
+          "value": 0.03
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "heal",
+          "value": 0.05
+        }
+      ]
+    },
+    "maxName": "Cura ao Bloquear",
+    "maxDescription": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "heal",
+          "value": 0.08
+        }
+      ]
+    }
+  },
+  {
+    "id": "temporal_rift",
+    "name": "Fenda de Lentidão",
+    "description": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+    "evolvedName": "Fenda de Lentidão",
+    "evolvedDescription": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+    "category": "Spectre",
+    "effect": "TemporalRift",
+    "tint": "B274FF",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 9
+        },
+        {
+          "key": "radius",
+          "value": 110
+        },
+        {
+          "key": "slow",
+          "value": 0.5
+        },
+        {
+          "key": "slowDuration",
+          "value": 3
+        },
+        {
+          "key": "damage",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 8
+        },
+        {
+          "key": "radius",
+          "value": 130
+        },
+        {
+          "key": "slow",
+          "value": 0.6
+        },
+        {
+          "key": "slowDuration",
+          "value": 4
+        },
+        {
+          "key": "damage",
+          "value": 16
+        }
+      ]
+    },
+    "maxName": "Fenda de Lentidão",
+    "maxDescription": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 7
+        },
+        {
+          "key": "radius",
+          "value": 150
+        },
+        {
+          "key": "slow",
+          "value": 0.7
+        },
+        {
+          "key": "slowDuration",
+          "value": 5
+        },
+        {
+          "key": "damage",
+          "value": 24
+        }
+      ]
+    }
+  },
+  {
+    "id": "paradox",
+    "name": "Recarga da Estase por Abate",
+    "description": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+    "evolvedName": "Recarga da Estase por Abate",
+    "evolvedDescription": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+    "category": "Spectre",
+    "effect": "ParadoxRecharge",
+    "tint": "B274FF",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.3
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.5
+        }
+      ]
+    },
+    "maxName": "Recarga da Estase por Abate",
+    "maxDescription": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "reduction",
+          "value": 0.8
+        }
+      ]
+    }
+  },
+  {
+    "id": "time_echo",
+    "name": "Repetição de Acertos",
+    "description": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+    "evolvedName": "Repetição de Acertos",
+    "evolvedDescription": "25% de chance de eco, com 80% do dano.",
+    "category": "Spectre",
+    "effect": "TemporalEcho",
+    "tint": "B274FF",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "chance",
+          "value": 0.15
+        },
+        {
+          "key": "damageScale",
+          "value": 0.6
+        },
+        {
+          "key": "delay",
+          "value": 0.3
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "chance",
+          "value": 0.25
+        },
+        {
+          "key": "damageScale",
+          "value": 0.8
+        }
+      ]
+    },
+    "maxName": "Repetição de Acertos",
+    "maxDescription": "35% de chance de eco, com 100% do dano.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "chance",
+          "value": 0.35
+        },
+        {
+          "key": "damageScale",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "overheal",
+    "name": "Escudo por Excesso de Cura",
+    "description": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+    "evolvedName": "Escudo por Excesso de Cura",
+    "evolvedDescription": "Guarda até 2 bloqueios do excesso de cura.",
+    "category": "Aurora",
+    "effect": "Overheal",
+    "tint": "FF87C8",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.1
+        },
+        {
+          "key": "maxBlocks",
+          "value": 1
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "maxBlocks",
+          "value": 2
+        }
+      ]
+    },
+    "maxName": "Escudo por Excesso de Cura",
+    "maxDescription": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.07
+        },
+        {
+          "key": "maxBlocks",
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "vital_pulse",
+    "name": "Dano ao Curar",
+    "description": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+    "evolvedName": "Dano ao Curar",
+    "evolvedDescription": "O pulso causa 3x o HP recuperado numa área maior.",
+    "category": "Aurora",
+    "effect": "VitalPulse",
+    "tint": "FF87C8",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "damageScale",
+          "value": 2
+        },
+        {
+          "key": "radius",
+          "value": 130
+        },
+        {
+          "key": "interval",
+          "value": 1
+        },
+        {
+          "key": "minDamage",
+          "value": 6
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damageScale",
+          "value": 3
+        },
+        {
+          "key": "radius",
+          "value": 150
+        }
+      ]
+    },
+    "maxName": "Dano ao Curar",
+    "maxDescription": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "damageScale",
+          "value": 4
+        },
+        {
+          "key": "radius",
+          "value": 180
+        }
+      ]
+    }
+  },
+  {
+    "id": "emergency_protocol",
+    "name": "Cura de Emergência",
+    "description": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+    "evolvedName": "Cura de Emergência",
+    "evolvedDescription": "Recupera 30% na hora. Rearma após 35s de combate.",
+    "category": "Aurora",
+    "effect": "EmergencyProtocol",
+    "tint": "FF87C8",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "threshold",
+          "value": 0.3
+        },
+        {
+          "key": "heal",
+          "value": 0.2
+        },
+        {
+          "key": "rearm",
+          "value": 40
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "heal",
+          "value": 0.3
+        },
+        {
+          "key": "rearm",
+          "value": 35
+        }
+      ]
+    },
+    "maxName": "Cura de Emergência",
+    "maxDescription": "Recupera 40% na hora. Rearma após 30s de combate.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "heal",
+          "value": 0.4
+        },
+        {
+          "key": "rearm",
+          "value": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": "railgun",
+    "name": "Feixe Perfurante",
+    "description": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+    "evolvedName": "Feixe Perfurante",
+    "evolvedDescription": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+    "category": "Orion",
+    "effect": "Railgun",
+    "tint": "FFC857",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 7
+        },
+        {
+          "key": "damage",
+          "value": 45
+        },
+        {
+          "key": "width",
+          "value": 30
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 6
+        },
+        {
+          "key": "damage",
+          "value": 70
+        },
+        {
+          "key": "width",
+          "value": 40
+        }
+      ]
+    },
+    "maxName": "Feixe Perfurante",
+    "maxDescription": "A cada 5s, feixe máximo: 100 de dano na linha.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 5
+        },
+        {
+          "key": "damage",
+          "value": 100
+        },
+        {
+          "key": "width",
+          "value": 50
+        }
+      ]
+    }
+  },
+  {
+    "id": "target_mark",
+    "name": "Alvo Vulnerável",
+    "description": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+    "evolvedName": "Alvo Vulnerável",
+    "evolvedDescription": "A cada 3,5s: +45% de dano no alvo marcado.",
+    "category": "Orion",
+    "effect": "TargetMark",
+    "tint": "FFC857",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 4
+        },
+        {
+          "key": "bonus",
+          "value": 0.3
+        },
+        {
+          "key": "duration",
+          "value": 4
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 3.5
+        },
+        {
+          "key": "bonus",
+          "value": 0.45
+        }
+      ]
+    },
+    "maxName": "Alvo Vulnerável",
+    "maxDescription": "A cada 3s: +60% de dano no alvo marcado.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 3
+        },
+        {
+          "key": "bonus",
+          "value": 0.6
+        }
+      ]
+    }
+  },
+  {
+    "id": "resonance",
+    "name": "Explosão na Amplificação",
+    "description": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+    "evolvedName": "Explosão na Amplificação",
+    "evolvedDescription": "A onda causa 80 de dano.",
+    "category": "Orion",
+    "effect": "AmplifyShockwave",
+    "tint": "FFC857",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 50
+        },
+        {
+          "key": "stun",
+          "value": 0
+        },
+        {
+          "key": "duration",
+          "value": 10
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 80
+        }
+      ]
+    },
+    "maxName": "Explosão na Amplificação",
+    "maxDescription": "A onda causa 120 de dano e atordoa por 1s.",
+    "maxParams": {
+      "entries": [
+        {
+          "key": "damage",
+          "value": 120
+        },
+        {
+          "key": "stun",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "bouncing_snowball",
+    "name": "Bola de Neve Ricocheteante",
+    "description": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+    "evolvedName": "Bola de Neve Ricocheteante",
+    "evolvedDescription": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+    "maxName": "Bola de Neve Ricocheteante",
+    "maxDescription": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+    "category": "Noel",
+    "effect": "BouncingSnowball",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 12
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 0.38
+        },
+        {
+          "key": "damage",
+          "value": 18
+        },
+        {
+          "key": "speed",
+          "value": 7
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 12
+        },
+        {
+          "key": "duration",
+          "value": 8
+        },
+        {
+          "key": "radius",
+          "value": 0.45
+        },
+        {
+          "key": "damage",
+          "value": 26
+        },
+        {
+          "key": "speed",
+          "value": 8
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 12
+        },
+        {
+          "key": "duration",
+          "value": 10
+        },
+        {
+          "key": "radius",
+          "value": 0.52
+        },
+        {
+          "key": "damage",
+          "value": 36
+        },
+        {
+          "key": "speed",
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "giant_snowball",
+    "name": "Bola de Neve Gigante",
+    "description": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+    "evolvedName": "Bola de Neve Gigante",
+    "evolvedDescription": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+    "maxName": "Bola de Neve Gigante",
+    "maxDescription": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+    "category": "Noel",
+    "effect": "GiantSnowball",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 16
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 1.1
+        },
+        {
+          "key": "damage",
+          "value": 65
+        },
+        {
+          "key": "speed",
+          "value": 3.5
+        },
+        {
+          "key": "slow",
+          "value": 0.45
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 15
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 1.4
+        },
+        {
+          "key": "damage",
+          "value": 100
+        },
+        {
+          "key": "speed",
+          "value": 3.5
+        },
+        {
+          "key": "slow",
+          "value": 0.45
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 14
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 1.7
+        },
+        {
+          "key": "damage",
+          "value": 145
+        },
+        {
+          "key": "speed",
+          "value": 3.5
+        },
+        {
+          "key": "slow",
+          "value": 0.45
+        }
+      ]
+    }
+  },
+  {
+    "id": "frost_circle",
+    "name": "Círculo de Gelo",
+    "description": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+    "evolvedName": "Círculo de Gelo",
+    "evolvedDescription": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+    "maxName": "Círculo de Gelo",
+    "maxDescription": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+    "category": "Noel",
+    "effect": "FrostCircle",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 0,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 14
+        },
+        {
+          "key": "duration",
+          "value": 5
+        },
+        {
+          "key": "radius",
+          "value": 2.4
+        },
+        {
+          "key": "damage",
+          "value": 8
+        },
+        {
+          "key": "slow",
+          "value": 0.35
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 13
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 2.8
+        },
+        {
+          "key": "damage",
+          "value": 12
+        },
+        {
+          "key": "slow",
+          "value": 0.45
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 12
+        },
+        {
+          "key": "duration",
+          "value": 7
+        },
+        {
+          "key": "radius",
+          "value": 3.2
+        },
+        {
+          "key": "damage",
+          "value": 16
+        },
+        {
+          "key": "slow",
+          "value": 0.55
+        }
+      ]
+    }
+  },
+  {
+    "id": "gift_bombs",
+    "name": "Presentes Explosivos",
+    "description": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+    "evolvedName": "Presentes Explosivos",
+    "evolvedDescription": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+    "maxName": "Presentes Explosivos",
+    "maxDescription": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+    "category": "Noel",
+    "effect": "GiftBombs",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 10,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 11
+        },
+        {
+          "key": "duration",
+          "value": 1
+        },
+        {
+          "key": "radius",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 70
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 10
+        },
+        {
+          "key": "duration",
+          "value": 1
+        },
+        {
+          "key": "radius",
+          "value": 2.4
+        },
+        {
+          "key": "damage",
+          "value": 105
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 9
+        },
+        {
+          "key": "duration",
+          "value": 1
+        },
+        {
+          "key": "radius",
+          "value": 2.8
+        },
+        {
+          "key": "damage",
+          "value": 150
+        }
+      ]
+    }
+  },
+  {
+    "id": "ice_shards",
+    "name": "Estilhaços de Gelo",
+    "description": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+    "evolvedName": "Estilhaços de Gelo",
+    "evolvedDescription": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+    "maxName": "Estilhaços de Gelo",
+    "maxDescription": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+    "category": "Noel",
+    "effect": "IceShards",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 30,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 9
+        },
+        {
+          "key": "duration",
+          "value": 2.3
+        },
+        {
+          "key": "radius",
+          "value": 0.18
+        },
+        {
+          "key": "damage",
+          "value": 20
+        },
+        {
+          "key": "speed",
+          "value": 9
+        },
+        {
+          "key": "slow",
+          "value": 0.15
+        },
+        {
+          "key": "count",
+          "value": 6
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 8
+        },
+        {
+          "key": "duration",
+          "value": 2.3
+        },
+        {
+          "key": "radius",
+          "value": 0.18
+        },
+        {
+          "key": "damage",
+          "value": 30
+        },
+        {
+          "key": "speed",
+          "value": 9
+        },
+        {
+          "key": "slow",
+          "value": 0.2
+        },
+        {
+          "key": "count",
+          "value": 8
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 7
+        },
+        {
+          "key": "duration",
+          "value": 2.3
+        },
+        {
+          "key": "radius",
+          "value": 0.18
+        },
+        {
+          "key": "damage",
+          "value": 42
+        },
+        {
+          "key": "speed",
+          "value": 9
+        },
+        {
+          "key": "slow",
+          "value": 0.25
+        },
+        {
+          "key": "count",
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "snowstorm",
+    "name": "Nevasca Localizada",
+    "description": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+    "evolvedName": "Nevasca Localizada",
+    "evolvedDescription": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+    "maxName": "Nevasca Localizada",
+    "maxDescription": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+    "category": "Noel",
+    "effect": "Snowstorm",
+    "tint": "F04B61",
+    "starter": false,
+    "unlockLevel": 60,
+    "baseParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 18
+        },
+        {
+          "key": "duration",
+          "value": 4
+        },
+        {
+          "key": "radius",
+          "value": 1.4
+        },
+        {
+          "key": "damage",
+          "value": 10
+        },
+        {
+          "key": "slow",
+          "value": 0.3
+        },
+        {
+          "key": "count",
+          "value": 2
+        }
+      ]
+    },
+    "evolvedParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 17
+        },
+        {
+          "key": "duration",
+          "value": 5
+        },
+        {
+          "key": "radius",
+          "value": 1.7
+        },
+        {
+          "key": "damage",
+          "value": 15
+        },
+        {
+          "key": "slow",
+          "value": 0.35
+        },
+        {
+          "key": "count",
+          "value": 3
+        }
+      ]
+    },
+    "maxParams": {
+      "entries": [
+        {
+          "key": "cooldown",
+          "value": 16
+        },
+        {
+          "key": "duration",
+          "value": 6
+        },
+        {
+          "key": "radius",
+          "value": 2
+        },
+        {
+          "key": "damage",
+          "value": 21
+        },
+        {
+          "key": "slow",
+          "value": 0.4
+        },
+        {
+          "key": "count",
+          "value": 4
+        }
+      ]
+    }
+  }
+]

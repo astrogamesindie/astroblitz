@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740299539927",
+    "project_id": "astro-idle-c9989",
+    "storage_bucket": "astro-idle-c9989.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740299539927:android:8df049aaf6838ad812b792",
+        "android_client_info": {
+          "package_name": "com.astrocrawler.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGlzC3fzvxqKNJlBs0iuPXY7cp1G7mS0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

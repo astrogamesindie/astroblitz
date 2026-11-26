@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_debris_wall
+  m_EditorClassIdentifier: 
+  definition:
+    id: debris_wall
+    name: "Barreira de Destroços"
+    description: "Cria uma barreira (HP 10) diante da amea\xE7a mais pr\xF3xima,
+      a cada 12s."
+    evolvedName: "Barreira de Destroços"
+    evolvedDescription: "Cria uma barreira de HP 25 e dura\xE7\xE3o 9s, a cada 12s."
+    maxName: "Barreira de Destroços"
+    maxDescription: "Cria uma barreira de HP 45 e dura\xE7\xE3o 12s, a cada 10s."
+    category: 2
+    effect: 11
+    tint: 5BD6A0
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: hp
+        value: 10
+      - key: duration
+        value: 6
+      - key: size
+        value: 1.1
+      - key: distance
+        value: 2.4
+      - key: cooldown
+        value: 12
+    evolvedParams:
+      entries:
+      - key: hp
+        value: 25
+      - key: duration
+        value: 9
+      - key: size
+        value: 1.35
+      - key: distance
+        value: 2.4
+      - key: cooldown
+        value: 12
+    maxParams:
+      entries:
+      - key: hp
+        value: 45
+      - key: duration
+        value: 12
+      - key: size
+        value: 1.6
+      - key: distance
+        value: 2.4
+      - key: cooldown
+        value: 10

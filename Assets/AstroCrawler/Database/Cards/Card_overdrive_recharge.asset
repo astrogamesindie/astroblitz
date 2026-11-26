@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_overdrive_recharge
+  m_EditorClassIdentifier: 
+  definition:
+    id: overdrive_recharge
+    name: "Sobrecarga Mais Rápida"
+    description: Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.
+    evolvedName: "Sobrecarga Mais Rápida"
+    evolvedDescription: Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.
+    maxName: "Sobrecarga Mais Rápida"
+    maxDescription: Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.
+    category: 1
+    effect: 18
+    tint: FF6B4A
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: reduction
+        value: 0.15
+    evolvedParams:
+      entries:
+      - key: reduction
+        value: 0.25
+    maxParams:
+      entries:
+      - key: reduction
+        value: 0.35

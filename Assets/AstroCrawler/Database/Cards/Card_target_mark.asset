@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_target_mark
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: target_mark
+    name: "Alvo Vulnerável"
+    description: 'A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30%
+      de dano de tudo por 4s.'
+    evolvedName: "Alvo Vulnerável"
+    evolvedDescription: 'A cada 3,5s: +45% de dano no alvo marcado.'
+    maxName: "Alvo Vulnerável"
+    maxDescription: 'A cada 3s: +60% de dano no alvo marcado.'
+    category: 5
+    effect: 46
+    tint: FFC857
+    starter: 0
+    unlockLevel: 30
+    baseParams:
+      entries:
+      - key: cooldown
+        value: 4
+      - key: bonus
+        value: 0.3
+      - key: duration
+        value: 4
+    evolvedParams:
+      entries:
+      - key: cooldown
+        value: 3.5
+      - key: bonus
+        value: 0.45
+    maxParams:
+      entries:
+      - key: cooldown
+        value: 3
+      - key: bonus
+        value: 0.6

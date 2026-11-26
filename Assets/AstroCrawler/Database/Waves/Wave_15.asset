@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caad9a76f7cea6f4ea8a0d807c27681d, type: 3}
+  m_Name: Wave_15
+  m_EditorClassIdentifier: 
+  definition:
+    index: 15
+    label: 3 Fragatas + 10 Batedores
+    designNote: "Ponto m\xE9dio \u2014 exige build de \xE1rea ou penetrante consolidado"
+    spawnInterval: 0.3
+    isBossWave: 0
+    entries:
+    - kind: 5
+      count: 3
+    - kind: 3
+      count: 10

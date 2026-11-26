@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_chain_lightning
+  m_EditorClassIdentifier: 
+  definition:
+    id: chain_lightning
+    name: "Raios em Cadeia"
+    description: "Acertos do canh\xE3o geram raios em at\xE9 2 outros inimigos pr\xF3ximos:
+      12 de dano por alvo. Intervalo de 3s."
+    evolvedName: "Raios em Cadeia"
+    evolvedDescription: "Acertos do canh\xE3o geram raios em at\xE9 3 outros inimigos
+      pr\xF3ximos: 18 de dano por alvo. Intervalo de 2,5s."
+    maxName: "Raios em Cadeia"
+    maxDescription: "Acertos do canh\xE3o geram raios em at\xE9 4 outros inimigos
+      pr\xF3ximos: 25 de dano por alvo. Intervalo de 2s."
+    category: 5
+    effect: 22
+    tint: FFC857
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: jumps
+        value: 2
+      - key: damage
+        value: 12
+      - key: jumpRadius
+        value: 150
+      - key: cooldown
+        value: 3
+    evolvedParams:
+      entries:
+      - key: jumps
+        value: 3
+      - key: damage
+        value: 18
+      - key: jumpRadius
+        value: 170
+      - key: cooldown
+        value: 2.5
+    maxParams:
+      entries:
+      - key: jumps
+        value: 4
+      - key: damage
+        value: 25
+      - key: jumpRadius
+        value: 190
+      - key: cooldown
+        value: 2

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586efcd7dd84a143ab9f9dc2c896cca, type: 3}
+  m_Name: Ship_vanguard
+  m_EditorClassIdentifier: 
+  definition:
+    id: vanguard
+    name: Vanguarda-7
+    tagline: "Feita para acabar com a briga r\xE1pido, n\xE3o para durar muito tempo
+      nela."
+    identity: "Ofensiva: cura por abate, cr\xEDtico e recarga da Sobrecarga ofensiva."
+    special:
+      kind: 1
+      name: Sobrecarga ofensiva
+      nameEn: Offensive overdrive
+      nameEs: Sobrecarga ofensiva
+      description: "Por 6s: dobra a cad\xEAncia de tiro."
+      descriptionEn: Double fire rate for 6s.
+      descriptionEs: Duplica la cadencia de tiro durante 6s.
+      cooldown: 25
+      duration: 6
+      damageScale: 1
+      fireRateScale: 2
+      healFraction: 0
+    maxHp: 100
+    fireInterval: 0.3
+    damagePerShot: 8
+    baseProjectiles: 1
+    tint: FF6B4A
+    deck:
+    - cardId: battle_fury
+    - cardId: wild_volley
+    - cardId: overdrive_recharge
+    - cardId: adrenaline
+    - cardId: executioner
+    - cardId: overdrive_fury

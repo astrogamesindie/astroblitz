@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "revision": "2026-11-05-launch",
+  "notes": [
+    "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+    "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+    "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+    "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo."
+  ],
+  "reward": 100
+}

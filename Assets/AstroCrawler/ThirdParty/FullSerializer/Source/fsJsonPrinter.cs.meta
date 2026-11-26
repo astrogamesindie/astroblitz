@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 96652f496d86999468018508b9d19d6e
+timeCreated: 1451205258
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/fsJsonPrinter.cs
+  uploadId: 957878

@@ -1,0 +1,164 @@
+[
+  {
+    "index": 1,
+    "label": "6 Meteoros Pequenos",
+    "designNote": "Tutorial de tiro automático e colisão",
+    "spawnInterval": 0.7,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorSmall",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "label": "8 Pequenos + 2 Médios",
+    "designNote": "Introduz fragmentação de meteoros médios",
+    "spawnInterval": 0.9,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorSmall",
+        "count": 8
+      },
+      {
+        "kind": "MeteorMedium",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "label": "10 Meteoros Médios",
+    "designNote": "Testa dano sustentado contra fragmentação em cadeia",
+    "spawnInterval": 1.1,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorMedium",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "label": "4 Grandes + 6 Pequenos",
+    "designNote": "Primeira wave com fragmentação em 2 estágios",
+    "spawnInterval": 1.2,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorLarge",
+        "count": 4
+      },
+      {
+        "kind": "MeteorSmall",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "label": "10 Meteoros mistos + 2 Batedores",
+    "designNote": "Primeiro contato com naves alienígenas rápidas",
+    "spawnInterval": 0.85,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorSmall",
+        "count": 4
+      },
+      {
+        "kind": "MeteorMedium",
+        "count": 4
+      },
+      {
+        "kind": "MeteorLarge",
+        "count": 2
+      },
+      {
+        "kind": "Scout",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "label": "6 Batedores + 6 Médios",
+    "designNote": "Testa reação a alvos rápidos simultâneos",
+    "spawnInterval": 0.45,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "Scout",
+        "count": 6
+      },
+      {
+        "kind": "MeteorMedium",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "label": "4 Interceptadores + 8 Pequenos",
+    "designNote": "Zigue-zague desafia o alvo automático mais próximo",
+    "spawnInterval": 0.45,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "Interceptor",
+        "count": 4
+      },
+      {
+        "kind": "MeteorSmall",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "label": "8 Meteoros Grandes",
+    "designNote": "Fragmentação pesada — pico de volume de detritos",
+    "spawnInterval": 0.45,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "MeteorLarge",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "label": "6 Interceptadores + 6 Batedores",
+    "designNote": "Primeira wave 100% alienígena — prepara o mini-chefe",
+    "spawnInterval": 0.4,
+    "isBossWave": false,
+    "entries": [
+      {
+        "kind": "Interceptor",
+        "count": 6
+      },
+      {
+        "kind": "Scout",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "label": "CHEFE FINAL: Núcleo Aberrante",
+    "designNote": "Reforços infinitos enquanto o Núcleo viver. O alvo automático prioriza o inimigo mais próximo, então os reforços precisam ser limpos para que os tiros alcancem o Núcleo.",
+    "spawnInterval": 0.4,
+    "isBossWave": true,
+    "entries": [
+      {
+        "kind": "AberrantCore",
+        "count": 1
+      }
+    ]
+  }
+]

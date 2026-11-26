@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_armor_plating
+  m_EditorClassIdentifier: 
+  definition:
+    id: armor_plating
+    name: "Redução de Dano"
+    description: Reduz em 10% todo o dano recebido durante a run.
+    evolvedName: "Redução de Dano"
+    evolvedDescription: Reduz em 18% todo o dano recebido durante a run.
+    maxName: "Redução de Dano"
+    maxDescription: Reduz em 25% todo o dano recebido durante a run.
+    category: 2
+    effect: 19
+    tint: 5BD6A0
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: damageReduction
+        value: 0.1
+    evolvedParams:
+      entries:
+      - key: damageReduction
+        value: 0.18
+    maxParams:
+      entries:
+      - key: damageReduction
+        value: 0.25

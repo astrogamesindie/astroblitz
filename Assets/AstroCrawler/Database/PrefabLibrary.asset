@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5320bab3cbe904fb9205e45dccc619, type: 3}
+  m_Name: PrefabLibrary
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 3888745095668520950, guid: 04074a9215e76db4e947b897d5fa118e, type: 3}
+  playerShip: {fileID: 4845412725569647276, guid: 738a425ab3165754184876f654ae9447,
+    type: 3}
+  projectile: {fileID: 3117882575460660751, guid: 9610931cf326bd24e8abe2240757aca9,
+    type: 3}
+  missile: {fileID: 5677360150747105370, guid: 27cb26a98273a8d4cb8dd062aeb302ec, type: 3}
+  xpOrb: {fileID: 1940586959449174408, guid: e6a27be8315bd5748a8cb3573f1783e1, type: 3}
+  blackHole: {fileID: 1504677134557375925, guid: a349153e3a190ad40bbab624367be54e,
+    type: 3}
+  shockwave: {fileID: 7699554104051345585, guid: b6cab9909e056f9488bbcc6cea1fb902,
+    type: 3}
+  debrisWall: {fileID: 7809175074148962214, guid: e23ddec62d328aa4faf45516e384c9bd,
+    type: 3}
+  pulse: {fileID: 1496282420753778267, guid: cbb4d53f6156cbf4cb7e43e57e160074, type: 3}
+  impactSprite: {fileID: 1736469242301858501, guid: 419550ffd4601b248b6a7c3cef1e6d12,
+    type: 3}
+  damageNumber: {fileID: 8761320699800284933, guid: c54d839384503294d83ffe12de7a3b15,
+    type: 3}
+  star: {fileID: 3317783770294106553, guid: b1c0025909f7f2d44b31ff07abce0b09, type: 3}
+  gameUI: {fileID: 0}

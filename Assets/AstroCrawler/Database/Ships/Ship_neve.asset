@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586efcd7dd84a143ab9f9dc2c896cca, type: 3}
+  m_Name: Ship_neve
+  m_EditorClassIdentifier: 
+  definition:
+    id: "neve"
+    name: "Cristal Polar"
+    tagline: "Natal: bolas de neve, gelo e presentes explosivos."
+    identity: "Natal: bolas de neve, gelo e presentes explosivos."
+    maxHp: 105
+    fireInterval: 0.33
+    damagePerShot: 8
+    baseProjectiles: 1
+    tint: "7CDFF5"
+    deck:
+    - cardId: bouncing_snowball
+    - cardId: giant_snowball
+    - cardId: frost_circle
+    - cardId: gift_bombs
+    - cardId: ice_shards
+    - cardId: snowstorm
+    special:
+      kind: 6
+      name: "Estrela Natalina"
+      nameEn: "Christmas Star"
+      nameEs: "Estrella Navide\u00f1a"
+      description: "Marca os inimigos no alcance: recebem 35% mais dano por 6s."
+      descriptionEn: "Mark enemies in range: they take 35% more damage for 6s."
+      descriptionEs: "Marca a los enemigos al alcance: reciben un 35% m\u00e1s de da\u00f1o durante 6s."
+      cooldown: 30
+      duration: 6
+      damageScale: 1
+      fireRateScale: 1
+      healFraction: 0

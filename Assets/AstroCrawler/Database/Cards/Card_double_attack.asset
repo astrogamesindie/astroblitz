@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_double_attack
+  m_EditorClassIdentifier: 
+  definition:
+    id: double_attack
+    name: "Tiros Extras"
+    description: "Dobra permanentemente o n\xFAmero de proj\xE9teis disparados pela
+      nave."
+    evolvedName: "Tiros Extras"
+    evolvedDescription: "Triplica permanentemente os proj\xE9teis disparados pela
+      nave."
+    maxName: "Tiros Extras"
+    maxDescription: "Dispara 4 proj\xE9teis em paralelo, permanentemente."
+    category: 0
+    effect: 0
+    tint: 3A6EA5
+    starter: 1
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: projectiles
+        value: 2
+      - key: duration
+        value: 8
+    evolvedParams:
+      entries:
+      - key: projectiles
+        value: 3
+      - key: duration
+        value: 12
+    maxParams:
+      entries:
+      - key: projectiles
+        value: 4
+      - key: duration
+        value: 12

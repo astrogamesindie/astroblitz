@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_thorn_hull
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: thorn_hull
+    name: "Espinhos ao Colidir"
+    description: Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam
+      20 de dano ao redor.
+    evolvedName: "Espinhos ao Colidir"
+    evolvedDescription: "Os espinhos causam 35 de dano numa \xE1rea maior."
+    maxName: "Espinhos ao Colidir"
+    maxDescription: "Os espinhos causam 55 de dano numa \xE1rea ainda maior."
+    category: 2
+    effect: 36
+    tint: 5BD6A0
+    starter: 0
+    unlockLevel: 10
+    baseParams:
+      entries:
+      - key: damage
+        value: 20
+      - key: radius
+        value: 110
+      - key: duration
+        value: 10
+    evolvedParams:
+      entries:
+      - key: damage
+        value: 35
+      - key: radius
+        value: 135
+    maxParams:
+      entries:
+      - key: damage
+        value: 55
+      - key: radius
+        value: 160

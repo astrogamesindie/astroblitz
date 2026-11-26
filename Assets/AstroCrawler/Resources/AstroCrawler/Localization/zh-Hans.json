@@ -1,0 +1,2712 @@
+{
+  "entries": [
+    {
+      "key": "REINICIAR?",
+      "value": "重新开始？"
+    },
+    {
+      "key": "Volta à onda 1 com a mesma nave e fase.\nAs melhorias desta run se perdem.",
+      "value": "使用同一飞船和关卡，从第1波重新开始。\n本局获得的升级将丢失。"
+    },
+    {
+      "key": "REINICIAR",
+      "value": "重新开始"
+    },
+    {
+      "key": "SAIR DA RUN?",
+      "value": "退出本局？"
+    },
+    {
+      "key": "A run termina aqui e o progresso se perde.",
+      "value": "本局将在此结束，本局进度将丢失。"
+    },
+    {
+      "key": "SAIR",
+      "value": "退出"
+    },
+    {
+      "key": "PAUSA",
+      "value": "已暂停"
+    },
+    {
+      "key": "SISTEMA EM PAUSA",
+      "value": "系统暂停"
+    },
+    {
+      "key": "CONTINUAR",
+      "value": "继续"
+    },
+    {
+      "key": "MENU",
+      "value": "菜单"
+    },
+    {
+      "key": "VOLTAR",
+      "value": "返回"
+    },
+    {
+      "key": "ONDA ",
+      "value": "波次 "
+    },
+    {
+      "key": " VIDA",
+      "value": " 船体"
+    },
+    {
+      "key": "slot vazio",
+      "value": "空槽"
+    },
+    {
+      "key": "ASSALTO",
+      "value": "突击"
+    },
+    {
+      "key": "FORTIFICACAO",
+      "value": "堡垒"
+    },
+    {
+      "key": "GRAVITACIONAL",
+      "value": "引力"
+    },
+    {
+      "key": "SUPORTE",
+      "value": "支持"
+    },
+    {
+      "key": "ARTILHARIA",
+      "value": "炮击"
+    },
+    {
+      "key": "COMUM",
+      "value": "通用"
+    },
+    {
+      "key": "MELHORIA",
+      "value": "升级"
+    },
+    {
+      "key": " CONCLUÍDO",
+      "value": " 已通关"
+    },
+    {
+      "key": " LIMPA",
+      "value": " 已通关"
+    },
+    {
+      "key": "  ·  ATIVA",
+      "value": "  · 活跃"
+    },
+    {
+      "key": " INIMIGO",
+      "value": " 敌人"
+    },
+    {
+      "key": " INIMIGOS",
+      "value": " 敌人"
+    },
+    {
+      "key": "   ·   ESCUDO ",
+      "value": "   · 盾牌 "
+    },
+    {
+      "key": "NAVE NV ",
+      "value": "飞船等级 "
+    },
+    {
+      "key": "MÁXIMO",
+      "value": "已满级"
+    },
+    {
+      "key": "MELHORIAS  ·  ",
+      "value": "升级·  "
+    },
+    {
+      "key": "Nenhuma ainda",
+      "value": "暂无"
+    },
+    {
+      "key": "NÍVEL ",
+      "value": "等级 "
+    },
+    {
+      "key": "RECOMPENSAS",
+      "value": "奖励"
+    },
+    {
+      "key": "RECOMPENSA DIÁRIA",
+      "value": "每日奖励"
+    },
+    {
+      "key": "ASSISTA E GANHE",
+      "value": "观看并领取"
+    },
+    {
+      "key": "COLETADA",
+      "value": "已领取"
+    },
+    {
+      "key": "COLETAR",
+      "value": "领取"
+    },
+    {
+      "key": "Nova recompensa em ",
+      "value": "下一个奖励 "
+    },
+    {
+      "key": "Assista um vídeo para dobrar.",
+      "value": "观看视频即可加倍。"
+    },
+    {
+      "key": "UPGRADES",
+      "value": "升级"
+    },
+    {
+      "key": "ESCOLHA SUA NAVE",
+      "value": "选择飞船"
+    },
+    {
+      "key": "SELECIONADA",
+      "value": "已选择"
+    },
+    {
+      "key": "SELECIONAR",
+      "value": "选择"
+    },
+    {
+      "key": "VIDA",
+      "value": "船体"
+    },
+    {
+      "key": "DANO",
+      "value": "伤害"
+    },
+    {
+      "key": "TIROS/S",
+      "value": "射击/秒"
+    },
+    {
+      "key": "DANO/S",
+      "value": "DPS"
+    },
+    {
+      "key": "DECK  ·  ",
+      "value": "牌组 ·  "
+    },
+    {
+      "key": " CARTAS  ·  6 COMUNS + 3 EXCLUSIVAS",
+      "value": " 卡牌 · 6 张普通卡 + 3 张专属卡"
+    },
+    {
+      "key": "Recarga: ",
+      "value": "冷却时间： "
+    },
+    {
+      "key": "Duração: ",
+      "value": "持续时间： "
+    },
+    {
+      "key": "ATIVA · ",
+      "value": "活跃 · "
+    },
+    {
+      "key": "EM RECARGA · ",
+      "value": "冷却中 · "
+    },
+    {
+      "key": "PRONTA",
+      "value": "就绪"
+    },
+    {
+      "key": "Recarga restante: ",
+      "value": "剩余冷却时间： "
+    },
+    {
+      "key": "HABILIDADE ESPECIAL",
+      "value": "特殊能力"
+    },
+    {
+      "key": "Recarga Ofensiva",
+      "value": "攻击充能"
+    },
+    {
+      "key": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "攻击过载的冷却时间缩短15%。"
+    },
+    {
+      "key": "Recarga Ofensiva Avançada",
+      "value": "高级攻击充能"
+    },
+    {
+      "key": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "攻击过载的冷却时间缩短25%。"
+    },
+    {
+      "key": "Recarga Ofensiva Máxima",
+      "value": "极限攻击充能"
+    },
+    {
+      "key": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "攻击过载的冷却时间缩短35%。"
+    },
+    {
+      "key": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+      "value": "进攻：击杀、暴击和攻击过载充能时的治疗效果。"
+    },
+    {
+      "key": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+      "value": "支持：自我修复、治疗导弹和支援无人机。"
+    },
+    {
+      "key": "Blindagem Reforçada",
+      "value": "强化装甲"
+    },
+    {
+      "key": "Reduz em 10% todo o dano recebido durante a run.",
+      "value": "本局受到的所有伤害降低10%。"
+    },
+    {
+      "key": "Blindagem Avançada",
+      "value": "高级装甲"
+    },
+    {
+      "key": "Reduz em 18% todo o dano recebido durante a run.",
+      "value": "本局受到的所有伤害降低18%。"
+    },
+    {
+      "key": "Blindagem Inabalável",
+      "value": "坚不可摧的铠甲"
+    },
+    {
+      "key": "Reduz em 25% todo o dano recebido durante a run.",
+      "value": "本局受到的所有伤害降低25%。"
+    },
+    {
+      "key": "Caça ao Chefe",
+      "value": "Boss 猎人"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +25% de dano.",
+      "value": "主炮瞄准首领时造成的伤害+25%。"
+    },
+    {
+      "key": "Predador de Chefes",
+      "value": "掠食者老大"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +40% de dano.",
+      "value": "主炮瞄准首领时造成的伤害+40%。"
+    },
+    {
+      "key": "Flagelo dos Chefes",
+      "value": "天灾老大"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +60% de dano.",
+      "value": "主炮瞄准首领时造成的伤害+60%。"
+    },
+    {
+      "key": "Fortificação: repulsão, destroços e blindagem contra dano.",
+      "value": "防御工事：斥力、碎片和减伤装甲。"
+    },
+    {
+      "key": "Pulso Crítico",
+      "value": "暴击脉冲"
+    },
+    {
+      "key": "Após 10s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "战斗10秒后，下一次射击必定暴击。发射后重新计时，不储存充能。"
+    },
+    {
+      "key": "Ritmo Crítico",
+      "value": "暴击节奏"
+    },
+    {
+      "key": "Após 7s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "战斗7秒后，下一次射击必定暴击。发射后重新计时，不储存充能。"
+    },
+    {
+      "key": "Ressonância Crítica",
+      "value": "暴击共鸣"
+    },
+    {
+      "key": "Após 5s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "战斗5秒后，下一次射击必定暴击。发射后重新计时，不储存充能。"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +60%.",
+      "value": "射速永久提高+60%。"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +85%.",
+      "value": "射速永久提高+85%。"
+    },
+    {
+      "key": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+      "value": "控制和精确度：保证暴击，缓慢和暂时麻痹。"
+    },
+    {
+      "key": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "永久获得12%暴击率。暴击倍率x2，加上永久升级加成。"
+    },
+    {
+      "key": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "永久获得25%暴击率。暴击倍率x2，加上永久升级加成。"
+    },
+    {
+      "key": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "永久获得32%暴击率。暴击倍率x2，加上永久升级加成。"
+    },
+    {
+      "key": "Arco Voltaico",
+      "value": "电弧"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+      "value": "主炮命中后向附近最多2个其他敌人释放闪电，每个目标受到12点伤害。间隔3秒。"
+    },
+    {
+      "key": "Corrente Voltaica",
+      "value": "连锁电流"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+      "value": "主炮命中后向附近最多3个其他敌人释放闪电，每个目标受到18点伤害。间隔2.5秒。"
+    },
+    {
+      "key": "Tempestade Voltaica",
+      "value": "雷电风暴"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+      "value": "主炮命中后向附近最多4个其他敌人释放闪电，每个目标受到25点伤害。间隔2秒。"
+    },
+    {
+      "key": "Disparo de Cerco",
+      "value": "攻城射击"
+    },
+    {
+      "key": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+      "value": "战斗8秒后，为下一发炮弹充能，爆炸造成40点范围伤害。不储存充能。"
+    },
+    {
+      "key": "Artilharia de Cerco",
+      "value": "攻城炮击"
+    },
+    {
+      "key": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+      "value": "战斗6秒后，为下一发炮弹充能，爆炸造成65点范围伤害。不储存充能。"
+    },
+    {
+      "key": "Devastação de Cerco",
+      "value": "攻城毁灭"
+    },
+    {
+      "key": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+      "value": "战斗4秒后，为下一发炮弹充能，爆炸造成90点范围伤害。不储存充能。"
+    },
+    {
+      "key": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+      "value": "火炮：连锁闪电、攻城射击以及对 Boss 的额外伤害。"
+    },
+    {
+      "key": "Aurora Médica",
+      "value": "医疗极光"
+    },
+    {
+      "key": "Orion",
+      "value": "猎户座"
+    },
+    {
+      "key": "Uma nave de suporte que reconstrói o próprio casco.",
+      "value": "一艘重建自己船体的支援船。"
+    },
+    {
+      "key": "Sustentação: reparo e defesa mantêm a nave no combate.",
+      "value": "维持：维修和防御使舰艇保持战斗状态。"
+    },
+    {
+      "key": "Canhões pesados: cada disparo precisa contar.",
+      "value": "重炮：每一枪都必须算数。"
+    },
+    {
+      "key": "Artilharia pesada: dano e explosões compensam a cadência baixa.",
+      "value": "重型火炮：伤害和爆炸抵消了低射速。"
+    },
+    {
+      "key": "Vanguarda-7",
+      "value": "先锋-7"
+    },
+    {
+      "key": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+      "value": "旨在快速结束战斗，而不是长期生存。"
+    },
+    {
+      "key": "Ofensiva pura: deck inclinado para Ataque Duplo e Tiro Penetrante, reforçado por cartas de alto risco e alto retorno que recompensam jogar agressivo.",
+      "value": "纯粹进攻：一套围绕双重攻击和穿刺射击构建的牌组，以奖励侵略性游戏的高风险卡牌为后盾。"
+    },
+    {
+      "key": "Bastião Aegis",
+      "value": "圣盾堡垒"
+    },
+    {
+      "key": "Não é a mais rápida a atirar, mas é a última a cair.",
+      "value": "不是最快的出手，却是最后一个落下。"
+    },
+    {
+      "key": "Tanque de longa duração: deck inclinado para Defesa e Buraco Negro, reforçado por cartas de controle e sustentação.",
+      "value": "耐用的坦克：围绕护盾和黑洞构建的套牌，带有控制卡和维持卡。"
+    },
+    {
+      "key": "Espectro Nulo",
+      "value": "虚无幽灵"
+    },
+    {
+      "key": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+      "value": "一个扭曲周围空间的实验原型：强大，但脆弱。"
+    },
+    {
+      "key": "Builds de área e sinergia: deck inclinado para Mísseis e Buraco Negro, reforçado por cartas gravitacionais que aprofundam o combo de agrupar e detonar.",
+      "value": "区域伤害和协同作用：围绕导弹和黑洞构建的牌组，其中的重力卡可在爆炸前将敌人聚集在一起。"
+    },
+    {
+      "key": "Salva Quádrupla",
+      "value": "四重齐射"
+    },
+    {
+      "key": "Dispara 4 projéteis em paralelo, permanentemente.",
+      "value": "永久并排发射 4 枚射弹。"
+    },
+    {
+      "key": "Aegis Total",
+      "value": "全面神盾"
+    },
+    {
+      "key": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+      "value": "每战斗12秒补充3次格挡，持续至被消耗。"
+    },
+    {
+      "key": "Chuva de Mísseis",
+      "value": "导弹雨"
+    },
+    {
+      "key": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+      "value": "当敌人在射程内时，每 5 秒战斗发射 4 枚具有较大范围伤害的导弹。"
+    },
+    {
+      "key": "Singularidade",
+      "value": "奇点"
+    },
+    {
+      "key": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+      "value": "创建一个巨大的 10 秒黑洞，每 14 秒在最后猛烈爆炸一次。"
+    },
+    {
+      "key": "Lança Penetrante",
+      "value": "穿刺长枪"
+    },
+    {
+      "key": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+      "value": "永久穿刺，每次射击伤害进一步+25%（总共+45%）。"
+    },
+    {
+      "key": "Overdrive Máximo",
+      "value": "极限过载"
+    },
+    {
+      "key": "Tempestade Restauradora",
+      "value": "修复风暴"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+      "value": "每次恢复生命值时，向四周发射10枚直线导弹，每枚造成24点伤害。满生命值时不触发。"
+    },
+    {
+      "key": "Tempestade Selvagem",
+      "value": "狂野风暴"
+    },
+    {
+      "key": "Fúria Inesgotável",
+      "value": "无尽的愤怒"
+    },
+    {
+      "key": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "每次击杀恢复飞船最大生命值的3%。\n\n永久效果"
+    },
+    {
+      "key": "Repulsão Total",
+      "value": "全域斥力"
+    },
+    {
+      "key": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+      "value": "每6秒推开半径260内的敌人，并使其减速50%，持续4秒。"
+    },
+    {
+      "key": "Autorreparo Total",
+      "value": "完全自修复"
+    },
+    {
+      "key": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+      "value": "每15秒恢复40%生命值，并补充最多2次已消耗的额外格挡。"
+    },
+    {
+      "key": "Muralha Inabalável",
+      "value": "不屈之墙"
+    },
+    {
+      "key": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+      "value": "每10秒生成生命值为45、持续12秒的屏障。"
+    },
+    {
+      "key": "Estase Temporal",
+      "value": "时间停滞"
+    },
+    {
+      "key": "Esquadrão de Elite",
+      "value": "精锐中队"
+    },
+    {
+      "key": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+      "value": "每20秒召唤4架无人机支援18秒，每架无人机每次射击造成8点伤害。"
+    },
+    {
+      "key": "Ataque Duplo",
+      "value": "双重攻击"
+    },
+    {
+      "key": "Dobra permanentemente o número de projéteis disparados pela nave.",
+      "value": "舰船发射的射弹数量永久加倍。"
+    },
+    {
+      "key": "Ataque Triplo",
+      "value": "三重攻击"
+    },
+    {
+      "key": "Triplica permanentemente os projéteis disparados pela nave.",
+      "value": "使舰船发射的射弹永久增加三倍。"
+    },
+    {
+      "key": "Defesa",
+      "value": "盾牌"
+    },
+    {
+      "key": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+      "value": "每战斗15秒补充1次格挡，持续至被消耗。"
+    },
+    {
+      "key": "Escudo Reforçado",
+      "value": "强化护盾"
+    },
+    {
+      "key": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+      "value": "每战斗15秒补充2次格挡，持续至被消耗。"
+    },
+    {
+      "key": "Mísseis",
+      "value": "导弹"
+    },
+    {
+      "key": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "当敌人在射程内时，每 6 秒战斗自动发射 2 枚寻的导弹。"
+    },
+    {
+      "key": "Enxame de Mísseis",
+      "value": "导弹群"
+    },
+    {
+      "key": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "当敌人在射程内时，每 6 秒战斗自动发射 3 枚区域伤害导弹。"
+    },
+    {
+      "key": "Buraco Negro",
+      "value": "黑洞"
+    },
+    {
+      "key": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+      "value": "每 16 秒在范围内的敌人身上制造一个 6 秒的黑洞。"
+    },
+    {
+      "key": "Colapso Estelar",
+      "value": "恒星坍缩"
+    },
+    {
+      "key": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+      "value": "创建一个更大的 9 秒黑洞，每 16 秒在最后爆炸一次。"
+    },
+    {
+      "key": "Tiro Penetrante",
+      "value": "穿刺射击"
+    },
+    {
+      "key": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+      "value": "射弹会永久刺穿敌人而不是被摧毁。"
+    },
+    {
+      "key": "Perfuração Total",
+      "value": "完全穿透"
+    },
+    {
+      "key": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+      "value": "在游戏的剩余时间内永久刺穿，每次射击伤害 +20%。"
+    },
+    {
+      "key": "Sobrecarga de Motores",
+      "value": "发动机过载"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +30%.",
+      "value": "射速永久提高+30%。"
+    },
+    {
+      "key": "Overdrive Total",
+      "value": "全面过载"
+    },
+    {
+      "key": "Salva Restauradora",
+      "value": "修复齐射"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+      "value": "每次恢复生命值时，向四周发射6枚直线导弹，每枚造成12点伤害。满生命值时不触发。"
+    },
+    {
+      "key": "Barragem Restauradora",
+      "value": "修复弹幕"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+      "value": "每次恢复生命值时，向四周发射8枚直线导弹，每枚造成18点伤害。满生命值时不触发。"
+    },
+    {
+      "key": "Rajada Selvagem",
+      "value": "狂野齐射"
+    },
+    {
+      "key": "Fogo Descontrolado",
+      "value": "失控射击"
+    },
+    {
+      "key": "Fúria de Batalha",
+      "value": "战斗狂怒"
+    },
+    {
+      "key": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "每次击杀恢复飞船最大生命值的1%。\n\n永久效果"
+    },
+    {
+      "key": "Fúria Implacável",
+      "value": "无情的愤怒"
+    },
+    {
+      "key": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "每次击杀恢复飞船最大生命值的2%。\n\n永久效果"
+    },
+    {
+      "key": "Campo de Repulsão",
+      "value": "斥力场"
+    },
+    {
+      "key": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+      "value": "当敌人在范围内时，每 10 秒将附近的敌人推开。"
+    },
+    {
+      "key": "Repulsão Amplificada",
+      "value": "强化斥力"
+    },
+    {
+      "key": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+      "value": "每8秒推开半径180内的敌人，并使其减速30%，持续3秒。"
+    },
+    {
+      "key": "Reparo de Emergência",
+      "value": "紧急抢修"
+    },
+    {
+      "key": "Restaura 20% do HP máximo a cada 20s de combate.",
+      "value": "每战斗20秒恢复最大生命值的20%。"
+    },
+    {
+      "key": "Autorreparo Avançado",
+      "value": "高级自修复"
+    },
+    {
+      "key": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+      "value": "每18秒恢复30%生命值，并补充最多1次已消耗的额外格挡。"
+    },
+    {
+      "key": "Muralha de Destroços",
+      "value": "碎片墙"
+    },
+    {
+      "key": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+      "value": "每 12 秒在最近的威胁面前创建一个屏障 (10 HP)。"
+    },
+    {
+      "key": "Muralha Reforçada",
+      "value": "强化屏障"
+    },
+    {
+      "key": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+      "value": "每12秒生成生命值为25、持续9秒的屏障。"
+    },
+    {
+      "key": "Distorção Temporal",
+      "value": "时间扭曲"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+      "value": "所有敌人的移动速度永久降低10%。"
+    },
+    {
+      "key": "Paralisia Temporal",
+      "value": "时间麻痹"
+    },
+    {
+      "key": "Dilatação Temporal",
+      "value": "时间延展"
+    },
+    {
+      "key": "Dilatação Absoluta",
+      "value": "绝对延展"
+    },
+    {
+      "key": "Estase Absoluta",
+      "value": "绝对停滞"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+      "value": "所有敌人的移动速度永久降低20%。"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+      "value": "所有敌人的移动速度永久降低30%。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+      "value": "永久效果：范围内生命值不高于5%的敌人会被麻痹。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+      "value": "永久效果：范围内生命值不高于10%的敌人会被麻痹。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+      "value": "永久效果：范围内生命值不高于20%的敌人会被麻痹。"
+    },
+    {
+      "key": "Drones de Apoio",
+      "value": "支援无人机"
+    },
+    {
+      "key": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+      "value": "每 22 秒，两架无人机绕船运行 12 秒，每 1.2 秒向范围内的敌人开火。"
+    },
+    {
+      "key": "Esquadrão de Apoio",
+      "value": "支援中队"
+    },
+    {
+      "key": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+      "value": "每22秒召唤3架无人机支援15秒，每架无人机每次射击造成7点伤害。"
+    },
+    {
+      "key": "Meteoro Pequeno",
+      "value": "小型陨石"
+    },
+    {
+      "key": "Meteoro Médio",
+      "value": "中型陨石"
+    },
+    {
+      "key": "Meteoro Grande",
+      "value": "大型陨石"
+    },
+    {
+      "key": "Batedor",
+      "value": "侦察兵"
+    },
+    {
+      "key": "Interceptador",
+      "value": "拦截器"
+    },
+    {
+      "key": "Fragata",
+      "value": "护卫舰"
+    },
+    {
+      "key": "Núcleo Aberrante",
+      "value": "异常核心"
+    },
+    {
+      "key": "6 Meteoros Pequenos",
+      "value": "6颗小陨石"
+    },
+    {
+      "key": "8 Pequenos + 2 Médios",
+      "value": "8小+2中陨石"
+    },
+    {
+      "key": "10 Meteoros Médios",
+      "value": "10 颗中型陨石"
+    },
+    {
+      "key": "4 Grandes + 6 Pequenos",
+      "value": "4个大+6个小陨石"
+    },
+    {
+      "key": "10 Meteoros mistos + 2 Batedores",
+      "value": "10 颗混合陨石 + 2 颗侦察兵"
+    },
+    {
+      "key": "6 Batedores + 6 Médios",
+      "value": "6 侦察兵 + 6 中型陨石"
+    },
+    {
+      "key": "4 Interceptadores + 8 Pequenos",
+      "value": "4个拦截器+8个小陨石"
+    },
+    {
+      "key": "8 Meteoros Grandes",
+      "value": "8颗大陨石"
+    },
+    {
+      "key": "6 Interceptadores + 6 Batedores",
+      "value": "6 拦截机 + 6 侦察机"
+    },
+    {
+      "key": "MINI-CHEFE: 1 Fragata + 10 Batedores",
+      "value": "MINIBOSS：1 艘护卫舰 + 10 艘侦察兵"
+    },
+    {
+      "key": "10 Grandes + 4 Interceptadores",
+      "value": "10颗大型陨石+4颗拦截器"
+    },
+    {
+      "key": "10 Batedores + 6 Interceptadores",
+      "value": "10 侦察机 + 6 拦截机"
+    },
+    {
+      "key": "2 Fragatas + 8 Médios",
+      "value": "2艘护卫舰+8艘中型陨石舰"
+    },
+    {
+      "key": "ENXAME DENSO: 12 Interceptadores",
+      "value": "密集群：12 个拦截器"
+    },
+    {
+      "key": "3 Fragatas + 10 Batedores",
+      "value": "3艘护卫舰+10艘侦察舰"
+    },
+    {
+      "key": "16 Meteoros mistos",
+      "value": "16 颗混合陨石"
+    },
+    {
+      "key": "4 Fragatas + 8 Interceptadores",
+      "value": "4艘护卫舰+8艘拦截舰"
+    },
+    {
+      "key": "ENXAME MÁXIMO: 20 Batedores",
+      "value": "最大群体：20 名侦察兵"
+    },
+    {
+      "key": "GAUNTLET: 5 Fragatas + 10 Grandes + 10 Batedores",
+      "value": "挑战：5艘护卫舰+10艘大型陨石+10艘侦察兵"
+    },
+    {
+      "key": "CHEFE FINAL: Núcleo Aberrante",
+      "value": "最终BOSS：异常核心"
+    },
+    {
+      "key": "SELEÇÃO DE MELHORIA",
+      "value": "选择升级"
+    },
+    {
+      "key": " ESCOLHA EM ESPERA",
+      "value": " 挑选等待"
+    },
+    {
+      "key": " ESCOLHAS EM ESPERA",
+      "value": " 等待挑选"
+    },
+    {
+      "key": "NAVE  ·  NÍVEL ",
+      "value": "船舶·水平 "
+    },
+    {
+      "key": "NOVA",
+      "value": "新"
+    },
+    {
+      "key": "NÚCLEO DESTRUÍDO",
+      "value": "核心已毁"
+    },
+    {
+      "key": "TENTE OUTRA VEZ!",
+      "value": "再试一次！"
+    },
+    {
+      "key": "CAMPANHA COMPLETA",
+      "value": "活动完成"
+    },
+    {
+      "key": "NOVO",
+      "value": "新"
+    },
+    {
+      "key": "PRÓXIMO NÍVEL  ·  ",
+      "value": "下一关·  "
+    },
+    {
+      "key": "ONDAS ",
+      "value": "波次  "
+    },
+    {
+      "key": " CRÉDITOS",
+      "value": " 积分"
+    },
+    {
+      "key": "MELHORIAS ",
+      "value": "升级 "
+    },
+    {
+      "key": "CONCLUÍDO",
+      "value": "已清除"
+    },
+    {
+      "key": " NÍVEIS CONCLUÍDOS",
+      "value": " 已通关"
+    },
+    {
+      "key": "Conclua o {0} com esta nave para liberar.",
+      "value": "使用此飞船通关{0}即可解锁。"
+    },
+    {
+      "key": "BLOQUEADA",
+      "value": "已锁定"
+    },
+    {
+      "key": "RETRATO",
+      "value": "竖屏"
+    },
+    {
+      "key": "PAISAGEM",
+      "value": "横屏"
+    },
+    {
+      "key": "LIGADO",
+      "value": "开"
+    },
+    {
+      "key": "DESLIGADO",
+      "value": "关闭"
+    },
+    {
+      "key": "JOGAR",
+      "value": "开始"
+    },
+    {
+      "key": "FASES",
+      "value": "阶段"
+    },
+    {
+      "key": " ONDAS",
+      "value": " 波"
+    },
+    {
+      "key": "AJUSTES",
+      "value": "设置"
+    },
+    {
+      "key": "MÚSICA",
+      "value": "音乐"
+    },
+    {
+      "key": "EFEITOS",
+      "value": "效果"
+    },
+    {
+      "key": "VOLUME",
+      "value": "音量"
+    },
+    {
+      "key": "IDIOMA",
+      "value": "语言"
+    },
+    {
+      "key": "TELA",
+      "value": "屏幕"
+    },
+    {
+      "key": "REMOVER ANÚNCIOS",
+      "value": "移除广告"
+    },
+    {
+      "key": "Compra única e permanente. Jogue sem anúncios.",
+      "value": "一次永久购买。畅玩无广告。"
+    },
+    {
+      "key": "ADQUIRIDO",
+      "value": "已购买"
+    },
+    {
+      "key": "INDISPONÍVEL",
+      "value": "不可用"
+    },
+    {
+      "key": "RESTAURAR COMPRAS",
+      "value": "恢复购买"
+    },
+    {
+      "key": "Disponível na versão Android pelo Google Play.",
+      "value": "可通过 Google Play 在 Android 上使用。"
+    },
+    {
+      "key": "Aguardando Google Play…",
+      "value": "等待 Google Play..."
+    },
+    {
+      "key": "Não foi possível consultar a loja. Use Restaurar para tentar novamente.",
+      "value": "无法联系商店。使用“恢复”重试。"
+    },
+    {
+      "key": "Pagamento pendente. A remoção será ativada após a confirmação.",
+      "value": "付款待处理。确认后将删除广告。"
+    },
+    {
+      "key": "Anúncios removidos nesta conta.",
+      "value": "此帐户的广告已删除。"
+    },
+    {
+      "key": "Compra cancelada. Nenhuma alteração aplicada.",
+      "value": "购买已取消。未应用任何更改。"
+    },
+    {
+      "key": "Já comprou? Restaure usando a mesma conta Google Play.",
+      "value": "已购买？使用同一 Google Play 帐户恢复。"
+    },
+    {
+      "key": "Nave no máximo.",
+      "value": "飞船已升满级。"
+    },
+    {
+      "key": "Restam só ",
+      "value": "还剩 "
+    },
+    {
+      "key": " níveis.",
+      "value": " 级。"
+    },
+    {
+      "key": "Faltam ",
+      "value": "还需 "
+    },
+    {
+      "key": " créditos  ·  termine runs para ganhar",
+      "value": " 信用点 · 完成对局即可获得"
+    },
+    {
+      "key": "Cada compra: +1 nível num atributo aleatório",
+      "value": "每次购买：随机属性 +1 级"
+    },
+    {
+      "key": "NÍVEIS ",
+      "value": "关卡 "
+    },
+    {
+      "key": "MÁX",
+      "value": "最大"
+    },
+    {
+      "key": "RESTAM ",
+      "value": "仅剩 "
+    },
+    {
+      "key": "+1 NÍVEL",
+      "value": "+1 级"
+    },
+    {
+      "key": "+5 NÍVEIS",
+      "value": "+5 级"
+    },
+    {
+      "key": "ATUALIZAÇÃO NECESSÁRIA",
+      "value": "需要更新"
+    },
+    {
+      "key": "CONSULTANDO A LOJA",
+      "value": "检查商店"
+    },
+    {
+      "key": "Verificando se existe uma nova versão…",
+      "value": "正在检查更新版本..."
+    },
+    {
+      "key": "Conclua a atualização no Google Play para continuar.",
+      "value": "完成 Google Play 更新以继续。"
+    },
+    {
+      "key": "A atualização ainda é necessária. Tente novamente ou abra a loja para atualizar.",
+      "value": "仍然需要更新。请重试或打开商店更新。"
+    },
+    {
+      "key": "Existe uma versão mais recente na loja. Atualize o Astro Blitz para continuar jogando.",
+      "value": "商店中有更新版本。更新 Astro Blitz 以继续玩。"
+    },
+    {
+      "key": "ATUALIZAR AGORA",
+      "value": "立即更新"
+    },
+    {
+      "key": "VERIFICAR NOVAMENTE",
+      "value": "再次检查"
+    },
+    {
+      "key": "VER ANÚNCIO PARA RENASCER",
+      "value": "观看广告复活"
+    },
+    {
+      "key": "TENTAR CARREGAR ANÚNCIO",
+      "value": "重新加载广告"
+    },
+    {
+      "key": "Aguardando conclusão do anúncio…",
+      "value": "等待广告完成..."
+    },
+    {
+      "key": "Uma vez por partida. A recompensa exige concluir o anúncio.",
+      "value": "每次游戏一次。完成广告即可获得奖励。"
+    },
+    {
+      "key": "Anúncio indisponível. Aguarde o carregamento ou tente mais tarde.",
+      "value": "广告不可用。等待加载或稍后尝试。"
+    },
+    {
+      "key": "Disponível em ",
+      "value": "再次可用： "
+    },
+    {
+      "key": "Aguardando anúncio…",
+      "value": "等待广告…"
+    },
+    {
+      "key": "Anúncio indisponível",
+      "value": "广告不可用"
+    },
+    {
+      "key": "PRIVACIDADE DOS ANÚNCIOS",
+      "value": "广告隐私选项"
+    },
+    {
+      "key": "Cadência de tiro",
+      "value": "射速"
+    },
+    {
+      "key": "Dano",
+      "value": "伤害"
+    },
+    {
+      "key": "Vida",
+      "value": "船体"
+    },
+    {
+      "key": "Recuperação de vida",
+      "value": "健康再生"
+    },
+    {
+      "key": "Esquiva",
+      "value": "闪避"
+    },
+    {
+      "key": "Créditos por partida",
+      "value": "每次游戏的积分"
+    },
+    {
+      "key": "Chance crítica",
+      "value": "暴击率"
+    },
+    {
+      "key": "Dano crítico",
+      "value": "暴击伤害"
+    },
+    {
+      "key": "% velocidade",
+      "value": "% 射速"
+    },
+    {
+      "key": "% dano",
+      "value": "% 伤害"
+    },
+    {
+      "key": "% vida",
+      "value": "% 船体"
+    },
+    {
+      "key": " vida/s",
+      "value": " HP/秒"
+    },
+    {
+      "key": "% esquiva",
+      "value": "% 闪避"
+    },
+    {
+      "key": "% créditos",
+      "value": "% 信用点"
+    },
+    {
+      "key": "% chance",
+      "value": "% 概率"
+    },
+    {
+      "key": "% dano crítico",
+      "value": "% 暴击伤害"
+    },
+    {
+      "key": "Primeiro contato. Sobreviva à rota original de 10 ondas.",
+      "value": "第一次接触。在原来的10波路线中生存下来。"
+    },
+    {
+      "key": "A invasão acelera. Mais batedores, reforços e ondas densas.",
+      "value": "入侵加速。更多的侦察兵、增援部队和密集的浪潮。"
+    },
+    {
+      "key": "Interceptadores rápidos e fragatas fecham o cerco.",
+      "value": "快速拦截舰和护卫舰收网。"
+    },
+    {
+      "key": "Batedores e interceptadores chegam juntos. Fragatas surgem antes do chefe.",
+      "value": "侦察兵和拦截机同时抵达。护卫舰出现在 Boss 面前。"
+    },
+    {
+      "key": "As fragatas chegam mais cedo e o enxame não para de crescer.",
+      "value": "护卫舰提前到达，蜂群不断增长。"
+    },
+    {
+      "key": "Ondas lotadas. O fogo cruzado cobra caro de quem tem pouca vida.",
+      "value": "拥挤的波浪。对于薄型船体来说，交叉火力的成本很高。"
+    },
+    {
+      "key": "Escoltas reforçadas. O Núcleo Aberrante chega com um exército.",
+      "value": "加强护卫。异常核心带来了一支军队。"
+    },
+    {
+      "key": "Pressão total desde a primeira onda. Cada erro custa caro.",
+      "value": "第一波压力十足。每个错误都很重要。"
+    },
+    {
+      "key": "O limite do setor. Só naves muito bem equipadas chegam ao chefe.",
+      "value": "扇区边缘。只有装备精良的船只才能到达 Boss。"
+    },
+    {
+      "key": "O último nível. Enxames, fragatas e um Núcleo no auge da força.",
+      "value": "最终关卡。蜂群、护卫舰和核心力量全力以赴。"
+    },
+    {
+      "key": "Sobrecarga ofensiva",
+      "value": "攻击过载"
+    },
+    {
+      "key": "Por 6s: dobra a cadência de tiro.",
+      "value": "射速翻倍，持续6秒。"
+    },
+    {
+      "key": "Égide de emergência",
+      "value": "紧急护盾"
+    },
+    {
+      "key": "Fica invulnerável por 4s.",
+      "value": "获得无敌效果，持续4秒。"
+    },
+    {
+      "key": "Estase temporal",
+      "value": "时间停滞"
+    },
+    {
+      "key": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "value": "冻结包括首领在内的所有敌人，持续3秒。"
+    },
+    {
+      "key": "Reparo restaurador",
+      "value": "修复脉冲"
+    },
+    {
+      "key": "Recupera 30% da vida máxima instantaneamente.",
+      "value": "立即恢复最大生命值的30%。"
+    },
+    {
+      "key": "Amplificação de dano",
+      "value": "伤害增幅"
+    },
+    {
+      "key": "Dobra o dano do canhão por 5s.",
+      "value": "主炮伤害翻倍，持续5秒。"
+    },
+    {
+      "key": "ESQUIVA",
+      "value": "闪避"
+    },
+    {
+      "key": "Lâminas Orbitais",
+      "value": "环绕刀刃"
+    },
+    {
+      "key": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+      "value": "两把刀片围绕飞船旋转并切开所接触到的敌人：每次切割造成 10 点伤害。"
+    },
+    {
+      "key": "Anel de Lâminas",
+      "value": "利刃之环"
+    },
+    {
+      "key": "Três lâminas orbitam a nave: 14 de dano por corte.",
+      "value": "三把刀片绕船运行：每次切割造成 14 点伤害。"
+    },
+    {
+      "key": "Tempestade de Lâminas",
+      "value": "刀锋风暴"
+    },
+    {
+      "key": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+      "value": "更宽轨道上的四个刀片：每次切割造成 18 点伤害。"
+    },
+    {
+      "key": "Estilhaços",
+      "value": "弹片"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+      "value": "被摧毁的敌人会爆发成 3 个碎片：每个碎片 6 点伤害。"
+    },
+    {
+      "key": "Chuva de Estilhaços",
+      "value": "弹片雨"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+      "value": "被摧毁的敌人会分裂成 4 个碎片：每个碎片 9 点伤害。"
+    },
+    {
+      "key": "Tempestade de Estilhaços",
+      "value": "弹片风暴"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+      "value": "被摧毁的敌人会爆发成 6 个碎片：每个碎片 12 点伤害。"
+    },
+    {
+      "key": "Disparo Diagonal",
+      "value": "斜向射击"
+    },
+    {
+      "key": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+      "value": "每次齐射还会以 50% 的伤害发射 2 次对角射击。"
+    },
+    {
+      "key": "Leque Diagonal",
+      "value": "斜向散射"
+    },
+    {
+      "key": "Os 2 tiros em diagonal causam 75% do dano.",
+      "value": "2 个对角线射击造成 75% 伤害。"
+    },
+    {
+      "key": "Leque Total",
+      "value": "全面散射"
+    },
+    {
+      "key": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+      "value": "每次齐射会发射 4 发扇形射击，伤害为 75%。"
+    },
+    {
+      "key": "Aura de Plasma",
+      "value": "等离子光环"
+    },
+    {
+      "key": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+      "value": "靠近船只的敌人每秒受到 8 点伤害。"
+    },
+    {
+      "key": "Coroa de Plasma",
+      "value": "等离子皇冠"
+    },
+    {
+      "key": "Aura maior: 12 de dano por segundo.",
+      "value": "更大的光环：每秒12点伤害。"
+    },
+    {
+      "key": "Sol de Plasma",
+      "value": "等离子太阳"
+    },
+    {
+      "key": "Aura máxima: 18 de dano por segundo.",
+      "value": "最大光环：每秒18点伤害。"
+    },
+    {
+      "key": "Nova Solar",
+      "value": "太阳新星"
+    },
+    {
+      "key": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+      "value": "每7秒，能量波攻击附近的敌人：20点伤害。"
+    },
+    {
+      "key": "Erupção Solar",
+      "value": "太阳耀斑"
+    },
+    {
+      "key": "A cada 6s, uma onda maior: 32 de dano.",
+      "value": "每6秒，更大的一波：32点伤害。"
+    },
+    {
+      "key": "Supernova",
+      "value": "超新星"
+    },
+    {
+      "key": "A cada 5s, uma onda ainda maior: 48 de dano.",
+      "value": "每5秒，更大的波浪：48点伤害。"
+    },
+    {
+      "key": "Ataque Orbital",
+      "value": "轨道打击"
+    },
+    {
+      "key": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+      "value": "每 5 秒，一颗卫星就会攻击范围内的 2 个敌人：每个造成 22 点伤害。"
+    },
+    {
+      "key": "Bombardeio Orbital",
+      "value": "轨道轰炸"
+    },
+    {
+      "key": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+      "value": "每4.5秒，攻击3个敌人：每个28点伤害。"
+    },
+    {
+      "key": "Chuva Orbital",
+      "value": "轨道雨"
+    },
+    {
+      "key": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+      "value": "每 4 秒，攻击 4 个敌人：每个 36 点伤害。"
+    },
+    {
+      "key": "Ímã Gravitacional",
+      "value": "重力磁铁"
+    },
+    {
+      "key": "Ganha 15% a mais de XP.",
+      "value": "获得的经验值增加15%。"
+    },
+    {
+      "key": "Campo Gravitacional",
+      "value": "重力场"
+    },
+    {
+      "key": "Ganha 30% a mais de XP.",
+      "value": "获得的经验值增加30%。"
+    },
+    {
+      "key": "Singularidade Magnética",
+      "value": "磁奇点"
+    },
+    {
+      "key": "Ganha 50% a mais de XP.",
+      "value": "获得的经验值增加50%。"
+    },
+    {
+      "key": "Nanorreparo",
+      "value": "纳米修复"
+    },
+    {
+      "key": "Recupera 0,4% do HP máximo por segundo.",
+      "value": "每秒恢复最大生命值的0.4%。"
+    },
+    {
+      "key": "Enxame Nanorreparador",
+      "value": "修复蜂群"
+    },
+    {
+      "key": "Recupera 0,7% do HP máximo por segundo.",
+      "value": "每秒恢复最大生命值的0.7%。"
+    },
+    {
+      "key": "Regeneração Total",
+      "value": "完全再生"
+    },
+    {
+      "key": "Recupera 1% do HP máximo por segundo.",
+      "value": "每秒恢复最大生命值的1%。"
+    },
+    {
+      "key": "Núcleo Fênix",
+      "value": "凤凰核心"
+    },
+    {
+      "key": "Uma vez por partida, ao ser destruída, a nave renasce com 30% do HP.",
+      "value": "每局一次，飞船被摧毁时以30%生命值复活。"
+    },
+    {
+      "key": "Núcleo Fênix Ardente",
+      "value": "炽焰凤凰核心"
+    },
+    {
+      "key": "Renasce uma vez com 45% do HP e empurra os inimigos próximos.",
+      "value": "重生一次，生命值45%，将附近的敌人推开。"
+    },
+    {
+      "key": "Renascer Estelar",
+      "value": "恒星重生"
+    },
+    {
+      "key": "Renasce uma vez com 60% do HP, empurra e causa 60 de dano ao redor.",
+      "value": "以60%生命值复活一次，击退周围敌人并造成60点伤害。"
+    },
+    {
+      "key": "Adrenalina",
+      "value": "肾上腺素"
+    },
+    {
+      "key": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+      "value": "每次击杀都会使射速+4%，持续3秒，最多叠加5次。"
+    },
+    {
+      "key": "Adrenalina Pura",
+      "value": "纯肾上腺素"
+    },
+    {
+      "key": "+5% de cadência por abate, acumulando até 6 vezes.",
+      "value": "每次击杀+5% 射速，最多叠加 6 次。"
+    },
+    {
+      "key": "Frenesi",
+      "value": "疯狂"
+    },
+    {
+      "key": "+6% de cadência por abate, acumulando até 8 vezes.",
+      "value": "每次击杀+6% 射速，最多叠加 8 次。"
+    },
+    {
+      "key": "Tiro de Misericórdia",
+      "value": "慈悲射击"
+    },
+    {
+      "key": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+      "value": "加农炮射击立即摧毁生命值12%或以下的敌人（除了boss）。"
+    },
+    {
+      "key": "Execução",
+      "value": "处决"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 18% do HP.",
+      "value": "瞬间消灭生命值18%或以下的敌人。"
+    },
+    {
+      "key": "Sentença Final",
+      "value": "最终裁决"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 25% do HP.",
+      "value": "瞬间消灭生命值25%或以下的敌人。"
+    },
+    {
+      "key": "Sobrecarga Furiosa",
+      "value": "狂怒过载"
+    },
+    {
+      "key": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+      "value": "攻击过载期间，火炮伤害+25%。"
+    },
+    {
+      "key": "Fúria Sobrecarregada",
+      "value": "过载之怒"
+    },
+    {
+      "key": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+      "value": "攻击过载期间伤害+40%；每次击杀使持续时间延长0.2秒。"
+    },
+    {
+      "key": "Sobrecarga Infernal",
+      "value": "地狱过载"
+    },
+    {
+      "key": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+      "value": "攻击过载期间伤害+60%；每次击杀使持续时间延长0.3秒。"
+    },
+    {
+      "key": "Casco Espinhoso",
+      "value": "荆棘外壳"
+    },
+    {
+      "key": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+      "value": "当敌人接触飞船时，即使被阻挡，尖刺也会对其周围造成 20 点伤害。"
+    },
+    {
+      "key": "Espinhos Reforçados",
+      "value": "强化荆棘"
+    },
+    {
+      "key": "Os espinhos causam 35 de dano numa área maior.",
+      "value": "尖刺在更大范围内造成 35 点伤害。"
+    },
+    {
+      "key": "Retaliação Total",
+      "value": "全面报复"
+    },
+    {
+      "key": "Os espinhos causam 55 de dano numa área ainda maior.",
+      "value": "尖刺可在更大范围内造成 55 点伤害。"
+    },
+    {
+      "key": "Égide Prolongada",
+      "value": "延时护盾"
+    },
+    {
+      "key": "A Égide de emergência dura +1s.",
+      "value": "紧急护盾持续时间+1秒。"
+    },
+    {
+      "key": "Égide Persistente",
+      "value": "持久护盾"
+    },
+    {
+      "key": "A Égide de emergência dura +2s.",
+      "value": "紧急护盾持续时间+2秒。"
+    },
+    {
+      "key": "Égide Eterna",
+      "value": "永恒护盾"
+    },
+    {
+      "key": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+      "value": "紧急护盾持续时间+3秒。激活时击退敌人。"
+    },
+    {
+      "key": "Escudo Regenerativo",
+      "value": "再生护盾"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+      "value": "护盾每次格挡攻击，恢复最大生命值的3%。"
+    },
+    {
+      "key": "Escudo Vital",
+      "value": "生命护盾"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+      "value": "护盾每次格挡攻击，恢复最大生命值的5%。"
+    },
+    {
+      "key": "Escudo Restaurador",
+      "value": "复原护盾"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+      "value": "护盾每次格挡攻击，恢复最大生命值的8%。"
+    },
+    {
+      "key": "Fenda Temporal",
+      "value": "时空裂隙"
+    },
+    {
+      "key": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+      "value": "每 9 秒，在范围内最大的群体上打开一条裂痕：缓慢 50%，持续 3 秒并造成 10 点伤害。"
+    },
+    {
+      "key": "Fenda Ampliada",
+      "value": "裂痕扩大"
+    },
+    {
+      "key": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+      "value": "每8秒，一个更大的裂痕：60%慢，持续4秒，造成16点伤害。"
+    },
+    {
+      "key": "Colapso Temporal",
+      "value": "时空崩塌"
+    },
+    {
+      "key": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+      "value": "每 7 秒，最大裂缝：缓慢 70%，持续 5 秒，造成 24 点伤害。"
+    },
+    {
+      "key": "Paradoxo",
+      "value": "悖论"
+    },
+    {
+      "key": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+      "value": "每次击杀使时间停滞的冷却时间减少0.3秒。"
+    },
+    {
+      "key": "Paradoxo Cíclico",
+      "value": "循环悖论"
+    },
+    {
+      "key": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+      "value": "每次击杀使时间停滞的冷却时间减少0.5秒。"
+    },
+    {
+      "key": "Paradoxo Absoluto",
+      "value": "绝对悖论"
+    },
+    {
+      "key": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+      "value": "每次击杀使时间停滞的冷却时间减少0.8秒。"
+    },
+    {
+      "key": "Eco Temporal",
+      "value": "时光回响"
+    },
+    {
+      "key": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+      "value": "加农炮命中有 15% 的几率在 0.3 秒后重复造成 60% 伤害。"
+    },
+    {
+      "key": "Eco Duplo",
+      "value": "双回声"
+    },
+    {
+      "key": "25% de chance de eco, com 80% do dano.",
+      "value": "25% 回声几率，80% 伤害。"
+    },
+    {
+      "key": "Eco Infinito",
+      "value": "无限回声"
+    },
+    {
+      "key": "35% de chance de eco, com 100% do dano.",
+      "value": "35% 回声几率，100% 伤害。"
+    },
+    {
+      "key": "Sobrecura",
+      "value": "超量治疗"
+    },
+    {
+      "key": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+      "value": "超过最大生命值的治疗转化为护盾：每溢出10%获得1次格挡（最多1次）。"
+    },
+    {
+      "key": "Sobrecura Blindada",
+      "value": "装甲超量治疗"
+    },
+    {
+      "key": "Guarda até 2 bloqueios do excesso de cura.",
+      "value": "溢出治疗最多储存2次格挡。"
+    },
+    {
+      "key": "Sobrecura Total",
+      "value": "完全超量治疗"
+    },
+    {
+      "key": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+      "value": "最多储存3次格挡；每溢出7%治疗获得1次。"
+    },
+    {
+      "key": "Pulso Vital",
+      "value": "生命脉冲"
+    },
+    {
+      "key": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+      "value": "每次治疗释放脉冲，对周围的敌人造成恢复生命值2倍的伤害。每1秒最多触发一次。"
+    },
+    {
+      "key": "Onda Vital",
+      "value": "生命波"
+    },
+    {
+      "key": "O pulso causa 3x o HP recuperado numa área maior.",
+      "value": "脉冲对更大范围的敌人造成恢复生命值3倍的伤害。"
+    },
+    {
+      "key": "Explosão Vital",
+      "value": "生命爆发"
+    },
+    {
+      "key": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+      "value": "脉冲对更广范围的敌人造成恢复生命值4倍的伤害。"
+    },
+    {
+      "key": "Protocolo de Emergência",
+      "value": "紧急协议"
+    },
+    {
+      "key": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+      "value": "生命值降至30%以下时，立即恢复20%。经过40秒战斗后可再次触发。"
+    },
+    {
+      "key": "Protocolo Avançado",
+      "value": "高级协议"
+    },
+    {
+      "key": "Recupera 30% na hora. Rearma após 35s de combate.",
+      "value": "立即恢复30%。经过35秒战斗后可再次触发。"
+    },
+    {
+      "key": "Protocolo Total",
+      "value": "总协议"
+    },
+    {
+      "key": "Recupera 40% na hora. Rearma após 30s de combate.",
+      "value": "立即恢复40%。经过30秒战斗后可再次触发。"
+    },
+    {
+      "key": "Canhão de Trilho",
+      "value": "磁轨炮"
+    },
+    {
+      "key": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+      "value": "每 7 秒，一道光束穿过竞技场，射向范围内最强大的敌人：对线上的所有物体造成 45 点伤害。"
+    },
+    {
+      "key": "Trilho Acelerado",
+      "value": "加速磁轨炮"
+    },
+    {
+      "key": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+      "value": "每6秒发射更宽的光束，对射线上的敌人造成70点伤害。"
+    },
+    {
+      "key": "Trilho Aniquilador",
+      "value": "歼灭磁轨炮"
+    },
+    {
+      "key": "A cada 5s, feixe máximo: 100 de dano na linha.",
+      "value": "每5秒发射最大宽度的光束，对射线上的敌人造成100点伤害。"
+    },
+    {
+      "key": "Marcação de Alvo",
+      "value": "目标标记"
+    },
+    {
+      "key": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+      "value": "每 4 秒，标记范围内最难对付的敌人：它会受到 +30% 的伤害，持续 4 秒。"
+    },
+    {
+      "key": "Marcação Precisa",
+      "value": "精准标记"
+    },
+    {
+      "key": "A cada 3,5s: +45% de dano no alvo marcado.",
+      "value": "每3.5秒：对标记目标造成+45%伤害。"
+    },
+    {
+      "key": "Marcação Letal",
+      "value": "致命标记"
+    },
+    {
+      "key": "A cada 3s: +60% de dano no alvo marcado.",
+      "value": "每3秒：对标记目标造成+60%伤害。"
+    },
+    {
+      "key": "Ressonância",
+      "value": "共鸣"
+    },
+    {
+      "key": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+      "value": "激活伤害增幅时，冲击波对范围内所有敌人造成50点伤害。"
+    },
+    {
+      "key": "Ressonância Ampliada",
+      "value": "放大共振"
+    },
+    {
+      "key": "A onda causa 80 de dano.",
+      "value": "波浪造成 80 点伤害。"
+    },
+    {
+      "key": "Ressonância Total",
+      "value": "总共振"
+    },
+    {
+      "key": "A onda causa 120 de dano e atordoa por 1s.",
+      "value": "波浪造成120点伤害并眩晕1秒。"
+    },
+    {
+      "key": "LOGAR",
+      "value": "登录"
+    },
+    {
+      "key": "CONTA",
+      "value": "账号"
+    },
+    {
+      "key": "Faça login para salvar seu progresso na nuvem.",
+      "value": "登录即可将游戏进度保存到云端。"
+    },
+    {
+      "key": "AGORA NÃO",
+      "value": "暂不登录"
+    },
+    {
+      "key": "Salve o progresso na conta",
+      "value": "将进度保存到账号"
+    },
+    {
+      "key": "SALVE SEU PROGRESSO",
+      "value": "保存游戏进度"
+    },
+    {
+      "key": "MODO INFINITO",
+      "value": "无尽模式"
+    },
+    {
+      "key": "Ciclos sem fim: 4 ondas e um chefe. XP 25% menor. Nível máximo 12.",
+      "value": "无限循环：4波敌人后迎战首领。XP获取量减少25%。最高等级12。"
+    },
+    {
+      "key": "Conclua o Nível 3 com qualquer nave para liberar.",
+      "value": "使用任意飞船通关第3关即可解锁。"
+    },
+    {
+      "key": "4 ONDAS + CHEFE",
+      "value": "4波敌人 + 首领"
+    },
+    {
+      "key": "Toque para escolher. Segure para ver os detalhes.",
+      "value": "点击选择，长按查看详情。"
+    },
+    {
+      "key": "Tiros Extras",
+      "value": "额外射击"
+    },
+    {
+      "key": "Escudo Recarregável",
+      "value": "自动充能护盾"
+    },
+    {
+      "key": "Mísseis Teleguiados",
+      "value": "追踪导弹"
+    },
+    {
+      "key": "Tiros Perfurantes",
+      "value": "穿透射击"
+    },
+    {
+      "key": "Cadência Aumentada",
+      "value": "射速提升"
+    },
+    {
+      "key": "Mísseis ao Curar",
+      "value": "治疗时发射导弹"
+    },
+    {
+      "key": "Chance Crítica",
+      "value": "暴击几率"
+    },
+    {
+      "key": "Cura por Abate",
+      "value": "击杀回血"
+    },
+    {
+      "key": "Repulsão Periódica",
+      "value": "周期击退"
+    },
+    {
+      "key": "Cura Periódica",
+      "value": "周期治疗"
+    },
+    {
+      "key": "Barreira de Destroços",
+      "value": "残骸屏障"
+    },
+    {
+      "key": "Tiro Explosivo",
+      "value": "爆炸射击"
+    },
+    {
+      "key": "Crítico Garantido",
+      "value": "必定暴击"
+    },
+    {
+      "key": "Lentidão Global",
+      "value": "全体减速"
+    },
+    {
+      "key": "Paralisia por Vida Baixa",
+      "value": "低生命值麻痹"
+    },
+    {
+      "key": "Raios em Cadeia",
+      "value": "连锁闪电"
+    },
+    {
+      "key": "Drones Atiradores",
+      "value": "射击无人机"
+    },
+    {
+      "key": "Sobrecarga Mais Rápida",
+      "value": "过载冷却缩短"
+    },
+    {
+      "key": "Redução de Dano",
+      "value": "伤害减免"
+    },
+    {
+      "key": "Dano contra Chefes",
+      "value": "对首领伤害提升"
+    },
+    {
+      "key": "Estilhaços por Abate",
+      "value": "击杀飞溅碎片"
+    },
+    {
+      "key": "Tiros Diagonais",
+      "value": "斜向射击"
+    },
+    {
+      "key": "Aura de Dano",
+      "value": "伤害光环"
+    },
+    {
+      "key": "Explosão Periódica",
+      "value": "周期爆炸"
+    },
+    {
+      "key": "Bombardeio por Satélite",
+      "value": "卫星轰炸"
+    },
+    {
+      "key": "Bônus de XP",
+      "value": "经验加成"
+    },
+    {
+      "key": "Regeneração de Vida",
+      "value": "生命再生"
+    },
+    {
+      "key": "Reviver",
+      "value": "复活"
+    },
+    {
+      "key": "Cadência por Abate",
+      "value": "击杀提升射速"
+    },
+    {
+      "key": "Execução por Vida Baixa",
+      "value": "斩杀低生命值敌人"
+    },
+    {
+      "key": "Dano na Sobrecarga",
+      "value": "过载期间伤害提升"
+    },
+    {
+      "key": "Espinhos ao Colidir",
+      "value": "碰撞尖刺反击"
+    },
+    {
+      "key": "Égide Duradoura",
+      "value": "应急护盾持续延长"
+    },
+    {
+      "key": "Cura ao Bloquear",
+      "value": "格挡回血"
+    },
+    {
+      "key": "Fenda de Lentidão",
+      "value": "减速裂隙"
+    },
+    {
+      "key": "Recarga da Estase por Abate",
+      "value": "击杀缩短静滞冷却"
+    },
+    {
+      "key": "Repetição de Acertos",
+      "value": "重复命中"
+    },
+    {
+      "key": "Escudo por Excesso de Cura",
+      "value": "溢出治疗转护盾"
+    },
+    {
+      "key": "Dano ao Curar",
+      "value": "治疗时造成伤害"
+    },
+    {
+      "key": "Cura de Emergência",
+      "value": "紧急治疗"
+    },
+    {
+      "key": "Feixe Perfurante",
+      "value": "穿透光束"
+    },
+    {
+      "key": "Alvo Vulnerável",
+      "value": "易伤目标"
+    },
+    {
+      "key": "Explosão na Amplificação",
+      "value": "增幅触发爆炸"
+    },
+    {
+      "key": "Toque para escolher. Toque em i para ver os detalhes.",
+      "value": "点击选择，点击 i 查看详情。"
+    },
+    {
+      "key": "BÔNUS DE BOAS-VINDAS",
+      "value": "登录奖励"
+    },
+    {
+      "key": "Entre no jogo em 5 dias diferentes e ganhe uma recompensa por dia.",
+      "value": "在5个不同的日子登录，每天领取奖励。"
+    },
+    {
+      "key": "LOGIN DIÁRIO",
+      "value": "每日登录"
+    },
+    {
+      "key": "DIA ",
+      "value": "DAY "
+    },
+    {
+      "key": "CARTA",
+      "value": "卡牌"
+    },
+    {
+      "key": "RESGATAR DIA ",
+      "value": "领取：DAY "
+    },
+    {
+      "key": "VOLTE AMANHÃ",
+      "value": "下次再来"
+    },
+    {
+      "key": "Dia 5: créditos para comprar uma nave nova!",
+      "value": "DAY 5：购买新飞船的积分!"
+    },
+    {
+      "key": "Nova carta no deck base: ",
+      "value": "卡组新卡牌："
+    },
+    {
+      "key": "  ·  o valor de uma nave!",
+      "value": "  ·  可购买一艘新飞船!"
+    },
+    {
+      "key": "BÔNUS CONCLUÍDO",
+      "value": "奖励已领取"
+    },
+    {
+      "key": "PRIVACIDADE E CONTA",
+      "value": "隐私与账号"
+    },
+    {
+      "key": "Gerencie seus dados e sua conta. Excluir a conta do jogo apaga o progresso local e na nuvem.",
+      "value": "管理数据与账号。删除游戏账号将清除本地及云端进度。"
+    },
+    {
+      "key": "POLÍTICA DE PRIVACIDADE",
+      "value": "隐私政策"
+    },
+    {
+      "key": "GERENCIAR CONTA UNITY",
+      "value": "管理 UNITY 账号"
+    },
+    {
+      "key": "EXCLUIR CONTA DO JOGO",
+      "value": "删除游戏账号"
+    },
+    {
+      "key": "A conta Unity é compartilhada com outros jogos e pode ser gerenciada separadamente. Compras da loja não são apagadas.",
+      "value": "Unity 账号与其他游戏共用，可单独管理。商店购买记录不会被删除。"
+    },
+    {
+      "key": "Excluir permanentemente sua conta do jogo e todo o progresso? Esta ação não pode ser desfeita.",
+      "value": "永久删除游戏账号及全部进度？此操作无法撤销。"
+    },
+    {
+      "key": "CONFIRMAR EXCLUSÃO",
+      "value": "确认删除"
+    },
+    {
+      "key": "Não foi possível concluir. Verifique a conexão e tente novamente.",
+      "value": "无法完成。请检查网络连接后重试。"
+    },
+    {
+      "key": "Bola de Neve Ricocheteante",
+      "value": "弹跳雪球"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+      "value": "每12秒发射雪球，在屏幕边缘弹跳6秒，接触造成18伤害。"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+      "value": "每12秒发射雪球，在屏幕边缘弹跳8秒，接触造成26伤害。"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+      "value": "每12秒发射雪球，在屏幕边缘弹跳10秒，接触造成36伤害。"
+    },
+    {
+      "key": "Bola de Neve Gigante",
+      "value": "巨型雪球"
+    },
+    {
+      "key": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+      "value": "每16秒发射持续6秒的穿透巨型雪球：65伤害和45%减速。"
+    },
+    {
+      "key": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+      "value": "每15秒发射持续6秒的穿透巨型雪球：100伤害和45%减速。"
+    },
+    {
+      "key": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+      "value": "每14秒发射持续6秒的穿透巨型雪球：145伤害和45%减速。"
+    },
+    {
+      "key": "Círculo de Gelo",
+      "value": "冰霜圆环"
+    },
+    {
+      "key": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "每14秒在飞船周围生成持续5秒的冰圈：每0.5秒造成8伤害和35%减速。"
+    },
+    {
+      "key": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+      "value": "每13秒在飞船周围生成持续6秒的冰圈：每0.5秒造成12伤害和45%减速。"
+    },
+    {
+      "key": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+      "value": "每12秒在飞船周围生成持续7秒的冰圈：每0.5秒造成16伤害和55%减速。"
+    },
+    {
+      "key": "Presentes Explosivos",
+      "value": "爆炸礼物"
+    },
+    {
+      "key": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+      "value": "每11秒在可见敌人位置放置礼物，1秒后爆炸造成70范围伤害。"
+    },
+    {
+      "key": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+      "value": "每10秒在可见敌人位置放置礼物，1秒后爆炸造成105范围伤害。"
+    },
+    {
+      "key": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+      "value": "每9秒在可见敌人位置放置礼物，1秒后爆炸造成150范围伤害。"
+    },
+    {
+      "key": "Estilhaços de Gelo",
+      "value": "冰晶碎片"
+    },
+    {
+      "key": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+      "value": "每9秒向四周发射6枚冰晶：20穿透伤害和15%减速。"
+    },
+    {
+      "key": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+      "value": "每8秒向四周发射8枚冰晶：30穿透伤害和20%减速。"
+    },
+    {
+      "key": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+      "value": "每7秒向四周发射10枚冰晶：42穿透伤害和25%减速。"
+    },
+    {
+      "key": "Nevasca Localizada",
+      "value": "局部暴风雪"
+    },
+    {
+      "key": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+      "value": "每18秒在敌人位置生成最多2处暴风雪，持续4秒：每0.5秒造成10伤害和30%减速。"
+    },
+    {
+      "key": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "每17秒在敌人位置生成最多3处暴风雪，持续5秒：每0.5秒造成15伤害和35%减速。"
+    },
+    {
+      "key": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+      "value": "每16秒在敌人位置生成最多4处暴风雪，持续6秒：每0.5秒造成21伤害和40%减速。"
+    },
+    {
+      "key": "Noel Polar",
+      "value": "极地诺艾尔"
+    },
+    {
+      "key": "Listras de bengala doce e um arsenal de inverno.",
+      "value": "拐杖糖条纹与寒冬武器库。"
+    },
+    {
+      "key": "Natal: bolas de neve, gelo e presentes explosivos.",
+      "value": "圣诞：雪球、冰霜和爆炸礼物。"
+    },
+    {
+      "key": "Estrela Natalina",
+      "value": "圣诞之星"
+    },
+    {
+      "key": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "value": "标记范围内敌人，6秒内受到的伤害提高35%。"
+    },
+    {
+      "key": "NATAL",
+      "value": "圣诞"
+    },
+    {
+      "key": "NOTAS DA VERSÃO",
+      "value": "版本说明"
+    },
+    {
+      "key": "DÚVIDAS, FEEDBACK E BUGS",
+      "value": "疑问、反馈与错误报告"
+    },
+    {
+      "key": "FALE COM A EQUIPE",
+      "value": "联系团队"
+    },
+    {
+      "key": "Escolha o assunto e escreva sua mensagem.",
+      "value": "请选择主题并填写消息。"
+    },
+    {
+      "key": "DÚVIDA",
+      "value": "疑问"
+    },
+    {
+      "key": "FEEDBACK",
+      "value": "反馈"
+    },
+    {
+      "key": "BUG",
+      "value": "错误"
+    },
+    {
+      "key": "Escreva sua mensagem aqui…",
+      "value": "在此填写消息…"
+    },
+    {
+      "key": "Inclui versão, plataforma e idioma; não inclui dados da conta.",
+      "value": "包含版本、平台和语言，不包含账号数据。"
+    },
+    {
+      "key": "ABRIR E-MAIL",
+      "value": "打开邮件"
+    },
+    {
+      "key": "COPIAR MENSAGEM",
+      "value": "复制消息"
+    },
+    {
+      "key": "Mensagem e contato copiados.",
+      "value": "已复制消息和联系地址。"
+    },
+    {
+      "key": "Você revisará e enviará pelo seu aplicativo de e-mail.",
+      "value": "请在邮件应用中检查并发送。"
+    },
+    {
+      "key": "Revise e envie no aplicativo de e-mail. Se não abrir, use Copiar.",
+      "value": "请在邮件应用中检查并发送。若未打开，请使用复制。"
+    },
+    {
+      "key": "Melhorias e correções nesta versão.",
+      "value": "此版本包含改进与修复。"
+    },
+    {
+      "key": "Novidade: Noel Polar, a nave de Natal com listras vermelhas e brancas.",
+      "value": "新增极地诺艾尔：红白条纹的圣诞飞船。"
+    },
+    {
+      "key": "Seis cartas exclusivas: bolas de neve, círculo de gelo, presentes explosivos, estilhaços e nevasca.",
+      "value": "六张专属卡：雪球、冰霜圆环、爆炸礼物、冰晶碎片和暴风雪。"
+    },
+    {
+      "key": "Estrela Natalina: inimigos marcados recebem 35% mais dano durante 6 segundos.",
+      "value": "圣诞之星：被标记敌人在6秒内受到的伤害提高35%。"
+    },
+    {
+      "key": "Novo canal de suporte para dúvidas, sugestões e relatos de bugs.",
+      "value": "新增支持渠道，可提交疑问、建议和错误报告。"
+    },
+    {
+      "key": "MODOS DE JOGO",
+      "value": "游戏模式"
+    },
+    {
+      "key": "MODO DE JOGO",
+      "value": "游戏模式"
+    },
+    {
+      "key": "CAMPANHA",
+      "value": "主线"
+    },
+    {
+      "key": "10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
+      "value": "共 10 个关卡，每关最后都有首领。每艘飞船都有独立进度。"
+    },
+    {
+      "key": "Pontue destruindo inimigos e vencendo ondas. Os 50 melhores entram no ranking.",
+      "value": "消灭敌人、通过波次即可得分。前 50 名进入排名。"
+    },
+    {
+      "key": "RECORDE ",
+      "value": "最高分 "
+    },
+    {
+      "key": "NÍVEIS",
+      "value": "关卡"
+    },
+    {
+      "key": "RANKING",
+      "value": "排名"
+    },
+    {
+      "key": "SELECIONADO",
+      "value": "已选择"
+    },
+    {
+      "key": "BLOQUEADO",
+      "value": "已锁定"
+    },
+    {
+      "key": "SEU RECORDE  ",
+      "value": "我的最高分  "
+    },
+    {
+      "key": "POSIÇÃO ",
+      "value": "排名 "
+    },
+    {
+      "key": "CARREGANDO...",
+      "value": "加载中..."
+    },
+    {
+      "key": "Ninguém pontuou ainda. Seja o primeiro!",
+      "value": "暂时无人得分。成为第一个!"
+    },
+    {
+      "key": "Entre no {0} para ver o ranking e enviar seus pontos.",
+      "value": "登录 {0} 即可查看排名并提交分数。"
+    },
+    {
+      "key": "ENTRAR",
+      "value": "登录"
+    },
+    {
+      "key": "Não foi possível carregar o ranking. Verifique a internet.",
+      "value": "无法加载排名。请检查网络连接。"
+    },
+    {
+      "key": "O ranking ainda não está disponível nesta versão.",
+      "value": "此版本暂时无法使用排名。"
+    },
+    {
+      "key": "O ranking funciona no celular, pelo Play Games ou Game Center.",
+      "value": "排名需要在手机上通过 Play Games 或 Game Center 使用。"
+    },
+    {
+      "key": "ATUALIZAR",
+      "value": "更新"
+    },
+    {
+      "key": "PONTOS ",
+      "value": "分数 "
+    },
+    {
+      "key": "NOVO RECORDE!",
+      "value": "新的最高分!"
+    },
+    {
+      "key": "BÔNUS DE EVOLUÇÃO +",
+      "value": "成长奖励 +"
+    },
+    {
+      "key": "PRÓXIMA CARTA EXCLUSIVA",
+      "value": "下一张专属卡牌"
+    },
+    {
+      "key": "FALTAM {0} NÍVEIS",
+      "value": "还需 {0} 级"
+    },
+    {
+      "key": "FALTA 1 NÍVEL!",
+      "value": "只需 1 级!"
+    },
+    {
+      "key": "TODAS AS CARTAS DA NAVE LIBERADAS",
+      "value": "飞船卡牌已全部解锁"
+    },
+    {
+      "key": "NOVA CARTA EXCLUSIVA!",
+      "value": "新的专属卡牌!"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas desta nave.",
+      "value": "现在它可以出现在此飞船的选择中。"
+    },
+    {
+      "key": "TOQUE PARA CONTINUAR",
+      "value": "点击继续"
+    },
+    {
+      "key": "NOVA CARTA!",
+      "value": "新卡牌!"
+    },
+    {
+      "key": "DECK BASE",
+      "value": "通用卡组"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas de todas as naves.",
+      "value": "现在它可以出现在所有飞船的选择中。"
+    },
+    {
+      "key": "COMPRAR",
+      "value": "购买"
+    },
+    {
+      "key": "AGUARDE",
+      "value": "请等待"
+    },
+    {
+      "key": "LOJA INDISPONÍVEL",
+      "value": "商店暂不可用"
+    },
+    {
+      "key": "OFERTA",
+      "value": "限时"
+    },
+    {
+      "key": "A OFERTA ACABA EM ",
+      "value": "限时剩余 "
+    },
+    {
+      "key": "OFERTA ENCERRADA",
+      "value": "已结束"
+    },
+    {
+      "key": "RECEBIDO!",
+      "value": "已领取!"
+    },
+    {
+      "key": "+1000 MINÉRIOS (FROTA COMPLETA)",
+      "value": "+1000 积分(舰队已满)"
+    },
+    {
+      "key": "1 NAVE ALEATÓRIA",
+      "value": "随机飞船 ×1"
+    },
+    {
+      "key": "MINÉRIOS",
+      "value": "积分"
+    },
+    {
+      "key": "FECHAR",
+      "value": "关闭"
+    },
+    {
+      "key": "Tudo já está na sua conta.",
+      "value": "全部已发放到账号。"
+    },
+    {
+      "key": "Pagamento pendente. O pacote chega após a confirmação.",
+      "value": "付款待处理。确认后发放礼包。"
+    },
+    {
+      "key": "Não foi possível consultar a loja.",
+      "value": "无法连接商店。"
+    },
+    {
+      "key": "Compra única. Só uma vez por conta.",
+      "value": "一次性购买。每个账号限一次。"
+    },
+    {
+      "key": "PASSIVA · ",
+      "value": "被动 · "
+    },
+    {
+      "key": "CALOR DE FOCO",
+      "value": "连续命中"
+    },
+    {
+      "key": "Tiros seguidos no mesmo alvo esquentam: até +40% de dano.",
+      "value": "连续命中同一目标：伤害最高+40%。"
+    },
+    {
+      "key": "CANHÃO DE IMPACTO",
+      "value": "冲击炮"
+    },
+    {
+      "key": "Tiros empurram. 3 placas orbitais atiram em quem chegar perto.",
+      "value": "子弹会推开敌人。3个环绕护盾向靠近的敌人开火。"
+    },
+    {
+      "key": "TIRO DE FASE",
+      "value": "时间射击"
+    },
+    {
+      "key": "Atravessa, deixa lento e se repete em eco. Alvo lento leva crítico.",
+      "value": "穿透、减速并以回声重复。被减速的目标必定暴击。"
+    },
+    {
+      "key": "SUTURA",
+      "value": "缝合"
+    },
+    {
+      "key": "Mira o mais fraco. Abates soltam orbes de cura; o excesso vira escudo.",
+      "value": "瞄准最弱的敌人。击杀生成治疗球，多余治疗转为护盾。"
+    },
+    {
+      "key": "ARTILHARIA DE CERCO",
+      "value": "攻城炮击"
+    },
+    {
+      "key": "Mira o mais forte. A cada 5 tiros, um disparo carregado explode.",
+      "value": "瞄准最强的敌人。每5发中有1发充能弹会爆炸。"
+    },
+    {
+      "key": "Pinheiro Natalino",
+      "value": "圣诞松树"
+    },
+    {
+      "key": "Cristal Polar",
+      "value": "极地水晶"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+      "value": "受到致命伤害时，以30%生命值复活并无敌2秒。冷却：60秒战斗时间。"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+      "value": "受到致命伤害时，以45%生命值复活，无敌2秒并击退敌人。冷却：60秒战斗时间。"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+      "value": "受到致命伤害时，以60%生命值复活，无敌2秒，击退敌人并造成60点范围伤害。冷却：60秒战斗时间。"
+    },
+    {
+      "key": "A cada 6 tiros do canhão, o último é crítico garantido.",
+      "value": "大炮每发射6发炮弹，最后一发必定暴击。"
+    },
+    {
+      "key": "A cada 5 tiros do canhão, o último é crítico garantido.",
+      "value": "大炮每发射5发炮弹，最后一发必定暴击。"
+    },
+    {
+      "key": "A cada 4 tiros do canhão, o último é crítico garantido.",
+      "value": "大炮每发射4发炮弹，最后一发必定暴击。"
+    },
+    {
+      "key": "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+      "value": "欢迎来到 Astro Blitz！感谢你从上线起就来游玩。"
+    },
+    {
+      "key": "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+      "value": "驾驶独特的飞船，每次升级选择强化，在十个关卡中击败异常核心。"
+    },
+    {
+      "key": "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+      "value": "这只是第一个版本：我们每周都会更新，让游戏变得更好。"
+    },
+    {
+      "key": "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo.",
+      "value": "有疑问、想法或错误？请通过下方按钮联系团队。"
+    },
+    {
+      "key": "Compra única e permanente. Sem anúncios e recompensas sem vídeo.",
+      "value": "一次永久购买。无广告，无需观看视频即可领取奖励。"
+    },
+    {
+      "key": "NAVES",
+      "value": "飞船"
+    }
+  ]
+}

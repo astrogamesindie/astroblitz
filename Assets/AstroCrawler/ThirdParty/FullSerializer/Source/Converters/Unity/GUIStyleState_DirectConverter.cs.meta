@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 812be74e9a02232409ebf11d31f582cb
+timeCreated: 1455511482
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/Converters/Unity/GUIStyleState_DirectConverter.cs
+  uploadId: 957878

@@ -1,0 +1,2712 @@
+{
+  "entries": [
+    {
+      "key": "REINICIAR?",
+      "value": "やり直しますか？"
+    },
+    {
+      "key": "Volta à onda 1 com a mesma nave e fase.\nAs melhorias desta run se perdem.",
+      "value": "同じ機体とステージでウェーブ1から再開します。\n今回のプレイで得た強化は失われます。"
+    },
+    {
+      "key": "REINICIAR",
+      "value": "やり直す"
+    },
+    {
+      "key": "SAIR DA RUN?",
+      "value": "プレイを終了しますか？"
+    },
+    {
+      "key": "A run termina aqui e o progresso se perde.",
+      "value": "ここでプレイを終了し、今回の進行状況が失われます。"
+    },
+    {
+      "key": "SAIR",
+      "value": "終了"
+    },
+    {
+      "key": "PAUSA",
+      "value": "一時停止"
+    },
+    {
+      "key": "SISTEMA EM PAUSA",
+      "value": "システムが一時停止されました"
+    },
+    {
+      "key": "CONTINUAR",
+      "value": "再開"
+    },
+    {
+      "key": "MENU",
+      "value": "メニュー"
+    },
+    {
+      "key": "VOLTAR",
+      "value": "戻る"
+    },
+    {
+      "key": "ONDA ",
+      "value": "ウェーブ "
+    },
+    {
+      "key": " VIDA",
+      "value": " 船体"
+    },
+    {
+      "key": "slot vazio",
+      "value": "空のスロット"
+    },
+    {
+      "key": "ASSALTO",
+      "value": "強襲"
+    },
+    {
+      "key": "FORTIFICACAO",
+      "value": "要塞"
+    },
+    {
+      "key": "GRAVITACIONAL",
+      "value": "重力"
+    },
+    {
+      "key": "SUPORTE",
+      "value": "サポート"
+    },
+    {
+      "key": "ARTILHARIA",
+      "value": "砲撃"
+    },
+    {
+      "key": "COMUM",
+      "value": "共通"
+    },
+    {
+      "key": "MELHORIA",
+      "value": "アップグレード"
+    },
+    {
+      "key": " CONCLUÍDO",
+      "value": " クリア"
+    },
+    {
+      "key": " LIMPA",
+      "value": " クリア"
+    },
+    {
+      "key": "  ·  ATIVA",
+      "value": "  ・アクティブ"
+    },
+    {
+      "key": " INIMIGO",
+      "value": " 敵"
+    },
+    {
+      "key": " INIMIGOS",
+      "value": " 敵"
+    },
+    {
+      "key": "   ·   ESCUDO ",
+      "value": "   ・シールド "
+    },
+    {
+      "key": "NAVE NV ",
+      "value": "機体レベル "
+    },
+    {
+      "key": "MÁXIMO",
+      "value": "最大"
+    },
+    {
+      "key": "MELHORIAS  ·  ",
+      "value": "アップグレード ·  "
+    },
+    {
+      "key": "Nenhuma ainda",
+      "value": "まだありません"
+    },
+    {
+      "key": "NÍVEL ",
+      "value": "レベル "
+    },
+    {
+      "key": "RECOMPENSAS",
+      "value": "報酬"
+    },
+    {
+      "key": "RECOMPENSA DIÁRIA",
+      "value": "デイリーボーナス"
+    },
+    {
+      "key": "ASSISTA E GANHE",
+      "value": "動画を見て獲得"
+    },
+    {
+      "key": "COLETADA",
+      "value": "受取済み"
+    },
+    {
+      "key": "COLETAR",
+      "value": "受け取る"
+    },
+    {
+      "key": "Nova recompensa em ",
+      "value": "次の報酬は "
+    },
+    {
+      "key": "Assista um vídeo para dobrar.",
+      "value": "ビデオを見ると2倍になります。"
+    },
+    {
+      "key": "UPGRADES",
+      "value": "アップグレード"
+    },
+    {
+      "key": "ESCOLHA SUA NAVE",
+      "value": "機体を選択"
+    },
+    {
+      "key": "SELECIONADA",
+      "value": "選択済み"
+    },
+    {
+      "key": "SELECIONAR",
+      "value": "選択"
+    },
+    {
+      "key": "VIDA",
+      "value": "船体"
+    },
+    {
+      "key": "DANO",
+      "value": "ダメージ"
+    },
+    {
+      "key": "TIROS/S",
+      "value": "発射/秒"
+    },
+    {
+      "key": "DANO/S",
+      "value": "DPS"
+    },
+    {
+      "key": "DECK  ·  ",
+      "value": "デッキ ·  "
+    },
+    {
+      "key": " CARTAS  ·  6 COMUNS + 3 EXCLUSIVAS",
+      "value": " カード · コモン 6 枚 + エクスクルーシブ 3 枚"
+    },
+    {
+      "key": "Recarga: ",
+      "value": "クールダウン： "
+    },
+    {
+      "key": "Duração: ",
+      "value": "期間: "
+    },
+    {
+      "key": "ATIVA · ",
+      "value": "アクティブ · "
+    },
+    {
+      "key": "EM RECARGA · ",
+      "value": "クールダウン中 · "
+    },
+    {
+      "key": "PRONTA",
+      "value": "使用可能"
+    },
+    {
+      "key": "Recarga restante: ",
+      "value": "残りクールダウン: "
+    },
+    {
+      "key": "HABILIDADE ESPECIAL",
+      "value": "特別な能力"
+    },
+    {
+      "key": "Recarga Ofensiva",
+      "value": "攻撃リチャージ"
+    },
+    {
+      "key": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "「攻撃オーバードライブ」のクールダウンを15%短縮する。"
+    },
+    {
+      "key": "Recarga Ofensiva Avançada",
+      "value": "上級攻撃リチャージ"
+    },
+    {
+      "key": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "「攻撃オーバードライブ」のクールダウンを25%短縮する。"
+    },
+    {
+      "key": "Recarga Ofensiva Máxima",
+      "value": "最大攻撃リチャージ"
+    },
+    {
+      "key": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "「攻撃オーバードライブ」のクールダウンを35%短縮する。"
+    },
+    {
+      "key": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+      "value": "オフェンス: キル、クリティカルヒット、オフェンスオーバードライブリチャージで回復。"
+    },
+    {
+      "key": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+      "value": "サポート: 自己修復、回復用ミサイル、およびサポートドローン。"
+    },
+    {
+      "key": "Blindagem Reforçada",
+      "value": "強化装甲"
+    },
+    {
+      "key": "Reduz em 10% todo o dano recebido durante a run.",
+      "value": "今回のプレイ中、受けるすべてのダメージを10%軽減する。"
+    },
+    {
+      "key": "Blindagem Avançada",
+      "value": "アドバンスアーマー"
+    },
+    {
+      "key": "Reduz em 18% todo o dano recebido durante a run.",
+      "value": "今回のプレイ中、受けるすべてのダメージを18%軽減する。"
+    },
+    {
+      "key": "Blindagem Inabalável",
+      "value": "壊れない鎧"
+    },
+    {
+      "key": "Reduz em 25% todo o dano recebido durante a run.",
+      "value": "今回のプレイ中、受けるすべてのダメージを25%軽減する。"
+    },
+    {
+      "key": "Caça ao Chefe",
+      "value": "ボスハンター"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +25% de dano.",
+      "value": "ボスを狙った主砲のダメージが+25%。"
+    },
+    {
+      "key": "Predador de Chefes",
+      "value": "ボスプレデター"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +40% de dano.",
+      "value": "ボスを狙った主砲のダメージが+40%。"
+    },
+    {
+      "key": "Flagelo dos Chefes",
+      "value": "ボス・スカージ"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +60% de dano.",
+      "value": "ボスを狙った主砲のダメージが+60%。"
+    },
+    {
+      "key": "Fortificação: repulsão, destroços e blindagem contra dano.",
+      "value": "強化: 反発、破片、ダメージ軽減装甲。"
+    },
+    {
+      "key": "Pulso Crítico",
+      "value": "クリティカルパルス"
+    },
+    {
+      "key": "Após 10s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "戦闘10秒後、次の射撃が必ずクリティカルになる。発射後に再計測し、チャージは蓄積しない。"
+    },
+    {
+      "key": "Ritmo Crítico",
+      "value": "クリティカルリズム"
+    },
+    {
+      "key": "Após 7s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "戦闘7秒後、次の射撃が必ずクリティカルになる。発射後に再計測し、チャージは蓄積しない。"
+    },
+    {
+      "key": "Ressonância Crítica",
+      "value": "クリティカル共鳴"
+    },
+    {
+      "key": "Após 5s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "戦闘5秒後、次の射撃が必ずクリティカルになる。発射後に再計測し、チャージは蓄積しない。"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +60%.",
+      "value": "連射速度が恒久的に+60%。"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +85%.",
+      "value": "連射速度が恒久的に+85%。"
+    },
+    {
+      "key": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+      "value": "コントロールと精度: クリティカルヒットが保証され、低速かつ一時的な麻痺が発生します。"
+    },
+    {
+      "key": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "クリティカル確率が恒久的に12%。倍率はx2に恒久強化のボーナスを加算。"
+    },
+    {
+      "key": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "クリティカル確率が恒久的に25%。倍率はx2に恒久強化のボーナスを加算。"
+    },
+    {
+      "key": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "クリティカル確率が恒久的に32%。倍率はx2に恒久強化のボーナスを加算。"
+    },
+    {
+      "key": "Arco Voltaico",
+      "value": "電撃アーク"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+      "value": "主砲が命中すると近くの別の敵を最大2体まで電撃し、各12ダメージ。発動間隔3秒。"
+    },
+    {
+      "key": "Corrente Voltaica",
+      "value": "連鎖電撃"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+      "value": "主砲が命中すると近くの別の敵を最大3体まで電撃し、各18ダメージ。発動間隔2.5秒。"
+    },
+    {
+      "key": "Tempestade Voltaica",
+      "value": "電撃嵐"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+      "value": "主砲が命中すると近くの別の敵を最大4体まで電撃し、各25ダメージ。発動間隔2秒。"
+    },
+    {
+      "key": "Disparo de Cerco",
+      "value": "攻城弾"
+    },
+    {
+      "key": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+      "value": "戦闘8秒後、範囲に40ダメージを与える爆発弾をチャージする。チャージは蓄積しない。"
+    },
+    {
+      "key": "Artilharia de Cerco",
+      "value": "攻城砲撃"
+    },
+    {
+      "key": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+      "value": "戦闘6秒後、範囲に65ダメージを与える爆発弾をチャージする。チャージは蓄積しない。"
+    },
+    {
+      "key": "Devastação de Cerco",
+      "value": "攻城壊滅"
+    },
+    {
+      "key": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+      "value": "戦闘4秒後、範囲に90ダメージを与える爆発弾をチャージする。チャージは蓄積しない。"
+    },
+    {
+      "key": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+      "value": "大砲: チェーンライトニング、包囲射撃、ボスに対するボーナスダメージ。"
+    },
+    {
+      "key": "Aurora Médica",
+      "value": "メディカル オーロラ"
+    },
+    {
+      "key": "Orion",
+      "value": "オリオン"
+    },
+    {
+      "key": "Uma nave de suporte que reconstrói o próprio casco.",
+      "value": "船体を自ら再建する支援船。"
+    },
+    {
+      "key": "Sustentação: reparo e defesa mantêm a nave no combate.",
+      "value": "維持: 修理と防御により船を戦闘状態に保ちます。"
+    },
+    {
+      "key": "Canhões pesados: cada disparo precisa contar.",
+      "value": "重砲: すべてのショットが重要です。"
+    },
+    {
+      "key": "Artilharia pesada: dano e explosões compensam a cadência baixa.",
+      "value": "重砲: ダメージと爆発が低い発射速度を補います。"
+    },
+    {
+      "key": "Vanguarda-7",
+      "value": "ヴァンガード-7"
+    },
+    {
+      "key": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+      "value": "長い戦いに耐えるためではなく、戦いを素早く終わらせるために作られました。"
+    },
+    {
+      "key": "Ofensiva pura: deck inclinado para Ataque Duplo e Tiro Penetrante, reforçado por cartas de alto risco e alto retorno que recompensam jogar agressivo.",
+      "value": "純粋な攻撃: ダブルアタックとピアシングショットを中心に構築されたデッキで、攻撃的なプレイに報いるハイリスクカードを採用しています。"
+    },
+    {
+      "key": "Bastião Aegis",
+      "value": "イージスバスティオン"
+    },
+    {
+      "key": "Não é a mais rápida a atirar, mas é a última a cair.",
+      "value": "最速ではありませんが、最後に落ちます。"
+    },
+    {
+      "key": "Tanque de longa duração: deck inclinado para Defesa e Buraco Negro, reforçado por cartas de controle e sustentação.",
+      "value": "耐久性のあるタンク: シールドとブラック ホールを中心に構築され、コントロール カードと維持カードを備えたデッキ。"
+    },
+    {
+      "key": "Espectro Nulo",
+      "value": "ヌル・スペクター"
+    },
+    {
+      "key": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+      "value": "周囲の空間を曲げる実験的なプロトタイプ。強力だが壊れやすい。"
+    },
+    {
+      "key": "Builds de área e sinergia: deck inclinado para Mísseis e Buraco Negro, reforçado por cartas gravitacionais que aprofundam o combo de agrupar e detonar.",
+      "value": "エリアダメージとシナジー: 爆発前に敵を引き寄せる重力カードを備えた、ミサイルとブラックホールを中心に構築されたデッキ。"
+    },
+    {
+      "key": "Salva Quádrupla",
+      "value": "四連一斉射撃"
+    },
+    {
+      "key": "Dispara 4 projéteis em paralelo, permanentemente.",
+      "value": "4 つの発射体を並べて永続的に発射します。"
+    },
+    {
+      "key": "Aegis Total",
+      "value": "完全イージス"
+    },
+    {
+      "key": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+      "value": "戦闘12秒ごとに防御を3回分補充する。消費するまで持続。"
+    },
+    {
+      "key": "Chuva de Mísseis",
+      "value": "ミサイルレイン"
+    },
+    {
+      "key": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+      "value": "敵が射程内にある場合、戦闘の 5 秒ごとに、より大きな範囲ダメージを与えるミサイルを 4 発発射します。"
+    },
+    {
+      "key": "Singularidade",
+      "value": "特異点"
+    },
+    {
+      "key": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+      "value": "14秒ごとに、最後に激しく爆発する10秒間の巨大なブラックホールを作成します。"
+    },
+    {
+      "key": "Lança Penetrante",
+      "value": "ピアスランス"
+    },
+    {
+      "key": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+      "value": "永続的な貫通と、ショットあたりのダメージがさらに +25% (合計 +45%)。"
+    },
+    {
+      "key": "Overdrive Máximo",
+      "value": "最大オーバードライブ"
+    },
+    {
+      "key": "Tempestade Restauradora",
+      "value": "回復嵐"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+      "value": "HPを回復するたび、全方向へ直進ミサイルを10発放つ。各24ダメージ。HP満タン時は発動しない。"
+    },
+    {
+      "key": "Tempestade Selvagem",
+      "value": "ワイルド・テンペスト"
+    },
+    {
+      "key": "Fúria Inesgotável",
+      "value": "終わりのない怒り"
+    },
+    {
+      "key": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "敵を倒すたび、機体の最大HPの3%を回復。\n\n恒久効果"
+    },
+    {
+      "key": "Repulsão Total",
+      "value": "完全反発"
+    },
+    {
+      "key": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+      "value": "6秒ごとに半径260内の敵を押し返し、4秒間50%減速させる。"
+    },
+    {
+      "key": "Autorreparo Total",
+      "value": "完全自己修復"
+    },
+    {
+      "key": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+      "value": "15秒ごとにHPを40%回復し、消費された追加防御を最大2回分補充する。"
+    },
+    {
+      "key": "Muralha Inabalável",
+      "value": "不壊の壁"
+    },
+    {
+      "key": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+      "value": "10秒ごとにHP45、持続時間12秒のバリアを作る。"
+    },
+    {
+      "key": "Estase Temporal",
+      "value": "時間停止"
+    },
+    {
+      "key": "Esquadrão de Elite",
+      "value": "精鋭飛行隊"
+    },
+    {
+      "key": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+      "value": "20秒ごとに4機のドローンが18秒間支援する。各ドローンの射撃は8ダメージ。"
+    },
+    {
+      "key": "Ataque Duplo",
+      "value": "ダブルアタック"
+    },
+    {
+      "key": "Dobra permanentemente o número de projéteis disparados pela nave.",
+      "value": "船から発射される発射体の数が永続的に 2 倍になります。"
+    },
+    {
+      "key": "Ataque Triplo",
+      "value": "トリプルアタック"
+    },
+    {
+      "key": "Triplica permanentemente os projéteis disparados pela nave.",
+      "value": "船から発射される発射体を永続的に 3 倍にします。"
+    },
+    {
+      "key": "Defesa",
+      "value": "シールド"
+    },
+    {
+      "key": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+      "value": "戦闘15秒ごとに防御を1回分補充する。消費するまで持続。"
+    },
+    {
+      "key": "Escudo Reforçado",
+      "value": "強化シールド"
+    },
+    {
+      "key": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+      "value": "戦闘15秒ごとに防御を2回分補充する。消費するまで持続。"
+    },
+    {
+      "key": "Mísseis",
+      "value": "ミサイル"
+    },
+    {
+      "key": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "敵が射程内にいる場合、戦闘の6秒ごとに2発のホーミングミサイルを自動的に発射します。"
+    },
+    {
+      "key": "Enxame de Mísseis",
+      "value": "ミサイル群"
+    },
+    {
+      "key": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "敵が射程内にいる場合、戦闘の6秒ごとに3発の範囲ダメージミサイルを自動的に発射します。"
+    },
+    {
+      "key": "Buraco Negro",
+      "value": "ブラックホール"
+    },
+    {
+      "key": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+      "value": "16秒ごとに範囲内の敵に6秒間のブラックホールを生成します。"
+    },
+    {
+      "key": "Colapso Estelar",
+      "value": "恒星崩壊"
+    },
+    {
+      "key": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+      "value": "16 秒ごとに、最後に爆発する 9 秒間の大きなブラック ホールを作成します。"
+    },
+    {
+      "key": "Tiro Penetrante",
+      "value": "ピアッシングショット"
+    },
+    {
+      "key": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+      "value": "発射物は破壊されるのではなく、永久に敵を貫通します。"
+    },
+    {
+      "key": "Perfuração Total",
+      "value": "完全貫通"
+    },
+    {
+      "key": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+      "value": "プレイの残りの間永続的な貫通とショットごとのダメージ +20%。"
+    },
+    {
+      "key": "Sobrecarga de Motores",
+      "value": "エンジンの過負荷"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +30%.",
+      "value": "連射速度が恒久的に+30%。"
+    },
+    {
+      "key": "Overdrive Total",
+      "value": "完全オーバードライブ"
+    },
+    {
+      "key": "Salva Restauradora",
+      "value": "回復一斉射撃"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+      "value": "HPを回復するたび、全方向へ直進ミサイルを6発放つ。各12ダメージ。HP満タン時は発動しない。"
+    },
+    {
+      "key": "Barragem Restauradora",
+      "value": "回復弾幕"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+      "value": "HPを回復するたび、全方向へ直進ミサイルを8発放つ。各18ダメージ。HP満タン時は発動しない。"
+    },
+    {
+      "key": "Rajada Selvagem",
+      "value": "乱射"
+    },
+    {
+      "key": "Fogo Descontrolado",
+      "value": "暴走射撃"
+    },
+    {
+      "key": "Fúria de Batalha",
+      "value": "戦闘の怒り"
+    },
+    {
+      "key": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "敵を倒すたび、機体の最大HPの1%を回復。\n\n恒久効果"
+    },
+    {
+      "key": "Fúria Implacável",
+      "value": "容赦ない怒り"
+    },
+    {
+      "key": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "敵を倒すたび、機体の最大HPの2%を回復。\n\n恒久効果"
+    },
+    {
+      "key": "Campo de Repulsão",
+      "value": "反発フィールド"
+    },
+    {
+      "key": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+      "value": "敵が範囲内にいるとき、10秒ごとに近くの敵を押しのけます。"
+    },
+    {
+      "key": "Repulsão Amplificada",
+      "value": "強化反発"
+    },
+    {
+      "key": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+      "value": "8秒ごとに半径180内の敵を押し返し、3秒間30%減速させる。"
+    },
+    {
+      "key": "Reparo de Emergência",
+      "value": "応急修理"
+    },
+    {
+      "key": "Restaura 20% do HP máximo a cada 20s de combate.",
+      "value": "戦闘20秒ごとに最大HPの20%を回復する。"
+    },
+    {
+      "key": "Autorreparo Avançado",
+      "value": "上級自己修復"
+    },
+    {
+      "key": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+      "value": "18秒ごとにHPを30%回復し、消費された追加防御を最大1回分補充する。"
+    },
+    {
+      "key": "Muralha de Destroços",
+      "value": "瓦礫の壁"
+    },
+    {
+      "key": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+      "value": "12 秒ごとに最も近い脅威の前にバリア (10 HP) を作成します。"
+    },
+    {
+      "key": "Muralha Reforçada",
+      "value": "強化壁"
+    },
+    {
+      "key": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+      "value": "12秒ごとにHP25、持続時間9秒のバリアを作る。"
+    },
+    {
+      "key": "Distorção Temporal",
+      "value": "時間歪曲"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+      "value": "すべての敵の移動速度を恒久的に10%下げる。"
+    },
+    {
+      "key": "Paralisia Temporal",
+      "value": "時間麻痺"
+    },
+    {
+      "key": "Dilatação Temporal",
+      "value": "時間拡張"
+    },
+    {
+      "key": "Dilatação Absoluta",
+      "value": "絶対時間拡張"
+    },
+    {
+      "key": "Estase Absoluta",
+      "value": "絶対停止"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+      "value": "すべての敵の移動速度を恒久的に20%下げる。"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+      "value": "すべての敵の移動速度を恒久的に30%下げる。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+      "value": "恒久効果：射程内にいるHP5%以下の敵を麻痺させる。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+      "value": "恒久効果：射程内にいるHP10%以下の敵を麻痺させる。"
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+      "value": "恒久効果：射程内にいるHP20%以下の敵を麻痺させる。"
+    },
+    {
+      "key": "Drones de Apoio",
+      "value": "支援ドローン"
+    },
+    {
+      "key": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+      "value": "22 秒ごとに 2 機のドローンが船の周りを 12 秒間周回し、1.2 秒ごとに範囲内の敵に発砲します。"
+    },
+    {
+      "key": "Esquadrão de Apoio",
+      "value": "支援飛行隊"
+    },
+    {
+      "key": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+      "value": "22秒ごとに3機のドローンが15秒間支援する。各ドローンの射撃は7ダメージ。"
+    },
+    {
+      "key": "Meteoro Pequeno",
+      "value": "小型隕石"
+    },
+    {
+      "key": "Meteoro Médio",
+      "value": "中型隕石"
+    },
+    {
+      "key": "Meteoro Grande",
+      "value": "大型隕石"
+    },
+    {
+      "key": "Batedor",
+      "value": "スカウト"
+    },
+    {
+      "key": "Interceptador",
+      "value": "インターセプター"
+    },
+    {
+      "key": "Fragata",
+      "value": "フリゲート"
+    },
+    {
+      "key": "Núcleo Aberrante",
+      "value": "異常なコア"
+    },
+    {
+      "key": "6 Meteoros Pequenos",
+      "value": "6 小さな隕石"
+    },
+    {
+      "key": "8 Pequenos + 2 Médios",
+      "value": "小隕石 8 個 + 中隕石 2 個"
+    },
+    {
+      "key": "10 Meteoros Médios",
+      "value": "中型隕石 10 個"
+    },
+    {
+      "key": "4 Grandes + 6 Pequenos",
+      "value": "大きな隕石 4 個 + 小さな隕石 6 個"
+    },
+    {
+      "key": "10 Meteoros mistos + 2 Batedores",
+      "value": "混合隕石10個 + スカウト2人"
+    },
+    {
+      "key": "6 Batedores + 6 Médios",
+      "value": "6 スカウト + 6 中隕石"
+    },
+    {
+      "key": "4 Interceptadores + 8 Pequenos",
+      "value": "インターセプター 4 個 + 小さな隕石 8 個"
+    },
+    {
+      "key": "8 Meteoros Grandes",
+      "value": "8 つの大きな隕石"
+    },
+    {
+      "key": "6 Interceptadores + 6 Batedores",
+      "value": "インターセプター6名 + スカウト6名"
+    },
+    {
+      "key": "MINI-CHEFE: 1 Fragata + 10 Batedores",
+      "value": "ミニボス: フリゲート艦 1 隻 + 偵察兵 10 人"
+    },
+    {
+      "key": "10 Grandes + 4 Interceptadores",
+      "value": "10 個の大きな隕石 + 4 個の迎撃体"
+    },
+    {
+      "key": "10 Batedores + 6 Interceptadores",
+      "value": "10 人のスカウト + 6 人のインターセプター"
+    },
+    {
+      "key": "2 Fragatas + 8 Médios",
+      "value": "フリゲート艦 2 隻 + 中隕石 8 隻"
+    },
+    {
+      "key": "ENXAME DENSO: 12 Interceptadores",
+      "value": "高密度の群れ: 12 台の迎撃機"
+    },
+    {
+      "key": "3 Fragatas + 10 Batedores",
+      "value": "フリゲート艦 3 隻 + 偵察兵 10 人"
+    },
+    {
+      "key": "16 Meteoros mistos",
+      "value": "16 混合隕石"
+    },
+    {
+      "key": "4 Fragatas + 8 Interceptadores",
+      "value": "フリゲート艦 4 隻 + 迎撃艦 8 隻"
+    },
+    {
+      "key": "ENXAME MÁXIMO: 20 Batedores",
+      "value": "最大の群れ: 20 人のスカウト"
+    },
+    {
+      "key": "GAUNTLET: 5 Fragatas + 10 Grandes + 10 Batedores",
+      "value": "ガントレット: フリゲート艦 5 隻 + 大型隕石 10 隻 + 偵察兵 10 隻"
+    },
+    {
+      "key": "CHEFE FINAL: Núcleo Aberrante",
+      "value": "最終ボス: 異常なコア"
+    },
+    {
+      "key": "SELEÇÃO DE MELHORIA",
+      "value": "強化を選択"
+    },
+    {
+      "key": " ESCOLHA EM ESPERA",
+      "value": " ピック待機中"
+    },
+    {
+      "key": " ESCOLHAS EM ESPERA",
+      "value": " ピック待ち"
+    },
+    {
+      "key": "NAVE  ·  NÍVEL ",
+      "value": "船・レベル "
+    },
+    {
+      "key": "NOVA",
+      "value": "新規"
+    },
+    {
+      "key": "NÚCLEO DESTRUÍDO",
+      "value": "コアが破壊されました"
+    },
+    {
+      "key": "TENTE OUTRA VEZ!",
+      "value": "もう一度挑戦！"
+    },
+    {
+      "key": "CAMPANHA COMPLETA",
+      "value": "キャンペーン完了"
+    },
+    {
+      "key": "NOVO",
+      "value": "新規"
+    },
+    {
+      "key": "PRÓXIMO NÍVEL  ·  ",
+      "value": "次のレベル ·  "
+    },
+    {
+      "key": "ONDAS ",
+      "value": "ウェーブ  "
+    },
+    {
+      "key": " CRÉDITOS",
+      "value": " クレジット"
+    },
+    {
+      "key": "MELHORIAS ",
+      "value": "アップグレード "
+    },
+    {
+      "key": "CONCLUÍDO",
+      "value": "クリア済み"
+    },
+    {
+      "key": " NÍVEIS CONCLUÍDOS",
+      "value": " レベルをクリアしました"
+    },
+    {
+      "key": "Conclua o {0} com esta nave para liberar.",
+      "value": "この機体で{0}をクリアすると解放されます。"
+    },
+    {
+      "key": "BLOQUEADA",
+      "value": "ロックされました"
+    },
+    {
+      "key": "RETRATO",
+      "value": "縦画面"
+    },
+    {
+      "key": "PAISAGEM",
+      "value": "横画面"
+    },
+    {
+      "key": "LIGADO",
+      "value": "オン"
+    },
+    {
+      "key": "DESLIGADO",
+      "value": "オフ"
+    },
+    {
+      "key": "JOGAR",
+      "value": "プレイ"
+    },
+    {
+      "key": "FASES",
+      "value": "ステージ"
+    },
+    {
+      "key": " ONDAS",
+      "value": " ウェーブ"
+    },
+    {
+      "key": "AJUSTES",
+      "value": "設定"
+    },
+    {
+      "key": "MÚSICA",
+      "value": "音楽"
+    },
+    {
+      "key": "EFEITOS",
+      "value": "効果"
+    },
+    {
+      "key": "VOLUME",
+      "value": "ボリューム"
+    },
+    {
+      "key": "IDIOMA",
+      "value": "言語"
+    },
+    {
+      "key": "TELA",
+      "value": "スクリーン"
+    },
+    {
+      "key": "REMOVER ANÚNCIOS",
+      "value": "広告を削除"
+    },
+    {
+      "key": "Compra única e permanente. Jogue sem anúncios.",
+      "value": "永久購入 1 つ。広告なしでプレイしてください。"
+    },
+    {
+      "key": "ADQUIRIDO",
+      "value": "購入しました"
+    },
+    {
+      "key": "INDISPONÍVEL",
+      "value": "利用不可"
+    },
+    {
+      "key": "RESTAURAR COMPRAS",
+      "value": "購入を復元"
+    },
+    {
+      "key": "Disponível na versão Android pelo Google Play.",
+      "value": "Android では Google Play を通じて入手できます。"
+    },
+    {
+      "key": "Aguardando Google Play…",
+      "value": "Google Play を待っています…"
+    },
+    {
+      "key": "Não foi possível consultar a loja. Use Restaurar para tentar novamente.",
+      "value": "ストアに連絡できませんでした。復元を使用して再試行してください。"
+    },
+    {
+      "key": "Pagamento pendente. A remoção será ativada após a confirmação.",
+      "value": "支払いが保留中です。広告は確認後削除させていただきます。"
+    },
+    {
+      "key": "Anúncios removidos nesta conta.",
+      "value": "このアカウントの広告は削除されました。"
+    },
+    {
+      "key": "Compra cancelada. Nenhuma alteração aplicada.",
+      "value": "購入はキャンセルされました。変更は適用されませんでした。"
+    },
+    {
+      "key": "Já comprou? Restaure usando a mesma conta Google Play.",
+      "value": "もう購入しましたか?同じ Google Play アカウントを使用して復元します。"
+    },
+    {
+      "key": "Nave no máximo.",
+      "value": "機体の強化完了。"
+    },
+    {
+      "key": "Restam só ",
+      "value": "残り "
+    },
+    {
+      "key": " níveis.",
+      "value": " レベル。"
+    },
+    {
+      "key": "Faltam ",
+      "value": "必要： "
+    },
+    {
+      "key": " créditos  ·  termine runs para ganhar",
+      "value": " クレジット · プレイで獲得"
+    },
+    {
+      "key": "Cada compra: +1 nível num atributo aleatório",
+      "value": "購入ごと: ランダムな属性に +1 レベル"
+    },
+    {
+      "key": "NÍVEIS ",
+      "value": "レベル "
+    },
+    {
+      "key": "MÁX",
+      "value": "最大"
+    },
+    {
+      "key": "RESTAM ",
+      "value": "残り "
+    },
+    {
+      "key": "+1 NÍVEL",
+      "value": "+1 レベル"
+    },
+    {
+      "key": "+5 NÍVEIS",
+      "value": "+5 レベル"
+    },
+    {
+      "key": "ATUALIZAÇÃO NECESSÁRIA",
+      "value": "更新が必要です"
+    },
+    {
+      "key": "CONSULTANDO A LOJA",
+      "value": "ストアをチェックする"
+    },
+    {
+      "key": "Verificando se existe uma nova versão…",
+      "value": "新しいバージョンをチェックしています…"
+    },
+    {
+      "key": "Conclua a atualização no Google Play para continuar.",
+      "value": "続行するには、Google Play のアップデートを完了してください。"
+    },
+    {
+      "key": "A atualização ainda é necessária. Tente novamente ou abra a loja para atualizar.",
+      "value": "まだアップデートが必要です。もう一度試すか、ストアを開いて更新してください。"
+    },
+    {
+      "key": "Existe uma versão mais recente na loja. Atualize o Astro Blitz para continuar jogando.",
+      "value": "新しいバージョンがストアで入手可能です。引き続きプレイするには、Astro Blitz を更新してください。"
+    },
+    {
+      "key": "ATUALIZAR AGORA",
+      "value": "今すぐ更新"
+    },
+    {
+      "key": "VERIFICAR NOVAMENTE",
+      "value": "もう一度確認してください"
+    },
+    {
+      "key": "VER ANÚNCIO PARA RENASCER",
+      "value": "広告を見て復活"
+    },
+    {
+      "key": "TENTAR CARREGAR ANÚNCIO",
+      "value": "広告の読込を再試行"
+    },
+    {
+      "key": "Aguardando conclusão do anúncio…",
+      "value": "広告の完了を待っています…"
+    },
+    {
+      "key": "Uma vez por partida. A recompensa exige concluir o anúncio.",
+      "value": "プレイごとに 1 回。広告を完了して報酬を獲得してください。"
+    },
+    {
+      "key": "Anúncio indisponível. Aguarde o carregamento ou tente mais tarde.",
+      "value": "広告は利用できません。読み込みを待つか、後で試してください。"
+    },
+    {
+      "key": "Disponível em ",
+      "value": "再開まで "
+    },
+    {
+      "key": "Aguardando anúncio…",
+      "value": "広告を待っています…"
+    },
+    {
+      "key": "Anúncio indisponível",
+      "value": "広告は利用できません"
+    },
+    {
+      "key": "PRIVACIDADE DOS ANÚNCIOS",
+      "value": "広告プライバシー オプション"
+    },
+    {
+      "key": "Cadência de tiro",
+      "value": "連射速度"
+    },
+    {
+      "key": "Dano",
+      "value": "ダメージ"
+    },
+    {
+      "key": "Vida",
+      "value": "船体"
+    },
+    {
+      "key": "Recuperação de vida",
+      "value": "健康の再生"
+    },
+    {
+      "key": "Esquiva",
+      "value": "回避"
+    },
+    {
+      "key": "Créditos por partida",
+      "value": "プレイごとのクレジット"
+    },
+    {
+      "key": "Chance crítica",
+      "value": "クリティカル確率"
+    },
+    {
+      "key": "Dano crítico",
+      "value": "クリティカルダメージ"
+    },
+    {
+      "key": "% velocidade",
+      "value": "% 連射速度"
+    },
+    {
+      "key": "% dano",
+      "value": "% ダメージ"
+    },
+    {
+      "key": "% vida",
+      "value": "% 船体"
+    },
+    {
+      "key": " vida/s",
+      "value": " HP/秒"
+    },
+    {
+      "key": "% esquiva",
+      "value": "% 回避"
+    },
+    {
+      "key": "% créditos",
+      "value": "% クレジット"
+    },
+    {
+      "key": "% chance",
+      "value": "% 確率"
+    },
+    {
+      "key": "% dano crítico",
+      "value": "% クリティカルダメージ"
+    },
+    {
+      "key": "Primeiro contato. Sobreviva à rota original de 10 ondas.",
+      "value": "ファーストコンタクト。元の 10 ウェーブ ルートを生き残る。"
+    },
+    {
+      "key": "A invasão acelera. Mais batedores, reforços e ondas densas.",
+      "value": "侵略は加速する。より多くの偵察、増援、そして密集した波。"
+    },
+    {
+      "key": "Interceptadores rápidos e fragatas fecham o cerco.",
+      "value": "高速迎撃艦とフリゲート艦が網を閉じる。"
+    },
+    {
+      "key": "Batedores e interceptadores chegam juntos. Fragatas surgem antes do chefe.",
+      "value": "スカウトとインターセプターが一緒に到着します。フリゲート艦がボスの前に現れます。"
+    },
+    {
+      "key": "As fragatas chegam mais cedo e o enxame não para de crescer.",
+      "value": "フリゲート艦が早く到着し、群れは成長し続けます。"
+    },
+    {
+      "key": "Ondas lotadas. O fogo cruzado cobra caro de quem tem pouca vida.",
+      "value": "混雑した波。クロスファイアは薄い船体の割にコストがかかる。"
+    },
+    {
+      "key": "Escoltas reforçadas. O Núcleo Aberrante chega com um exército.",
+      "value": "護衛を強化。異常なコアは軍隊をもたらします。"
+    },
+    {
+      "key": "Pressão total desde a primeira onda. Cada erro custa caro.",
+      "value": "第一波からのフルプレッシャー。すべてのミスは重要です。"
+    },
+    {
+      "key": "O limite do setor. Só naves muito bem equipadas chegam ao chefe.",
+      "value": "セクターの端。十分に装備された船のみがボスに到達します。"
+    },
+    {
+      "key": "O último nível. Enxames, fragatas e um Núcleo no auge da força.",
+      "value": "最終レベル。スワーム、フリゲート、そして全力のコア。"
+    },
+    {
+      "key": "Sobrecarga ofensiva",
+      "value": "攻撃オーバードライブ"
+    },
+    {
+      "key": "Por 6s: dobra a cadência de tiro.",
+      "value": "6秒間、連射速度が2倍になる。"
+    },
+    {
+      "key": "Égide de emergência",
+      "value": "緊急イージス"
+    },
+    {
+      "key": "Fica invulnerável por 4s.",
+      "value": "4秒間、無敵になる。"
+    },
+    {
+      "key": "Estase temporal",
+      "value": "時間停止"
+    },
+    {
+      "key": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "value": "ボスを含むすべての敵を3秒間停止させる。"
+    },
+    {
+      "key": "Reparo restaurador",
+      "value": "緊急修復"
+    },
+    {
+      "key": "Recupera 30% da vida máxima instantaneamente.",
+      "value": "最大HPの30%を即座に回復する。"
+    },
+    {
+      "key": "Amplificação de dano",
+      "value": "ダメージ増幅"
+    },
+    {
+      "key": "Dobra o dano do canhão por 5s.",
+      "value": "5秒間、主砲のダメージが2倍になる。"
+    },
+    {
+      "key": "ESQUIVA",
+      "value": "回避"
+    },
+    {
+      "key": "Lâminas Orbitais",
+      "value": "周回ブレード"
+    },
+    {
+      "key": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+      "value": "2 つのブレードが船を周回し、触れた敵を切り裂きます。1 回の切断につき 10 ダメージを与えます。"
+    },
+    {
+      "key": "Anel de Lâminas",
+      "value": "ブレードリング"
+    },
+    {
+      "key": "Três lâminas orbitam a nave: 14 de dano por corte.",
+      "value": "3 枚のブレードが船を周回しています。1 回の切断につき 14 ダメージ。"
+    },
+    {
+      "key": "Tempestade de Lâminas",
+      "value": "ブレードストーム"
+    },
+    {
+      "key": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+      "value": "広い軌道上の 4 つのブレード: 切断ごとに 18 ダメージ。"
+    },
+    {
+      "key": "Estilhaços",
+      "value": "榴散弾"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+      "value": "破壊された敵は 3 つの破片に破裂し、それぞれ 6 ダメージ。"
+    },
+    {
+      "key": "Chuva de Estilhaços",
+      "value": "破片の雨"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+      "value": "破壊された敵は 4 つの破片に破裂し、それぞれ 9 ダメージ。"
+    },
+    {
+      "key": "Tempestade de Estilhaços",
+      "value": "榴散弾の嵐"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+      "value": "破壊された敵は 6 つの破片に破裂し、それぞれ 12 ダメージ。"
+    },
+    {
+      "key": "Disparo Diagonal",
+      "value": "斜め射撃"
+    },
+    {
+      "key": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+      "value": "一斉射撃ごとに、50% のダメージで斜めに 2 発のショットも発射されます。"
+    },
+    {
+      "key": "Leque Diagonal",
+      "value": "斜め拡散射撃"
+    },
+    {
+      "key": "Os 2 tiros em diagonal causam 75% do dano.",
+      "value": "斜め方向の 2 発のショットは 75% のダメージを与えます。"
+    },
+    {
+      "key": "Leque Total",
+      "value": "全方位拡散射撃"
+    },
+    {
+      "key": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+      "value": "各一斉射撃は 75% のダメージで扇状ショットを 4 発発射します。"
+    },
+    {
+      "key": "Aura de Plasma",
+      "value": "プラズマオーラ"
+    },
+    {
+      "key": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+      "value": "船の近くの敵は毎秒 8 ダメージを受けます。"
+    },
+    {
+      "key": "Coroa de Plasma",
+      "value": "プラズマクラウン"
+    },
+    {
+      "key": "Aura maior: 12 de dano por segundo.",
+      "value": "より大きなオーラ: 毎秒 12 ダメージ。"
+    },
+    {
+      "key": "Sol de Plasma",
+      "value": "プラズマサン"
+    },
+    {
+      "key": "Aura máxima: 18 de dano por segundo.",
+      "value": "最大オーラ: 毎秒 18 ダメージ。"
+    },
+    {
+      "key": "Nova Solar",
+      "value": "太陽新星"
+    },
+    {
+      "key": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+      "value": "7秒ごとに、エネルギー波が近くの敵を攻撃します: 20ダメージ。"
+    },
+    {
+      "key": "Erupção Solar",
+      "value": "太陽フレア"
+    },
+    {
+      "key": "A cada 6s, uma onda maior: 32 de dano.",
+      "value": "6秒ごとに、より大きな波: 32ダメージ。"
+    },
+    {
+      "key": "Supernova",
+      "value": "超新星"
+    },
+    {
+      "key": "A cada 5s, uma onda ainda maior: 48 de dano.",
+      "value": "5秒ごとに、さらに大きな波: 48ダメージ。"
+    },
+    {
+      "key": "Ataque Orbital",
+      "value": "オービタルストライク"
+    },
+    {
+      "key": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+      "value": "5 秒ごとに、衛星が範囲内の 2 人の敵を攻撃します: それぞれ 22 ダメージ。"
+    },
+    {
+      "key": "Bombardeio Orbital",
+      "value": "軌道爆撃"
+    },
+    {
+      "key": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+      "value": "4.5秒ごとに3人の敵を攻撃：それぞれ28ダメージ。"
+    },
+    {
+      "key": "Chuva Orbital",
+      "value": "オービタルレイン"
+    },
+    {
+      "key": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+      "value": "4秒ごとに4人の敵を攻撃：それぞれ36ダメージ。"
+    },
+    {
+      "key": "Ímã Gravitacional",
+      "value": "重力磁石"
+    },
+    {
+      "key": "Ganha 15% a mais de XP.",
+      "value": "獲得XPが15%増加。"
+    },
+    {
+      "key": "Campo Gravitacional",
+      "value": "重力場"
+    },
+    {
+      "key": "Ganha 30% a mais de XP.",
+      "value": "獲得XPが30%増加。"
+    },
+    {
+      "key": "Singularidade Magnética",
+      "value": "磁気特異点"
+    },
+    {
+      "key": "Ganha 50% a mais de XP.",
+      "value": "獲得XPが50%増加。"
+    },
+    {
+      "key": "Nanorreparo",
+      "value": "ナノリペア"
+    },
+    {
+      "key": "Recupera 0,4% do HP máximo por segundo.",
+      "value": "1秒あたり最大HPの0.4%を回復します。"
+    },
+    {
+      "key": "Enxame Nanorreparador",
+      "value": "修復ナノ群"
+    },
+    {
+      "key": "Recupera 0,7% do HP máximo por segundo.",
+      "value": "1秒あたり最大HPの0.7%を回復します。"
+    },
+    {
+      "key": "Regeneração Total",
+      "value": "完全再生"
+    },
+    {
+      "key": "Recupera 1% do HP máximo por segundo.",
+      "value": "1秒あたり最大HPの1%を回復します。"
+    },
+    {
+      "key": "Núcleo Fênix",
+      "value": "フェニックスコア"
+    },
+    {
+      "key": "Uma vez por partida, ao ser destruída, a nave renasce com 30% do HP.",
+      "value": "1回の出撃につき1度、撃破されるとHP30%で復活。"
+    },
+    {
+      "key": "Núcleo Fênix Ardente",
+      "value": "ブレイジングフェニックスコア"
+    },
+    {
+      "key": "Renasce uma vez com 45% do HP e empurra os inimigos próximos.",
+      "value": "HP 45% で一度復活し、近くの敵を押しのけます。"
+    },
+    {
+      "key": "Renascer Estelar",
+      "value": "ステラ・リバース"
+    },
+    {
+      "key": "Renasce uma vez com 60% do HP, empurra e causa 60 de dano ao redor.",
+      "value": "1度だけHP60%で復活し、周囲の敵を押し戻して60ダメージを与える。"
+    },
+    {
+      "key": "Adrenalina",
+      "value": "アドレナリン"
+    },
+    {
+      "key": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+      "value": "キルごとに 3 秒間 +4% の発射速度が付与され、最大 5 回までスタックできます。"
+    },
+    {
+      "key": "Adrenalina Pura",
+      "value": "純粋なアドレナリン"
+    },
+    {
+      "key": "+5% de cadência por abate, acumulando até 6 vezes.",
+      "value": "キルごとに発射率 +5%、最大 6 回までスタック可能。"
+    },
+    {
+      "key": "Frenesi",
+      "value": "狂乱"
+    },
+    {
+      "key": "+6% de cadência por abate, acumulando até 8 vezes.",
+      "value": "キルあたりの発射率 +6%、最大 8 回までスタック可能。"
+    },
+    {
+      "key": "Tiro de Misericórdia",
+      "value": "マーシーショット"
+    },
+    {
+      "key": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+      "value": "大砲の射撃は、HP 12% 以下の敵を即座に破壊します (ボスを除く)。"
+    },
+    {
+      "key": "Execução",
+      "value": "処刑"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 18% do HP.",
+      "value": "HP 18% 以下の敵を即時に破壊します。"
+    },
+    {
+      "key": "Sentença Final",
+      "value": "最後の審判"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 25% do HP.",
+      "value": "HP 25% 以下の敵を即時に破壊します。"
+    },
+    {
+      "key": "Sobrecarga Furiosa",
+      "value": "狂暴オーバードライブ"
+    },
+    {
+      "key": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+      "value": "攻撃オーバードライブ中、砲のダメージ+25%。"
+    },
+    {
+      "key": "Fúria Sobrecarregada",
+      "value": "過充電の怒り"
+    },
+    {
+      "key": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+      "value": "攻撃オーバードライブ中のダメージ+40%。撃破ごとに持続時間+0.2秒。"
+    },
+    {
+      "key": "Sobrecarga Infernal",
+      "value": "地獄のオーバードライブ"
+    },
+    {
+      "key": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+      "value": "攻撃オーバードライブ中のダメージ+60%。撃破ごとに持続時間+0.3秒。"
+    },
+    {
+      "key": "Casco Espinhoso",
+      "value": "棘のある船体"
+    },
+    {
+      "key": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+      "value": "敵が船に触れると、たとえブロックされていても、スパイクが船の周囲に 20 のダメージを与えます。"
+    },
+    {
+      "key": "Espinhos Reforçados",
+      "value": "強化された棘"
+    },
+    {
+      "key": "Os espinhos causam 35 de dano numa área maior.",
+      "value": "スパイクはより広い範囲に 35 のダメージを与えます。"
+    },
+    {
+      "key": "Retaliação Total",
+      "value": "完全な報復"
+    },
+    {
+      "key": "Os espinhos causam 55 de dano numa área ainda maior.",
+      "value": "スパイクはさらに広い範囲に 55 のダメージを与えます。"
+    },
+    {
+      "key": "Égide Prolongada",
+      "value": "延長イージス"
+    },
+    {
+      "key": "A Égide de emergência dura +1s.",
+      "value": "緊急イージスの持続時間+1秒。"
+    },
+    {
+      "key": "Égide Persistente",
+      "value": "持続イージス"
+    },
+    {
+      "key": "A Égide de emergência dura +2s.",
+      "value": "緊急イージスの持続時間+2秒。"
+    },
+    {
+      "key": "Égide Eterna",
+      "value": "永遠のイージス"
+    },
+    {
+      "key": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+      "value": "緊急イージスの持続時間+3秒。発動時に敵を押し戻す。"
+    },
+    {
+      "key": "Escudo Regenerativo",
+      "value": "再生シールド"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+      "value": "シールドで攻撃を防ぐたびに最大HPの3%を回復。"
+    },
+    {
+      "key": "Escudo Vital",
+      "value": "バイタルシールド"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+      "value": "シールドで攻撃を防ぐたびに最大HPの5%を回復。"
+    },
+    {
+      "key": "Escudo Restaurador",
+      "value": "回復シールド"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+      "value": "シールドで攻撃を防ぐたびに最大HPの8%を回復。"
+    },
+    {
+      "key": "Fenda Temporal",
+      "value": "時間の裂け目"
+    },
+    {
+      "key": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+      "value": "9秒ごとに、範囲内の最大のグループに亀裂を開きます: 3秒間50%遅くなり、10ダメージ。"
+    },
+    {
+      "key": "Fenda Ampliada",
+      "value": "広がる亀裂"
+    },
+    {
+      "key": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+      "value": "8秒ごとに大きな裂け目: 4秒間60%遅くなり、16ダメージ。"
+    },
+    {
+      "key": "Colapso Temporal",
+      "value": "時間崩壊"
+    },
+    {
+      "key": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+      "value": "7秒ごと、最大リフト：5秒間70%遅くなり、24ダメージ。"
+    },
+    {
+      "key": "Paradoxo",
+      "value": "パラドックス"
+    },
+    {
+      "key": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+      "value": "撃破ごとに時間停止のクールダウンを0.3秒短縮。"
+    },
+    {
+      "key": "Paradoxo Cíclico",
+      "value": "周期的パラドックス"
+    },
+    {
+      "key": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+      "value": "撃破ごとに時間停止のクールダウンを0.5秒短縮。"
+    },
+    {
+      "key": "Paradoxo Absoluto",
+      "value": "絶対的なパラドックス"
+    },
+    {
+      "key": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+      "value": "撃破ごとに時間停止のクールダウンを0.8秒短縮。"
+    },
+    {
+      "key": "Eco Temporal",
+      "value": "タイムエコー"
+    },
+    {
+      "key": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+      "value": "大砲の攻撃は 15% の確率で 0.3 秒後に繰り返され、60% のダメージが与えられます。"
+    },
+    {
+      "key": "Eco Duplo",
+      "value": "ダブルエコー"
+    },
+    {
+      "key": "25% de chance de eco, com 80% do dano.",
+      "value": "エコー確率25%、ダメージ80%。"
+    },
+    {
+      "key": "Eco Infinito",
+      "value": "インフィニットエコー"
+    },
+    {
+      "key": "35% de chance de eco, com 100% do dano.",
+      "value": "35%の確率で攻撃が反復し、元の100%のダメージを与える。"
+    },
+    {
+      "key": "Sobrecura",
+      "value": "オーバーヒール"
+    },
+    {
+      "key": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+      "value": "最大HPを超えた回復量をシールドに変換。超過分が最大HPの10%に達するごとに1回分の防御を獲得（最大1回分）。"
+    },
+    {
+      "key": "Sobrecura Blindada",
+      "value": "装甲オーバーヒール"
+    },
+    {
+      "key": "Guarda até 2 bloqueios do excesso de cura.",
+      "value": "超過回復から最大2回分の防御を蓄積。"
+    },
+    {
+      "key": "Sobrecura Total",
+      "value": "完全オーバーヒール"
+    },
+    {
+      "key": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+      "value": "最大3回分の防御を蓄積。超過回復が最大HPの7%に達するごとに1回分獲得。"
+    },
+    {
+      "key": "Pulso Vital",
+      "value": "生命パルス"
+    },
+    {
+      "key": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+      "value": "回復するたびにパルスを放ち、周囲の敵に回復HPの2倍のダメージを与える。発動は1秒に1回まで。"
+    },
+    {
+      "key": "Onda Vital",
+      "value": "生命の波"
+    },
+    {
+      "key": "O pulso causa 3x o HP recuperado numa área maior.",
+      "value": "パルスがより広い範囲の敵に回復HPの3倍のダメージを与える。"
+    },
+    {
+      "key": "Explosão Vital",
+      "value": "生命爆発"
+    },
+    {
+      "key": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+      "value": "パルスがさらに広い範囲の敵に回復HPの4倍のダメージを与える。"
+    },
+    {
+      "key": "Protocolo de Emergência",
+      "value": "緊急プロトコル"
+    },
+    {
+      "key": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+      "value": "HPが30%未満になると、即座に20%回復。戦闘時間40秒後に再発動可能。"
+    },
+    {
+      "key": "Protocolo Avançado",
+      "value": "高度なプロトコル"
+    },
+    {
+      "key": "Recupera 30% na hora. Rearma após 35s de combate.",
+      "value": "即座に30%回復。戦闘時間35秒後に再発動可能。"
+    },
+    {
+      "key": "Protocolo Total",
+      "value": "トータルプロトコル"
+    },
+    {
+      "key": "Recupera 40% na hora. Rearma após 30s de combate.",
+      "value": "即座に40%回復。戦闘時間30秒後に再発動可能。"
+    },
+    {
+      "key": "Canhão de Trilho",
+      "value": "レールガン"
+    },
+    {
+      "key": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+      "value": "7秒ごとに、ビームが範囲内で最も強敵に向かってアリーナを横切り、ライン上のすべてに45ダメージを与えます。"
+    },
+    {
+      "key": "Trilho Acelerado",
+      "value": "加速レールガン"
+    },
+    {
+      "key": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+      "value": "6秒ごとに幅広いビームを放ち、射線上の敵に70ダメージ。"
+    },
+    {
+      "key": "Trilho Aniquilador",
+      "value": "殲滅レールガン"
+    },
+    {
+      "key": "A cada 5s, feixe máximo: 100 de dano na linha.",
+      "value": "5秒ごと、最大ビーム: ライン上に100ダメージ。"
+    },
+    {
+      "key": "Marcação de Alvo",
+      "value": "ターゲットマーク"
+    },
+    {
+      "key": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+      "value": "4 秒ごとに、範囲内で最も強敵をマークします。4 秒間、すべてから +30% のダメージを受けます。"
+    },
+    {
+      "key": "Marcação Precisa",
+      "value": "精密マーク"
+    },
+    {
+      "key": "A cada 3,5s: +45% de dano no alvo marcado.",
+      "value": "3.5秒ごと: マークされたターゲットへのダメージ+45%。"
+    },
+    {
+      "key": "Marcação Letal",
+      "value": "致命マーク"
+    },
+    {
+      "key": "A cada 3s: +60% de dano no alvo marcado.",
+      "value": "3秒ごと: マークされたターゲットへのダメージ+60%。"
+    },
+    {
+      "key": "Ressonância",
+      "value": "共鳴"
+    },
+    {
+      "key": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+      "value": "ダメージ増幅の発動時、範囲内の全敵に波で50ダメージ。"
+    },
+    {
+      "key": "Ressonância Ampliada",
+      "value": "増幅された共鳴"
+    },
+    {
+      "key": "A onda causa 80 de dano.",
+      "value": "波は80のダメージを与えます。"
+    },
+    {
+      "key": "Ressonância Total",
+      "value": "トータルレゾナンス"
+    },
+    {
+      "key": "A onda causa 120 de dano e atordoa por 1s.",
+      "value": "波は 120 のダメージを与え、1 秒間気絶させます。"
+    },
+    {
+      "key": "LOGAR",
+      "value": "ログイン"
+    },
+    {
+      "key": "CONTA",
+      "value": "アカウント"
+    },
+    {
+      "key": "Faça login para salvar seu progresso na nuvem.",
+      "value": "ログインして進行状況をクラウドに保存しましょう。"
+    },
+    {
+      "key": "AGORA NÃO",
+      "value": "今はしない"
+    },
+    {
+      "key": "Salve o progresso na conta",
+      "value": "進行状況をアカウントに保存"
+    },
+    {
+      "key": "SALVE SEU PROGRESSO",
+      "value": "進行状況を保存"
+    },
+    {
+      "key": "MODO INFINITO",
+      "value": "エンドレスモード"
+    },
+    {
+      "key": "Ciclos sem fim: 4 ondas e um chefe. XP 25% menor. Nível máximo 12.",
+      "value": "4つのウェーブとボス戦を繰り返します。XP獲得量は25%減少。レベル上限は12。"
+    },
+    {
+      "key": "Conclua o Nível 3 com qualquer nave para liberar.",
+      "value": "いずれかの機体でレベル3をクリアすると解放されます。"
+    },
+    {
+      "key": "4 ONDAS + CHEFE",
+      "value": "4ウェーブ＋ボス"
+    },
+    {
+      "key": "Toque para escolher. Segure para ver os detalhes.",
+      "value": "タップして選択。長押しで詳細を表示。"
+    },
+    {
+      "key": "Tiros Extras",
+      "value": "追加ショット"
+    },
+    {
+      "key": "Escudo Recarregável",
+      "value": "自動回復シールド"
+    },
+    {
+      "key": "Mísseis Teleguiados",
+      "value": "追尾ミサイル"
+    },
+    {
+      "key": "Tiros Perfurantes",
+      "value": "貫通ショット"
+    },
+    {
+      "key": "Cadência Aumentada",
+      "value": "連射速度アップ"
+    },
+    {
+      "key": "Mísseis ao Curar",
+      "value": "回復時ミサイル"
+    },
+    {
+      "key": "Chance Crítica",
+      "value": "クリティカル率アップ"
+    },
+    {
+      "key": "Cura por Abate",
+      "value": "撃破時回復"
+    },
+    {
+      "key": "Repulsão Periódica",
+      "value": "定期ノックバック"
+    },
+    {
+      "key": "Cura Periódica",
+      "value": "定期回復"
+    },
+    {
+      "key": "Barreira de Destroços",
+      "value": "残骸バリア"
+    },
+    {
+      "key": "Tiro Explosivo",
+      "value": "爆発ショット"
+    },
+    {
+      "key": "Crítico Garantido",
+      "value": "確定クリティカル"
+    },
+    {
+      "key": "Lentidão Global",
+      "value": "全敵スロー"
+    },
+    {
+      "key": "Paralisia por Vida Baixa",
+      "value": "瀕死の敵を麻痺"
+    },
+    {
+      "key": "Raios em Cadeia",
+      "value": "連鎖雷撃"
+    },
+    {
+      "key": "Drones Atiradores",
+      "value": "射撃ドローン"
+    },
+    {
+      "key": "Sobrecarga Mais Rápida",
+      "value": "オーバードライブ再使用短縮"
+    },
+    {
+      "key": "Redução de Dano",
+      "value": "被ダメージ軽減"
+    },
+    {
+      "key": "Dano contra Chefes",
+      "value": "ボスへのダメージアップ"
+    },
+    {
+      "key": "Estilhaços por Abate",
+      "value": "撃破時に破片放出"
+    },
+    {
+      "key": "Tiros Diagonais",
+      "value": "斜めショット"
+    },
+    {
+      "key": "Aura de Dano",
+      "value": "ダメージオーラ"
+    },
+    {
+      "key": "Explosão Periódica",
+      "value": "定期爆発"
+    },
+    {
+      "key": "Bombardeio por Satélite",
+      "value": "衛星砲撃"
+    },
+    {
+      "key": "Bônus de XP",
+      "value": "経験値ボーナス"
+    },
+    {
+      "key": "Regeneração de Vida",
+      "value": "自動ライフ回復"
+    },
+    {
+      "key": "Reviver",
+      "value": "復活"
+    },
+    {
+      "key": "Cadência por Abate",
+      "value": "撃破時に連射加速"
+    },
+    {
+      "key": "Execução por Vida Baixa",
+      "value": "瀕死の敵を即撃破"
+    },
+    {
+      "key": "Dano na Sobrecarga",
+      "value": "オーバードライブ中の威力アップ"
+    },
+    {
+      "key": "Espinhos ao Colidir",
+      "value": "衝突時のトゲ反撃"
+    },
+    {
+      "key": "Égide Duradoura",
+      "value": "イージス持続延長"
+    },
+    {
+      "key": "Cura ao Bloquear",
+      "value": "防御成功時回復"
+    },
+    {
+      "key": "Fenda de Lentidão",
+      "value": "減速の裂け目"
+    },
+    {
+      "key": "Recarga da Estase por Abate",
+      "value": "撃破時にステイシス再使用短縮"
+    },
+    {
+      "key": "Repetição de Acertos",
+      "value": "命中の再発動"
+    },
+    {
+      "key": "Escudo por Excesso de Cura",
+      "value": "余剰回復でシールド"
+    },
+    {
+      "key": "Dano ao Curar",
+      "value": "回復時ダメージ"
+    },
+    {
+      "key": "Cura de Emergência",
+      "value": "緊急回復"
+    },
+    {
+      "key": "Feixe Perfurante",
+      "value": "貫通ビーム"
+    },
+    {
+      "key": "Alvo Vulnerável",
+      "value": "弱体化マーク"
+    },
+    {
+      "key": "Explosão na Amplificação",
+      "value": "増幅発動時に爆発"
+    },
+    {
+      "key": "Toque para escolher. Toque em i para ver os detalhes.",
+      "value": "タップして選択。詳細は i をタップ。"
+    },
+    {
+      "key": "BÔNUS DE BOAS-VINDAS",
+      "value": "ログインボーナス"
+    },
+    {
+      "key": "Entre no jogo em 5 dias diferentes e ganhe uma recompensa por dia.",
+      "value": "5日間ログインして、毎日報酬を受け取る。"
+    },
+    {
+      "key": "LOGIN DIÁRIO",
+      "value": "デイリーログイン"
+    },
+    {
+      "key": "DIA ",
+      "value": "DAY "
+    },
+    {
+      "key": "CARTA",
+      "value": "カード"
+    },
+    {
+      "key": "RESGATAR DIA ",
+      "value": "受け取る：DAY "
+    },
+    {
+      "key": "VOLTE AMANHÃ",
+      "value": "次の日にまた"
+    },
+    {
+      "key": "Dia 5: créditos para comprar uma nave nova!",
+      "value": "DAY 5：新しい機体のためのクレジット!"
+    },
+    {
+      "key": "Nova carta no deck base: ",
+      "value": "ベースデッキの新しいカード："
+    },
+    {
+      "key": "  ·  o valor de uma nave!",
+      "value": "  ·  機体1機分!"
+    },
+    {
+      "key": "BÔNUS CONCLUÍDO",
+      "value": "ボーナス受け取り済み"
+    },
+    {
+      "key": "PRIVACIDADE E CONTA",
+      "value": "プライバシーとアカウント"
+    },
+    {
+      "key": "Gerencie seus dados e sua conta. Excluir a conta do jogo apaga o progresso local e na nuvem.",
+      "value": "データとアカウントを管理します。ゲームのアカウントを削除すると、端末とクラウドの進行状況が消去されます。"
+    },
+    {
+      "key": "POLÍTICA DE PRIVACIDADE",
+      "value": "プライバシーポリシー"
+    },
+    {
+      "key": "GERENCIAR CONTA UNITY",
+      "value": "UNITYアカウントを管理"
+    },
+    {
+      "key": "EXCLUIR CONTA DO JOGO",
+      "value": "ゲームのアカウントを削除"
+    },
+    {
+      "key": "A conta Unity é compartilhada com outros jogos e pode ser gerenciada separadamente. Compras da loja não são apagadas.",
+      "value": "Unityアカウントは他のゲームと共有され、別途管理できます。ストアでの購入は削除されません。"
+    },
+    {
+      "key": "Excluir permanentemente sua conta do jogo e todo o progresso? Esta ação não pode ser desfeita.",
+      "value": "ゲームのアカウントとすべての進行状況を完全に削除しますか？この操作は取り消せません。"
+    },
+    {
+      "key": "CONFIRMAR EXCLUSÃO",
+      "value": "削除を確定"
+    },
+    {
+      "key": "Não foi possível concluir. Verifique a conexão e tente novamente.",
+      "value": "完了できませんでした。接続を確認して、もう一度お試しください。"
+    },
+    {
+      "key": "Bola de Neve Ricocheteante",
+      "value": "跳ねる雪玉"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+      "value": "12秒ごとに雪玉が画面端で6秒間跳ね返り、接触で18ダメージ。"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+      "value": "12秒ごとに雪玉が画面端で8秒間跳ね返り、接触で26ダメージ。"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+      "value": "12秒ごとに雪玉が画面端で10秒間跳ね返り、接触で36ダメージ。"
+    },
+    {
+      "key": "Bola de Neve Gigante",
+      "value": "巨大な雪玉"
+    },
+    {
+      "key": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+      "value": "16秒ごとに敵を貫く巨大雪玉を6秒間発射。65ダメージと45%減速。"
+    },
+    {
+      "key": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+      "value": "15秒ごとに敵を貫く巨大雪玉を6秒間発射。100ダメージと45%減速。"
+    },
+    {
+      "key": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+      "value": "14秒ごとに敵を貫く巨大雪玉を6秒間発射。145ダメージと45%減速。"
+    },
+    {
+      "key": "Círculo de Gelo",
+      "value": "氷の円"
+    },
+    {
+      "key": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "14秒ごとに機体の周囲を5秒間凍らせる。0.5秒ごとに8ダメージと35%減速。"
+    },
+    {
+      "key": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+      "value": "13秒ごとに機体の周囲を6秒間凍らせる。0.5秒ごとに12ダメージと45%減速。"
+    },
+    {
+      "key": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+      "value": "12秒ごとに機体の周囲を7秒間凍らせる。0.5秒ごとに16ダメージと55%減速。"
+    },
+    {
+      "key": "Presentes Explosivos",
+      "value": "爆発するプレゼント"
+    },
+    {
+      "key": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+      "value": "11秒ごとに画面内の敵の位置へプレゼントを設置。1秒後に爆発し、範囲内に70ダメージ。"
+    },
+    {
+      "key": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+      "value": "10秒ごとに画面内の敵の位置へプレゼントを設置。1秒後に爆発し、範囲内に105ダメージ。"
+    },
+    {
+      "key": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+      "value": "9秒ごとに画面内の敵の位置へプレゼントを設置。1秒後に爆発し、範囲内に150ダメージ。"
+    },
+    {
+      "key": "Estilhaços de Gelo",
+      "value": "氷の破片"
+    },
+    {
+      "key": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+      "value": "9秒ごとに全方向へ6個の氷晶を発射。20の貫通ダメージと15%減速。"
+    },
+    {
+      "key": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+      "value": "8秒ごとに全方向へ8個の氷晶を発射。30の貫通ダメージと20%減速。"
+    },
+    {
+      "key": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+      "value": "7秒ごとに全方向へ10個の氷晶を発射。42の貫通ダメージと25%減速。"
+    },
+    {
+      "key": "Nevasca Localizada",
+      "value": "局地的な吹雪"
+    },
+    {
+      "key": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+      "value": "18秒ごとに敵の位置へ最大2個の吹雪を4秒間生成。0.5秒ごとに10ダメージと30%減速。"
+    },
+    {
+      "key": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "17秒ごとに敵の位置へ最大3個の吹雪を5秒間生成。0.5秒ごとに15ダメージと35%減速。"
+    },
+    {
+      "key": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+      "value": "16秒ごとに敵の位置へ最大4個の吹雪を6秒間生成。0.5秒ごとに21ダメージと40%減速。"
+    },
+    {
+      "key": "Noel Polar",
+      "value": "ポーラーノエル"
+    },
+    {
+      "key": "Listras de bengala doce e um arsenal de inverno.",
+      "value": "キャンディケイン柄と冬の武装。"
+    },
+    {
+      "key": "Natal: bolas de neve, gelo e presentes explosivos.",
+      "value": "クリスマス：雪玉、氷、爆発するプレゼント。"
+    },
+    {
+      "key": "Estrela Natalina",
+      "value": "クリスマススター"
+    },
+    {
+      "key": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "value": "範囲内の敵に印を付け、6秒間受けるダメージを35%増加。"
+    },
+    {
+      "key": "NATAL",
+      "value": "クリスマス"
+    },
+    {
+      "key": "NOTAS DA VERSÃO",
+      "value": "リリースノート"
+    },
+    {
+      "key": "DÚVIDAS, FEEDBACK E BUGS",
+      "value": "質問・ご意見・不具合"
+    },
+    {
+      "key": "FALE COM A EQUIPE",
+      "value": "開発チームに連絡"
+    },
+    {
+      "key": "Escolha o assunto e escreva sua mensagem.",
+      "value": "内容を選び、メッセージを入力してください。"
+    },
+    {
+      "key": "DÚVIDA",
+      "value": "質問"
+    },
+    {
+      "key": "FEEDBACK",
+      "value": "ご意見"
+    },
+    {
+      "key": "BUG",
+      "value": "不具合"
+    },
+    {
+      "key": "Escreva sua mensagem aqui…",
+      "value": "ここにメッセージを入力…"
+    },
+    {
+      "key": "Inclui versão, plataforma e idioma; não inclui dados da conta.",
+      "value": "バージョン・端末の種類・言語を含みます。アカウント情報は含みません。"
+    },
+    {
+      "key": "ABRIR E-MAIL",
+      "value": "メールを開く"
+    },
+    {
+      "key": "COPIAR MENSAGEM",
+      "value": "メッセージをコピー"
+    },
+    {
+      "key": "Mensagem e contato copiados.",
+      "value": "メッセージと連絡先をコピーしました。"
+    },
+    {
+      "key": "Você revisará e enviará pelo seu aplicativo de e-mail.",
+      "value": "メールアプリで確認し、送信してください。"
+    },
+    {
+      "key": "Revise e envie no aplicativo de e-mail. Se não abrir, use Copiar.",
+      "value": "メールアプリで確認して送信。開かない場合はコピーを利用してください。"
+    },
+    {
+      "key": "Melhorias e correções nesta versão.",
+      "value": "このバージョンには改善と修正が含まれます。"
+    },
+    {
+      "key": "Novidade: Noel Polar, a nave de Natal com listras vermelhas e brancas.",
+      "value": "新登場：赤と白のしま模様をまとったクリスマス機体、ポーラーノエル。"
+    },
+    {
+      "key": "Seis cartas exclusivas: bolas de neve, círculo de gelo, presentes explosivos, estilhaços e nevasca.",
+      "value": "6枚の専用カード：雪玉、氷の円、爆発するプレゼント、氷の破片、吹雪。"
+    },
+    {
+      "key": "Estrela Natalina: inimigos marcados recebem 35% mais dano durante 6 segundos.",
+      "value": "クリスマススター：印を付けた敵の被ダメージが6秒間35%増加。"
+    },
+    {
+      "key": "Novo canal de suporte para dúvidas, sugestões e relatos de bugs.",
+      "value": "質問・ご意見・不具合報告に対応する新しいサポート画面。"
+    },
+    {
+      "key": "MODOS DE JOGO",
+      "value": "ゲームモード"
+    },
+    {
+      "key": "MODO DE JOGO",
+      "value": "ゲームモード"
+    },
+    {
+      "key": "CAMPANHA",
+      "value": "キャンペーン"
+    },
+    {
+      "key": "10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
+      "value": "全10レベル、各レベルの最後にボスがいます。機体ごとに進行状況があります。"
+    },
+    {
+      "key": "Pontue destruindo inimigos e vencendo ondas. Os 50 melhores entram no ranking.",
+      "value": "敵を倒し、ウェーブをクリアしてスコアを獲得。上位50人がランキングに入ります。"
+    },
+    {
+      "key": "RECORDE ",
+      "value": "ベスト "
+    },
+    {
+      "key": "NÍVEIS",
+      "value": "レベル"
+    },
+    {
+      "key": "RANKING",
+      "value": "ランキング"
+    },
+    {
+      "key": "SELECIONADO",
+      "value": "選択済み"
+    },
+    {
+      "key": "BLOQUEADO",
+      "value": "ロック"
+    },
+    {
+      "key": "SEU RECORDE  ",
+      "value": "自己ベスト  "
+    },
+    {
+      "key": "POSIÇÃO ",
+      "value": "ランク "
+    },
+    {
+      "key": "CARREGANDO...",
+      "value": "読み込み中..."
+    },
+    {
+      "key": "Ninguém pontuou ainda. Seja o primeiro!",
+      "value": "まだスコアがありません。今すぐプレイしましょう!"
+    },
+    {
+      "key": "Entre no {0} para ver o ranking e enviar seus pontos.",
+      "value": "{0} にサインインすると、ランキングを表示できます。"
+    },
+    {
+      "key": "ENTRAR",
+      "value": "サインイン"
+    },
+    {
+      "key": "Não foi possível carregar o ranking. Verifique a internet.",
+      "value": "ランキングを読み込めませんでした。インターネット接続を確認してください。"
+    },
+    {
+      "key": "O ranking ainda não está disponível nesta versão.",
+      "value": "このバージョンではランキングはまだ利用できません。"
+    },
+    {
+      "key": "O ranking funciona no celular, pelo Play Games ou Game Center.",
+      "value": "ランキングはスマホの Play Games または Game Center で利用できます。"
+    },
+    {
+      "key": "ATUALIZAR",
+      "value": "更新"
+    },
+    {
+      "key": "PONTOS ",
+      "value": "スコア "
+    },
+    {
+      "key": "NOVO RECORDE!",
+      "value": "ベスト更新!"
+    },
+    {
+      "key": "BÔNUS DE EVOLUÇÃO +",
+      "value": "強化ボーナス +"
+    },
+    {
+      "key": "PRÓXIMA CARTA EXCLUSIVA",
+      "value": "次の限定カード"
+    },
+    {
+      "key": "FALTAM {0} NÍVEIS",
+      "value": "あと{0}レベル"
+    },
+    {
+      "key": "FALTA 1 NÍVEL!",
+      "value": "あと1レベル!"
+    },
+    {
+      "key": "TODAS AS CARTAS DA NAVE LIBERADAS",
+      "value": "機体カードをすべて解放"
+    },
+    {
+      "key": "NOVA CARTA EXCLUSIVA!",
+      "value": "新しい限定カード!"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas desta nave.",
+      "value": "この機体の選択に出るようになりました。"
+    },
+    {
+      "key": "TOQUE PARA CONTINUAR",
+      "value": "タップして続ける"
+    },
+    {
+      "key": "NOVA CARTA!",
+      "value": "新しいカード!"
+    },
+    {
+      "key": "DECK BASE",
+      "value": "共通デッキ"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas de todas as naves.",
+      "value": "すべての機体の選択に出るようになりました。"
+    },
+    {
+      "key": "COMPRAR",
+      "value": "購入"
+    },
+    {
+      "key": "AGUARDE",
+      "value": "お待ちください"
+    },
+    {
+      "key": "LOJA INDISPONÍVEL",
+      "value": "ストアを利用できません"
+    },
+    {
+      "key": "OFERTA",
+      "value": "セール"
+    },
+    {
+      "key": "A OFERTA ACABA EM ",
+      "value": "セール終了まで "
+    },
+    {
+      "key": "OFERTA ENCERRADA",
+      "value": "セール終了"
+    },
+    {
+      "key": "RECEBIDO!",
+      "value": "受け取りました!"
+    },
+    {
+      "key": "+1000 MINÉRIOS (FROTA COMPLETA)",
+      "value": "+1000 クレジット(艦隊コンプリート)"
+    },
+    {
+      "key": "1 NAVE ALEATÓRIA",
+      "value": "ランダム機体 ×1"
+    },
+    {
+      "key": "MINÉRIOS",
+      "value": "クレジット"
+    },
+    {
+      "key": "FECHAR",
+      "value": "閉じる"
+    },
+    {
+      "key": "Tudo já está na sua conta.",
+      "value": "すべてアカウントに追加済みです。"
+    },
+    {
+      "key": "Pagamento pendente. O pacote chega após a confirmação.",
+      "value": "支払いが保留中です。確認後に付与されます。"
+    },
+    {
+      "key": "Não foi possível consultar a loja.",
+      "value": "ストアに接続できません。"
+    },
+    {
+      "key": "Compra única. Só uma vez por conta.",
+      "value": "1回限りの購入。1アカウントにつき1回。"
+    },
+    {
+      "key": "PASSIVA · ",
+      "value": "パッシブ · "
+    },
+    {
+      "key": "CALOR DE FOCO",
+      "value": "集中ヒート"
+    },
+    {
+      "key": "Tiros seguidos no mesmo alvo esquentam: até +40% de dano.",
+      "value": "同じ敵に連続ヒットするとダメージが最大+40%。"
+    },
+    {
+      "key": "CANHÃO DE IMPACTO",
+      "value": "インパクトキャノン"
+    },
+    {
+      "key": "Tiros empurram. 3 placas orbitais atiram em quem chegar perto.",
+      "value": "弾が敵を押し返す。周回する3枚のプレートが近くの敵を撃つ。"
+    },
+    {
+      "key": "TIRO DE FASE",
+      "value": "フェイズショット"
+    },
+    {
+      "key": "Atravessa, deixa lento e se repete em eco. Alvo lento leva crítico.",
+      "value": "貫通して減速させ、エコーで繰り返す。減速した敵には必ずクリティカル。"
+    },
+    {
+      "key": "SUTURA",
+      "value": "スーチャー"
+    },
+    {
+      "key": "Mira o mais fraco. Abates soltam orbes de cura; o excesso vira escudo.",
+      "value": "最も弱い敵を狙う。撃破で回復オーブが出て、余った回復はシールドになる。"
+    },
+    {
+      "key": "ARTILHARIA DE CERCO",
+      "value": "攻城砲撃"
+    },
+    {
+      "key": "Mira o mais forte. A cada 5 tiros, um disparo carregado explode.",
+      "value": "最も強い敵を狙う。5発ごとにチャージ弾が爆発する。"
+    },
+    {
+      "key": "Pinheiro Natalino",
+      "value": "クリスマスツリー"
+    },
+    {
+      "key": "Cristal Polar",
+      "value": "極地の結晶"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+      "value": "致命傷を受けるとHP30%で復活し、2秒間無敵。再使用：戦闘時間60秒。"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+      "value": "致命傷を受けるとHP45%で復活し、2秒間無敵。敵を押し戻す。再使用：戦闘時間60秒。"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+      "value": "致命傷を受けるとHP60%で復活し、2秒間無敵。敵を押し戻し周囲に60ダメージ。再使用：戦闘時間60秒。"
+    },
+    {
+      "key": "A cada 6 tiros do canhão, o último é crítico garantido.",
+      "value": "大砲を6発撃つごとに、最後の1発が確定クリティカルになる。"
+    },
+    {
+      "key": "A cada 5 tiros do canhão, o último é crítico garantido.",
+      "value": "大砲を5発撃つごとに、最後の1発が確定クリティカルになる。"
+    },
+    {
+      "key": "A cada 4 tiros do canhão, o último é crítico garantido.",
+      "value": "大砲を4発撃つごとに、最後の1発が確定クリティカルになる。"
+    },
+    {
+      "key": "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+      "value": "Astro Blitzへようこそ！リリース直後から遊んでくれてありがとう。"
+    },
+    {
+      "key": "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+      "value": "個性的な艦を操り、レベルごとに強化を選び、10のステージで異常なコアを倒そう。"
+    },
+    {
+      "key": "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+      "value": "これは最初のバージョンです。ゲームをより良くするため、毎週アップデートを配信します。"
+    },
+    {
+      "key": "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo.",
+      "value": "質問・アイデア・不具合は、下のボタンからチームにお知らせください。"
+    },
+    {
+      "key": "Compra única e permanente. Sem anúncios e recompensas sem vídeo.",
+      "value": "永久購入 1 つ。広告なし、動画なしで報酬を獲得。"
+    },
+    {
+      "key": "NAVES",
+      "value": "機体"
+    }
+  ]
+}

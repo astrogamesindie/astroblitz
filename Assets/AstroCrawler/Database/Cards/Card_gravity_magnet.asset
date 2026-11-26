@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_gravity_magnet
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: gravity_magnet
+    name: "Bônus de XP"
+    description: Ganha 15% a mais de XP.
+    evolvedName: "Bônus de XP"
+    evolvedDescription: Ganha 30% a mais de XP.
+    maxName: "Bônus de XP"
+    maxDescription: Ganha 50% a mais de XP.
+    category: 0
+    effect: 30
+    tint: 3A6EA5
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: xpBonus
+        value: 0.15
+      - key: duration
+        value: 10
+    evolvedParams:
+      entries:
+      - key: xpBonus
+        value: 0.3
+    maxParams:
+      entries:
+      - key: xpBonus
+        value: 0.5

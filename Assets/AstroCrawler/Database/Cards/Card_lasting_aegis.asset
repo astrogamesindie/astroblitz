@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_lasting_aegis
+  m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.CardAsset
+  definition:
+    id: lasting_aegis
+    name: "Égide Duradoura"
+    description: "A \xC9gide de emerg\xEAncia dura +1s."
+    evolvedName: "Égide Duradoura"
+    evolvedDescription: "A \xC9gide de emerg\xEAncia dura +2s."
+    maxName: "Égide Duradoura"
+    maxDescription: "A \xC9gide de emerg\xEAncia dura +3s e empurra os inimigos ao
+      ativar."
+    category: 2
+    effect: 37
+    tint: 5BD6A0
+    starter: 0
+    unlockLevel: 30
+    baseParams:
+      entries:
+      - key: bonus
+        value: 1
+      - key: push
+        value: 0
+      - key: duration
+        value: 10
+    evolvedParams:
+      entries:
+      - key: bonus
+        value: 2
+    maxParams:
+      entries:
+      - key: bonus
+        value: 3
+      - key: push
+        value: 4

@@ -1,0 +1,2712 @@
+{
+  "entries": [
+    {
+      "key": "REINICIAR?",
+      "value": "NEU STARTEN?"
+    },
+    {
+      "key": "Volta à onda 1 com a mesma nave e fase.\nAs melhorias desta run se perdem.",
+      "value": "Mit demselben Schiff und Level ab Welle 1 neu starten.\nDie Verbesserungen dieses Durchlaufs gehen verloren."
+    },
+    {
+      "key": "REINICIAR",
+      "value": "NEU STARTEN"
+    },
+    {
+      "key": "SAIR DA RUN?",
+      "value": "DURCHLAUF VERLASSEN?"
+    },
+    {
+      "key": "A run termina aqui e o progresso se perde.",
+      "value": "Der Durchlauf endet. Sein Fortschritt geht verloren."
+    },
+    {
+      "key": "SAIR",
+      "value": "VERLASSEN"
+    },
+    {
+      "key": "PAUSA",
+      "value": "PAUSIERT"
+    },
+    {
+      "key": "SISTEMA EM PAUSA",
+      "value": "SYSTEM PAUSIERT"
+    },
+    {
+      "key": "CONTINUAR",
+      "value": "FORTSETZEN"
+    },
+    {
+      "key": "MENU",
+      "value": "MENÜ"
+    },
+    {
+      "key": "VOLTAR",
+      "value": "ZURÜCK"
+    },
+    {
+      "key": "ONDA ",
+      "value": "WELLE "
+    },
+    {
+      "key": " VIDA",
+      "value": " RUMPF"
+    },
+    {
+      "key": "slot vazio",
+      "value": "leerer Steckplatz"
+    },
+    {
+      "key": "ASSALTO",
+      "value": "ANGRIFF"
+    },
+    {
+      "key": "FORTIFICACAO",
+      "value": "FESTUNG"
+    },
+    {
+      "key": "GRAVITACIONAL",
+      "value": "GRAVITATION"
+    },
+    {
+      "key": "SUPORTE",
+      "value": "SUPPORT"
+    },
+    {
+      "key": "ARTILHARIA",
+      "value": "ARTILLERIE"
+    },
+    {
+      "key": "COMUM",
+      "value": "STANDARD"
+    },
+    {
+      "key": "MELHORIA",
+      "value": "UPGRADE"
+    },
+    {
+      "key": " CONCLUÍDO",
+      "value": " GESCHAFFT"
+    },
+    {
+      "key": " LIMPA",
+      "value": " GESCHAFFT"
+    },
+    {
+      "key": "  ·  ATIVA",
+      "value": "  · AKTIV"
+    },
+    {
+      "key": " INIMIGO",
+      "value": " FEIND"
+    },
+    {
+      "key": " INIMIGOS",
+      "value": " FEINDE"
+    },
+    {
+      "key": "   ·   ESCUDO ",
+      "value": "   · SCHILD "
+    },
+    {
+      "key": "NAVE NV ",
+      "value": "SCHIFF-LV "
+    },
+    {
+      "key": "MÁXIMO",
+      "value": "MAXIMAL"
+    },
+    {
+      "key": "MELHORIAS  ·  ",
+      "value": "UPGRADES ·  "
+    },
+    {
+      "key": "Nenhuma ainda",
+      "value": "Noch keine"
+    },
+    {
+      "key": "NÍVEL ",
+      "value": "LEVEL "
+    },
+    {
+      "key": "RECOMPENSAS",
+      "value": "BELOHNUNGEN"
+    },
+    {
+      "key": "RECOMPENSA DIÁRIA",
+      "value": "TÄGLICHE BELOHNUNG"
+    },
+    {
+      "key": "ASSISTA E GANHE",
+      "value": "ANSEHEN UND ERHALTEN"
+    },
+    {
+      "key": "COLETADA",
+      "value": "ABGEHOLT"
+    },
+    {
+      "key": "COLETAR",
+      "value": "ABHOLEN"
+    },
+    {
+      "key": "Nova recompensa em ",
+      "value": "Nächste Belohnung in "
+    },
+    {
+      "key": "Assista um vídeo para dobrar.",
+      "value": "Sehen Sie sich ein Video an, um es zu verdoppeln."
+    },
+    {
+      "key": "UPGRADES",
+      "value": "UPGRADES"
+    },
+    {
+      "key": "ESCOLHA SUA NAVE",
+      "value": "SCHIFF WÄHLEN"
+    },
+    {
+      "key": "SELECIONADA",
+      "value": "AUSGEWÄHLT"
+    },
+    {
+      "key": "SELECIONAR",
+      "value": "AUSWÄHLEN"
+    },
+    {
+      "key": "VIDA",
+      "value": "RUMPF"
+    },
+    {
+      "key": "DANO",
+      "value": "SCHADEN"
+    },
+    {
+      "key": "TIROS/S",
+      "value": "SCHÜSSE/S"
+    },
+    {
+      "key": "DANO/S",
+      "value": "DPS"
+    },
+    {
+      "key": "DECK  ·  ",
+      "value": "DECK ·  "
+    },
+    {
+      "key": " CARTAS  ·  6 COMUNS + 3 EXCLUSIVAS",
+      "value": " KARTEN · 6 GEMEINSAME + 3 EXKLUSIVE"
+    },
+    {
+      "key": "Recarga: ",
+      "value": "Abklingzeit: "
+    },
+    {
+      "key": "Duração: ",
+      "value": "Dauer: "
+    },
+    {
+      "key": "ATIVA · ",
+      "value": "AKTIV · "
+    },
+    {
+      "key": "EM RECARGA · ",
+      "value": "ABKLINGZEIT · "
+    },
+    {
+      "key": "PRONTA",
+      "value": "BEREIT"
+    },
+    {
+      "key": "Recarga restante: ",
+      "value": "Verbleibende Abklingzeit: "
+    },
+    {
+      "key": "HABILIDADE ESPECIAL",
+      "value": "BESONDERE FÄHIGKEIT"
+    },
+    {
+      "key": "Recarga Ofensiva",
+      "value": "Offensive Aufladung"
+    },
+    {
+      "key": "Reduz em 15% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "Verringert die Abklingzeit der Spezialfähigkeit um 15%."
+    },
+    {
+      "key": "Recarga Ofensiva Avançada",
+      "value": "Verbesserte offensive Aufladung"
+    },
+    {
+      "key": "Reduz em 25% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "Verringert die Abklingzeit der Spezialfähigkeit um 25%."
+    },
+    {
+      "key": "Recarga Ofensiva Máxima",
+      "value": "Maximale offensive Aufladung"
+    },
+    {
+      "key": "Reduz em 35% a recarga da habilidade Sobrecarga ofensiva.",
+      "value": "Verringert die Abklingzeit der Spezialfähigkeit um 35%."
+    },
+    {
+      "key": "Ofensiva: cura por abate, crítico e recarga da Sobrecarga ofensiva.",
+      "value": "Angriff: Heilung bei Kills, kritischen Treffern und Offensiv-Overdrive-Aufladung."
+    },
+    {
+      "key": "Suporte: autorreparo, mísseis por cura e drones de apoio.",
+      "value": "Unterstützung: Selbstreparatur, Raketen zur Heilung und Unterstützungsdrohnen."
+    },
+    {
+      "key": "Blindagem Reforçada",
+      "value": "Verstärkte Rüstung"
+    },
+    {
+      "key": "Reduz em 10% todo o dano recebido durante a run.",
+      "value": "Verringert während des Durchlaufs jeglichen erlittenen Schaden um 10%."
+    },
+    {
+      "key": "Blindagem Avançada",
+      "value": "Erweiterte Rüstung"
+    },
+    {
+      "key": "Reduz em 18% todo o dano recebido durante a run.",
+      "value": "Verringert während des Durchlaufs jeglichen erlittenen Schaden um 18%."
+    },
+    {
+      "key": "Blindagem Inabalável",
+      "value": "Unzerbrechliche Rüstung"
+    },
+    {
+      "key": "Reduz em 25% todo o dano recebido durante a run.",
+      "value": "Verringert während des Durchlaufs jeglichen erlittenen Schaden um 25%."
+    },
+    {
+      "key": "Caça ao Chefe",
+      "value": "Bossjäger"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +25% de dano.",
+      "value": "Auf den Boss gerichtete Kanonenschüsse verursachen +25% Schaden."
+    },
+    {
+      "key": "Predador de Chefes",
+      "value": "Boss-Raubtier"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +40% de dano.",
+      "value": "Auf den Boss gerichtete Kanonenschüsse verursachen +40% Schaden."
+    },
+    {
+      "key": "Flagelo dos Chefes",
+      "value": "Boss-Geißel"
+    },
+    {
+      "key": "Disparos do canhão mirados no chefe causam +60% de dano.",
+      "value": "Auf den Boss gerichtete Kanonenschüsse verursachen +60% Schaden."
+    },
+    {
+      "key": "Fortificação: repulsão, destroços e blindagem contra dano.",
+      "value": "Befestigung: Abwehr, Trümmer und schadensmindernde Panzerung."
+    },
+    {
+      "key": "Pulso Crítico",
+      "value": "Kritischer Puls"
+    },
+    {
+      "key": "Após 10s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "Nach 10s Kampf ist der nächste Schuss garantiert kritisch. Startet nach dem Schuss neu; keine gespeicherten Ladungen."
+    },
+    {
+      "key": "Ritmo Crítico",
+      "value": "Kritischer Rhythmus"
+    },
+    {
+      "key": "Após 7s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "Nach 7s Kampf ist der nächste Schuss garantiert kritisch. Startet nach dem Schuss neu; keine gespeicherten Ladungen."
+    },
+    {
+      "key": "Ressonância Crítica",
+      "value": "Kritische Resonanz"
+    },
+    {
+      "key": "Após 5s de combate, o próximo tiro é crítico garantido. Reinicia após o disparo; não acumula cargas.",
+      "value": "Nach 5s Kampf ist der nächste Schuss garantiert kritisch. Startet nach dem Schuss neu; keine gespeicherten Ladungen."
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +60%.",
+      "value": "Erhöht die Feuerrate dauerhaft um +60%."
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +85%.",
+      "value": "Erhöht die Feuerrate dauerhaft um +85%."
+    },
+    {
+      "key": "Controle e precisão: crítico garantido, lentidão e paralisia temporal.",
+      "value": "Kontrolle und Präzision: Garantierte kritische Treffer, langsame und zeitliche Lähmung."
+    },
+    {
+      "key": "Permanentemente, 12% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "Dauerhaft 12% kritische Trefferchance. Multiplikator x2 + permanente Boni."
+    },
+    {
+      "key": "Permanentemente, 25% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "Dauerhaft 25% kritische Trefferchance. Multiplikator x2 + permanente Boni."
+    },
+    {
+      "key": "Permanentemente, 32% de chance de crítico. Multiplicador x2 + bônus permanentes.",
+      "value": "Dauerhaft 32% kritische Trefferchance. Multiplikator x2 + permanente Boni."
+    },
+    {
+      "key": "Arco Voltaico",
+      "value": "Voltaischer Lichtbogen"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 2 outros inimigos próximos: 12 de dano por alvo. Intervalo de 3s.",
+      "value": "Kanonentreffer lösen Blitze auf bis zu 2 weitere nahe Gegner aus: je 12 Schaden. Intervall: 3s."
+    },
+    {
+      "key": "Corrente Voltaica",
+      "value": "Voltaische Kette"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 3 outros inimigos próximos: 18 de dano por alvo. Intervalo de 2,5s.",
+      "value": "Kanonentreffer lösen Blitze auf bis zu 3 weitere nahe Gegner aus: je 18 Schaden. Intervall: 2.5s."
+    },
+    {
+      "key": "Tempestade Voltaica",
+      "value": "Voltaischer Sturm"
+    },
+    {
+      "key": "Acertos do canhão geram raios em até 4 outros inimigos próximos: 25 de dano por alvo. Intervalo de 2s.",
+      "value": "Kanonentreffer lösen Blitze auf bis zu 4 weitere nahe Gegner aus: je 25 Schaden. Intervall: 2s."
+    },
+    {
+      "key": "Disparo de Cerco",
+      "value": "Belagerungsschuss"
+    },
+    {
+      "key": "Após 8s de combate, carrega um tiro com explosão de 40 de dano em área. Não acumula cargas.",
+      "value": "Lädt nach 8s Kampf einen Schuss mit einer Explosion für 40 Flächenschaden. Ladungen sind nicht stapelbar."
+    },
+    {
+      "key": "Artilharia de Cerco",
+      "value": "Belagerungsartillerie"
+    },
+    {
+      "key": "Após 6s de combate, carrega um tiro com explosão de 65 de dano em área. Não acumula cargas.",
+      "value": "Lädt nach 6s Kampf einen Schuss mit einer Explosion für 65 Flächenschaden. Ladungen sind nicht stapelbar."
+    },
+    {
+      "key": "Devastação de Cerco",
+      "value": "Belagerungsvernichtung"
+    },
+    {
+      "key": "Após 4s de combate, carrega um tiro com explosão de 90 de dano em área. Não acumula cargas.",
+      "value": "Lädt nach 4s Kampf einen Schuss mit einer Explosion für 90 Flächenschaden. Ladungen sind nicht stapelbar."
+    },
+    {
+      "key": "Artilharia: raios em cadeia, disparos de cerco e dano extra contra chefes.",
+      "value": "Artillerie: Kettenblitze, Belagerungsschüsse und Bonusschaden gegen Bosse."
+    },
+    {
+      "key": "Aurora Médica",
+      "value": "Medizinische Aurora"
+    },
+    {
+      "key": "Orion",
+      "value": "Orion"
+    },
+    {
+      "key": "Uma nave de suporte que reconstrói o próprio casco.",
+      "value": "Ein Hilfsschiff, das seinen eigenen Rumpf umbaut."
+    },
+    {
+      "key": "Sustentação: reparo e defesa mantêm a nave no combate.",
+      "value": "Sustain: Reparatur und Verteidigung halten das Schiff im Kampf."
+    },
+    {
+      "key": "Canhões pesados: cada disparo precisa contar.",
+      "value": "Schwere Kanonen: Jeder Schuss muss zählen."
+    },
+    {
+      "key": "Artilharia pesada: dano e explosões compensam a cadência baixa.",
+      "value": "Schwere Artillerie: Schaden und Explosionen gleichen die niedrige Feuerrate aus."
+    },
+    {
+      "key": "Vanguarda-7",
+      "value": "Vanguard-7"
+    },
+    {
+      "key": "Feita para acabar com a briga rápido, não para durar muito tempo nela.",
+      "value": "Gebaut, um den Kampf schnell zu beenden, nicht um einen langen zu überleben."
+    },
+    {
+      "key": "Ofensiva pura: deck inclinado para Ataque Duplo e Tiro Penetrante, reforçado por cartas de alto risco e alto retorno que recompensam jogar agressivo.",
+      "value": "Reine Offensive: Ein Deck, das auf Doppelangriff und Durchdringungsschuss basiert und durch Karten mit hohem Risiko unterstützt wird, die aggressives Spiel belohnen."
+    },
+    {
+      "key": "Bastião Aegis",
+      "value": "Aegis-Bastion"
+    },
+    {
+      "key": "Não é a mais rápida a atirar, mas é a última a cair.",
+      "value": "Es ist nicht der schnellste Schuss, aber es ist der letzte, der fällt."
+    },
+    {
+      "key": "Tanque de longa duração: deck inclinado para Defesa e Buraco Negro, reforçado por cartas de controle e sustentação.",
+      "value": "Ein langlebiger Panzer: ein Deck, das rund um Schild und Schwarzes Loch aufgebaut ist, mit Kontroll- und Erhaltungskarten."
+    },
+    {
+      "key": "Espectro Nulo",
+      "value": "Null Spectre"
+    },
+    {
+      "key": "Protótipo experimental que dobra o espaço ao seu redor — poderoso, mas com casco de papel.",
+      "value": "Ein experimenteller Prototyp, der den Raum um sich herum krümmt: kraftvoll, aber zerbrechlich."
+    },
+    {
+      "key": "Builds de área e sinergia: deck inclinado para Mísseis e Buraco Negro, reforçado por cartas gravitacionais que aprofundam o combo de agrupar e detonar.",
+      "value": "Flächenschaden und Synergie: Ein Deck rund um Raketen und Schwarzes Loch, mit Schwerkraftkarten, die Feinde vor der Detonation zusammenziehen."
+    },
+    {
+      "key": "Salva Quádrupla",
+      "value": "Vierfachsalve"
+    },
+    {
+      "key": "Dispara 4 projéteis em paralelo, permanentemente.",
+      "value": "Feuert dauerhaft 4 Projektile nebeneinander ab."
+    },
+    {
+      "key": "Aegis Total",
+      "value": "Vollständige Aegis"
+    },
+    {
+      "key": "Recarrega 3 bloqueios a cada 12s de combate. Duram até serem consumidos.",
+      "value": "Lädt alle 12s Kampf 3 Blockierungen auf. Sie bleiben bis zum Verbrauch erhalten."
+    },
+    {
+      "key": "Chuva de Mísseis",
+      "value": "Raketenregen"
+    },
+    {
+      "key": "Dispara 4 mísseis com dano em área ampliado a cada 5 segundos de combate, quando há inimigos no alcance.",
+      "value": "Feuert alle 5 Kampfsekunden 4 Raketen mit größerem Flächenschaden ab, wenn sich Feinde in Reichweite befinden."
+    },
+    {
+      "key": "Singularidade",
+      "value": "Singularität"
+    },
+    {
+      "key": "Cria um buraco negro enorme de 10s que explode com força ao final, a cada 14s.",
+      "value": "Erzeugt ein riesiges 10-Sekunden-Schwarzes Loch, das am Ende alle 14 Sekunden heftig explodiert."
+    },
+    {
+      "key": "Lança Penetrante",
+      "value": "Durchdringende Lanze"
+    },
+    {
+      "key": "Penetração permanente e mais 25% de dano por tiro (total +45%).",
+      "value": "Permanenter Durchschlag und weitere +25 % Schaden pro Schuss (+45 % insgesamt)."
+    },
+    {
+      "key": "Overdrive Máximo",
+      "value": "Maximaler Overdrive"
+    },
+    {
+      "key": "Tempestade Restauradora",
+      "value": "Heilungssturm"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 10 mísseis retos em todas as direções. Cada míssil causa 24 de dano. Não ativa com vida cheia.",
+      "value": "Feuert bei jeder Heilung 10 gerade Raketen in alle Richtungen. Je 24 Schaden. Löst bei vollen HP nicht aus."
+    },
+    {
+      "key": "Tempestade Selvagem",
+      "value": "Wilder Sturm"
+    },
+    {
+      "key": "Fúria Inesgotável",
+      "value": "Unendliche Wut"
+    },
+    {
+      "key": "Cada abate recupera 3% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "Jeder Abschuss stellt 3% der maximalen Schiffs-HP wieder her.\n\nDauerhafter Effekt"
+    },
+    {
+      "key": "Repulsão Total",
+      "value": "Totale Abstoßung"
+    },
+    {
+      "key": "A cada 6s, empurra com raio 260 e aplica 50% de lentidão por 4s.",
+      "value": "Stößt alle 6s Gegner im Radius 260 zurück und verlangsamt sie für 4s um 50%."
+    },
+    {
+      "key": "Autorreparo Total",
+      "value": "Vollständige Selbstreparatur"
+    },
+    {
+      "key": "Restaura 40% a cada 15s e repõe até 2 bloqueios extras, se foram consumidos.",
+      "value": "Stellt alle 15s 40% HP und bis zu 2 verbrauchte zusätzliche Blockierungen wieder her."
+    },
+    {
+      "key": "Muralha Inabalável",
+      "value": "Unerschütterliche Wand"
+    },
+    {
+      "key": "Cria uma barreira de HP 45 e duração 12s, a cada 10s.",
+      "value": "Erzeugt alle 10s eine Barriere mit 45 HP für 12s."
+    },
+    {
+      "key": "Estase Temporal",
+      "value": "Zeitstase"
+    },
+    {
+      "key": "Esquadrão de Elite",
+      "value": "Elitestaffel"
+    },
+    {
+      "key": "A cada 20s, quatro drones apoiam a nave por 18s e causam 8 de dano cada por tiro.",
+      "value": "Alle 20s unterstützen 4 Drohnen das Schiff für 18s und verursachen je 8 Schaden pro Schuss."
+    },
+    {
+      "key": "Ataque Duplo",
+      "value": "Doppelter Angriff"
+    },
+    {
+      "key": "Dobra permanentemente o número de projéteis disparados pela nave.",
+      "value": "Verdoppelt dauerhaft die Anzahl der vom Schiff abgefeuerten Projektile."
+    },
+    {
+      "key": "Ataque Triplo",
+      "value": "Dreifacher Angriff"
+    },
+    {
+      "key": "Triplica permanentemente os projéteis disparados pela nave.",
+      "value": "Verdreifacht dauerhaft die vom Schiff abgefeuerten Projektile."
+    },
+    {
+      "key": "Defesa",
+      "value": "Schild"
+    },
+    {
+      "key": "Recarrega 1 bloqueio a cada 15s de combate. Dura até ser consumido.",
+      "value": "Lädt alle 15s Kampf 1 Blockierungen auf. Sie bleiben bis zum Verbrauch erhalten."
+    },
+    {
+      "key": "Escudo Reforçado",
+      "value": "Verstärkter Schild"
+    },
+    {
+      "key": "Recarrega 2 bloqueios a cada 15s de combate. Duram até serem consumidos.",
+      "value": "Lädt alle 15s Kampf 2 Blockierungen auf. Sie bleiben bis zum Verbrauch erhalten."
+    },
+    {
+      "key": "Mísseis",
+      "value": "Raketen"
+    },
+    {
+      "key": "Dispara automaticamente 2 mísseis teleguiados a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "Feuert alle 6 Kampfsekunden automatisch 2 zielsuchende Raketen ab, wenn sich Feinde in Reichweite befinden."
+    },
+    {
+      "key": "Enxame de Mísseis",
+      "value": "Raketenschwarm"
+    },
+    {
+      "key": "Dispara automaticamente 3 mísseis com dano em área a cada 6 segundos de combate, quando há inimigos no alcance.",
+      "value": "Feuert automatisch alle 6 Kampfsekunden 3 Flächenschadensraketen ab, wenn sich Feinde in Reichweite befinden."
+    },
+    {
+      "key": "Buraco Negro",
+      "value": "Schwarzes Loch"
+    },
+    {
+      "key": "Cria um buraco negro de 6s sobre os inimigos no alcance, a cada 16s.",
+      "value": "Erzeugt alle 16 Sekunden ein 6 Sekunden langes Schwarzes Loch bei Feinden in Reichweite."
+    },
+    {
+      "key": "Colapso Estelar",
+      "value": "Sternenkollaps"
+    },
+    {
+      "key": "Cria um buraco negro maior de 9s que explode ao final, a cada 16s.",
+      "value": "Erzeugt ein 9 Sekunden langes, größeres Schwarzes Loch, das am Ende alle 16 Sekunden explodiert."
+    },
+    {
+      "key": "Tiro Penetrante",
+      "value": "Durchdringender Schuss"
+    },
+    {
+      "key": "Permanentemente, os projéteis atravessam inimigos em vez de serem destruídos.",
+      "value": "Projektile durchbohren Feinde dauerhaft, anstatt zerstört zu werden."
+    },
+    {
+      "key": "Perfuração Total",
+      "value": "Vollständige Durchdringung"
+    },
+    {
+      "key": "Penetração permanente pelo restante da run e +20% de dano por tiro.",
+      "value": "Permanenter Durchschlag für den Rest des Spieldurchgangs und +20 % Schaden pro Schuss."
+    },
+    {
+      "key": "Sobrecarga de Motores",
+      "value": "Motorüberlastung"
+    },
+    {
+      "key": "Aumenta permanentemente a cadência de tiro em +30%.",
+      "value": "Erhöht die Feuerrate dauerhaft um +30%."
+    },
+    {
+      "key": "Overdrive Total",
+      "value": "Totaler Overdrive"
+    },
+    {
+      "key": "Salva Restauradora",
+      "value": "Heilungssalve"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 6 mísseis retos em todas as direções. Cada míssil causa 12 de dano. Não ativa com vida cheia.",
+      "value": "Feuert bei jeder Heilung 6 gerade Raketen in alle Richtungen. Je 12 Schaden. Löst bei vollen HP nicht aus."
+    },
+    {
+      "key": "Barragem Restauradora",
+      "value": "Heilungssperrfeuer"
+    },
+    {
+      "key": "Sempre que recuperar vida, dispara 8 mísseis retos em todas as direções. Cada míssil causa 18 de dano. Não ativa com vida cheia.",
+      "value": "Feuert bei jeder Heilung 8 gerade Raketen in alle Richtungen. Je 18 Schaden. Löst bei vollen HP nicht aus."
+    },
+    {
+      "key": "Rajada Selvagem",
+      "value": "Wilde Salve"
+    },
+    {
+      "key": "Fogo Descontrolado",
+      "value": "Unkontrolliertes Feuer"
+    },
+    {
+      "key": "Fúria de Batalha",
+      "value": "Kampfwut"
+    },
+    {
+      "key": "Cada abate recupera 1% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "Jeder Abschuss stellt 1% der maximalen Schiffs-HP wieder her.\n\nDauerhafter Effekt"
+    },
+    {
+      "key": "Fúria Implacável",
+      "value": "Unerbittliche Wut"
+    },
+    {
+      "key": "Cada abate recupera 2% do HP máximo da nave.\n\nEfeito permanente",
+      "value": "Jeder Abschuss stellt 2% der maximalen Schiffs-HP wieder her.\n\nDauerhafter Effekt"
+    },
+    {
+      "key": "Campo de Repulsão",
+      "value": "Abstoßungsfeld"
+    },
+    {
+      "key": "Empurra os inimigos próximos a cada 10s, quando há inimigos no alcance.",
+      "value": "Schiebt alle 10 Sekunden Feinde in der Nähe weg, wenn sich Feinde in Reichweite befinden."
+    },
+    {
+      "key": "Repulsão Amplificada",
+      "value": "Verstärkte Abstoßung"
+    },
+    {
+      "key": "A cada 8s, empurra com raio 180 e aplica 30% de lentidão por 3s.",
+      "value": "Stößt alle 8s Gegner im Radius 180 zurück und verlangsamt sie für 3s um 30%."
+    },
+    {
+      "key": "Reparo de Emergência",
+      "value": "Notfallreparatur"
+    },
+    {
+      "key": "Restaura 20% do HP máximo a cada 20s de combate.",
+      "value": "Stellt alle 20s Kampf 20% der maximalen HP wieder her."
+    },
+    {
+      "key": "Autorreparo Avançado",
+      "value": "Verbesserte Selbstreparatur"
+    },
+    {
+      "key": "Restaura 30% a cada 18s e repõe 1 bloqueio extra, se ele foi consumido.",
+      "value": "Stellt alle 18s 30% HP und bis zu 1 verbrauchte zusätzliche Blockierungen wieder her."
+    },
+    {
+      "key": "Muralha de Destroços",
+      "value": "Trümmerwand"
+    },
+    {
+      "key": "Cria uma barreira (HP 10) diante da ameaça mais próxima, a cada 12s.",
+      "value": "Erstellt alle 12 Sekunden eine Barriere (10 HP) vor der nächsten Bedrohung."
+    },
+    {
+      "key": "Muralha Reforçada",
+      "value": "Verstärkte Wand"
+    },
+    {
+      "key": "Cria uma barreira de HP 25 e duração 9s, a cada 12s.",
+      "value": "Erzeugt alle 12s eine Barriere mit 25 HP für 9s."
+    },
+    {
+      "key": "Distorção Temporal",
+      "value": "Zeitverzerrung"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 10%.",
+      "value": "Verringert dauerhaft die Bewegungsgeschwindigkeit aller Gegner um 10%."
+    },
+    {
+      "key": "Paralisia Temporal",
+      "value": "Zeitlähmung"
+    },
+    {
+      "key": "Dilatação Temporal",
+      "value": "Zeitdehnung"
+    },
+    {
+      "key": "Dilatação Absoluta",
+      "value": "Absolute Zeitdehnung"
+    },
+    {
+      "key": "Estase Absoluta",
+      "value": "Absolute Stasis"
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 20%.",
+      "value": "Verringert dauerhaft die Bewegungsgeschwindigkeit aller Gegner um 20%."
+    },
+    {
+      "key": "Reduz permanentemente a velocidade de todos os inimigos em 30%.",
+      "value": "Verringert dauerhaft die Bewegungsgeschwindigkeit aller Gegner um 30%."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 5% de HP ficam paralisados.",
+      "value": "Dauerhafter Effekt: Gegner in Reichweite mit höchstens 5% HP werden gelähmt."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 10% de HP ficam paralisados.",
+      "value": "Dauerhafter Effekt: Gegner in Reichweite mit höchstens 10% HP werden gelähmt."
+    },
+    {
+      "key": "Efeito permanente: inimigos no alcance com até 20% de HP ficam paralisados.",
+      "value": "Dauerhafter Effekt: Gegner in Reichweite mit höchstens 20% HP werden gelähmt."
+    },
+    {
+      "key": "Drones de Apoio",
+      "value": "Unterstützungsdrohnen"
+    },
+    {
+      "key": "A cada 22s, dois drones orbitam a nave por 12s e disparam contra inimigos no alcance a cada 1,2s.",
+      "value": "Alle 22 Sekunden umkreisen zwei Drohnen das Schiff 12 Sekunden lang und schießen alle 1,2 Sekunden auf Feinde in Reichweite."
+    },
+    {
+      "key": "Esquadrão de Apoio",
+      "value": "Unterstützungsstaffel"
+    },
+    {
+      "key": "A cada 22s, três drones apoiam a nave por 15s e causam 7 de dano cada por tiro.",
+      "value": "Alle 22s unterstützen 3 Drohnen das Schiff für 15s und verursachen je 7 Schaden pro Schuss."
+    },
+    {
+      "key": "Meteoro Pequeno",
+      "value": "Kleiner Meteor"
+    },
+    {
+      "key": "Meteoro Médio",
+      "value": "Mittlerer Meteor"
+    },
+    {
+      "key": "Meteoro Grande",
+      "value": "Großer Meteor"
+    },
+    {
+      "key": "Batedor",
+      "value": "Pfadfinder"
+    },
+    {
+      "key": "Interceptador",
+      "value": "Abfangjäger"
+    },
+    {
+      "key": "Fragata",
+      "value": "Fregatte"
+    },
+    {
+      "key": "Núcleo Aberrante",
+      "value": "Aberranter Kern"
+    },
+    {
+      "key": "6 Meteoros Pequenos",
+      "value": "6 kleine Meteore"
+    },
+    {
+      "key": "8 Pequenos + 2 Médios",
+      "value": "8 kleine + 2 mittlere Meteore"
+    },
+    {
+      "key": "10 Meteoros Médios",
+      "value": "10 mittlere Meteore"
+    },
+    {
+      "key": "4 Grandes + 6 Pequenos",
+      "value": "4 große + 6 kleine Meteore"
+    },
+    {
+      "key": "10 Meteoros mistos + 2 Batedores",
+      "value": "10 gemischte Meteore + 2 Späher"
+    },
+    {
+      "key": "6 Batedores + 6 Médios",
+      "value": "6 Scouts + 6 mittlere Meteore"
+    },
+    {
+      "key": "4 Interceptadores + 8 Pequenos",
+      "value": "4 Abfangjäger + 8 kleine Meteore"
+    },
+    {
+      "key": "8 Meteoros Grandes",
+      "value": "8 große Meteore"
+    },
+    {
+      "key": "6 Interceptadores + 6 Batedores",
+      "value": "6 Abfangjäger + 6 Späher"
+    },
+    {
+      "key": "MINI-CHEFE: 1 Fragata + 10 Batedores",
+      "value": "MINIBOSS: 1 Fregatte + 10 Späher"
+    },
+    {
+      "key": "10 Grandes + 4 Interceptadores",
+      "value": "10 große Meteore + 4 Abfangjäger"
+    },
+    {
+      "key": "10 Batedores + 6 Interceptadores",
+      "value": "10 Scouts + 6 Interceptors"
+    },
+    {
+      "key": "2 Fragatas + 8 Médios",
+      "value": "2 Fregatten + 8 mittlere Meteore"
+    },
+    {
+      "key": "ENXAME DENSO: 12 Interceptadores",
+      "value": "DICHTER SCHWARM: 12 Abfangjäger"
+    },
+    {
+      "key": "3 Fragatas + 10 Batedores",
+      "value": "3 Fregatten + 10 Scouts"
+    },
+    {
+      "key": "16 Meteoros mistos",
+      "value": "16 gemischte Meteore"
+    },
+    {
+      "key": "4 Fragatas + 8 Interceptadores",
+      "value": "4 Fregatten + 8 Abfangjäger"
+    },
+    {
+      "key": "ENXAME MÁXIMO: 20 Batedores",
+      "value": "MAXIMALER SCHWARM: 20 Scouts"
+    },
+    {
+      "key": "GAUNTLET: 5 Fragatas + 10 Grandes + 10 Batedores",
+      "value": "GAUNTLET: 5 Fregatten + 10 große Meteore + 10 Scouts"
+    },
+    {
+      "key": "CHEFE FINAL: Núcleo Aberrante",
+      "value": "ENDGEBOSS: Aberrant Core"
+    },
+    {
+      "key": "SELEÇÃO DE MELHORIA",
+      "value": "VERBESSERUNG WÄHLEN"
+    },
+    {
+      "key": " ESCOLHA EM ESPERA",
+      "value": " PICK WARTET"
+    },
+    {
+      "key": " ESCOLHAS EM ESPERA",
+      "value": " PICKS WARTEN"
+    },
+    {
+      "key": "NAVE  ·  NÍVEL ",
+      "value": "SCHIFF · LEVEL "
+    },
+    {
+      "key": "NOVA",
+      "value": "NEU"
+    },
+    {
+      "key": "NÚCLEO DESTRUÍDO",
+      "value": "KERN ZERSTÖRT"
+    },
+    {
+      "key": "TENTE OUTRA VEZ!",
+      "value": "VERSUCH ES NOCHMAL!"
+    },
+    {
+      "key": "CAMPANHA COMPLETA",
+      "value": "KAMPAGNE ABGESCHLOSSEN"
+    },
+    {
+      "key": "NOVO",
+      "value": "NEU"
+    },
+    {
+      "key": "PRÓXIMO NÍVEL  ·  ",
+      "value": "NÄCHSTE EBENE ·  "
+    },
+    {
+      "key": "ONDAS ",
+      "value": "WELLEN  "
+    },
+    {
+      "key": " CRÉDITOS",
+      "value": " CREDITS"
+    },
+    {
+      "key": "MELHORIAS ",
+      "value": "UPGRADES "
+    },
+    {
+      "key": "CONCLUÍDO",
+      "value": "GELÖSCHT"
+    },
+    {
+      "key": " NÍVEIS CONCLUÍDOS",
+      "value": " LEVELS GELÖSCHT"
+    },
+    {
+      "key": "Conclua o {0} com esta nave para liberar.",
+      "value": "Schließe {0} mit diesem Schiff ab, um das Level freizuschalten."
+    },
+    {
+      "key": "BLOQUEADA",
+      "value": "GESPERRT"
+    },
+    {
+      "key": "RETRATO",
+      "value": "HOCHFORMAT"
+    },
+    {
+      "key": "PAISAGEM",
+      "value": "QUERFORMAT"
+    },
+    {
+      "key": "LIGADO",
+      "value": "EIN"
+    },
+    {
+      "key": "DESLIGADO",
+      "value": "AUS"
+    },
+    {
+      "key": "JOGAR",
+      "value": "SPIELEN"
+    },
+    {
+      "key": "FASES",
+      "value": "STUFEN"
+    },
+    {
+      "key": " ONDAS",
+      "value": " WELLEN"
+    },
+    {
+      "key": "AJUSTES",
+      "value": "EINSTELLUNGEN"
+    },
+    {
+      "key": "MÚSICA",
+      "value": "MUSIK"
+    },
+    {
+      "key": "EFEITOS",
+      "value": "WIRKUNGEN"
+    },
+    {
+      "key": "VOLUME",
+      "value": "LAUTSTÄRKE"
+    },
+    {
+      "key": "IDIOMA",
+      "value": "SPRACHE"
+    },
+    {
+      "key": "TELA",
+      "value": "BILDSCHIRM"
+    },
+    {
+      "key": "REMOVER ANÚNCIOS",
+      "value": "WERBUNG ENTFERNEN"
+    },
+    {
+      "key": "Compra única e permanente. Jogue sem anúncios.",
+      "value": "Ein dauerhafter Kauf. Spielen Sie ohne Werbung."
+    },
+    {
+      "key": "ADQUIRIDO",
+      "value": "GEKAUFT"
+    },
+    {
+      "key": "INDISPONÍVEL",
+      "value": "NICHT VERFÜGBAR"
+    },
+    {
+      "key": "RESTAURAR COMPRAS",
+      "value": "KÄUFE WIEDERHERSTELLEN"
+    },
+    {
+      "key": "Disponível na versão Android pelo Google Play.",
+      "value": "Verfügbar für Android über Google Play."
+    },
+    {
+      "key": "Aguardando Google Play…",
+      "value": "Warten auf Google Play…"
+    },
+    {
+      "key": "Não foi possível consultar a loja. Use Restaurar para tentar novamente.",
+      "value": "Der Shop konnte nicht kontaktiert werden. Verwenden Sie „Wiederherstellen“, um es erneut zu versuchen."
+    },
+    {
+      "key": "Pagamento pendente. A remoção será ativada após a confirmação.",
+      "value": "Zahlung ausstehend. Anzeigen werden nach Bestätigung entfernt."
+    },
+    {
+      "key": "Anúncios removidos nesta conta.",
+      "value": "Anzeigen für dieses Konto entfernt."
+    },
+    {
+      "key": "Compra cancelada. Nenhuma alteração aplicada.",
+      "value": "Kauf storniert. Es wurden keine Änderungen vorgenommen."
+    },
+    {
+      "key": "Já comprou? Restaure usando a mesma conta Google Play.",
+      "value": "Bereits gekauft? Mit demselben Google Play-Konto wiederherstellen."
+    },
+    {
+      "key": "Nave no máximo.",
+      "value": "Schiff vollständig aufgerüstet."
+    },
+    {
+      "key": "Restam só ",
+      "value": "Noch "
+    },
+    {
+      "key": " níveis.",
+      "value": " Level übrig."
+    },
+    {
+      "key": "Faltam ",
+      "value": "Es fehlen "
+    },
+    {
+      "key": " créditos  ·  termine runs para ganhar",
+      "value": " Credits · Durchläufe abschließen"
+    },
+    {
+      "key": "Cada compra: +1 nível num atributo aleatório",
+      "value": "Jeder Kauf: +1 Level auf ein zufälliges Attribut"
+    },
+    {
+      "key": "NÍVEIS ",
+      "value": "EBENEN "
+    },
+    {
+      "key": "MÁX",
+      "value": "MAX."
+    },
+    {
+      "key": "RESTAM ",
+      "value": "NUR "
+    },
+    {
+      "key": "+1 NÍVEL",
+      "value": "+1 STUFE"
+    },
+    {
+      "key": "+5 NÍVEIS",
+      "value": "+5 STUFEN"
+    },
+    {
+      "key": "ATUALIZAÇÃO NECESSÁRIA",
+      "value": "UPDATE ERFORDERLICH"
+    },
+    {
+      "key": "CONSULTANDO A LOJA",
+      "value": "ÜBERPRÜFEN SIE DEN SHOP"
+    },
+    {
+      "key": "Verificando se existe uma nova versão…",
+      "value": "Suche nach einer neueren Version…"
+    },
+    {
+      "key": "Conclua a atualização no Google Play para continuar.",
+      "value": "Schließen Sie das Google Play-Update ab, um fortzufahren."
+    },
+    {
+      "key": "A atualização ainda é necessária. Tente novamente ou abra a loja para atualizar.",
+      "value": "Das Update ist weiterhin erforderlich. Versuchen Sie es erneut oder öffnen Sie den Store, um ein Update durchzuführen."
+    },
+    {
+      "key": "Existe uma versão mais recente na loja. Atualize o Astro Blitz para continuar jogando.",
+      "value": "Eine neuere Version ist im Store verfügbar. Aktualisiere Astro Blitz, um weiterspielen zu können."
+    },
+    {
+      "key": "ATUALIZAR AGORA",
+      "value": "JETZT AKTUALISIEREN"
+    },
+    {
+      "key": "VERIFICAR NOVAMENTE",
+      "value": "PRÜFEN SIE NOCHMAL"
+    },
+    {
+      "key": "VER ANÚNCIO PARA RENASCER",
+      "value": "ANSEHEN UND WIEDERBELEBEN"
+    },
+    {
+      "key": "TENTAR CARREGAR ANÚNCIO",
+      "value": "ANZEIGE ERNEUT LADEN"
+    },
+    {
+      "key": "Aguardando conclusão do anúncio…",
+      "value": "Warten auf Anzeigenabschluss…"
+    },
+    {
+      "key": "Uma vez por partida. A recompensa exige concluir o anúncio.",
+      "value": "Einmal pro Spieldurchgang. Vervollständigen Sie die Anzeige, um die Prämie zu erhalten."
+    },
+    {
+      "key": "Anúncio indisponível. Aguarde o carregamento ou tente mais tarde.",
+      "value": "Anzeige nicht verfügbar. Warten Sie auf den Ladevorgang oder versuchen Sie es später."
+    },
+    {
+      "key": "Disponível em ",
+      "value": "Wieder in "
+    },
+    {
+      "key": "Aguardando anúncio…",
+      "value": "Warten auf Anzeige…"
+    },
+    {
+      "key": "Anúncio indisponível",
+      "value": "Anzeige nicht verfügbar"
+    },
+    {
+      "key": "PRIVACIDADE DOS ANÚNCIOS",
+      "value": "AD-DATENSCHUTZOPTIONEN"
+    },
+    {
+      "key": "Cadência de tiro",
+      "value": "Feuerrate"
+    },
+    {
+      "key": "Dano",
+      "value": "Schaden"
+    },
+    {
+      "key": "Vida",
+      "value": "Rumpf"
+    },
+    {
+      "key": "Recuperação de vida",
+      "value": "Gesundheitsregeneration"
+    },
+    {
+      "key": "Esquiva",
+      "value": "Ausweichen"
+    },
+    {
+      "key": "Créditos por partida",
+      "value": "Credits pro Durchspielen"
+    },
+    {
+      "key": "Chance crítica",
+      "value": "Kritische Trefferchance"
+    },
+    {
+      "key": "Dano crítico",
+      "value": "Kritischer Schaden"
+    },
+    {
+      "key": "% velocidade",
+      "value": "% Feuerrate"
+    },
+    {
+      "key": "% dano",
+      "value": "% Schaden"
+    },
+    {
+      "key": "% vida",
+      "value": "% Rumpf"
+    },
+    {
+      "key": " vida/s",
+      "value": " HP/s"
+    },
+    {
+      "key": "% esquiva",
+      "value": "% Ausweichen"
+    },
+    {
+      "key": "% créditos",
+      "value": "% Credits"
+    },
+    {
+      "key": "% chance",
+      "value": "% Chance"
+    },
+    {
+      "key": "% dano crítico",
+      "value": "% kritischer Schaden"
+    },
+    {
+      "key": "Primeiro contato. Sobreviva à rota original de 10 ondas.",
+      "value": "Erster Kontakt. Überlebe die ursprüngliche 10-Wellen-Route."
+    },
+    {
+      "key": "A invasão acelera. Mais batedores, reforços e ondas densas.",
+      "value": "Die Invasion beschleunigt sich. Mehr Späher, Verstärkung und dichte Wellen."
+    },
+    {
+      "key": "Interceptadores rápidos e fragatas fecham o cerco.",
+      "value": "Schnelle Abfangjäger und Fregatten schließen das Netz."
+    },
+    {
+      "key": "Batedores e interceptadores chegam juntos. Fragatas surgem antes do chefe.",
+      "value": "Späher und Abfangjäger treffen gemeinsam ein. Fregatten tauchen vor dem Boss auf."
+    },
+    {
+      "key": "As fragatas chegam mais cedo e o enxame não para de crescer.",
+      "value": "Fregatten treffen früher ein und der Schwarm wächst weiter."
+    },
+    {
+      "key": "Ondas lotadas. O fogo cruzado cobra caro de quem tem pouca vida.",
+      "value": "Überfüllte Wellen. Crossfire ist für einen dünnen Rumpf kostspielig."
+    },
+    {
+      "key": "Escoltas reforçadas. O Núcleo Aberrante chega com um exército.",
+      "value": "Verstärkte Eskorten. Der Aberrant Core bringt eine Armee mit."
+    },
+    {
+      "key": "Pressão total desde a primeira onda. Cada erro custa caro.",
+      "value": "Voller Druck ab der ersten Welle. Jeder Fehler zählt."
+    },
+    {
+      "key": "O limite do setor. Só naves muito bem equipadas chegam ao chefe.",
+      "value": "Der Rand des Sektors. Nur gut ausgerüstete Schiffe erreichen den Boss."
+    },
+    {
+      "key": "O último nível. Enxames, fragatas e um Núcleo no auge da força.",
+      "value": "Das letzte Level. Schwärme, Fregatten und ein Kern in voller Stärke."
+    },
+    {
+      "key": "Sobrecarga ofensiva",
+      "value": "Offensiver Overdrive"
+    },
+    {
+      "key": "Por 6s: dobra a cadência de tiro.",
+      "value": "Verdoppelt die Feuerrate für 6s."
+    },
+    {
+      "key": "Égide de emergência",
+      "value": "Notfallschutz"
+    },
+    {
+      "key": "Fica invulnerável por 4s.",
+      "value": "Macht das Schiff für 4s unverwundbar."
+    },
+    {
+      "key": "Estase temporal",
+      "value": "Zeitstase"
+    },
+    {
+      "key": "Congela todos os inimigos, incluindo o chefe, por 3s.",
+      "value": "Friert alle Gegner einschließlich des Bosses für 3s ein."
+    },
+    {
+      "key": "Reparo restaurador",
+      "value": "Heilungsreparatur"
+    },
+    {
+      "key": "Recupera 30% da vida máxima instantaneamente.",
+      "value": "Stellt sofort 30% der maximalen HP wieder her."
+    },
+    {
+      "key": "Amplificação de dano",
+      "value": "Schadensverstärkung"
+    },
+    {
+      "key": "Dobra o dano do canhão por 5s.",
+      "value": "Verdoppelt den Kanonenschaden für 5s."
+    },
+    {
+      "key": "ESQUIVA",
+      "value": "AUSWEICHEN"
+    },
+    {
+      "key": "Lâminas Orbitais",
+      "value": "Umlaufende Klingen"
+    },
+    {
+      "key": "Duas lâminas orbitam a nave e cortam os inimigos que encostam: 10 de dano por corte.",
+      "value": "Zwei Klingen umkreisen das Schiff und zerschneiden die Feinde, die sie berühren: 10 Schaden pro Schnitt."
+    },
+    {
+      "key": "Anel de Lâminas",
+      "value": "Klingenring"
+    },
+    {
+      "key": "Três lâminas orbitam a nave: 14 de dano por corte.",
+      "value": "Drei Klingen umkreisen das Schiff: 14 Schaden pro Schnitt."
+    },
+    {
+      "key": "Tempestade de Lâminas",
+      "value": "Klingensturm"
+    },
+    {
+      "key": "Quatro lâminas numa órbita mais larga: 18 de dano por corte.",
+      "value": "Vier Klingen auf einer größeren Umlaufbahn: 18 Schaden pro Schnitt."
+    },
+    {
+      "key": "Estilhaços",
+      "value": "Schrapnell"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 3 estilhaços: 6 de dano cada.",
+      "value": "Zerstörte Feinde zerfallen in 3 Splitter: jeweils 6 Schaden."
+    },
+    {
+      "key": "Chuva de Estilhaços",
+      "value": "Splitterregen"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 4 estilhaços: 9 de dano cada.",
+      "value": "Zerstörte Feinde zerfallen in 4 Splitter: jeweils 9 Schaden."
+    },
+    {
+      "key": "Tempestade de Estilhaços",
+      "value": "Splittersturm"
+    },
+    {
+      "key": "Inimigos abatidos explodem em 6 estilhaços: 12 de dano cada.",
+      "value": "Zerstörte Feinde zerfallen in 6 Splitter: jeweils 12 Schaden."
+    },
+    {
+      "key": "Disparo Diagonal",
+      "value": "Diagonalschuss"
+    },
+    {
+      "key": "Cada rajada também dispara 2 tiros em diagonal com 50% do dano.",
+      "value": "Jede Salve feuert außerdem 2 Diagonalschüsse mit 50 % Schaden ab."
+    },
+    {
+      "key": "Leque Diagonal",
+      "value": "Diagonalfächer"
+    },
+    {
+      "key": "Os 2 tiros em diagonal causam 75% do dano.",
+      "value": "Die 2 Diagonalschüsse verursachen 75 % Schaden."
+    },
+    {
+      "key": "Leque Total",
+      "value": "Vollfächer"
+    },
+    {
+      "key": "Cada rajada dispara 4 tiros em leque com 75% do dano.",
+      "value": "Jede Salve feuert 4 gefächerte Schüsse mit 75 % Schaden ab."
+    },
+    {
+      "key": "Aura de Plasma",
+      "value": "Plasma-Aura"
+    },
+    {
+      "key": "Inimigos colados na nave sofrem 8 de dano por segundo.",
+      "value": "Gegner in der Nähe des Schiffs erleiden 8 Schaden pro Sekunde."
+    },
+    {
+      "key": "Coroa de Plasma",
+      "value": "Plasmakrone"
+    },
+    {
+      "key": "Aura maior: 12 de dano por segundo.",
+      "value": "Größere Aura: 12 Schaden pro Sekunde."
+    },
+    {
+      "key": "Sol de Plasma",
+      "value": "Plasmasonne"
+    },
+    {
+      "key": "Aura máxima: 18 de dano por segundo.",
+      "value": "Maximale Aura: 18 Schaden pro Sekunde."
+    },
+    {
+      "key": "Nova Solar",
+      "value": "Solar Nova"
+    },
+    {
+      "key": "A cada 7s, uma onda de energia atinge os inimigos próximos: 20 de dano.",
+      "value": "Alle 7 Sekunden trifft eine Energiewelle nahe Feinde: 20 Schaden."
+    },
+    {
+      "key": "Erupção Solar",
+      "value": "Sonneneruption"
+    },
+    {
+      "key": "A cada 6s, uma onda maior: 32 de dano.",
+      "value": "Alle 6 Sekunden eine größere Welle: 32 Schaden."
+    },
+    {
+      "key": "Supernova",
+      "value": "Supernova"
+    },
+    {
+      "key": "A cada 5s, uma onda ainda maior: 48 de dano.",
+      "value": "Alle 5 Sekunden eine noch größere Welle: 48 Schaden."
+    },
+    {
+      "key": "Ataque Orbital",
+      "value": "Orbitalschlag"
+    },
+    {
+      "key": "A cada 5s, um satélite atinge 2 inimigos no alcance: 22 de dano em cada.",
+      "value": "Alle 5 Sekunden trifft ein Satellit 2 Feinde in Reichweite: jeweils 22 Schaden."
+    },
+    {
+      "key": "Bombardeio Orbital",
+      "value": "Orbitales Bombardement"
+    },
+    {
+      "key": "A cada 4,5s, atinge 3 inimigos: 28 de dano em cada.",
+      "value": "Trifft alle 4,5s 3 Gegner: jeweils 28 Schaden."
+    },
+    {
+      "key": "Chuva Orbital",
+      "value": "Orbitaler Regen"
+    },
+    {
+      "key": "A cada 4s, atinge 4 inimigos: 36 de dano em cada.",
+      "value": "Trifft alle 4s 4 Gegner: jeweils 36 Schaden."
+    },
+    {
+      "key": "Ímã Gravitacional",
+      "value": "Schwerkraftmagnet"
+    },
+    {
+      "key": "Ganha 15% a mais de XP.",
+      "value": "Erhalte 15% mehr XP."
+    },
+    {
+      "key": "Campo Gravitacional",
+      "value": "Schwerkraftfeld"
+    },
+    {
+      "key": "Ganha 30% a mais de XP.",
+      "value": "Erhalte 30% mehr XP."
+    },
+    {
+      "key": "Singularidade Magnética",
+      "value": "Magnetische Singularität"
+    },
+    {
+      "key": "Ganha 50% a mais de XP.",
+      "value": "Erhalte 50% mehr XP."
+    },
+    {
+      "key": "Nanorreparo",
+      "value": "Nano-Reparatur"
+    },
+    {
+      "key": "Recupera 0,4% do HP máximo por segundo.",
+      "value": "Stellt 0,4 % der maximalen HP pro Sekunde wieder her."
+    },
+    {
+      "key": "Enxame Nanorreparador",
+      "value": "Reparaturschwarm"
+    },
+    {
+      "key": "Recupera 0,7% do HP máximo por segundo.",
+      "value": "Stellt 0,7 % der maximalen HP pro Sekunde wieder her."
+    },
+    {
+      "key": "Regeneração Total",
+      "value": "Totale Regeneration"
+    },
+    {
+      "key": "Recupera 1% do HP máximo por segundo.",
+      "value": "Stellt 1 % der maximalen HP pro Sekunde wieder her."
+    },
+    {
+      "key": "Núcleo Fênix",
+      "value": "Phönixkern"
+    },
+    {
+      "key": "Uma vez por partida, ao ser destruída, a nave renasce com 30% do HP.",
+      "value": "Einmal pro Partie wird das zerstörte Schiff mit 30% HP wiederbelebt."
+    },
+    {
+      "key": "Núcleo Fênix Ardente",
+      "value": "Flammender Phönixkern"
+    },
+    {
+      "key": "Renasce uma vez com 45% do HP e empurra os inimigos próximos.",
+      "value": "Einmal mit 45 % HP wiedergeboren, stößt in der Nähe befindliche Feinde weg."
+    },
+    {
+      "key": "Renascer Estelar",
+      "value": "Stellare Wiedergeburt"
+    },
+    {
+      "key": "Renasce uma vez com 60% do HP, empurra e causa 60 de dano ao redor.",
+      "value": "Wird einmal mit 60% HP wiederbelebt, stößt nahe Gegner zurück und verursacht 60 Flächenschaden."
+    },
+    {
+      "key": "Adrenalina",
+      "value": "Adrenalin"
+    },
+    {
+      "key": "Cada abate dá +4% de cadência por 3s, acumulando até 5 vezes.",
+      "value": "Jeder Kill gewährt 3 Sekunden lang +4 % Feuerrate, bis zu 5-mal stapelbar."
+    },
+    {
+      "key": "Adrenalina Pura",
+      "value": "Adrenalin pur"
+    },
+    {
+      "key": "+5% de cadência por abate, acumulando até 6 vezes.",
+      "value": "+5 % Feuerrate pro Kill, bis zu 6-mal stapelbar."
+    },
+    {
+      "key": "Frenesi",
+      "value": "Raserei"
+    },
+    {
+      "key": "+6% de cadência por abate, acumulando até 8 vezes.",
+      "value": "+6 % Feuerrate pro Kill, bis zu 8-mal stapelbar."
+    },
+    {
+      "key": "Tiro de Misericórdia",
+      "value": "Gnadenschuss"
+    },
+    {
+      "key": "Tiros do canhão destroem na hora inimigos com até 12% do HP (exceto o chefe).",
+      "value": "Kanonenschüsse zerstören sofort Feinde mit oder unter 12 % HP (außer dem Boss)."
+    },
+    {
+      "key": "Execução",
+      "value": "Exekution"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 18% do HP.",
+      "value": "Zerstöre sofort Feinde mit oder unter 18 % HP."
+    },
+    {
+      "key": "Sentença Final",
+      "value": "Letztes Urteil"
+    },
+    {
+      "key": "Destroem na hora inimigos com até 25% do HP.",
+      "value": "Zerstöre sofort Feinde mit oder unter 25 % HP."
+    },
+    {
+      "key": "Sobrecarga Furiosa",
+      "value": "Rasender Overdrive"
+    },
+    {
+      "key": "Durante a Sobrecarga ofensiva, o canhão causa +25% de dano.",
+      "value": "Während Offensiver Overdrive verursacht die Kanone +25% Schaden."
+    },
+    {
+      "key": "Fúria Sobrecarregada",
+      "value": "Überladene Wut"
+    },
+    {
+      "key": "+40% de dano na Sobrecarga; cada abate a prolonga em 0,2s.",
+      "value": "+40% Schaden während Offensiver Overdrive; jeder Abschuss verlängert ihn um 0,2s."
+    },
+    {
+      "key": "Sobrecarga Infernal",
+      "value": "Höllischer Overdrive"
+    },
+    {
+      "key": "+60% de dano na Sobrecarga; cada abate a prolonga em 0,3s.",
+      "value": "+60% Schaden während Offensiver Overdrive; jeder Abschuss verlängert ihn um 0,3s."
+    },
+    {
+      "key": "Casco Espinhoso",
+      "value": "Dornenrumpf"
+    },
+    {
+      "key": "Quando um inimigo toca a nave, mesmo bloqueado, espinhos causam 20 de dano ao redor.",
+      "value": "Wenn ein Feind das Schiff berührt, verursachen Stacheln um das Schiff herum 20 Schaden, auch wenn es geblockt wird."
+    },
+    {
+      "key": "Espinhos Reforçados",
+      "value": "Verstärkte Dornen"
+    },
+    {
+      "key": "Os espinhos causam 35 de dano numa área maior.",
+      "value": "Die Stacheln verursachen 35 Schaden auf einer größeren Fläche."
+    },
+    {
+      "key": "Retaliação Total",
+      "value": "Totale Vergeltung"
+    },
+    {
+      "key": "Os espinhos causam 55 de dano numa área ainda maior.",
+      "value": "Die Stacheln verursachen 55 Schaden auf einer noch größeren Fläche."
+    },
+    {
+      "key": "Égide Prolongada",
+      "value": "Verlängerter Schutz"
+    },
+    {
+      "key": "A Égide de emergência dura +1s.",
+      "value": "Notfallschutz dauert 1s länger."
+    },
+    {
+      "key": "Égide Persistente",
+      "value": "Beständiger Schutz"
+    },
+    {
+      "key": "A Égide de emergência dura +2s.",
+      "value": "Notfallschutz dauert 2s länger."
+    },
+    {
+      "key": "Égide Eterna",
+      "value": "Ewiger Schutz"
+    },
+    {
+      "key": "A Égide de emergência dura +3s e empurra os inimigos ao ativar.",
+      "value": "Notfallschutz dauert 3s länger. Stößt Gegner beim Aktivieren zurück."
+    },
+    {
+      "key": "Escudo Regenerativo",
+      "value": "Regenerativer Schild"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 3% do HP máximo.",
+      "value": "Jeder mit dem Schild abgewehrte Angriff stellt 3% der maximalen HP wieder her."
+    },
+    {
+      "key": "Escudo Vital",
+      "value": "Vitalschild"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 5% do HP máximo.",
+      "value": "Jeder mit dem Schild abgewehrte Angriff stellt 5% der maximalen HP wieder her."
+    },
+    {
+      "key": "Escudo Restaurador",
+      "value": "Heilender Schild"
+    },
+    {
+      "key": "Cada bloqueio de escudo recupera 8% do HP máximo.",
+      "value": "Jeder mit dem Schild abgewehrte Angriff stellt 8% der maximalen HP wieder her."
+    },
+    {
+      "key": "Fenda Temporal",
+      "value": "Zeitriss"
+    },
+    {
+      "key": "A cada 9s, abre uma fenda sobre o maior grupo no alcance: 50% de lentidão por 3s e 10 de dano.",
+      "value": "Öffnet alle 9 Sekunden einen Riss in der größten Gruppe in Reichweite: 50 % Verlangsamung für 3 Sekunden und 10 Schaden."
+    },
+    {
+      "key": "Fenda Ampliada",
+      "value": "Erweiterter Riss"
+    },
+    {
+      "key": "A cada 8s, fenda maior: 60% de lentidão por 4s e 16 de dano.",
+      "value": "Alle 8 Sekunden ein größerer Riss: 60 % Verlangsamung für 4 Sekunden und 16 Schaden."
+    },
+    {
+      "key": "Colapso Temporal",
+      "value": "Zeitkollaps"
+    },
+    {
+      "key": "A cada 7s, fenda máxima: 70% de lentidão por 5s e 24 de dano.",
+      "value": "Alle 7 Sekunden, maximaler Riss: 70 % Verlangsamung für 5 Sekunden und 24 Schaden."
+    },
+    {
+      "key": "Paradoxo",
+      "value": "Paradoxon"
+    },
+    {
+      "key": "Cada abate reduz em 0,3s a recarga da Estase temporal.",
+      "value": "Jeder Abschuss verkürzt die Abklingzeit von Zeitstase um 0,3s."
+    },
+    {
+      "key": "Paradoxo Cíclico",
+      "value": "Zyklisches Paradoxon"
+    },
+    {
+      "key": "Cada abate reduz em 0,5s a recarga da Estase temporal.",
+      "value": "Jeder Abschuss verkürzt die Abklingzeit von Zeitstase um 0,5s."
+    },
+    {
+      "key": "Paradoxo Absoluto",
+      "value": "Absolutes Paradoxon"
+    },
+    {
+      "key": "Cada abate reduz em 0,8s a recarga da Estase temporal.",
+      "value": "Jeder Abschuss verkürzt die Abklingzeit von Zeitstase um 0,8s."
+    },
+    {
+      "key": "Eco Temporal",
+      "value": "Zeitecho"
+    },
+    {
+      "key": "Acertos do canhão têm 15% de chance de se repetir 0,3s depois com 60% do dano.",
+      "value": "Kanonentreffer haben eine Chance von 15 %, sich 0,3 Sekunden später bei 60 % Schaden zu wiederholen."
+    },
+    {
+      "key": "Eco Duplo",
+      "value": "Doppeltes Echo"
+    },
+    {
+      "key": "25% de chance de eco, com 80% do dano.",
+      "value": "25 % Echo-Chance, bei 80 % Schaden."
+    },
+    {
+      "key": "Eco Infinito",
+      "value": "Unendliches Echo"
+    },
+    {
+      "key": "35% de chance de eco, com 100% do dano.",
+      "value": "35 % Echochance bei 100 % Schaden."
+    },
+    {
+      "key": "Sobrecura",
+      "value": "Überheilung"
+    },
+    {
+      "key": "Cura além do HP máximo vira escudo: 1 bloqueio a cada 10% de excesso (até 1).",
+      "value": "Überschüssige Heilung wird zum Schild: 1 Block pro 10% Überschuss (max. 1)."
+    },
+    {
+      "key": "Sobrecura Blindada",
+      "value": "Gepanzerte Überheilung"
+    },
+    {
+      "key": "Guarda até 2 bloqueios do excesso de cura.",
+      "value": "Speichert bis zu 2 Blocks aus überschüssiger Heilung."
+    },
+    {
+      "key": "Sobrecura Total",
+      "value": "Totale Überheilung"
+    },
+    {
+      "key": "Guarda até 3 bloqueios; cada 7% de excesso gera 1.",
+      "value": "Speichert bis zu 3 Blocks; je 7% überschüssige Heilung erzeugen 1 Block."
+    },
+    {
+      "key": "Pulso Vital",
+      "value": "Vitalimpuls"
+    },
+    {
+      "key": "Cada cura libera um pulso que causa 2x o HP recuperado em dano ao redor (1 por segundo).",
+      "value": "Jede Heilung löst einen Impuls aus: 2x die wiederhergestellten HP als Schaden um das Schiff. Maximal einmal pro 1 Sekunde."
+    },
+    {
+      "key": "Onda Vital",
+      "value": "Vitalwelle"
+    },
+    {
+      "key": "O pulso causa 3x o HP recuperado numa área maior.",
+      "value": "Der Impuls verursacht 3x die wiederhergestellten HP als Schaden in einem größeren Bereich."
+    },
+    {
+      "key": "Explosão Vital",
+      "value": "Vitalexplosion"
+    },
+    {
+      "key": "O pulso causa 4x o HP recuperado numa área ainda maior.",
+      "value": "Der Impuls verursacht 4x die wiederhergestellten HP als Schaden in einem noch größeren Bereich."
+    },
+    {
+      "key": "Protocolo de Emergência",
+      "value": "Notfallprotokoll"
+    },
+    {
+      "key": "Ao cair abaixo de 30% do HP, recupera 20% na hora. Rearma após 40s de combate.",
+      "value": "Bei weniger als 30% HP: Stellt sofort 20% wieder her. Nach 40s Kampf wieder bereit."
+    },
+    {
+      "key": "Protocolo Avançado",
+      "value": "Erweitertes Protokoll"
+    },
+    {
+      "key": "Recupera 30% na hora. Rearma após 35s de combate.",
+      "value": "Stellt sofort 30% wieder her. Nach 35s Kampf wieder bereit."
+    },
+    {
+      "key": "Protocolo Total",
+      "value": "Gesamtprotokoll"
+    },
+    {
+      "key": "Recupera 40% na hora. Rearma após 30s de combate.",
+      "value": "Stellt sofort 40% wieder her. Nach 30s Kampf wieder bereit."
+    },
+    {
+      "key": "Canhão de Trilho",
+      "value": "Railgun"
+    },
+    {
+      "key": "A cada 7s, um feixe cruza a arena rumo ao inimigo mais forte no alcance: 45 de dano em todos na linha.",
+      "value": "Alle 7 Sekunden durchquert ein Strahl die Arena in Richtung des stärksten Gegners in Reichweite: 45 Schaden an allem auf der Linie."
+    },
+    {
+      "key": "Trilho Acelerado",
+      "value": "Beschleunigtes Railgun"
+    },
+    {
+      "key": "A cada 6s, feixe mais largo: 70 de dano na linha.",
+      "value": "Alle 6 Sekunden ein breiterer Strahl: 70 Schaden auf der Linie."
+    },
+    {
+      "key": "Trilho Aniquilador",
+      "value": "Vernichtungsrailgun"
+    },
+    {
+      "key": "A cada 5s, feixe máximo: 100 de dano na linha.",
+      "value": "Alle 5 Sekunden, maximaler Strahl: 100 Schaden auf der Linie."
+    },
+    {
+      "key": "Marcação de Alvo",
+      "value": "Zielmarkierung"
+    },
+    {
+      "key": "A cada 4s, marca o inimigo mais forte no alcance: ele sofre +30% de dano de tudo por 4s.",
+      "value": "Markiert alle 4 Sekunden den härtesten Feind in Reichweite: Er erleidet 4 Sekunden lang +30 % Schaden durch alles."
+    },
+    {
+      "key": "Marcação Precisa",
+      "value": "Präzise Markierung"
+    },
+    {
+      "key": "A cada 3,5s: +45% de dano no alvo marcado.",
+      "value": "Alle 3,5 Sekunden: +45 % Schaden am markierten Ziel."
+    },
+    {
+      "key": "Marcação Letal",
+      "value": "Tödliche Markierung"
+    },
+    {
+      "key": "A cada 3s: +60% de dano no alvo marcado.",
+      "value": "Alle 3 Sekunden: +60 % Schaden am markierten Ziel."
+    },
+    {
+      "key": "Ressonância",
+      "value": "Resonanz"
+    },
+    {
+      "key": "Ao ativar a Amplificação de dano, uma onda atinge todos os inimigos no alcance: 50 de dano.",
+      "value": "Beim Aktivieren von Schadensverstärkung trifft eine Welle alle Gegner in Reichweite: 50 Schaden."
+    },
+    {
+      "key": "Ressonância Ampliada",
+      "value": "Verstärkte Resonanz"
+    },
+    {
+      "key": "A onda causa 80 de dano.",
+      "value": "Die Welle verursacht 80 Schaden."
+    },
+    {
+      "key": "Ressonância Total",
+      "value": "Gesamtresonanz"
+    },
+    {
+      "key": "A onda causa 120 de dano e atordoa por 1s.",
+      "value": "Die Welle verursacht 120 Schaden und betäubt 1 Sekunde lang."
+    },
+    {
+      "key": "LOGAR",
+      "value": "ANMELDEN"
+    },
+    {
+      "key": "CONTA",
+      "value": "KONTO"
+    },
+    {
+      "key": "Faça login para salvar seu progresso na nuvem.",
+      "value": "Melde dich an, um deinen Fortschritt in der Cloud zu speichern."
+    },
+    {
+      "key": "AGORA NÃO",
+      "value": "JETZT NICHT"
+    },
+    {
+      "key": "Salve o progresso na conta",
+      "value": "Fortschritt im Konto speichern"
+    },
+    {
+      "key": "SALVE SEU PROGRESSO",
+      "value": "FORTSCHRITT SPEICHERN"
+    },
+    {
+      "key": "MODO INFINITO",
+      "value": "ENDLOSMODUS"
+    },
+    {
+      "key": "Ciclos sem fim: 4 ondas e um chefe. XP 25% menor. Nível máximo 12.",
+      "value": "Endlose Zyklen: 4 Wellen und ein Boss. 25% weniger XP. Maximallevel 12."
+    },
+    {
+      "key": "Conclua o Nível 3 com qualquer nave para liberar.",
+      "value": "Schließe Level 3 mit einem beliebigen Schiff ab, um diesen Modus freizuschalten."
+    },
+    {
+      "key": "4 ONDAS + CHEFE",
+      "value": "4 WELLEN + BOSS"
+    },
+    {
+      "key": "Toque para escolher. Segure para ver os detalhes.",
+      "value": "Tippen zum Auswählen. Gedrückt halten für Details."
+    },
+    {
+      "key": "Tiros Extras",
+      "value": "Zusatzschüsse"
+    },
+    {
+      "key": "Escudo Recarregável",
+      "value": "Aufladbarer Schild"
+    },
+    {
+      "key": "Mísseis Teleguiados",
+      "value": "Lenkraketen"
+    },
+    {
+      "key": "Tiros Perfurantes",
+      "value": "Durchschlagende Schüsse"
+    },
+    {
+      "key": "Cadência Aumentada",
+      "value": "Höhere Feuerrate"
+    },
+    {
+      "key": "Mísseis ao Curar",
+      "value": "Raketen bei Heilung"
+    },
+    {
+      "key": "Chance Crítica",
+      "value": "Kritische Trefferchance"
+    },
+    {
+      "key": "Cura por Abate",
+      "value": "Heilung bei Abschuss"
+    },
+    {
+      "key": "Repulsão Periódica",
+      "value": "Regelmäßiger Rückstoß"
+    },
+    {
+      "key": "Cura Periódica",
+      "value": "Regelmäßige Heilung"
+    },
+    {
+      "key": "Barreira de Destroços",
+      "value": "Trümmerbarriere"
+    },
+    {
+      "key": "Tiro Explosivo",
+      "value": "Explosivschuss"
+    },
+    {
+      "key": "Crítico Garantido",
+      "value": "Garantierter kritischer Treffer"
+    },
+    {
+      "key": "Lentidão Global",
+      "value": "Alle Gegner verlangsamen"
+    },
+    {
+      "key": "Paralisia por Vida Baixa",
+      "value": "Lähmung bei wenig Leben"
+    },
+    {
+      "key": "Raios em Cadeia",
+      "value": "Kettenblitz"
+    },
+    {
+      "key": "Drones Atiradores",
+      "value": "Schussdrohnen"
+    },
+    {
+      "key": "Sobrecarga Mais Rápida",
+      "value": "Schnellere Überladung"
+    },
+    {
+      "key": "Redução de Dano",
+      "value": "Schadensminderung"
+    },
+    {
+      "key": "Dano contra Chefes",
+      "value": "Mehr Schaden gegen Bosse"
+    },
+    {
+      "key": "Estilhaços por Abate",
+      "value": "Splitter bei Abschuss"
+    },
+    {
+      "key": "Tiros Diagonais",
+      "value": "Diagonalschüsse"
+    },
+    {
+      "key": "Aura de Dano",
+      "value": "Schadensaura"
+    },
+    {
+      "key": "Explosão Periódica",
+      "value": "Regelmäßige Explosion"
+    },
+    {
+      "key": "Bombardeio por Satélite",
+      "value": "Satellitenbeschuss"
+    },
+    {
+      "key": "Bônus de XP",
+      "value": "EP-Bonus"
+    },
+    {
+      "key": "Regeneração de Vida",
+      "value": "Lebensregeneration"
+    },
+    {
+      "key": "Reviver",
+      "value": "Wiederbelebung"
+    },
+    {
+      "key": "Cadência por Abate",
+      "value": "Feuerrate bei Abschuss"
+    },
+    {
+      "key": "Execução por Vida Baixa",
+      "value": "Hinrichtung bei wenig Leben"
+    },
+    {
+      "key": "Dano na Sobrecarga",
+      "value": "Schaden bei Überladung"
+    },
+    {
+      "key": "Espinhos ao Colidir",
+      "value": "Dornen bei Kollision"
+    },
+    {
+      "key": "Égide Duradoura",
+      "value": "Längere Ägis"
+    },
+    {
+      "key": "Cura ao Bloquear",
+      "value": "Heilung beim Blocken"
+    },
+    {
+      "key": "Fenda de Lentidão",
+      "value": "Verlangsamender Riss"
+    },
+    {
+      "key": "Recarga da Estase por Abate",
+      "value": "Stase-Aufladung bei Abschuss"
+    },
+    {
+      "key": "Repetição de Acertos",
+      "value": "Wiederholte Treffer"
+    },
+    {
+      "key": "Escudo por Excesso de Cura",
+      "value": "Schild durch Überheilung"
+    },
+    {
+      "key": "Dano ao Curar",
+      "value": "Schaden bei Heilung"
+    },
+    {
+      "key": "Cura de Emergência",
+      "value": "Notfallheilung"
+    },
+    {
+      "key": "Feixe Perfurante",
+      "value": "Durchschlagender Strahl"
+    },
+    {
+      "key": "Alvo Vulnerável",
+      "value": "Verwundbares Ziel"
+    },
+    {
+      "key": "Explosão na Amplificação",
+      "value": "Explosion bei Verstärkung"
+    },
+    {
+      "key": "Toque para escolher. Toque em i para ver os detalhes.",
+      "value": "Zum Auswählen tippen. Für Details auf i tippen."
+    },
+    {
+      "key": "BÔNUS DE BOAS-VINDAS",
+      "value": "WILLKOMMENSBONUS"
+    },
+    {
+      "key": "Entre no jogo em 5 dias diferentes e ganhe uma recompensa por dia.",
+      "value": "Spielen Sie an 5 verschiedenen Tagen und erhalten Sie jeden Tag eine Belohnung."
+    },
+    {
+      "key": "LOGIN DIÁRIO",
+      "value": "TÄGLICHER LOGIN"
+    },
+    {
+      "key": "DIA ",
+      "value": "TAG "
+    },
+    {
+      "key": "CARTA",
+      "value": "KARTE"
+    },
+    {
+      "key": "RESGATAR DIA ",
+      "value": "EINLÖSEN: TAG "
+    },
+    {
+      "key": "VOLTE AMANHÃ",
+      "value": "MORGEN WIEDERKOMMEN"
+    },
+    {
+      "key": "Dia 5: créditos para comprar uma nave nova!",
+      "value": "Tag 5: Credits für ein neues Schiff!"
+    },
+    {
+      "key": "Nova carta no deck base: ",
+      "value": "Neue Karte im Basisdeck: "
+    },
+    {
+      "key": "  ·  o valor de uma nave!",
+      "value": "  ·  so viel wie ein Schiff!"
+    },
+    {
+      "key": "BÔNUS CONCLUÍDO",
+      "value": "BONUS ABGESCHLOSSEN"
+    },
+    {
+      "key": "PRIVACIDADE E CONTA",
+      "value": "DATENSCHUTZ & KONTO"
+    },
+    {
+      "key": "Gerencie seus dados e sua conta. Excluir a conta do jogo apaga o progresso local e na nuvem.",
+      "value": "Verwalte deine Daten und dein Konto. Das Löschen des Spielkontos entfernt lokalen und Cloud-Fortschritt."
+    },
+    {
+      "key": "POLÍTICA DE PRIVACIDADE",
+      "value": "DATENSCHUTZERKLÄRUNG"
+    },
+    {
+      "key": "GERENCIAR CONTA UNITY",
+      "value": "UNITY-KONTO VERWALTEN"
+    },
+    {
+      "key": "EXCLUIR CONTA DO JOGO",
+      "value": "SPIELKONTO LÖSCHEN"
+    },
+    {
+      "key": "A conta Unity é compartilhada com outros jogos e pode ser gerenciada separadamente. Compras da loja não são apagadas.",
+      "value": "Das Unity-Konto wird mit anderen Spielen geteilt und separat verwaltet. Store-Käufe werden nicht gelöscht."
+    },
+    {
+      "key": "Excluir permanentemente sua conta do jogo e todo o progresso? Esta ação não pode ser desfeita.",
+      "value": "Spielkonto und gesamten Fortschritt dauerhaft löschen? Dies kann nicht rückgängig gemacht werden."
+    },
+    {
+      "key": "CONFIRMAR EXCLUSÃO",
+      "value": "LÖSCHEN BESTÄTIGEN"
+    },
+    {
+      "key": "Não foi possível concluir. Verifique a conexão e tente novamente.",
+      "value": "Vorgang fehlgeschlagen. Prüfe die Verbindung und versuche es erneut."
+    },
+    {
+      "key": "Bola de Neve Ricocheteante",
+      "value": "Abprallender Schneeball"
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 6s e causa 18 de dano por contato.",
+      "value": "Alle 12s prallt ein Schneeball 6s lang an Bildschirmrändern ab und verursacht 18 Kontaktschaden."
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 8s e causa 26 de dano por contato.",
+      "value": "Alle 12s prallt ein Schneeball 8s lang an Bildschirmrändern ab und verursacht 26 Kontaktschaden."
+    },
+    {
+      "key": "A cada 12s, uma bola rebate nas bordas da tela por 10s e causa 36 de dano por contato.",
+      "value": "Alle 12s prallt ein Schneeball 10s lang an Bildschirmrändern ab und verursacht 36 Kontaktschaden."
+    },
+    {
+      "key": "Bola de Neve Gigante",
+      "value": "Riesiger Schneeball"
+    },
+    {
+      "key": "A cada 16s, dispara uma bola gigante que atravessa inimigos por 6s: 65 de dano e 45% de lentidão.",
+      "value": "Alle 16s durchschlägt ein riesiger Schneeball 6s lang Gegner: 65 Schaden und 45% Verlangsamung."
+    },
+    {
+      "key": "A cada 15s, dispara uma bola gigante que atravessa inimigos por 6s: 100 de dano e 45% de lentidão.",
+      "value": "Alle 15s durchschlägt ein riesiger Schneeball 6s lang Gegner: 100 Schaden und 45% Verlangsamung."
+    },
+    {
+      "key": "A cada 14s, dispara uma bola gigante que atravessa inimigos por 6s: 145 de dano e 45% de lentidão.",
+      "value": "Alle 14s durchschlägt ein riesiger Schneeball 6s lang Gegner: 145 Schaden und 45% Verlangsamung."
+    },
+    {
+      "key": "Círculo de Gelo",
+      "value": "Frostkreis"
+    },
+    {
+      "key": "A cada 14s, cria gelo ao redor da nave por 5s: 8 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "Alle 14s entsteht 5s lang Eis um das Schiff: 8 Schaden alle 0,5s und 35% Verlangsamung."
+    },
+    {
+      "key": "A cada 13s, cria gelo ao redor da nave por 6s: 12 de dano a cada 0,5s e 45% de lentidão.",
+      "value": "Alle 13s entsteht 6s lang Eis um das Schiff: 12 Schaden alle 0,5s und 45% Verlangsamung."
+    },
+    {
+      "key": "A cada 12s, cria gelo ao redor da nave por 7s: 16 de dano a cada 0,5s e 55% de lentidão.",
+      "value": "Alle 12s entsteht 7s lang Eis um das Schiff: 16 Schaden alle 0,5s und 55% Verlangsamung."
+    },
+    {
+      "key": "Presentes Explosivos",
+      "value": "Explosive Geschenke"
+    },
+    {
+      "key": "A cada 11s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 70 de dano em área.",
+      "value": "Alle 11s erscheint ein Geschenk an einer sichtbaren Gegnerposition. Nach 1s explodiert es für 70 Flächenschaden."
+    },
+    {
+      "key": "A cada 10s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 105 de dano em área.",
+      "value": "Alle 10s erscheint ein Geschenk an einer sichtbaren Gegnerposition. Nach 1s explodiert es für 105 Flächenschaden."
+    },
+    {
+      "key": "A cada 9s, deixa um presente na posição de um inimigo visível. Explode após 1s, causando 150 de dano em área.",
+      "value": "Alle 9s erscheint ein Geschenk an einer sichtbaren Gegnerposition. Nach 1s explodiert es für 150 Flächenschaden."
+    },
+    {
+      "key": "Estilhaços de Gelo",
+      "value": "Eissplitter"
+    },
+    {
+      "key": "A cada 9s, dispara 6 cristais em todas as direções: 20 de dano perfurante e 15% de lentidão.",
+      "value": "Alle 9s werden 6 Kristalle in alle Richtungen abgefeuert: 20 Durchschlagsschaden und 15% Verlangsamung."
+    },
+    {
+      "key": "A cada 8s, dispara 8 cristais em todas as direções: 30 de dano perfurante e 20% de lentidão.",
+      "value": "Alle 8s werden 8 Kristalle in alle Richtungen abgefeuert: 30 Durchschlagsschaden und 20% Verlangsamung."
+    },
+    {
+      "key": "A cada 7s, dispara 10 cristais em todas as direções: 42 de dano perfurante e 25% de lentidão.",
+      "value": "Alle 7s werden 10 Kristalle in alle Richtungen abgefeuert: 42 Durchschlagsschaden und 25% Verlangsamung."
+    },
+    {
+      "key": "Nevasca Localizada",
+      "value": "Lokaler Schneesturm"
+    },
+    {
+      "key": "A cada 18s, cria até 2 zonas de nevasca sobre inimigos por 4s: 10 de dano a cada 0,5s e 30% de lentidão.",
+      "value": "Alle 18s entstehen bis zu 2 Schneesturmzonen auf Gegnern für 4s: 10 Schaden alle 0,5s und 30% Verlangsamung."
+    },
+    {
+      "key": "A cada 17s, cria até 3 zonas de nevasca sobre inimigos por 5s: 15 de dano a cada 0,5s e 35% de lentidão.",
+      "value": "Alle 17s entstehen bis zu 3 Schneesturmzonen auf Gegnern für 5s: 15 Schaden alle 0,5s und 35% Verlangsamung."
+    },
+    {
+      "key": "A cada 16s, cria até 4 zonas de nevasca sobre inimigos por 6s: 21 de dano a cada 0,5s e 40% de lentidão.",
+      "value": "Alle 16s entstehen bis zu 4 Schneesturmzonen auf Gegnern für 6s: 21 Schaden alle 0,5s und 40% Verlangsamung."
+    },
+    {
+      "key": "Noel Polar",
+      "value": "Polar-Noel"
+    },
+    {
+      "key": "Listras de bengala doce e um arsenal de inverno.",
+      "value": "Zuckerstangenstreifen und ein Winterarsenal."
+    },
+    {
+      "key": "Natal: bolas de neve, gelo e presentes explosivos.",
+      "value": "Weihnachten: Schneebälle, Frost und explosive Geschenke."
+    },
+    {
+      "key": "Estrela Natalina",
+      "value": "Weihnachtsstern"
+    },
+    {
+      "key": "Marca os inimigos no alcance: recebem 35% mais dano por 6s.",
+      "value": "Markiert Gegner in Reichweite: Sie erleiden 6s lang 35% mehr Schaden."
+    },
+    {
+      "key": "NATAL",
+      "value": "WEIHNACHTEN"
+    },
+    {
+      "key": "NOTAS DA VERSÃO",
+      "value": "VERSIONSHINWEISE"
+    },
+    {
+      "key": "DÚVIDAS, FEEDBACK E BUGS",
+      "value": "FRAGEN, FEEDBACK & FEHLER"
+    },
+    {
+      "key": "FALE COM A EQUIPE",
+      "value": "KONTAKT ZUM TEAM"
+    },
+    {
+      "key": "Escolha o assunto e escreva sua mensagem.",
+      "value": "Wähle ein Thema und schreibe deine Nachricht."
+    },
+    {
+      "key": "DÚVIDA",
+      "value": "FRAGE"
+    },
+    {
+      "key": "FEEDBACK",
+      "value": "FEEDBACK"
+    },
+    {
+      "key": "BUG",
+      "value": "FEHLER"
+    },
+    {
+      "key": "Escreva sua mensagem aqui…",
+      "value": "Schreibe hier deine Nachricht…"
+    },
+    {
+      "key": "Inclui versão, plataforma e idioma; não inclui dados da conta.",
+      "value": "Enthält Version, Plattform und Sprache, keine Kontodaten."
+    },
+    {
+      "key": "ABRIR E-MAIL",
+      "value": "E-MAIL ÖFFNEN"
+    },
+    {
+      "key": "COPIAR MENSAGEM",
+      "value": "NACHRICHT KOPIEREN"
+    },
+    {
+      "key": "Mensagem e contato copiados.",
+      "value": "Nachricht und Kontakt kopiert."
+    },
+    {
+      "key": "Você revisará e enviará pelo seu aplicativo de e-mail.",
+      "value": "Du prüfst und sendest in deiner E-Mail-App."
+    },
+    {
+      "key": "Revise e envie no aplicativo de e-mail. Se não abrir, use Copiar.",
+      "value": "Prüfe und sende in der E-Mail-App. Öffnet sie nicht, nutze Kopieren."
+    },
+    {
+      "key": "Melhorias e correções nesta versão.",
+      "value": "Verbesserungen und Korrekturen in dieser Version."
+    },
+    {
+      "key": "Novidade: Noel Polar, a nave de Natal com listras vermelhas e brancas.",
+      "value": "Neu: Polar-Noel, das Weihnachtsschiff mit roten und weißen Streifen."
+    },
+    {
+      "key": "Seis cartas exclusivas: bolas de neve, círculo de gelo, presentes explosivos, estilhaços e nevasca.",
+      "value": "Sechs exklusive Karten: Schneebälle, Frostkreis, explosive Geschenke, Eissplitter und Schneesturm."
+    },
+    {
+      "key": "Estrela Natalina: inimigos marcados recebem 35% mais dano durante 6 segundos.",
+      "value": "Weihnachtsstern: Markierte Gegner erleiden 6 Sekunden lang 35% mehr Schaden."
+    },
+    {
+      "key": "Novo canal de suporte para dúvidas, sugestões e relatos de bugs.",
+      "value": "Neuer Supportkanal für Fragen, Vorschläge und Fehlerberichte."
+    },
+    {
+      "key": "MODOS DE JOGO",
+      "value": "SPIELMODI"
+    },
+    {
+      "key": "MODO DE JOGO",
+      "value": "SPIELMODUS"
+    },
+    {
+      "key": "CAMPANHA",
+      "value": "KAMPAGNE"
+    },
+    {
+      "key": "10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
+      "value": "10 Level, jedes endet mit einem Boss. Jedes Schiff hat seinen eigenen Fortschritt."
+    },
+    {
+      "key": "Pontue destruindo inimigos e vencendo ondas. Os 50 melhores entram no ranking.",
+      "value": "Punkte für zerstörte Gegner und überstandene Wellen. Die besten 50 kommen in die Rangliste."
+    },
+    {
+      "key": "RECORDE ",
+      "value": "REKORD "
+    },
+    {
+      "key": "NÍVEIS",
+      "value": "LEVELS"
+    },
+    {
+      "key": "RANKING",
+      "value": "RANGLISTE"
+    },
+    {
+      "key": "SELECIONADO",
+      "value": "AUSGEWÄHLT"
+    },
+    {
+      "key": "BLOQUEADO",
+      "value": "GESPERRT"
+    },
+    {
+      "key": "SEU RECORDE  ",
+      "value": "IHR REKORD  "
+    },
+    {
+      "key": "POSIÇÃO ",
+      "value": "PLATZ "
+    },
+    {
+      "key": "CARREGANDO...",
+      "value": "LADEN..."
+    },
+    {
+      "key": "Ninguém pontuou ainda. Seja o primeiro!",
+      "value": "Noch keine Punkte. Seien Sie der Erste!"
+    },
+    {
+      "key": "Entre no {0} para ver o ranking e enviar seus pontos.",
+      "value": "Melden Sie sich bei {0} an, um die Rangliste zu sehen und Ihre Punkte zu senden."
+    },
+    {
+      "key": "ENTRAR",
+      "value": "ANMELDEN"
+    },
+    {
+      "key": "Não foi possível carregar o ranking. Verifique a internet.",
+      "value": "Die Rangliste konnte nicht geladen werden. Prüfen Sie die Internetverbindung."
+    },
+    {
+      "key": "O ranking ainda não está disponível nesta versão.",
+      "value": "Die Rangliste ist in dieser Version noch nicht verfügbar."
+    },
+    {
+      "key": "O ranking funciona no celular, pelo Play Games ou Game Center.",
+      "value": "Die Rangliste funktioniert auf dem Handy, über Play Games oder Game Center."
+    },
+    {
+      "key": "ATUALIZAR",
+      "value": "AKTUALISIEREN"
+    },
+    {
+      "key": "PONTOS ",
+      "value": "PUNKTE "
+    },
+    {
+      "key": "NOVO RECORDE!",
+      "value": "NEUER REKORD!"
+    },
+    {
+      "key": "BÔNUS DE EVOLUÇÃO +",
+      "value": "ENTWICKLUNGSBONUS +"
+    },
+    {
+      "key": "PRÓXIMA CARTA EXCLUSIVA",
+      "value": "NÄCHSTE EXKLUSIVE KARTE"
+    },
+    {
+      "key": "FALTAM {0} NÍVEIS",
+      "value": "NOCH {0} STUFEN"
+    },
+    {
+      "key": "FALTA 1 NÍVEL!",
+      "value": "NUR NOCH 1 STUFE!"
+    },
+    {
+      "key": "TODAS AS CARTAS DA NAVE LIBERADAS",
+      "value": "ALLE SCHIFFSKARTEN FREIGESCHALTET"
+    },
+    {
+      "key": "NOVA CARTA EXCLUSIVA!",
+      "value": "NEUE EXKLUSIVE KARTE!"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas desta nave.",
+      "value": "Sie kann jetzt bei den Auswahlen dieses Schiffs erscheinen."
+    },
+    {
+      "key": "TOQUE PARA CONTINUAR",
+      "value": "TIPPEN ZUM FORTFAHREN"
+    },
+    {
+      "key": "NOVA CARTA!",
+      "value": "NEUE KARTE!"
+    },
+    {
+      "key": "DECK BASE",
+      "value": "BASISDECK"
+    },
+    {
+      "key": "Agora ela pode aparecer nas escolhas de todas as naves.",
+      "value": "Sie kann jetzt bei den Auswahlen aller Schiffe erscheinen."
+    },
+    {
+      "key": "COMPRAR",
+      "value": "KAUFEN"
+    },
+    {
+      "key": "AGUARDE",
+      "value": "BITTE WARTEN"
+    },
+    {
+      "key": "LOJA INDISPONÍVEL",
+      "value": "SHOP NICHT VERFÜGBAR"
+    },
+    {
+      "key": "OFERTA",
+      "value": "ANGEBOT"
+    },
+    {
+      "key": "A OFERTA ACABA EM ",
+      "value": "ANGEBOT ENDET IN "
+    },
+    {
+      "key": "OFERTA ENCERRADA",
+      "value": "ANGEBOT ABGELAUFEN"
+    },
+    {
+      "key": "RECEBIDO!",
+      "value": "ERHALTEN!"
+    },
+    {
+      "key": "+1000 MINÉRIOS (FROTA COMPLETA)",
+      "value": "+1000 CREDITS (FLOTTE KOMPLETT)"
+    },
+    {
+      "key": "1 NAVE ALEATÓRIA",
+      "value": "1 ZUFÄLLIGES SCHIFF"
+    },
+    {
+      "key": "MINÉRIOS",
+      "value": "CREDITS"
+    },
+    {
+      "key": "FECHAR",
+      "value": "SCHLIESSEN"
+    },
+    {
+      "key": "Tudo já está na sua conta.",
+      "value": "Alles ist schon in deinem Konto."
+    },
+    {
+      "key": "Pagamento pendente. O pacote chega após a confirmação.",
+      "value": "Zahlung ausstehend. Das Paket kommt nach der Bestätigung."
+    },
+    {
+      "key": "Não foi possível consultar a loja.",
+      "value": "Der Shop ist nicht erreichbar."
+    },
+    {
+      "key": "Compra única. Só uma vez por conta.",
+      "value": "Einmaliger Kauf. Nur einmal pro Konto."
+    },
+    {
+      "key": "PASSIVA · ",
+      "value": "PASSIV · "
+    },
+    {
+      "key": "CALOR DE FOCO",
+      "value": "FOKUSHITZE"
+    },
+    {
+      "key": "Tiros seguidos no mesmo alvo esquentam: até +40% de dano.",
+      "value": "Treffer auf dasselbe Ziel heizen auf: bis zu +40% Schaden."
+    },
+    {
+      "key": "CANHÃO DE IMPACTO",
+      "value": "AUFPRALLKANONE"
+    },
+    {
+      "key": "Tiros empurram. 3 placas orbitais atiram em quem chegar perto.",
+      "value": "Schüsse stoßen zurück. 3 kreisende Platten feuern auf alles in der Nähe."
+    },
+    {
+      "key": "TIRO DE FASE",
+      "value": "PHASENSCHUSS"
+    },
+    {
+      "key": "Atravessa, deixa lento e se repete em eco. Alvo lento leva crítico.",
+      "value": "Durchschlägt, verlangsamt und hallt nach. Verlangsamte Ziele erleiden Krits."
+    },
+    {
+      "key": "SUTURA",
+      "value": "NAHT"
+    },
+    {
+      "key": "Mira o mais fraco. Abates soltam orbes de cura; o excesso vira escudo.",
+      "value": "Zielt auf den Schwächsten. Abschüsse lassen Heilkugeln fallen; Überheilung wird zum Schild."
+    },
+    {
+      "key": "ARTILHARIA DE CERCO",
+      "value": "BELAGERUNGSARTILLERIE"
+    },
+    {
+      "key": "Mira o mais forte. A cada 5 tiros, um disparo carregado explode.",
+      "value": "Zielt auf den Stärksten. Jeder 5. Schuss ist eine geladene Explosion."
+    },
+    {
+      "key": "Pinheiro Natalino",
+      "value": "Weihnachtskiefer"
+    },
+    {
+      "key": "Cristal Polar",
+      "value": "Polarkristall"
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 30% do HP e 2s de imunidade. Recarga: 60s de combate.",
+      "value": "Bei tödlichem Schaden mit 30% HP und 2s Unverwundbarkeit wiederbeleben. Abklingzeit: 60s Kampfzeit."
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 45% do HP, 2s de imunidade e empurra inimigos. Recarga: 60s de combate.",
+      "value": "Bei tödlichem Schaden mit 45% HP und 2s Unverwundbarkeit wiederbeleben und Gegner wegstoßen. Abklingzeit: 60s Kampfzeit."
+    },
+    {
+      "key": "Ao receber dano fatal, revive com 60% do HP, 2s de imunidade, empurra e causa 60 de dano ao redor. Recarga: 60s de combate.",
+      "value": "Bei tödlichem Schaden mit 60% HP und 2s Unverwundbarkeit wiederbeleben, Gegner wegstoßen und 60 Flächenschaden verursachen. Abklingzeit: 60s Kampfzeit."
+    },
+    {
+      "key": "A cada 6 tiros do canhão, o último é crítico garantido.",
+      "value": "Bei jeweils 6 Kanonenschüssen ist der letzte ein garantierter kritischer Treffer."
+    },
+    {
+      "key": "A cada 5 tiros do canhão, o último é crítico garantido.",
+      "value": "Bei jeweils 5 Kanonenschüssen ist der letzte ein garantierter kritischer Treffer."
+    },
+    {
+      "key": "A cada 4 tiros do canhão, o último é crítico garantido.",
+      "value": "Bei jeweils 4 Kanonenschüssen ist der letzte ein garantierter kritischer Treffer."
+    },
+    {
+      "key": "Bem-vindo ao Astro Blitz! Obrigado por jogar desde o lançamento.",
+      "value": "Willkommen bei Astro Blitz! Danke, dass du seit dem Start dabei bist."
+    },
+    {
+      "key": "Pilote naves únicas, escolha melhorias a cada nível e vença o Núcleo Aberrante nas dez fases.",
+      "value": "Fliege einzigartige Schiffe, wähle bei jedem Level Verbesserungen und besiege den Aberranten Kern in zehn Levels."
+    },
+    {
+      "key": "Esta é só a primeira versão: teremos atualizações toda semana para melhorar o jogo.",
+      "value": "Das ist erst die erste Version: Jede Woche kommen Updates, die das Spiel verbessern."
+    },
+    {
+      "key": "Dúvidas, ideias ou bugs? Fale com a equipe pelo botão abaixo.",
+      "value": "Fragen, Ideen oder Fehler? Schreib dem Team über die Schaltfläche unten."
+    },
+    {
+      "key": "Compra única e permanente. Sem anúncios e recompensas sem vídeo.",
+      "value": "Ein dauerhafter Kauf. Keine Werbung und Belohnungen ohne Video."
+    },
+    {
+      "key": "NAVES",
+      "value": "SCHIFFE"
+    }
+  ]
+}

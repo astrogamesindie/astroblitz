@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caad9a76f7cea6f4ea8a0d807c27681d, type: 3}
+  m_Name: Wave_16
+  m_EditorClassIdentifier: 
+  definition:
+    index: 16
+    label: 16 Meteoros mistos
+    designNote: "Pico de fragmenta\xE7\xE3o em cadeia \u2014 favorece Tiro Penetrante
+      evolu\xEDdo"
+    spawnInterval: 0.3
+    isBossWave: 0
+    entries:
+    - kind: 0
+      count: 6
+    - kind: 1
+      count: 5
+    - kind: 2
+      count: 5

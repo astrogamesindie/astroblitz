@@ -1,0 +1,361 @@
+# Astro Blitz - Google Play store listing ("Detalhes do app") in every language of the game.
+#
+# Writes:
+#   PlayConsole/traducoes/store_listing_translations.csv   one row per language: language, title,
+#                                                           short_description, full_description (UTF-8)
+#   PlayConsole/traducoes/fastlane/metadata/android/<locale>/{title,short_description,full_description}.txt
+#                                                           (fastlane "supply" layout; also handy to copy/paste)
+#   PlayConsole/descricao_en.txt                            the English full description
+#
+# Ship and special names follow the game's own localisation (GameLocalization.cs and
+# Resources/AstroCrawler/Localization/*.json). Play limits: title 30, short 80, full 4000 characters.
+#
+# Run: python Tools/play_store/build_listing.py
+
+import csv
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+OUT = os.path.join(ROOT, 'PlayConsole', 'traducoes')
+# Store title per locale: the name plus a short descriptor. Other small apps are also called
+# "Astro Blitz", so the descriptor tells this game apart in search (Play limit: 30 characters).
+# de-DE keeps the English descriptor; the ja/ko/zh/hi descriptors still need a native review.
+TITLES = {
+    'en-US': 'Astro Blitz: Space Defense',
+    'pt-BR': 'Astro Blitz: Defesa Espacial',
+    'es-419': 'Astro Blitz: Defensa Espacial',
+    'es-ES': 'Astro Blitz: Defensa Espacial',
+    'de-DE': 'Astro Blitz: Space Defense',
+    'fr-FR': 'Astro Blitz : Défense spatiale',
+    'it-IT': 'Astro Blitz: Difesa spaziale',
+    'ja-JP': 'Astro Blitz：宇宙防衛',
+    'ko-KR': 'Astro Blitz: 우주 방어',
+    'zh-CN': 'Astro Blitz：太空防御',
+    'hi-IN': 'Astro Blitz: स्पेस डिफेंस',
+}
+
+LISTINGS = {}
+
+LISTINGS['en-US'] = ('Auto-shooting space roguelite: pick upgrades, stack combos, crush giant bosses!', """\
+Pilot a lone starship through hostile sectors of deep space in Astro Blitz, a fast space roguelite built for one-handed play. Your ship aims and fires on its own, and you make the calls: pick powerful upgrade cards, unleash your special at the right moment and take down massive bosses at the end of every sector.
+
+Every run is different. Build unique card combinations, push further each time and spend the credits you earn on permanent upgrades, new cards and new ships.
+
+CHOOSE YOUR SHIP
+• Vanguard-7 – an offensive striker that heals on kills; Offensive Overdrive doubles its fire rate.
+• Aegis Bastion – an armored fortress; Emergency Aegis makes it invulnerable.
+• Null Specter – control and precision; Temporal Stasis freezes every enemy, even the boss.
+• Medical Aurora – a support ship with self-repair, healing missiles and drones; Restorative Repair restores health instantly.
+• Orion – heavy artillery with chain lightning and siege shots; Damage Amplification doubles cannon damage.
+
+LEVEL UP AND BUILD COMBOS
+• Every time you level up, pick 1 of 3 upgrade cards.
+• Stack blades, chain lightning, homing missiles, black holes and much more.
+• Unlock base deck cards with credits, and exclusive cards as your ships level up.
+
+PERMANENT PROGRESSION
+• Upgrade fire rate, damage, hull, critical hits and more for every ship.
+• Clear 10 sectors of rising difficulty, each ending in a boss fight.
+• Daily rewards and bonus credits.
+
+SCI-FI ARCADE ACTION
+• Warp jumps between sectors, neon effects and punchy feedback on every hit.
+• Short sessions, perfect for quick breaks, with enough depth to keep you coming back.
+
+Sign in to keep your progress safe in the cloud.
+An internet connection is required to play.""")
+
+LISTINGS['pt-BR'] = ('Roguelite espacial: escolha melhorias, monte combos e destrua chefes gigantes!', """\
+Pilote uma nave solitária por setores hostis do espaço profundo em Astro Blitz, um roguelite espacial rápido, feito para jogar com uma mão. Sua nave mira e atira sozinha, e as decisões são suas: escolha cartas de melhoria poderosas, ative o especial na hora certa e derrote chefes gigantes no fim de cada setor.
+
+Cada partida é diferente. Monte combinações únicas de cartas, vá mais longe a cada tentativa e gaste os créditos que ganhar em melhorias permanentes, cartas novas e novas naves.
+
+ESCOLHA SUA NAVE
+• Vanguarda-7 – nave de ataque que se cura ao abater inimigos; a Sobrecarga ofensiva dobra a cadência de tiro.
+• Bastião Aegis – fortaleza blindada; a Égide de emergência deixa a nave invulnerável.
+• Espectro Nulo – controle e precisão; a Estase temporal congela todos os inimigos, até o chefe.
+• Aurora Médica – nave de suporte com autorreparo, mísseis de cura e drones; o Reparo restaurador recupera vida na hora.
+• Orion – artilharia pesada com raios em cadeia e disparos de cerco; a Amplificação de dano dobra o dano do canhão.
+
+SUBA DE NÍVEL E MONTE COMBOS
+• A cada nível, escolha 1 entre 3 cartas de melhoria.
+• Combine lâminas, raios em cadeia, mísseis teleguiados, buracos negros e muito mais.
+• Libere cartas do deck base com créditos e cartas exclusivas conforme suas naves sobem de nível.
+
+PROGRESSÃO PERMANENTE
+• Melhore cadência, dano, casco, críticos e muito mais em cada nave.
+• Vença 10 setores cada vez mais difíceis, cada um terminando com um chefe.
+• Recompensas diárias e créditos bônus.
+
+AÇÃO ARCADE SCI-FI
+• Saltos espaciais entre setores, efeitos neon e impacto em cada tiro.
+• Partidas curtas, perfeitas para uma pausa rápida, com profundidade para você sempre voltar.
+
+Entre com sua conta para guardar o progresso na nuvem.
+É necessário estar conectado à internet para jogar.""")
+
+_ES = ('Roguelite espacial: elige mejoras, arma combos y destruye jefes gigantes.', """\
+Pilota una nave solitaria a través de sectores hostiles del espacio profundo en Astro Blitz, un roguelite espacial rápido, pensado para jugar con una sola mano. Tu nave apunta y dispara sola, y tú tomas las decisiones: elige poderosas cartas de mejora, desata tu especial en el momento justo y derrota jefes gigantes al final de cada sector.
+
+Cada partida es distinta. Crea combinaciones únicas de cartas, llega más lejos en cada intento y usa los créditos que ganes en mejoras permanentes, cartas nuevas y nuevas naves.
+
+ELIGE TU NAVE
+• Vanguardia-7: nave de ataque que se cura al derribar enemigos; la Sobrecarga ofensiva duplica su cadencia de tiro.
+• Bastión Aegis: fortaleza blindada; la Égida de emergencia la vuelve invulnerable.
+• Espectro Nulo: control y precisión; la Estasis temporal congela a todos los enemigos, incluso al jefe.
+• Aurora Médica: nave de apoyo con autorreparación, misiles de curación y drones; la Reparación restauradora recupera vida al instante.
+• Orion: artillería pesada con rayos en cadena y disparos de asedio; la Amplificación de daño duplica el daño del cañón.
+
+SUBE DE NIVEL Y ARMA COMBOS
+• En cada nivel, elige 1 de 3 cartas de mejora.
+• Combina cuchillas, rayos en cadena, misiles teledirigidos, agujeros negros y mucho más.
+• Desbloquea cartas del mazo base con créditos y cartas exclusivas a medida que tus naves suben de nivel.
+
+PROGRESIÓN PERMANENTE
+• Mejora la cadencia, el daño, el casco, los críticos y mucho más en cada nave.
+• Supera 10 sectores cada vez más difíciles, cada uno con un jefe final.
+• Recompensas diarias y créditos extra.
+
+ACCIÓN ARCADE DE CIENCIA FICCIÓN
+• Saltos espaciales entre sectores, efectos de neón y una respuesta satisfactoria en cada impacto.
+• Partidas cortas, perfectas para una pausa rápida, con la profundidad suficiente para que siempre vuelvas.
+
+Inicia sesión para guardar tu progreso en la nube.
+Se requiere conexión a internet para jugar.""")
+LISTINGS['es-419'] = _ES
+LISTINGS['es-ES'] = _ES
+
+LISTINGS['de-DE'] = ('Weltraum-Roguelite: Upgrades wählen, Combos bauen, riesige Bosse besiegen!', """\
+Steuern Sie ein einsames Raumschiff durch feindliche Sektoren des tiefen Alls – in Astro Blitz, einem schnellen Weltraum-Roguelite, das sich mit einer Hand spielen lässt. Ihr Schiff zielt und feuert automatisch, Sie treffen die Entscheidungen: Wählen Sie starke Upgrade-Karten, setzen Sie Ihre Spezialfähigkeit im richtigen Moment ein und besiegen Sie am Ende jedes Sektors gewaltige Bosse.
+
+Jeder Lauf ist anders. Stellen Sie einzigartige Kartenkombinationen zusammen, kommen Sie jedes Mal weiter und investieren Sie verdiente Credits in permanente Upgrades, neue Karten und neue Schiffe.
+
+WÄHLEN SIE IHR SCHIFF
+• Vanguard-7 – Angriffsschiff, das sich bei Abschüssen heilt; Offensiver Overdrive verdoppelt die Feuerrate.
+• Aegis-Bastion – gepanzerte Festung; Notfallschutz macht sie unverwundbar.
+• Null Spectre – Kontrolle und Präzision; Zeitstase friert alle Gegner ein, sogar den Boss.
+• Medizinische Aurora – Unterstützungsschiff mit Selbstreparatur, Heilraketen und Drohnen; Heilungsreparatur stellt sofort Lebenspunkte wieder her.
+• Orion – schwere Artillerie mit Kettenblitzen und Belagerungsschüssen; Schadensverstärkung verdoppelt den Kanonenschaden.
+
+AUFSTEIGEN UND COMBOS BAUEN
+• Wählen Sie bei jedem Levelaufstieg 1 von 3 Upgrade-Karten.
+• Kombinieren Sie Klingen, Kettenblitze, Lenkraketen, Schwarze Löcher und vieles mehr.
+• Schalten Sie Karten des Basisdecks mit Credits frei – und exklusive Karten, wenn Ihre Schiffe aufsteigen.
+
+DAUERHAFTER FORTSCHRITT
+• Verbessern Sie Feuerrate, Schaden, Hülle, kritische Treffer und mehr für jedes Schiff.
+• Meistern Sie 10 immer schwierigere Sektoren, jeder mit einem Bosskampf am Ende.
+• Tägliche Belohnungen und Bonus-Credits.
+
+SCI-FI-ARCADE-ACTION
+• Warpsprünge zwischen den Sektoren, Neon-Effekte und spürbares Feedback bei jedem Treffer.
+• Kurze Runden, perfekt für zwischendurch, mit genug Tiefe, dass Sie immer wiederkommen.
+
+Melden Sie sich an, um Ihren Fortschritt sicher in der Cloud zu speichern.
+Zum Spielen ist eine Internetverbindung erforderlich.""")
+
+LISTINGS['fr-FR'] = ('Roguelite spatial : améliorations, combos dévastateurs et boss géants !', """\
+Pilotez un vaisseau solitaire à travers les secteurs hostiles de l'espace profond dans Astro Blitz, un roguelite spatial rapide, pensé pour jouer d'une seule main. Votre vaisseau vise et tire tout seul, c'est vous qui décidez : choisissez de puissantes cartes d'amélioration, déclenchez votre capacité spéciale au bon moment et abattez des boss géants à la fin de chaque secteur.
+
+Chaque partie est différente. Créez des combinaisons de cartes uniques, allez plus loin à chaque tentative et dépensez vos crédits en améliorations permanentes, nouvelles cartes et nouveaux vaisseaux.
+
+CHOISISSEZ VOTRE VAISSEAU
+• Vanguard-7 – vaisseau d'attaque qui se soigne à chaque élimination ; la Surcharge offensive double sa cadence de tir.
+• Bastion de l'égide – forteresse blindée ; l'Égide d'urgence la rend invulnérable.
+• Spectre nul – contrôle et précision ; la Stase temporelle gèle tous les ennemis, même le boss.
+• Aurore médicale – vaisseau de soutien avec autoréparation, missiles de soin et drones ; la Réparation régénérante restaure instantanément la vie.
+• Orion – artillerie lourde avec éclairs en chaîne et tirs de siège ; l'Amplification des dégâts double les dégâts du canon.
+
+MONTEZ EN NIVEAU ET CRÉEZ DES COMBOS
+• À chaque niveau, choisissez 1 carte d'amélioration parmi 3.
+• Combinez lames, éclairs en chaîne, missiles à tête chercheuse, trous noirs et bien plus.
+• Débloquez les cartes du deck de base avec vos crédits, et des cartes exclusives quand vos vaisseaux montent en niveau.
+
+PROGRESSION PERMANENTE
+• Améliorez la cadence de tir, les dégâts, la coque, les coups critiques et plus encore pour chaque vaisseau.
+• Terminez 10 secteurs de plus en plus difficiles, chacun conclu par un combat de boss.
+• Récompenses quotidiennes et crédits bonus.
+
+ACTION ARCADE DE SCIENCE-FICTION
+• Sauts spatiaux entre les secteurs, effets néon et sensations fortes à chaque impact.
+• Des parties courtes, parfaites pour une petite pause, avec assez de profondeur pour y revenir encore et encore.
+
+Connectez-vous pour sauvegarder votre progression dans le cloud.
+Une connexion Internet est nécessaire pour jouer.""")
+
+LISTINGS['it-IT'] = ('Roguelite spaziale: scegli potenziamenti, crea combo e distruggi boss giganti!', """\
+Pilota un'astronave solitaria attraverso i settori ostili dello spazio profondo in Astro Blitz, un roguelite spaziale veloce, pensato per giocare con una mano sola. La tua nave mira e spara da sola, ma le decisioni sono tue: scegli potenti carte di potenziamento, scatena l'abilità speciale al momento giusto e abbatti boss giganti alla fine di ogni settore.
+
+Ogni partita è diversa. Crea combinazioni di carte uniche, spingiti sempre più avanti e spendi i crediti guadagnati in potenziamenti permanenti, nuove carte e nuove navi.
+
+SCEGLI LA TUA NAVE
+• Avanguardia-7 – nave d'assalto che si cura a ogni abbattimento; il Sovraccarico offensivo raddoppia la cadenza di fuoco.
+• Bastione dell'Egida – fortezza corazzata; l'Egida d'emergenza la rende invulnerabile.
+• Spettro Nullo – controllo e precisione; la Stasi temporale congela tutti i nemici, persino il boss.
+• Aurora Medica – nave di supporto con autoriparazione, missili curativi e droni; la Riparazione rigenerante ripristina subito la salute.
+• Orione – artiglieria pesante con fulmini a catena e colpi d'assedio; l'Amplificazione del danno raddoppia il danno del cannone.
+
+SALI DI LIVELLO E CREA COMBO
+• A ogni livello scegli 1 carta di potenziamento tra 3.
+• Combina lame, fulmini a catena, missili a ricerca, buchi neri e molto altro.
+• Sblocca le carte del mazzo base con i crediti e le carte esclusive man mano che le tue navi salgono di livello.
+
+PROGRESSIONE PERMANENTE
+• Potenzia cadenza di fuoco, danno, scafo, colpi critici e altro ancora per ogni nave.
+• Supera 10 settori sempre più difficili, ognuno con uno scontro finale contro un boss.
+• Ricompense giornaliere e crediti bonus.
+
+AZIONE ARCADE FANTASCIENTIFICA
+• Salti spaziali tra i settori, effetti al neon e un feedback appagante a ogni colpo.
+• Partite brevi, perfette per una pausa veloce, con abbastanza profondità da farti tornare sempre.
+
+Accedi per salvare i tuoi progressi nel cloud.
+Per giocare è necessaria una connessione a Internet.""")
+
+LISTINGS['ja-JP'] = ('オートで撃つ宇宙ローグライト！強化を選び、コンボを組み、巨大ボスを撃破しよう！', """\
+Astro Blitzは、片手で遊べるスピーディーな宇宙ローグライトシューティング。孤独な宇宙船を操り、敵だらけの深宇宙セクターを突き進もう。照準と射撃は自動。決断するのはあなたです。強力なアップグレードカードを選び、ここぞという場面でスペシャルを発動し、各セクターの最後に待ち受ける巨大ボスを撃破しよう。
+
+プレイのたびに展開が変わる。カードを組み合わせて唯一無二のビルドを作り、さらに先へ。獲得したクレジットで永続アップグレード、新しいカード、新しい機体を手に入れよう。
+
+機体を選ぼう
+• ヴァンガード-7 ― 撃破で回復するアタッカー。「攻撃オーバードライブ」で連射速度が2倍に。
+• イージスバスティオン ― 重装甲の要塞。「緊急イージス」で無敵になる。
+• ヌル・スペクター ― 制御と精密射撃。「時間停止」でボスを含むすべての敵を凍結。
+• メディカル オーロラ ― 自己修復、回復ミサイル、ドローンを備えたサポート機。「緊急修復」で即座に回復。
+• オリオン ― 連鎖する電撃と攻城射撃を操る重砲撃機。「ダメージ増幅」で主砲のダメージが2倍に。
+
+レベルアップしてコンボを組もう
+• レベルアップのたびに、3枚のアップグレードカードから1枚を選択。
+• ブレード、電撃アーク、追尾ミサイル、ブラックホールなどを組み合わせよう。
+• ベースデッキのカードはクレジットで、専用カードは機体のレベルアップで解放。
+
+永続的な成長
+• 各機体の連射速度、ダメージ、装甲、クリティカルなどを強化。
+• 難易度が上がっていく10のセクターに挑戦。各セクターの最後にはボス戦が待つ。
+• デイリー報酬とボーナスクレジット。
+
+SFアーケードアクション
+• セクター間のワープ、ネオンエフェクト、爽快なヒット感。
+• スキマ時間にぴったりの短いプレイなのに、何度も遊びたくなる奥深さ。
+
+ログインすると、進行状況をクラウドに安全に保存できます。
+プレイにはインターネット接続が必要です。""")
+
+LISTINGS['ko-KR'] = ('자동 사격 우주 로그라이트! 업그레이드를 고르고, 콤보를 쌓고, 거대 보스를 쓰러뜨리세요!', """\
+Astro Blitz는 한 손으로 즐기는 빠른 우주 로그라이트 슈팅 게임입니다. 홀로 남은 우주선을 조종해 적대적인 심우주 섹터를 돌파하세요. 조준과 사격은 자동, 결정은 당신의 몫입니다. 강력한 업그레이드 카드를 고르고, 결정적인 순간에 스페셜을 발동하고, 각 섹터 끝에서 기다리는 거대 보스를 처치하세요.
+
+매 플레이가 다릅니다. 나만의 카드 조합으로 더 멀리 나아가고, 획득한 크레딧으로 영구 업그레이드, 새 카드, 새 우주선을 손에 넣으세요.
+
+우주선을 선택하세요
+• 뱅가드-7 – 적을 처치하면 회복하는 공격형 우주선. '공격 오버드라이브'로 연사 속도가 2배가 됩니다.
+• 이지스 요새 – 중장갑 요새. '긴급 이지스'로 무적이 됩니다.
+• 널 스펙터 – 제어와 정밀함. '시간 정지'로 보스를 포함한 모든 적을 얼립니다.
+• 메디컬 오로라 – 자가 수리, 회복 미사일, 드론을 갖춘 지원형 우주선. '회복 수리'로 즉시 체력을 회복합니다.
+• 오리온 – 연쇄 번개와 공성 사격을 쓰는 중포격형 우주선. '피해 증폭'으로 주포 피해가 2배가 됩니다.
+
+레벨업하고 콤보를 쌓으세요
+• 레벨업할 때마다 업그레이드 카드 3장 중 1장을 선택하세요.
+• 칼날, 전격 아크, 유도 미사일, 블랙홀 등을 조합하세요.
+• 기본 덱 카드는 크레딧으로, 전용 카드는 우주선 레벨업으로 해금됩니다.
+
+영구 성장
+• 우주선마다 연사 속도, 피해, 선체, 치명타 등을 강화하세요.
+• 점점 어려워지는 10개의 섹터에 도전하세요. 각 섹터의 끝에는 보스전이 기다립니다.
+• 일일 보상과 보너스 크레딧.
+
+SF 아케이드 액션
+• 섹터 사이의 워프 점프, 네온 효과, 타격마다 느껴지는 손맛.
+• 짧은 틈새 시간에 딱 맞는 플레이와 계속 돌아오게 만드는 깊이.
+
+로그인하면 진행 상황을 클라우드에 안전하게 저장할 수 있습니다.
+플레이하려면 인터넷 연결이 필요합니다.""")
+
+LISTINGS['zh-CN'] = ('自动射击太空肉鸽！挑选强化、叠加连招、击败巨型首领！', """\
+《Astro Blitz》是一款可单手畅玩的快节奏太空肉鸽射击游戏。驾驶一艘孤独的飞船，穿越深空中危机四伏的星区。瞄准和射击全自动，决策权在你手中：挑选强力的升级卡牌，在关键时刻释放特殊技能，击败每个星区尽头的巨型首领。
+
+每一局都不一样。打造独一无二的卡牌组合，一次比一次走得更远，用赚到的积分购买永久升级、新卡牌和新飞船。
+
+选择你的飞船
+• 先锋-7 —— 击杀即可回血的进攻型飞船；“攻击过载”让射速翻倍。
+• 圣盾堡垒 —— 重装要塞；“紧急护盾”使其进入无敌状态。
+• 虚无幽灵 —— 控制与精准；“时间停滞”冻结包括首领在内的所有敌人。
+• 医疗极光 —— 拥有自我修复、治疗导弹和无人机的支援型飞船；“修复脉冲”立即恢复生命值。
+• 猎户座 —— 掌控连锁闪电与攻城炮击的重型炮舰；“伤害增幅”让主炮伤害翻倍。
+
+升级并打造连招
+• 每次升级，从3张升级卡牌中选择1张。
+• 组合利刃、电弧、追踪导弹、黑洞等多种能力。
+• 用积分解锁基础卡组卡牌，飞船升级即可解锁专属卡牌。
+
+永久成长
+• 为每艘飞船强化射速、伤害、船体、暴击等属性。
+• 挑战难度逐步提升的10个星区，每个星区最后都有首领战。
+• 每日奖励和额外积分。
+
+科幻街机动作
+• 星区之间的跃迁、霓虹特效，每次命中都爽快十足。
+• 短短几分钟就能来一局，适合碎片时间，又有足够深度让你一玩再玩。
+
+登录即可将进度安全保存到云端。
+游戏需要联网。""")
+
+LISTINGS['hi-IN'] = ('ऑटो-शूटिंग स्पेस रोगलाइट! अपग्रेड चुनें, कॉम्बो बनाएं, विशाल बॉस को हराएं!', """\
+Astro Blitz एक तेज़ स्पेस रोगलाइट शूटर है, जिसे एक हाथ से खेला जा सकता है। एक अकेले अंतरिक्ष यान को गहरे अंतरिक्ष के खतरनाक सेक्टरों से निकालें। निशाना और फ़ायर अपने आप होते हैं, फ़ैसले आप लेते हैं: ताकतवर अपग्रेड कार्ड चुनें, सही समय पर अपनी स्पेशल क्षमता चलाएं और हर सेक्टर के अंत में विशाल बॉस को हराएं।
+
+हर रन अलग होता है। कार्डों के अनोखे कॉम्बिनेशन बनाएं, हर बार और आगे बढ़ें और कमाए गए क्रेडिट से स्थायी अपग्रेड, नए कार्ड और नए यान पाएं।
+
+अपना यान चुनें
+• वेंगार्ड-7 – हमलावर यान जो दुश्मन को गिराने पर हेल्थ वापस पाता है; आक्रामक ओवरड्राइव फ़ायर रेट दोगुना कर देता है।
+• एजिस बैस्टियन – भारी कवच वाला किला; आपातकालीन ढाल इसे अजेय बना देती है।
+• नल स्पेक्टर – नियंत्रण और सटीकता; समय ठहराव बॉस समेत सभी दुश्मनों को जमा देता है।
+• मेडिकल अरोरा – सेल्फ़-रिपेयर, हीलिंग मिसाइलों और ड्रोन वाला सपोर्ट यान; पुनर्स्थापन मरम्मत तुरंत हेल्थ लौटाती है।
+• ओरियन – चेन लाइटनिंग और घेराबंदी शॉट वाला भारी तोपखाना; क्षति वृद्धि तोप का नुकसान दोगुना कर देती है।
+
+लेवल बढ़ाएं और कॉम्बो बनाएं
+• हर लेवल पर 3 अपग्रेड कार्ड में से 1 चुनें।
+• ब्लेड, विद्युत चाप, होमिंग मिसाइलें, ब्लैक होल और बहुत कुछ मिलाएं।
+• क्रेडिट से बेस डेक के कार्ड अनलॉक करें और यानों का लेवल बढ़ने पर खास कार्ड पाएं।
+
+स्थायी प्रगति
+• हर यान के फ़ायर रेट, नुकसान, हल, क्रिटिकल हिट और बहुत कुछ को अपग्रेड करें।
+• लगातार कठिन होते 10 सेक्टर पार करें, हर सेक्टर के अंत में बॉस फ़ाइट।
+• रोज़ाना इनाम और बोनस क्रेडिट।
+
+साइ-फ़ाई आर्केड एक्शन
+• सेक्टरों के बीच वार्प जंप, नियॉन इफ़ेक्ट और हर हिट पर ज़बरदस्त फ़ीडबैक।
+• छोटे सेशन, छोटे ब्रेक के लिए एकदम सही, और इतनी गहराई कि आप बार-बार लौटें।
+
+अपनी प्रगति को क्लाउड में सुरक्षित रखने के लिए साइन इन करें।
+खेलने के लिए इंटरनेट कनेक्शन ज़रूरी है।""")
+
+
+def main():
+    os.makedirs(OUT, exist_ok=True)
+    problems = []
+    rows = []
+    for locale, (short, full) in LISTINGS.items():
+        title = TITLES[locale]
+        lengths = (len(title), len(short), len(full))
+        for value, limit, field in zip(lengths, (30, 80, 4000), ('title', 'short_description', 'full_description')):
+            if value > limit:
+                problems.append('%s %s: %d > %d' % (locale, field, value, limit))
+        print('%-6s title %2d  short %2d  full %4d' % ((locale,) + lengths))
+        rows.append((locale, title, short, full))
+        folder = os.path.join(OUT, 'fastlane', 'metadata', 'android', locale)
+        os.makedirs(folder, exist_ok=True)
+        for name, text in (('title.txt', title), ('short_description.txt', short), ('full_description.txt', full)):
+            with open(os.path.join(folder, name), 'w', encoding='utf-8', newline='\n') as f:
+                f.write(text + '\n')
+    with open(os.path.join(OUT, 'store_listing_translations.csv'), 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f, quoting=csv.QUOTE_ALL)
+        writer.writerow(('language', 'title', 'short_description', 'full_description'))
+        writer.writerows(rows)
+    with open(os.path.join(ROOT, 'PlayConsole', 'descricao_en.txt'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write(LISTINGS['en-US'][1] + '\n')
+    if problems:
+        raise SystemExit('Over the limit: ' + '; '.join(problems))
+    print('ok,', len(rows), 'languages')
+
+
+if __name__ == '__main__':
+    main()

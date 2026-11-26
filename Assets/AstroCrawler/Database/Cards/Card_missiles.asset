@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5c59c6792538c4681739590ab69d9c, type: 3}
+  m_Name: Card_missiles
+  m_EditorClassIdentifier: 
+  definition:
+    id: missiles
+    name: "Mísseis Teleguiados"
+    description: "Dispara automaticamente 2 m\xEDsseis teleguiados a cada 6 segundos
+      de combate, quando h\xE1 inimigos no alcance."
+    evolvedName: "Mísseis Teleguiados"
+    evolvedDescription: "Dispara automaticamente 3 m\xEDsseis com dano em \xE1rea
+      a cada 6 segundos de combate, quando h\xE1 inimigos no alcance."
+    maxName: "Mísseis Teleguiados"
+    maxDescription: "Dispara 4 m\xEDsseis com dano em \xE1rea ampliado a cada 5 segundos
+      de combate, quando h\xE1 inimigos no alcance."
+    category: 0
+    effect: 2
+    tint: 3A6EA5
+    starter: 0
+    unlockLevel: 0
+    baseParams:
+      entries:
+      - key: count
+        value: 2
+      - key: fireInterval
+        value: 6
+      - key: damage
+        value: 25
+      - key: splashRadius
+        value: 0
+    evolvedParams:
+      entries:
+      - key: count
+        value: 3
+      - key: fireInterval
+        value: 6
+      - key: damage
+        value: 34
+      - key: splashRadius
+        value: 90
+    maxParams:
+      entries:
+      - key: count
+        value: 4
+      - key: fireInterval
+        value: 5
+      - key: damage
+        value: 36
+      - key: splashRadius
+        value: 100

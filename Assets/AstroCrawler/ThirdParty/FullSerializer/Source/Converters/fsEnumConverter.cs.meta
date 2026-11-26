@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: beab6ca8a3b26dc458d99a3801ffaccb
+timeCreated: 1451205258
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52739
+  packageName: CCG Kit
+  packageVersion: 3.1.0
+  assetPath: Assets/CCGKit/ThirdParty/FullSerializer/Source/Converters/fsEnumConverter.cs
+  uploadId: 957878

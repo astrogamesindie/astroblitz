@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586efcd7dd84a143ab9f9dc2c896cca, type: 3}
+  m_Name: Ship_bastion
+  m_EditorClassIdentifier: 
+  definition:
+    id: bastion
+    name: "Basti\xE3o Aegis"
+    tagline: "N\xE3o \xE9 a mais r\xE1pida a atirar, mas \xE9 a \xFAltima a cair."
+    identity: "Fortifica\xE7\xE3o: repuls\xE3o, destro\xE7os e blindagem contra dano."
+    special:
+      kind: 2
+      name: "\xC9gide de emerg\xEAncia"
+      nameEn: Emergency aegis
+      nameEs: "\xC9gida de emergencia"
+      description: "Fica invulner\xE1vel por 4s."
+      descriptionEn: Become invulnerable for 4s.
+      descriptionEs: Es invulnerable durante 4s.
+      cooldown: 35
+      duration: 4
+      damageScale: 1
+      fireRateScale: 1
+      healFraction: 0
+    maxHp: 160
+    fireInterval: 0.42
+    damagePerShot: 12
+    baseProjectiles: 1
+    tint: 5BD6A0
+    deck:
+    - cardId: repulsion_field
+    - cardId: debris_wall
+    - cardId: armor_plating
+    - cardId: thorn_hull
+    - cardId: lasting_aegis
+    - cardId: shield_mend
