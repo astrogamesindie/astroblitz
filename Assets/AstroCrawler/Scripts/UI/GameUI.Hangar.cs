@@ -70,6 +70,12 @@ namespace AstroCrawler
         // Portrait carousel: a larger drawing scale, and room at both ends so
         // the first and last ships can sit in the middle like the others.
         private const float ShipCarouselScale = 1.25f;
+        /// <summary>The chosen card is drawn this much larger than the others.</summary>
+        private const float HangarSelectedScale = 1.03f;
+        /// <summary>Landscape: the cards' rest scale, so they fit the height (FitHangarCardLandscape).</summary>
+        private float hangarCardScale = 1f;
+        /// <summary>Distance between two cards' centres in the carousel content.</summary>
+        private const float ShipCarouselStep = 580f;
         private static float ShipCarouselPad { get { return UIFactory.Pick(0f, 240f); } }
 
         private RectTransform deckScreen;
@@ -380,7 +386,12 @@ namespace AstroCrawler
         /// </summary>
         private void FitHangarCard()
         {
-            if (!UIFactory.Portrait) return;
+            LayoutShipCarousel();
+            if (!UIFactory.Portrait)
+            {
+                FitHangarCardLandscape();
+                return;
+            }
             // The card used to be drawn at a fixed 1.25 and left an empty band
             // on tall phones. It now grows to the screen: as large as the
             // height allows, up to HangarCardWidthShare of the width (so the
@@ -414,6 +425,53 @@ namespace AstroCrawler
             }
         }
 
+        /// <summary>
+        /// Gives the carousel half a viewport of room at each end, so every
+        /// card (the first and last too) can stop in the middle of the screen.
+        /// The baked content only had room for that in portrait (a fixed pad);
+        /// in landscape the end ships stayed off centre. The cards are anchored
+        /// to the content's centre, so resizing it keeps them evenly spaced.
+        /// </summary>
+        private void LayoutShipCarousel()
+        {
+            if (shipScroll == null || shipContent == null || shipScroll.viewport == null) return;
+            var viewport = shipScroll.viewport.rect.width;
+            if (viewport <= 0f) return;
+            var spread = Mathf.Max(0, shipPanels.Count - 1) * ShipCarouselStep;
+            shipContent.sizeDelta = new Vector2(viewport + spread, shipContent.sizeDelta.y);
+            if (shipSnap != null) shipSnap.SetFirstCentre(viewport * 0.5f);
+        }
+
+        /// <summary>
+        /// Landscape: shrinks the cards (never grows them) so the card and the
+        /// badge over its top edge fit the carousel's height. At full size the
+        /// 900-unit card overflowed short screens and the banner footer: the
+        /// "BLOQUEADA" badge and the price/buy buttons were cut by the mask.
+        /// </summary>
+        private void FitHangarCardLandscape()
+        {
+            var root = shipScroll != null ? shipScroll.transform as RectTransform : null;
+            if (root == null || shipPanels.Count == 0 || shipPanels[0] == null) return;
+            var room = root.rect.height;
+            var card = shipPanels[0].rect.height;
+            if (room <= 0f || card <= 0f) return;
+            var overhang = shipBadges.Count > 0 && shipBadges[0] != null
+                ? Mathf.Max(0f, shipBadges[0].rectTransform.anchoredPosition.y) : 0f;
+            // Room for the chosen card too, which is drawn HangarSelectedScale larger.
+            var scale = Mathf.Min(1f, (room - HangarCardMargin * 2f) / ((card + overhang) * HangarSelectedScale));
+            hangarCardScale = scale;
+            for (var i = 0; i < shipPanels.Count; i++)
+            {
+                var panel = shipPanels[i];
+                if (panel == null) continue;
+                var selected = i < shipButtons.Count && shipButtons[i] != null && shipButtons[i].shipId == selectedShipId;
+                LeanTween.cancel(panel.gameObject, false, TweenAction.SCALE);
+                panel.localScale = Vector3.one * scale * (selected ? HangarSelectedScale : 1f);
+                // Card plus badge centred in the carousel.
+                panel.anchoredPosition = new Vector2(panel.anchoredPosition.x, -overhang * 0.5f * scale);
+            }
+        }
+
         private void BindHangarButtons()
         {
             Rebind(shipBackButton, GoToMainMenu);
@@ -421,7 +479,7 @@ namespace AstroCrawler
             {
                 shipSnap = shipScroll.GetComponent<CarouselSnap>();
                 if (shipSnap == null) shipSnap = shipScroll.gameObject.AddComponent<CarouselSnap>();
-                shipSnap.Configure(shipScroll, ShipCarouselPad + 310f, 580f, shipButtons.Count,
+                shipSnap.Configure(shipScroll, ShipCarouselPad + 310f, ShipCarouselStep, shipButtons.Count,
                     ArrowAt(shipScreen, "ShipPrevious"), ArrowAt(shipScreen, "ShipNext"));
                 // The neighbours peeking in at the edges fade, the middle card is lit.
                 shipSnap.SetFocusFade(shipPanels, HangarNeighbourAlpha);
@@ -470,6 +528,8 @@ namespace AstroCrawler
             if (nextArrow != null) nextArrow.gameObject.SetActive(arrows);
             if (!upgrades && shipSnap != null)
             {
+                // The page height may have changed since Bind (banner, rotation).
+                FitHangarCard();
                 // Opens on the ship being flown.
                 var index = shipButtons.FindIndex(entry => entry.shipId == selectedShipId);
                 shipSnap.GlideTo(Mathf.Max(0, index), true);
@@ -486,6 +546,13 @@ namespace AstroCrawler
         private void SelectShip(string shipId)
         {
             if (config.GetShip(shipId) == null) return;
+            // The tapped card glides to the middle (a tap on a neighbour used
+            // to select it where it stood, half off the screen).
+            if (shipSnap != null)
+            {
+                var tapped = shipButtons.FindIndex(entry => entry != null && entry.shipId == shipId);
+                if (tapped >= 0 && tapped != shipSnap.Index) shipSnap.GlideTo(tapped, false);
+            }
             if (!run.shipUnlocks.IsUnlocked(shipId))
             {
                 BuyShip(shipId);
@@ -635,7 +702,7 @@ namespace AstroCrawler
                 if (Application.isPlaying)
                 {
                     LeanTween.cancel(panel.gameObject, false, TweenAction.SCALE);
-                    LeanTween.scale(panel.gameObject, Vector3.one * (isSelected ? 1.03f : 1f), 0.22f)
+                    LeanTween.scale(panel.gameObject, Vector3.one * hangarCardScale * (isSelected ? HangarSelectedScale : 1f), 0.22f)
                         .setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
                 }
 

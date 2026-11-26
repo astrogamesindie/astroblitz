@@ -82,6 +82,17 @@ namespace AstroCrawler
             RefreshArrows();
         }
 
+        /// <summary>
+        /// Moves where the first card's centre sits in the content (the
+        /// owner resized the content at runtime) and re-centres the current card.
+        /// </summary>
+        public void SetFirstCentre(float firstCardCentre)
+        {
+            if (Mathf.Approximately(firstCentre, firstCardCentre)) return;
+            firstCentre = firstCardCentre;
+            GlideTo(index, true);
+        }
+
         public void OnBeginDrag(PointerEventData eventData)
         {
             if (scroll != null) LeanTween.cancel(scroll.content.gameObject);

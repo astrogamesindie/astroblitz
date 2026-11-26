@@ -191,7 +191,64 @@ O modo não é salvo entre sessões (igual ao comportamento anterior do Infinito
   do grupo. A escala gira em torno do centro visual do grupo, e na escala 1 as
   posições são as mesmas de antes.
 
+## Hangar: carrossel de naves (`UI/GameUI.Hangar.cs`, `UI/CarouselSnap.cs`)
+
+- **Folga nas pontas** (`LayoutShipCarousel`): em tempo de execução, a largura
+  do conteúdo passa a ser a do viewport mais `(naves − 1) × 580`
+  (`ShipCarouselStep`). Assim cada card, inclusive o primeiro e o último, pode
+  parar no centro da tela. O `CarouselSnap` recebe o novo centro do primeiro
+  card por `SetFirstCentre`. Vale para retrato e paisagem e roda no `Bind`, ao
+  abrir a tela e quando o banner muda a altura (`FitHangarCard`).
+- **Toque num card:** `SelectShip` desliza o card tocado para o centro antes
+  de selecioná-lo (ou de tentar comprá-lo, se estiver bloqueado).
+- **Altura em paisagem** (`FitHangarCardLandscape`): os cards encolhem, sem
+  nunca crescer, para que o card escolhido (desenhado 1,03× maior,
+  `HangarSelectedScale`) e o selo "SELECIONADA/BLOQUEADA" acima dele caibam na
+  altura do carrossel, com 30 unidades de margem. A escala de repouso fica em
+  `hangarCardScale`, e a animação de seleção em `RefreshSelectedShip` a
+  respeita. O retrato continua com o encaixe próprio (`FitHangarCard`).
+
 ## Histórico
+
+### 26/11/2026 — Hangar: centralização e cards cortados
+
+- **Problemas (print do usuário, paisagem):**
+  1. a nave escolhida não ia para o centro da tela. Tocar num card vizinho o
+     selecionava onde ele estava, meio fora da tela. Além disso, em paisagem
+     a primeira e a última nave nunca conseguiam ficar no centro, porque o
+     conteúdo não tinha folga nas pontas (`ShipCarouselPad` é 0 em
+     paisagem);
+  2. os cards eram cortados em cima (selo "BLOQUEADA") e embaixo (botões de
+     preço/compra). O card tem 900 unidades de altura, mais o selo, e não
+     cabia no espaço entre o título e o banner. A animação de seleção também
+     reescrevia a escala dos cards para 1.
+- **Alteração:** ver a seção "Hangar: carrossel de naves".
+- **Arquivos:** `Assets/AstroCrawler/Scripts/UI/GameUI.Hangar.cs` e
+  `Assets/AstroCrawler/Scripts/UI/CarouselSnap.cs` (novo `SetFirstCentre`).
+  Nada da cena precisou ser refeito: tudo roda em tempo de execução.
+- **Validação executada:**
+  - compilação com o Roslyn e recompilação no editor, sem erros;
+  - Play Mode em QHD (2560×1440, paisagem) com o banner de teste:
+    - a Vanguarda-7 (primeira nave) abriu no centro;
+    - tocar no card do Bastião o trouxe ao centro e o selecionou;
+    - o Espectro (bloqueado) apareceu inteiro, com o selo "BLOQUEADA" e os
+      botões de preço;
+    - a Orion (última nave) também centralizou;
+  - Play Mode em 9:16 (retrato): a Vanguarda-7 abriu centralizada e o card
+    coube inteiro.
+
+  Prints: `print_hangar_paisagem_selecao.jpg`,
+  `print_hangar_paisagem_bloqueada.jpg`, `print_hangar_paisagem_ultima.jpg` e
+  `print_hangar_retrato.jpg`. A nave selecionada foi devolvida à Vanguarda-7
+  depois do teste.
+- **Observações:**
+  - Tocar num card bloqueado continua tentando comprar a nave na hora. Isso
+    já era assim e não foi alterado; agora o card também vai para o centro.
+  - Ao sair do Play aparece um `NullReferenceException` em
+    `GameUI.UnsubscribeRun` (`GameUI.cs:318`). Ele já existia e não tem
+    relação com esta alteração.
+- **Pendências:** conferir em aparelho real, sobretudo em celulares em
+  paisagem com tela mais baixa que 16:9.
 
 ### 26/11/2026 — Naves de Natal fora do sorteio de aliadas
 
