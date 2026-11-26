@@ -405,13 +405,16 @@ namespace AstroCrawler
             }
 
             evolutionScreen.gameObject.SetActive(false);
+            HideWingmanScreen();
             endScreen.gameObject.SetActive(false);
             HideUpgradeDetails();
 
             switch (phase)
             {
                 case RunPhase.UpgradeSelection:
-                    ShowEvolutionScreen();
+                    // Squadron: every few levels the pick is an allied ship, not an upgrade.
+                    if (run.isWingmanPick) ShowWingmanScreen();
+                    else ShowEvolutionScreen();
                     break;
                 case RunPhase.Victory:
                     ShowEndScreen(true);
@@ -494,6 +497,7 @@ namespace AstroCrawler
             TickToast();
             RefreshHud();
             if (specialControl != null) specialControl.Refresh();
+            RefreshWingSpecialControls();
             TickCoinsAd();
             TickRewards();
             TickAccountRow();

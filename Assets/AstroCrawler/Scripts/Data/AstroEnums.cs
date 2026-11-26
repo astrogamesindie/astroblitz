@@ -143,4 +143,15 @@ namespace AstroCrawler
         Victory,
         Defeat
     }
+
+    /// <summary>
+    /// Which kind of run is selected. Squadron flies the free default ship and
+    /// trades every third level pick for an allied ship on a corner.
+    /// </summary>
+    public enum RunMode
+    {
+        Campaign,
+        Endless,
+        Squadron
+    }
 }

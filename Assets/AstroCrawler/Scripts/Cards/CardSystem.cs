@@ -73,6 +73,27 @@ namespace AstroCrawler
             }
         }
 
+        /// <summary>
+        /// Adds another ship's exclusive cards to the pool mid-run (Squadron: a
+        /// wingman joined). Cards already in the pool are skipped. Returns how
+        /// many were added.
+        /// </summary>
+        public int AddShipCards(ShipDefinition ship, GameConfig config, Func<CardDefinition, bool> isUnlocked = null)
+        {
+            if (ship == null || config == null) return 0;
+            var added = 0;
+            for (var i = 0; i < ship.deck.Count; i++)
+            {
+                var definition = config.GetCard(ship.deck[i].cardId);
+                if (definition == null || definition.category == CardCategory.Common) continue;
+                if (isUnlocked != null && !isUnlocked(definition)) continue;
+                if (pool.Exists(card => card.id == definition.id)) continue;
+                pool.Add(definition);
+                added++;
+            }
+            return added;
+        }
+
         /// <summary>Cards that can come up in this run.</summary>
         public int PoolCount
         {

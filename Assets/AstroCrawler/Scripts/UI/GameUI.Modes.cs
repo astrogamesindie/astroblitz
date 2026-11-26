@@ -1,4 +1,4 @@
-// AstroCrawler - game modes (campaign / endless) and the endless ranking.
+// AstroCrawler - game modes (campaign / endless / squadron) and the endless ranking.
 //
 // The mode button on the main menu (under the ship) opens the modes page: one
 // card per mode. Tapping a card selects that mode; JOGAR on it starts it at
@@ -24,8 +24,10 @@ namespace AstroCrawler
         private RectTransform rankingPage;
         private RectTransform campaignCard;
         private RectTransform endlessCard;
+        private RectTransform squadronCard;
         private TrueShadow campaignGlow;
         private TrueShadow endlessGlow;
+        private TrueShadow squadronGlow;
 
         private TMP_Text rankingSubtitle;
         private TMP_Text rankingBest;
@@ -45,11 +47,13 @@ namespace AstroCrawler
         // (a locked mode painted magenta read as an error). The modes differ by
         // icon, name and text, not by colour.
         private static readonly Color EndlessAccent = UIFactory.Accent;
+        private static readonly Color SquadronAccent = UIFactory.Accent;
         private static readonly Color Gold = Palette.Ambar;
         private static readonly Color Silver = Palette.Fosforo;
         private static readonly Color Bronze = new Color(0.9f, 0.58f, 0.35f);
 
         private static Sprite IconEndless => ArtLibrary.ArtOr("ic_infinity", ArtLibrary.IconStages);
+        private static Sprite IconSquadron => ArtLibrary.ArtOr("ic_esquadrao", ArtLibrary.Ship);
         private static Sprite IconRanking => ArtLibrary.ArtOr("ic_trofeu", ArtLibrary.IconStarFilled);
 
         // ------------------------------------------------------------------
@@ -63,18 +67,21 @@ namespace AstroCrawler
             modesPage = BuildMenuPage("ModesPage", out title);
 
             var portrait = UIFactory.Portrait;
-            // Shorter than before (660): the description is two or three lines
-            // and the cards had an empty band in the middle.
-            var size = portrait ? new Vector2(960f, 590f) : new Vector2(800f, 620f);
-            var campaignAt = portrait ? new Vector2(0f, 330f) : new Vector2(-430f, -40f);
-            var endlessAt = portrait ? new Vector2(0f, -300f) : new Vector2(430f, -40f);
+            // Three modes: stacked in portrait (the title keeps its place at the
+            // top), side by side in landscape.
+            var size = portrait ? new Vector2(960f, 540f) : new Vector2(580f, 620f);
+            var campaignAt = portrait ? new Vector2(0f, 520f) : new Vector2(-610f, -40f);
+            var endlessAt = portrait ? new Vector2(0f, -40f) : new Vector2(0f, -40f);
+            var squadronAt = portrait ? new Vector2(0f, -600f) : new Vector2(610f, -40f);
 
             // A compass, like the menu's mode button (the old "Campaign" glyph read as ▶).
             campaignCard = BuildModeCard("Campaign", CampaignAccent, MenuCampaignIcon, size, campaignAt,
                 out campaignGlow, SelectCampaignMode, PlayCampaignMode, OpenCampaignLevels);
             endlessCard = BuildModeCard("Endless", EndlessAccent, IconEndless, size, endlessAt,
                 out endlessGlow, SelectEndlessMode, PlayEndlessMode, () => OpenMenuSection(MenuSection.Ranking));
-            if (portrait) PlaceTitleAbove(modesPage, campaignAt.y + size.y * 0.5f + 20f);
+            // No second page to open: JOGAR takes the whole bottom row.
+            squadronCard = BuildModeCard("Squadron", SquadronAccent, IconSquadron, size, squadronAt,
+                out squadronGlow, SelectSquadronMode, PlaySquadronMode, null);
 
             modesPage.gameObject.SetActive(false);
         }
@@ -122,7 +129,7 @@ namespace AstroCrawler
             label.characterSpacing = 5f;
             label.textWrappingMode = TextWrappingModes.NoWrap;
             label.enableAutoSizing = true;
-            label.fontSizeMin = 36f;
+            label.fontSizeMin = 28f;
             label.fontSizeMax = 58f;
 
             var badge = UIFactory.Pill(rect, "SelectedBadge", "", accent, new Color(0.03f, 0.04f, 0.07f), 52f, 26,
@@ -133,7 +140,8 @@ namespace AstroCrawler
             badge.pixelsPerUnitMultiplier = 0.4f;
 
             var description = UIFactory.Label(rect, "Description", "", 34, UIFactory.InkDim, TextAlignmentOptions.TopLeft);
-            UIFactory.Place(description.rectTransform, new Vector2(0.5f, 1f), new Vector2(0f, -206f), new Vector2(size.x - 90f, 150f));
+            UIFactory.Place(description.rectTransform, new Vector2(0.5f, 1f), new Vector2(0f, -206f),
+                new Vector2(size.x - 90f, Mathf.Min(150f, size.y - 438f)));
             description.enableAutoSizing = true;
             description.fontSizeMin = UIFactory.TextCaption;
             description.fontSizeMax = 34f;
@@ -148,11 +156,18 @@ namespace AstroCrawler
             status.fontSizeMax = 36f;
 
             var buttonWidth = (size.x - 90f - 24f) * 0.5f;
-            var more = UIFactory.Button(rect, "Secondary", "", UIFactory.PanelDeep, UIFactory.Ink, UIFactory.TextButton, Sound.Navigate);
-            UIFactory.Place(more.GetComponent<RectTransform>(), new Vector2(0f, 0f), new Vector2(45f, 36f),
-                new Vector2(buttonWidth, 116f));
-            StyleCutAction(more, cutFrame, WithAlpha(accent, 0.75f), UIFactory.ActionFill);
-            Rebind(more, secondary);
+            if (secondary != null)
+            {
+                var more = UIFactory.Button(rect, "Secondary", "", UIFactory.PanelDeep, UIFactory.Ink, UIFactory.TextButton, Sound.Navigate);
+                UIFactory.Place(more.GetComponent<RectTransform>(), new Vector2(0f, 0f), new Vector2(45f, 36f),
+                    new Vector2(buttonWidth, 116f));
+                StyleCutAction(more, cutFrame, WithAlpha(accent, 0.75f), UIFactory.ActionFill);
+                Rebind(more, secondary);
+            }
+            else
+            {
+                buttonWidth = size.x - 90f;
+            }
 
             var start = UIFactory.Button(rect, "Play", "", Darken(accent, 0.42f), UIFactory.Ink, UIFactory.TextButton, Sound.Play);
             UIFactory.Place(start.GetComponent<RectTransform>(), new Vector2(1f, 0f), new Vector2(-45f, 36f),
@@ -165,7 +180,7 @@ namespace AstroCrawler
 
         private void SelectCampaignMode()
         {
-            var changed = run.isEndless;
+            var changed = run.isInfinite;
             Sfx.Play(changed ? Sound.Select : Sound.Tap);
             run.SelectCampaign();
             RefreshModesPage();
@@ -183,6 +198,25 @@ namespace AstroCrawler
             Sfx.Play(Sound.Select);
             RefreshModesPage();
             UIFactory.FlashGlow(endlessGlow, WithAlpha(EndlessAccent, 1f), WithAlpha(EndlessAccent, SelectedGlow), 0.5f);
+        }
+
+        private void SelectSquadronMode()
+        {
+            var changed = !run.isSquadron;
+            if (!run.SelectSquadron())
+            {
+                Sfx.Play(Sound.Denied);
+                return;
+            }
+            Sfx.Play(changed ? Sound.Select : Sound.Tap);
+            RefreshModesPage();
+            if (changed) UIFactory.FlashGlow(squadronGlow, WithAlpha(SquadronAccent, 1f), WithAlpha(SquadronAccent, SelectedGlow), 0.5f);
+        }
+
+        private void PlaySquadronMode()
+        {
+            if (!run.SelectSquadron()) return;
+            StartSelectedShip();
         }
 
         private void PlayCampaignMode()
@@ -215,7 +249,7 @@ namespace AstroCrawler
 
             var ship = config.GetShip(selectedShipId);
             var shipName = ship != null ? GameLocalization.Content(ship.name).ToUpperInvariant() : "";
-            RefreshModeCard(campaignCard, campaignGlow, CampaignAccent, true, !run.isEndless,
+            RefreshModeCard(campaignCard, campaignGlow, CampaignAccent, true, !run.isInfinite,
                 L("CAMPANHA", "CAMPAIGN", "CAMPAÑA"),
                 L("10 níveis, cada um termina com um chefe. Cada nave tem o próprio progresso.",
                     "10 levels, each ending with a boss. Every ship has its own progress.",
@@ -230,6 +264,20 @@ namespace AstroCrawler
                 unlocked ? EndlessDescription() + "\n" + EndlessScoreDescription() : EndlessUnlockDescription(),
                 EndlessScore.Best > 0 ? L("RECORDE ", "BEST ", "RÉCORD ") + EndlessScore.Format(EndlessScore.Best) : "",
                 L("RANKING", "RANKING", "RANKING"));
+
+            var standard = config.GetShip(ShipUnlocks.FreeShipId);
+            var standardName = standard != null ? GameLocalization.Content(standard.name).ToUpperInvariant() : "";
+            RefreshModeCard(squadronCard, squadronGlow, SquadronAccent, true, run.isSquadron,
+                RunController.SquadronName,
+                string.Format(L(
+                    "Voe com a nave padrão. A cada {0} níveis, troque a melhoria por uma nave aliada (até {1}, em triângulo).",
+                    "Fly the standard ship. Every {0} levels, trade the upgrade for an allied ship (up to {1}, in a triangle).",
+                    "Vuela con la nave estándar. Cada {0} niveles, cambia la mejora por una nave aliada (hasta {1}, en triángulo)."),
+                    RunController.SquadronPickEvery, SquadronWing.SlotCount),
+                standardName + (RunController.SquadronBest > 0
+                    ? "   ·   " + L("RECORDE ", "BEST ", "RÉCORD ") + EndlessScore.Format(RunController.SquadronBest)
+                    : ""),
+                "");
         }
 
         private static string EndlessScoreDescription() => L(
@@ -318,6 +366,13 @@ namespace AstroCrawler
         /// <summary>The menu's mode button: which mode, and the level or the record under it.</summary>
         private string ModeLine()
         {
+            if (run.isSquadron)
+            {
+                var line = "<color=" + UIFactory.ColorTag(SquadronAccent) + ">" + RunController.SquadronName + "</color>";
+                if (RunController.SquadronBest > 0)
+                    line += "  ·  " + L("RECORDE ", "BEST ", "RÉCORD ") + EndlessScore.Format(RunController.SquadronBest);
+                return line;
+            }
             if (run.isEndless)
             {
                 var line = "<color=" + UIFactory.ColorTag(EndlessAccent) + ">" + StageCatalog.EndlessName + "</color>";

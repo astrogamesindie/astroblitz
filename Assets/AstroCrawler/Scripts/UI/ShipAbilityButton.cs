@@ -77,13 +77,41 @@ namespace AstroCrawler
         private ShipSpecialDefinition shownSpecial;
         private bool shownReady;
 
+        // "Ready" animation: while the ability can be used the button breathes,
+        // a soft halo pulses behind it and a hexagon ring keeps rippling out.
+        // Unscaled time, so a hit stop does not freeze it.
+        private const float BreathePeriod = 1.1f;
+        private const float BreatheScale = 0.06f;
+        private const float RipplePeriod = 1.4f;
+        private const float RippleGrowth = 0.5f;
+        private Image readyHalo;
+        private Image readyRing;
+        private float readySince;
+
+        /// <summary>-1: the ship's own special. 0..2: a Squadron wingman's (PlayerShip.GetWingSpecial).</summary>
+        private int wingIndex = -1;
+
+        /// <summary>Distance between two ability buttons in the row (the wingmen's go left of the main one).</summary>
+        public const float RowStep = 172f;
+
         public void Bind(RunController controller)
         {
+            Bind(controller, -1);
+        }
+
+        public void Bind(RunController controller, int wingIndex)
+        {
             run = controller;
+            this.wingIndex = wingIndex;
+            var root = (RectTransform)transform;
+            // Main button in the bottom-right corner; each wingman's one step further left.
+            UIFactory.Place(root, new Vector2(1f, 0f), new Vector2(-32f - (wingIndex + 1) * RowStep, 32f),
+                new Vector2(260f, 226f));
+            root.localScale = Vector3.one * (wingIndex < 0 ? 1f : 0.8f);
+            root.pivot = new Vector2(0.5f, 0f);
+            root.anchoredPosition = new Vector2(-32f - 130f - (wingIndex + 1) * RowStep, 32f);
             if (button == null)
             {
-                var root = (RectTransform)transform;
-                UIFactory.Place(root, new Vector2(1f, 0f), new Vector2(-32f, 32f), new Vector2(260f, 226f));
 
                 // Gameplay: mantém a moldura original (o kit Sci-Fi veste só os menus).
                 using (UIFactory.GameplayFrames())
@@ -119,11 +147,70 @@ namespace AstroCrawler
                 UIFactory.Stretch(charge.rectTransform);
                 charge.transform.SetAsFirstSibling();
 
-                button.onClick.AddListener(() => { if (run != null) run.ActivateShipSpecial(); Refresh(); });
+                BuildReadyFx(root);
+
+                button.onClick.AddListener(() =>
+                {
+                    if (run != null)
+                    {
+                        if (this.wingIndex < 0) run.ActivateShipSpecial();
+                        else run.ActivateWingSpecial(this.wingIndex);
+                    }
+                    Refresh();
+                });
             }
             shownSpecial = null;
             shownReady = false;
             Refresh();
+        }
+
+        private void BuildReadyFx(RectTransform root)
+        {
+            var center = new Vector2(0f, ButtonSize * HexAspect * 0.5f);
+            readyHalo = UIFactory.Rect(root, "ReadyHalo", WithAlpha(color, 0f), ArtLibrary.Glow);
+            readyHalo.raycastTarget = false;
+            UIFactory.Place(readyHalo.rectTransform, new Vector2(0.5f, 0f), center, Vector2.one * ButtonSize * 1.9f);
+            readyHalo.rectTransform.pivot = new Vector2(0.5f, 0.5f);
+            readyHalo.rectTransform.anchoredPosition = center;
+            readyHalo.transform.SetAsFirstSibling();
+
+            readyRing = UIFactory.Rect(root, "ReadyRing", WithAlpha(color, 0f), ArtLibrary.IconHexFrame);
+            readyRing.raycastTarget = false;
+            UIFactory.Place(readyRing.rectTransform, new Vector2(0.5f, 0f), center,
+                new Vector2(ButtonSize, ButtonSize * HexAspect));
+            readyRing.rectTransform.pivot = new Vector2(0.5f, 0.5f);
+            readyRing.rectTransform.anchoredPosition = center;
+            // Over the halo, under the button.
+            readyRing.transform.SetSiblingIndex(1);
+        }
+
+        private void TickReadyFx()
+        {
+            if (button == null) return;
+            if (!shownReady)
+            {
+                if (button.transform.localScale != Vector3.one) button.transform.localScale = Vector3.one;
+                if (readyHalo != null && readyHalo.color.a > 0f) readyHalo.color = WithAlpha(color, 0f);
+                if (readyRing != null && readyRing.color.a > 0f) readyRing.color = WithAlpha(color, 0f);
+                return;
+            }
+
+            var t = Time.unscaledTime - readySince;
+            // 0..1..0, starting at rest so the punch on becoming ready reads first.
+            var breathe = 0.5f - 0.5f * Mathf.Cos(t * Mathf.PI * 2f / BreathePeriod);
+            button.transform.localScale = Vector3.one * (1f + BreatheScale * breathe);
+            if (readyHalo != null)
+            {
+                readyHalo.color = WithAlpha(color, 0.18f + 0.32f * breathe);
+                readyHalo.transform.localScale = Vector3.one * (0.92f + 0.1f * breathe);
+            }
+            if (readyRing != null)
+            {
+                var ripple = Mathf.Repeat(t, RipplePeriod) / RipplePeriod;
+                var eased = 1f - (1f - ripple) * (1f - ripple);
+                readyRing.transform.localScale = Vector3.one * (1f + RippleGrowth * eased);
+                readyRing.color = WithAlpha(color, 0.85f * (1f - ripple));
+            }
         }
 
         private void ApplyColor(Color next)
@@ -138,6 +225,11 @@ namespace AstroCrawler
         public void Refresh()
         {
             if (button == null || run == null) return;
+            if (wingIndex >= 0)
+            {
+                RefreshWing();
+                return;
+            }
             var ship = run.ship;
             var special = ship != null ? ship.Special : null;
             var exists = special != null && special.kind != ShipSpecialKind.None;
@@ -147,6 +239,7 @@ namespace AstroCrawler
                 buttonGroup.alpha = 0.35f;
                 charge.fillAmount = 0f;
                 shownReady = false;
+                TickReadyFx();
                 return;
             }
             buttonGroup.alpha = 1f;
@@ -168,14 +261,52 @@ namespace AstroCrawler
                 charge.fillAmount = amount;
             }
 
-            var ready = run.CanActivateSpecial;
+            ShowReady(run.CanActivateSpecial);
+        }
+
+        /// <summary>A wingman's button: hidden until that wingman (with a special) has joined.</summary>
+        private void RefreshWing()
+        {
+            var ship = run.ship;
+            var slot = ship != null ? ship.GetWingSpecial(wingIndex) : null;
+            var visible = slot != null;
+            if (gameObject.activeSelf != visible)
+            {
+                gameObject.SetActive(visible);
+                if (visible) Juice.PopIn(transform, 0.8f, 0.35f, 0f, true);
+            }
+            if (!visible)
+            {
+                shownSpecial = null;
+                shownReady = false;
+                TickReadyFx();
+                return;
+            }
+            buttonGroup.alpha = 1f;
+            if (shownSpecial != slot.special)
+            {
+                shownSpecial = slot.special;
+                ApplyColor(ColorFor(slot.owner));
+                icon.sprite = IconFor(slot.special.kind);
+            }
+            var total = ship.WingSpecialCooldown(slot);
+            var amount = total <= 0f ? 1f : Mathf.Clamp01(1f - slot.cooldownLeft / total);
+            if (Mathf.Abs(charge.fillAmount - amount) > 0.004f || (amount >= 1f && charge.fillAmount < 1f))
+                charge.fillAmount = amount;
+            ShowReady(run.CanActivateWingSpecial(wingIndex));
+        }
+
+        private void ShowReady(bool ready)
+        {
             if (button.interactable != ready) button.interactable = ready;
             if (shownReady != ready)
             {
                 shownReady = ready;
+                readySince = Time.unscaledTime;
                 UIFactory.FadeGlow(glow, new Color(color.r, color.g, color.b, ready ? 0.7f : 0f), 0.25f);
                 if (ready) Juice.Punch(icon.transform, 0.25f, 0.3f);
             }
+            TickReadyFx();
         }
     }
 }
