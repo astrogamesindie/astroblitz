@@ -267,15 +267,30 @@ namespace AstroCrawler
             var ringRadius = shipSize * 0.8f;
             var nameY = shipY - ringRadius - 40f;
 
+            // Everything below goes into one group that HeroFit shrinks when
+            // the zone is shorter than the design (short screens, the banner):
+            // the level chip used to run into the "MODO DE JOGO" caption.
+            var heroTop = shipY + ringRadius;
+            var heroBottom = nameY - 66f - 26f;
+            var content = UIFactory.NewRect(zone, "HeroContent");
+            UIFactory.Place(content, new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(1000f, heroTop - heroBottom + 16f));
+            // Children keep their old coordinates (the rect's centre stays on
+            // the zone's centre); the pivot, which scaling turns around, sits
+            // on the group's visual centre.
+            var heroCenter = (heroTop + heroBottom) * 0.5f;
+            content.pivot = new Vector2(0.5f, 0.5f + heroCenter / content.sizeDelta.y);
+            content.anchoredPosition = new Vector2(0f, heroCenter);
+            zone.gameObject.AddComponent<HeroFit>().content = content;
+
             // A round glow that fades on every side, kept faint so the ship's
             // colour does not turn into a muddy disc.
-            menuHeroGlow = UIFactory.Rect(zone, "HeroGlow", WithAlpha(UIFactory.Accent, 0.07f), ArtLibrary.CircleGlow);
+            menuHeroGlow = UIFactory.Rect(content, "HeroGlow", WithAlpha(UIFactory.Accent, 0.07f), ArtLibrary.CircleGlow);
             UIFactory.Place(menuHeroGlow.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, shipY),
                 Vector2.one * ringRadius * 2.3f);
             menuHeroGlow.raycastTarget = false;
 
             // A dashed ring turning slowly behind the hull: the hangar's scanner.
-            menuHeroRing = UIFactory.Rect(zone, "HeroRing", WithAlpha(UIFactory.Accent, 0.3f),
+            menuHeroRing = UIFactory.Rect(content, "HeroRing", WithAlpha(UIFactory.Accent, 0.3f),
                 ArtLibrary.CircleDash != null ? ArtLibrary.CircleDash : ArtLibrary.CircleOutline);
             menuHeroRing.preserveAspect = true;
             menuHeroRing.raycastTarget = false;
@@ -290,16 +305,16 @@ namespace AstroCrawler
             // and the ring's turn are motion enough.
             var padY = shipY - shipSize * 0.5f + 10f;
             var padSize = new Vector2(shipSize * 1.13f, shipSize * 0.29f);
-            menuHeroPadGlow = UIFactory.Rect(zone, "HeroPadGlow", WithAlpha(UIFactory.Accent, 0.18f), ArtLibrary.CircleGlow);
+            menuHeroPadGlow = UIFactory.Rect(content, "HeroPadGlow", WithAlpha(UIFactory.Accent, 0.18f), ArtLibrary.CircleGlow);
             UIFactory.Place(menuHeroPadGlow.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, padY),
                 padSize * 1.35f);
             menuHeroPadGlow.raycastTarget = false;
-            menuHeroPad = UIFactory.Rect(zone, "HeroPad", WithAlpha(UIFactory.Accent, 0.6f), ArtLibrary.CircleOutline);
+            menuHeroPad = UIFactory.Rect(content, "HeroPad", WithAlpha(UIFactory.Accent, 0.6f), ArtLibrary.CircleOutline);
             UIFactory.Place(menuHeroPad.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, padY), padSize);
             menuHeroPad.raycastTarget = false;
             UIFactory.GlowShadow(menuHeroPad, WithAlpha(UIFactory.Accent, 0.5f), 16f, 0.05f);
 
-            menuHero = UIFactory.Rect(zone, "Hero", UIFactory.Accent, ArtLibrary.Ship);
+            menuHero = UIFactory.Rect(content, "Hero", UIFactory.Accent, ArtLibrary.Ship);
             menuHero.preserveAspect = true;
             menuHero.raycastTarget = false;
             UIFactory.Place(menuHero.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, shipY),
@@ -318,7 +333,7 @@ namespace AstroCrawler
             var swapX = ringRadius * Mathf.Sqrt(1f - swapAngle * swapAngle);
             var swapGlass = ArtLibrary.Ui("Kit/sf_redondo_vidro");
             var swapLine = ArtLibrary.Ui("Kit/sf_redondo_linha");
-            var swap = UIFactory.Rect(zone, "HeroSwap", UIFactory.PanelSoft, swapGlass != null ? swapGlass : ArtLibrary.CircleFilled);
+            var swap = UIFactory.Rect(content, "HeroSwap", UIFactory.PanelSoft, swapGlass != null ? swapGlass : ArtLibrary.CircleFilled);
             UIFactory.Place(swap.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(swapX, shipY + ringRadius * swapAngle),
                 Vector2.one * swapSize);
             swap.raycastTarget = false;
@@ -332,7 +347,7 @@ namespace AstroCrawler
             UIFactory.Place(swapIcon.rectTransform, new Vector2(0.5f, 0.5f), Vector2.zero, Vector2.one * swapSize * 0.5f);
 
             // The hero and its name are one big tap target that opens the hangar.
-            var heroTap = UIFactory.Rect(zone, "HeroTap", Color.clear);
+            var heroTap = UIFactory.Rect(content, "HeroTap", Color.clear);
             heroTap.raycastTarget = true;
             var heroButton = heroTap.gameObject.AddComponent<Button>();
             heroButton.targetGraphic = heroTap;
@@ -340,7 +355,7 @@ namespace AstroCrawler
             UIFactory.SetClickSound(heroButton, Sound.Navigate);
             Rebind(heroButton, () => OpenMenuSection(MenuSection.Ships));
 
-            menuShipName = UIFactory.Label(zone, "ShipName", "", 50, UIFactory.Accent,
+            menuShipName = UIFactory.Label(content, "ShipName", "", 50, UIFactory.Accent,
                 TextAlignmentOptions.Center, true);
             UIFactory.Place(menuShipName.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, nameY),
                 new Vector2(UIFactory.Pick(760f, 820f), 62f));
@@ -354,7 +369,7 @@ namespace AstroCrawler
             // The ship's level (the one the hangar cards show), as a chip:
             // under the name.
             var chipSize = new Vector2(220f, 52f);
-            menuLevelChip = UIFactory.Pill(zone, "ShipLevel", "", Palette.Vidro(Palette.Ciano, 0.12f, 0.9f),
+            menuLevelChip = UIFactory.Pill(content, "ShipLevel", "", Palette.Vidro(Palette.Ciano, 0.12f, 0.9f),
                 UIFactory.Ink, chipSize.y, UIFactory.TextCaption);
             UIFactory.Place(menuLevelChip.rectTransform, new Vector2(0.5f, 0.5f),
                 new Vector2(0f, nameY - 66f), chipSize);
@@ -502,7 +517,7 @@ namespace AstroCrawler
             menuStageLine.text = ModeLine();
             if (menuModeIcon != null)
             {
-                menuModeIcon.sprite = run.isEndless ? IconEndless : MenuCampaignIcon;
+                menuModeIcon.sprite = run.isSquadron ? IconSquadron : run.isEndless ? IconEndless : MenuCampaignIcon;
                 menuModeIcon.color = run.isEndless ? EndlessAccent : UIFactory.Accent;
             }
             RefreshMenuStageTrack();
@@ -519,8 +534,8 @@ namespace AstroCrawler
         private void RefreshMenuStageTrack()
         {
             if (menuStageTrack == null) return;
-            menuStageTrack.gameObject.SetActive(!run.isEndless);
-            if (run.isEndless) return;
+            menuStageTrack.gameObject.SetActive(!run.isInfinite);
+            if (run.isInfinite) return;
             for (var i = 0; i < menuStageSegments.Count; i++)
             {
                 var cleared = StageProgress.IsCleared(selectedShipId, i);
@@ -937,7 +952,7 @@ namespace AstroCrawler
                 return;
             }
 
-            var changed = run.isEndless || run.stageIndex != index;
+            var changed = run.isInfinite || run.stageIndex != index;
             Sfx.Play(changed ? Sound.Select : Sound.Tap);
             run.SelectStage(index, selectedShipId);
             RefreshStageSelection();
@@ -1053,7 +1068,7 @@ namespace AstroCrawler
             var shipId = selectedShipId;
             var ship = config.GetShip(shipId);
             // In endless no campaign level shows as selected.
-            var current = run.isEndless ? -1 : run.stageIndex;
+            var current = run.isInfinite ? -1 : run.stageIndex;
 
             if (stageProgressLabel != null)
             {

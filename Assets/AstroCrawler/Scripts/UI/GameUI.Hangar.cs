@@ -550,10 +550,11 @@ namespace AstroCrawler
 
         private void StartSelectedShip()
         {
-            var ship = config.GetShip(selectedShipId);
+            // Squadron always flies the free default ship, whatever the hangar has selected.
+            var ship = config.GetShip(run.isSquadron ? ShipUnlocks.FreeShipId : selectedShipId);
             if (ship != null)
             {
-                run.ClampStageToShip(ship.id);
+                if (!run.isSquadron) run.ClampStageToShip(ship.id);
                 WarpToStage(run.stageIndex, ship, () => run.BeginRun(ship));
             }
         }

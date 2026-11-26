@@ -335,14 +335,14 @@ namespace AstroCrawler
                 // Nunca "você morreu": a derrota termina num convite (PILARES_DE_UI §6).
                 : L("TENTE OUTRA VEZ!", "TRY AGAIN!", "¡INTÉNTALO DE NUEVO!");
             endTitle.color = victory ? UIFactory.Good : UIFactory.Accent;
-            if (run.isEndless && run.newRecord)
+            if (run.isInfinite && run.newRecord)
             {
                 endTitle.text = L("NOVO RECORDE!", "NEW BEST!", "¡NUEVO RÉCORD!");
                 endTitle.color = UIFactory.Evolved;
             }
 
             var stage = run.stageIndex;
-            var hasNext = !run.isEndless && victory && stage < StageCatalog.Count - 1;
+            var hasNext = !run.isInfinite && victory && stage < StageCatalog.Count - 1;
             var tone = victory ? UIFactory.Good : UIFactory.Accent;
             UIFactory.FadeGlow(endPanelGlow, WithAlpha(tone, 0.32f), 0.4f);
             var corners = endBrackets.GetComponentsInChildren<Image>();
@@ -378,19 +378,20 @@ namespace AstroCrawler
                     .Append("   ·   ").Append(run.modeName).Append('\n');
             }
             builder.Append(L("ONDAS ", "WAVES ", "OLEADAS ")).Append(cleared);
-            if (!run.isEndless) builder.Append(" / ").Append(RunController.WavesPerRun);
-            if (run.isEndless)
+            if (!run.isInfinite) builder.Append(" / ").Append(RunController.WavesPerRun);
+            if (run.isInfinite)
             {
+                var best = run.isSquadron ? RunController.SquadronBest : EndlessScore.Best;
                 // The score is the point of this mode: on the waves line, gold when
                 // it is a record (the title then says so), else next to the record.
                 builder.Append("   ·   ").Append(L("PONTOS ", "SCORE ", "PUNTOS ")).Append("<color=")
                     .Append(UIFactory.ColorTag(run.newRecord ? UIFactory.Evolved : UIFactory.Ink)).Append('>')
                     .Append(EndlessScore.Format(run.score)).Append("</color>");
-                if (!run.newRecord && EndlessScore.Best > 0)
-                    builder.Append("   ·   ").Append(L("RECORDE ", "BEST ", "RÉCORD ")).Append(EndlessScore.Format(EndlessScore.Best));
+                if (!run.newRecord && best > 0)
+                    builder.Append("   ·   ").Append(L("RECORDE ", "BEST ", "RÉCORD ")).Append(EndlessScore.Format(best));
             }
             builder.Append('\n');
-            var earned = run.isEndless ? run.earnedCredits : run.passiveUpgrades.lastReward;
+            var earned = run.isInfinite ? run.earnedCredits : run.passiveUpgrades.lastReward;
             var creditsTextIndex = builder.Length;
             builder.Append("<color=").Append(UIFactory.ColorTag(UIFactory.Evolved)).Append(">+")
                 .Append(earned).Append(L(" CRÉDITOS", " CREDITS", " CRÉDITOS"));

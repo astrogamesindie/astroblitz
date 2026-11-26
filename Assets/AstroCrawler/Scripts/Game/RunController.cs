@@ -22,25 +22,143 @@ namespace AstroCrawler
         public RunPhase phase { get; private set; }
         public int waveIndex { get; private set; }
         public int stageIndex { get; private set; }
-        public bool isEndless { get; private set; }
+        public RunMode mode { get; private set; }
+
+        /// <summary>The ranked endless mode (score goes to the leaderboard).</summary>
+        public bool isEndless => mode == RunMode.Endless;
+
+        /// <summary>Squadron: default ship, a wingman instead of an upgrade every SquadronPickEvery levels.</summary>
+        public bool isSquadron => mode == RunMode.Squadron;
+
+        /// <summary>Endless or Squadron: waves never run out, the run ends on death.</summary>
+        public bool isInfinite => mode != RunMode.Campaign;
+
         public bool endlessUnlocked => StageCatalog.EndlessUnlocked(config);
         public int completedWaves { get; private set; }
         public int earnedCredits => runCreditsPaid;
-        public string modeName => isEndless ? StageCatalog.EndlessName : StageCatalog.Name(stageIndex);
-        public int waveTrackLength => isEndless ? StageCatalog.EndlessCycleLength : WavesPerRun;
-        public int waveTrackIndex => isEndless ? Mathf.Max(0, waveIndex - 1) % StageCatalog.EndlessCycleLength : waveIndex - 1;
+        public string modeName => isSquadron ? SquadronName : isEndless ? StageCatalog.EndlessName : StageCatalog.Name(stageIndex);
+        public int waveTrackLength => isInfinite ? StageCatalog.EndlessCycleLength : WavesPerRun;
+        public int waveTrackIndex => isInfinite ? Mathf.Max(0, waveIndex - 1) % StageCatalog.EndlessCycleLength : waveIndex - 1;
+
+        public static string SquadronName => GameLocalization.Choose("MODO ESQUADRÃO", "SQUADRON MODE", "MODO ESCUADRÓN");
+
+        /// <summary>Every this many levels the pick is a wingman instead of an upgrade (while a corner is free).</summary>
+        public const int SquadronPickEvery = 3;
+
+        private const string SquadronBestKey = "AstroCrawler.Squadron.v1.best";
+
+        /// <summary>Best Squadron score on this device (kept apart from the endless ranking).</summary>
+        public static int SquadronBest => PlayerPrefs.GetInt(SquadronBestKey, 0);
 
         public bool SelectEndless()
         {
             if (phase != RunPhase.ShipSelection || !endlessUnlocked) return false;
-            isEndless = true;
+            mode = RunMode.Endless;
+            return true;
+        }
+
+        /// <summary>Squadron is open from the start: it always flies the free ship.</summary>
+        public bool SelectSquadron()
+        {
+            if (phase != RunPhase.ShipSelection) return false;
+            mode = RunMode.Squadron;
             return true;
         }
 
         /// <summary>Back to the campaign, on the stage that was selected before.</summary>
         public void SelectCampaign()
         {
-            if (phase == RunPhase.ShipSelection) isEndless = false;
+            if (phase == RunPhase.ShipSelection) mode = RunMode.Campaign;
+        }
+
+        // ------------------------------------------------------------------
+        // Squadron
+        // ------------------------------------------------------------------
+
+        /// <summary>The allied ships of the current Squadron run; null in the other modes.</summary>
+        public SquadronWing wing { get; private set; }
+
+        /// <summary>True while the pick on screen is a wingman (ship + corner) rather than an upgrade.</summary>
+        public bool isWingmanPick { get; private set; }
+
+        private readonly System.Collections.Generic.List<ShipDefinition> wingmanOffers =
+            new System.Collections.Generic.List<ShipDefinition>();
+
+        /// <summary>The ships offered for the wingman pick on screen (up to three).</summary>
+        public System.Collections.Generic.IReadOnlyList<ShipDefinition> WingmanOffers => wingmanOffers;
+
+        /// <summary>The level the pick on screen pays for.</summary>
+        public int claimingLevel => level - pendingPicksAfterThis;
+
+        private bool ShouldOfferWingman()
+        {
+            return isSquadron && wing != null && wing.FreeSlots > 0 && !startingPick &&
+                claimingLevel % SquadronPickEvery == 0;
+        }
+
+        /// <summary>
+        /// Ships that can be offered as wingmen. The seasonal Christmas ships
+        /// (noel, arvore, neve - ShipUnlocks.IsAvailableForAcquisition) stay
+        /// out: they are not finished yet.
+        /// </summary>
+        public static bool IsWingmanEligible(ShipDefinition ship)
+        {
+            return ship != null && ShipUnlocks.IsAvailableForAcquisition(ship.id);
+        }
+
+        private bool PrepareWingmanOffers()
+        {
+            wingmanOffers.Clear();
+            var candidates = new System.Collections.Generic.List<ShipDefinition>();
+            for (var i = 0; i < config.ships.Count; i++)
+            {
+                var ship = config.ships[i];
+                if (!IsWingmanEligible(ship) || wing.Contains(ship.id)) continue;
+                candidates.Add(ship);
+            }
+            // Every eligible ship already flies with us: repeats are allowed then.
+            if (candidates.Count == 0)
+            {
+                for (var i = 0; i < config.ships.Count; i++)
+                    if (IsWingmanEligible(config.ships[i])) candidates.Add(config.ships[i]);
+            }
+            candidates.Shuffle();
+            for (var i = 0; i < candidates.Count && wingmanOffers.Count < CardSystem.ChoiceCount; i++)
+                wingmanOffers.Add(candidates[i]);
+            return wingmanOffers.Count > 0;
+        }
+
+        /// <summary>Prepares the next pick: a wingman on every SquadronPickEvery-th level, else upgrades.</summary>
+        private bool PrepareNextPick()
+        {
+            isWingmanPick = false;
+            if (ShouldOfferWingman() && PrepareWingmanOffers())
+            {
+                isWingmanPick = true;
+                return true;
+            }
+            cards.PrepareChoices();
+            return cards.Choices.Count > 0;
+        }
+
+        /// <summary>Places the chosen ship on a free corner; resumes the fight like an upgrade pick.</summary>
+        public bool ConfirmWingman(ShipDefinition chosen, int slot)
+        {
+            if (phase != RunPhase.UpgradeSelection || !isWingmanPick || ship == null || !ship.isAlive ||
+                wing == null || chosen == null || !wingmanOffers.Contains(chosen))
+            {
+                return false;
+            }
+            if (!wing.Place(chosen, slot)) return false;
+            // The wingman brings its special (a button next to the main one)
+            // and its exclusive cards, which can now come up in the picks.
+            ship.AddWingSpecial(chosen);
+            var shipId = chosen.id;
+            cards.AddShipCards(chosen, config, card => cardUnlocks.IsUnlocked(card, shipId));
+            isWingmanPick = false;
+            wingmanOffers.Clear();
+            ResumeAfterPick();
+            return true;
         }
 
         /// <summary>Endless points of this run (EndlessScore); 0 in the campaign.</summary>
@@ -70,7 +188,7 @@ namespace AstroCrawler
         {
             get
             {
-                if (isEndless) return level >= 12;
+                if (isInfinite) return level >= 12;
                 return config != null && config.progression.maxLevel > 0 &&
                     level >= config.progression.maxLevel;
             }
@@ -139,7 +257,7 @@ namespace AstroCrawler
 
         /// <summary>True when the run that just ended beat its stage for the first time.</summary>
         public bool stageNewlyCleared { get; private set; }
-        public bool CanRevive => !isEndless && phase == RunPhase.Defeat && !reviveUsed && ship != null && !ship.isAlive;
+        public bool CanRevive => !isInfinite && phase == RunPhase.Defeat && !reviveUsed && ship != null && !ship.isAlive;
 
         public float runDuration
         {
@@ -217,7 +335,7 @@ namespace AstroCrawler
         {
             if (phase != RunPhase.ShipSelection || index < 0 || index >= StageCatalog.Count) return false;
             if (!StageProgress.IsUnlocked(shipId, index)) return false;
-            isEndless = false;
+            mode = RunMode.Campaign;
             SetStage(index);
             return true;
         }
@@ -251,7 +369,7 @@ namespace AstroCrawler
         /// <summary>Starts a run in a given stage, which also becomes the selected one.</summary>
         public void BeginRun(ShipDefinition definition, int stage)
         {
-            isEndless = false;
+            mode = RunMode.Campaign;
             stageIndex = Mathf.Clamp(stage, 0, StageCatalog.Count - 1);
             PlayerPrefs.SetInt(SelectedStageKey, stageIndex);
             ProgressSnapshot.SaveLocal();
@@ -269,6 +387,17 @@ namespace AstroCrawler
             return CanActivateSpecial && ship.ActivateSpecial();
         }
 
+        /// <summary>A Squadron wingman's special (index in PlayerShip's borrowed specials).</summary>
+        public bool CanActivateWingSpecial(int index) => phase == RunPhase.WaveInProgress && Time.timeScale > 0f &&
+            ship != null && ship.CanActivateWingSpecial(index) &&
+            (StoreUpdateGate.Instance == null || !StoreUpdateGate.Instance.BlocksPlay) &&
+            (AndroidAds.Instance == null || !AndroidAds.Instance.Showing);
+
+        public bool ActivateWingSpecial(int index)
+        {
+            return CanActivateWingSpecial(index) && ship.ActivateWingSpecial(index);
+        }
+
         public void BeginRun(ShipDefinition definition)
         {
             if (StoreUpdateGate.Instance != null && StoreUpdateGate.Instance.BlocksPlay) return;
@@ -277,6 +406,12 @@ namespace AstroCrawler
             if (phase == RunPhase.WaveInProgress || phase == RunPhase.UpgradeSelection) RecordEndlessScore();
             TearDown();
 
+            // Squadron always flies the free default ship, whatever the hangar has selected.
+            if (isSquadron)
+            {
+                var standard = config.GetShip(ShipUnlocks.FreeShipId);
+                if (standard != null) definition = standard;
+            }
             shipDefinition = definition;
             runTime = 0f;
             waveIndex = 0;
@@ -298,6 +433,7 @@ namespace AstroCrawler
             ship.onDied += HandleShipDied;
 
             effects.AttachRun(ship, cards);
+            if (isSquadron) wing = SquadronWing.Create(world, effects);
 
             // Level 1 comes with a pick, so no ship meets wave 1 bare.
             cards.PrepareChoices();
@@ -335,6 +471,13 @@ namespace AstroCrawler
             stageNewlyCleared = false;
             score = 0;
             newRecord = false;
+            isWingmanPick = false;
+            wingmanOffers.Clear();
+            if (wing != null)
+            {
+                Destroy(wing.gameObject);
+                wing = null;
+            }
 
             if (JuiceDirector.Instance != null)
             {
@@ -380,12 +523,12 @@ namespace AstroCrawler
             nextWaveTimer = -1f;
             waveIndex++;
 
-            var wave = isEndless ? StageCatalog.GetEndlessWave(config, waveIndex) : StageCatalog.GetWave(config, stageIndex, waveIndex);
+            var wave = isInfinite ? StageCatalog.GetEndlessWave(config, waveIndex) : StageCatalog.GetWave(config, stageIndex, waveIndex);
             if (wave == null)
             {
                 Debug.LogError("[AstroCrawler] Stage " + (stageIndex + 1) + ", wave " +
                     waveIndex + " is not defined; ending the run.");
-                FinishRun(!isEndless);
+                FinishRun(!isInfinite);
                 return;
             }
 
@@ -395,8 +538,8 @@ namespace AstroCrawler
             {
                 SetPhase(RunPhase.WaveInProgress);
             }
-            world.healthScale = isEndless ? StageCatalog.EndlessHealthScale(waveIndex) : StageCatalog.HealthScale(stageIndex, waveIndex);
-            world.stageLevel = isEndless ? Mathf.Min(StageCatalog.Count - 1, 2 + (waveIndex - 1) / StageCatalog.EndlessCycleLength)
+            world.healthScale = isInfinite ? StageCatalog.EndlessHealthScale(waveIndex) : StageCatalog.HealthScale(stageIndex, waveIndex);
+            world.stageLevel = isInfinite ? Mathf.Min(StageCatalog.Count - 1, 2 + (waveIndex - 1) / StageCatalog.EndlessCycleLength)
                 : stageIndex;
             waves.StartWave(wave);
 
@@ -423,7 +566,7 @@ namespace AstroCrawler
         private void CompleteWave()
         {
             completedWaves = waveIndex;
-            if (isEndless)
+            if (isInfinite)
             {
                 score += EndlessScore.ForWave(waveIndex);
                 PayEndlessProgress();
@@ -433,7 +576,7 @@ namespace AstroCrawler
                 onWaveCleared(waveIndex);
             }
 
-            if (!isEndless && waveIndex >= WavesPerRun)
+            if (!isInfinite && waveIndex >= WavesPerRun)
             {
                 Time.timeScale = 1f;
                 FinishRun(true);
@@ -456,7 +599,18 @@ namespace AstroCrawler
         private void RecordEndlessScore()
         {
             // Debug runs (every stage open, free credits) stay out of the record and the ranking.
-            if (!isEndless || score <= 0 || DebugMode.Enabled) return;
+            if (!isInfinite || score <= 0 || DebugMode.Enabled) return;
+            if (isSquadron)
+            {
+                // Squadron keeps a local best only: the ranking is the endless mode's.
+                newRecord = score > SquadronBest;
+                if (newRecord)
+                {
+                    PlayerPrefs.SetInt(SquadronBestKey, score);
+                    PlayerPrefs.Save();
+                }
+                return;
+            }
             newRecord = EndlessScore.Record(score);
             // Every run is sent, not only records: the platform keeps the best
             // one, and a record set offline still reaches the ranking later.
@@ -552,10 +706,10 @@ namespace AstroCrawler
                 pendingPicks = 0;
                 nextWaveTimer = -1f;
             }
-            victory = victory && !isEndless;
+            victory = victory && !isInfinite;
             var cleared = victory ? WavesPerRun : completedWaves;
             passiveUpgrades.Award(cleared, victory, shipDefinition.id, runCreditsPaid,
-                StageCatalog.RewardScale(isEndless ? 4 : stageIndex));
+                StageCatalog.RewardScale(isInfinite ? 4 : stageIndex));
             ApplyEvolutionGuarantee(cleared, victory);
             runCreditsPaid += passiveUpgrades.lastReward;
             RecordEndlessScore();
@@ -581,7 +735,7 @@ namespace AstroCrawler
         private void HandleEnemyKilled(Enemy enemy, bool byPlayerDamage)
         {
             // Scored before the XP checks: the level cap (12 in endless) stops XP, not points.
-            if (isEndless && byPlayerDamage && phase == RunPhase.WaveInProgress && ship != null && ship.isAlive &&
+            if (isInfinite && byPlayerDamage && phase == RunPhase.WaveInProgress && ship != null && ship.isAlive &&
                 enemy.definition != null)
             {
                 score += EndlessScore.ForKill(enemy.definition.xp, waveIndex);
@@ -609,9 +763,9 @@ namespace AstroCrawler
 
             // Ima Gravitacional: bonus XP, keeping the fraction for the next orb.
             var bonus = effects != null ? effects.XpBonus : 0f;
-            if (bonus > 0f || isEndless)
+            if (bonus > 0f || isInfinite)
             {
-                var scaled = amount * (1f + bonus) * (isEndless ? StageCatalog.EndlessXpScale : 1f) + xpRemainder;
+                var scaled = amount * (1f + bonus) * (isInfinite ? StageCatalog.EndlessXpScale : 1f) + xpRemainder;
                 amount = Mathf.FloorToInt(scaled);
                 xpRemainder = scaled - amount;
             }
@@ -658,8 +812,7 @@ namespace AstroCrawler
 
         private void OpenLevelPick()
         {
-            cards.PrepareChoices();
-            if (cards.Choices.Count == 0)
+            if (!PrepareNextPick())
             {
                 // Every upgrade in the deck is already evolved: the level
                 // still counts, there is just nothing left to choose.
@@ -687,7 +840,7 @@ namespace AstroCrawler
         /// </summary>
         public bool ConfirmUpgrade(RuntimeCard chosen)
         {
-            if (phase != RunPhase.UpgradeSelection || ship == null || !ship.isAlive)
+            if (phase != RunPhase.UpgradeSelection || isWingmanPick || ship == null || !ship.isAlive)
             {
                 return false;
             }
@@ -706,19 +859,28 @@ namespace AstroCrawler
             }
 
             effects.ResolvePermanent(chosen);
+            ResumeAfterPick();
+            return true;
+        }
 
+        /// <summary>
+        /// One mid-fight pick was paid: the next waiting pick follows, or the
+        /// fight the pick froze resumes.
+        /// </summary>
+        private void ResumeAfterPick()
+        {
             pendingPicks = Mathf.Max(0, pendingPicks - 1);
             if (pendingPicks > 0)
             {
-                cards.PrepareChoices();
-                if (cards.Choices.Count > 0)
+                if (PrepareNextPick())
                 {
                     SetPhase(RunPhase.UpgradeSelection);
-                    return true;
+                    return;
                 }
                 pendingPicks = 0;
             }
 
+            isWingmanPick = false;
             Time.timeScale = GameSpeed.Multiplier;
             SetPhase(RunPhase.WaveInProgress);
 
@@ -727,7 +889,6 @@ namespace AstroCrawler
                 waveClearPending = false;
                 CompleteWave();
             }
-            return true;
         }
 
         /// <summary>

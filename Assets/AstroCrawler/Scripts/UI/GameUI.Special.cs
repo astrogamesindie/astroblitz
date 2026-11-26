@@ -7,16 +7,37 @@ namespace AstroCrawler
     {
         private ShipAbilityButton specialControl;
 
+        // Squadron: one button per wingman special, in a row left of the main one
+        // (up to five abilities in all). Hidden until their wingman joins.
+        private readonly ShipAbilityButton[] wingSpecialControls = new ShipAbilityButton[SquadronWing.SlotCount];
+
         private void BuildSpecialControl()
         {
             using var gameplayFrames = UIFactory.GameplayFrames();
+            var prefab = Resources.Load<ShipAbilityButton>("AstroCrawler/ShipAbilityButton");
             if (specialControl == null)
             {
-                var prefab = Resources.Load<ShipAbilityButton>("AstroCrawler/ShipAbilityButton");
                 if (prefab == null) { Debug.LogError("[AstroCrawler] Missing ShipAbilityButton prefab."); return; }
                 specialControl = Instantiate(prefab, hudRoot);
             }
             specialControl.Bind(run);
+
+            if (prefab == null) return;
+            for (var i = 0; i < wingSpecialControls.Length; i++)
+            {
+                if (wingSpecialControls[i] == null)
+                {
+                    wingSpecialControls[i] = Instantiate(prefab, hudRoot);
+                    wingSpecialControls[i].name = "WingAbility" + i;
+                }
+                wingSpecialControls[i].Bind(run, i);
+            }
+        }
+
+        private void RefreshWingSpecialControls()
+        {
+            for (var i = 0; i < wingSpecialControls.Length; i++)
+                if (wingSpecialControls[i] != null) wingSpecialControls[i].Refresh();
         }
 
         private bool BuildSpecialDetailsIcon(int slot)

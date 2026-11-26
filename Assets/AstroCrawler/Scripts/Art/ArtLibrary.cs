@@ -256,34 +256,46 @@ namespace AstroCrawler
         /// The drawn symbol for an upgrade. Returns null when the set has no
         /// match, which lets CardIconFactory fall back to its vector glyph.
         /// </summary>
+        /// <summary>
+        /// Card icon artwork. The card set lives in Art/CardIcons: copies of
+        /// the shared icons redrawn with one line weight (4.7% of the icon,
+        /// the same as CardIconFactory.Stroke) and filled shapes turned into
+        /// outlines, so every card reads alike. The originals stay as they are
+        /// for the rest of the UI (ability buttons, menus).
+        /// </summary>
+        private static Sprite CardArt(string name)
+        {
+            return ArtOr("CardIcons/card_" + name, Art(name));
+        }
+
         public static Sprite EffectIcon(CardEffectId effect)
         {
             switch (effect)
             {
-                case CardEffectId.DoubleAttack: return Art("ic_barragem");
-                case CardEffectId.PiercingShot: return Art("ic_calibre");
-                case CardEffectId.Missiles: return Art("ic_missile");
-                case CardEffectId.Shield: return Art("ShieldIcon");
-                case CardEffectId.EngineOverload: return Art("ic_acelerador");
+                case CardEffectId.DoubleAttack: return CardArt("ic_barragem");
+                case CardEffectId.PiercingShot: return CardArt("ic_calibre");
+                case CardEffectId.Missiles: return CardArt("ic_missile");
+                case CardEffectId.Shield: return CardArt("ShieldIcon");
+                case CardEffectId.EngineOverload: return CardArt("ic_acelerador");
                 case CardEffectId.ImpactCharge: return null; // Healing-triggered radial volley glyph.
-                case CardEffectId.WildVolley: return Art("ic_estilhaco");
-                case CardEffectId.BattleFury: return Art("ic_infinity");
-                case CardEffectId.BlackHole: return Art("ic_nucleo");
-                case CardEffectId.RepulsionField: return Art("ic_orbital");
-                case CardEffectId.EmergencyRepair: return Art("PictoIcon_Life");
-                case CardEffectId.DebrisWall: return Art("ic_nevoa");
-                case CardEffectId.CoreOverload: return Art("ic_sobrecarga");
-                case CardEffectId.DualGravityWell: return Art("ic_nucleo_denso");
-                case CardEffectId.TemporalDistortion: return Art("ic_gear");
+                case CardEffectId.WildVolley: return CardArt("ic_estilhaco");
+                case CardEffectId.BattleFury: return CardArt("ic_infinity");
+                case CardEffectId.BlackHole: return CardArt("ic_nucleo");
+                case CardEffectId.RepulsionField: return CardArt("ic_orbital");
+                case CardEffectId.EmergencyRepair: return CardArt("PictoIcon_Life");
+                case CardEffectId.DebrisWall: return CardArt("ic_nevoa");
+                case CardEffectId.CoreOverload: return CardArt("ic_sobrecarga");
+                case CardEffectId.DualGravityWell: return CardArt("ic_nucleo_denso");
+                case CardEffectId.TemporalDistortion: return CardArt("ic_gear");
                 case CardEffectId.TemporalParalysis: return null; // Procedural pause glyph.
-                case CardEffectId.ChainDetonation: return Art("ic_blaster");
+                case CardEffectId.ChainDetonation: return CardArt("ic_blaster");
                 case CardEffectId.SupportDrones: return null;
-                case CardEffectId.OrbitalStrike: return Art("ic_tractor");
-                case CardEffectId.GravityMagnet: return Art("PictoIcon_Magnet");
-                case CardEffectId.Execution: return Art("PictoIcon_EnemyLevel");
-                case CardEffectId.OverdriveFury: return Art("PictoIcon_Energy");
-                case CardEffectId.TemporalRift: return Art("ic_sobrecarga");
-                case CardEffectId.ParadoxRecharge: return Art("ic_retry");
+                case CardEffectId.OrbitalStrike: return CardArt("ic_tractor");
+                case CardEffectId.GravityMagnet: return CardArt("PictoIcon_Magnet");
+                case CardEffectId.Execution: return CardArt("PictoIcon_EnemyLevel");
+                case CardEffectId.OverdriveFury: return CardArt("PictoIcon_Energy");
+                case CardEffectId.TemporalRift: return CardArt("ic_sobrecarga");
+                case CardEffectId.ParadoxRecharge: return CardArt("ic_retry");
                 default: return null; // The other new cards use CardIconFactory glyphs.
             }
         }

@@ -22,7 +22,7 @@ namespace AstroCrawler
             if (ads != null) ads.SetMenuVisible(false);
             var shipTint = ship != null ? SpriteFactory.ParseColor(ship.tint) : UIFactory.Accent;
             var started = WarpTransition.Play(StageCatalog.Accent(stage), shipTint,
-                L("SALTO ESPACIAL", "SPACE JUMP", "SALTO ESPACIAL"), run.isEndless ? StageCatalog.EndlessName : StageCatalog.Name(stage),
+                L("SALTO ESPACIAL", "SPACE JUMP", "SALTO ESPACIAL"), run.isInfinite ? run.modeName : StageCatalog.Name(stage),
                 canvas != null ? UIFactory.Group(canvas) : null, begin, ship != null ? ship.id : null);
             if (!started) begin();
         }

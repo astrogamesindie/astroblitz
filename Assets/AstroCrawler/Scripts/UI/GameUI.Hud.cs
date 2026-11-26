@@ -657,13 +657,13 @@ namespace AstroCrawler
         private void HandleWaveCleared(int waveIndex)
         {
             // The last wave of a stage announces the stage itself, not the wave.
-            var lastWave = !run.isEndless && waveIndex >= RunController.WavesPerRun;
+            var lastWave = !run.isInfinite && waveIndex >= RunController.WavesPerRun;
             ShowBanner(lastWave
                 ? StageCatalog.Name(run.stageIndex) + L(" CONCLUÍDO", " CLEARED", " COMPLETADO")
                 : L("ONDA ", "WAVE ", "OLEADA ") + waveIndex + L(" LIMPA", " CLEARED", " SUPERADA"),
                 UIFactory.Good);
             Juice.ScreenFlash(Palette.Alfa(Palette.Acido, 0.16f), 0.45f);
-            if (run.isEndless || waveIndex < RunController.WavesPerRun)
+            if (run.isInfinite || waveIndex < RunController.WavesPerRun)
             {
                 Sfx.Play(Sound.WaveCleared);
             }
@@ -842,7 +842,7 @@ namespace AstroCrawler
 
         private void RefreshEndlessScore()
         {
-            if (!run.isEndless)
+            if (!run.isInfinite)
             {
                 if (endlessScoreLabel != null && endlessScoreLabel.gameObject.activeSelf)
                     endlessScoreLabel.gameObject.SetActive(false);

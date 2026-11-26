@@ -528,8 +528,9 @@ namespace AstroCrawler
             CardIconFactory.CenterArtwork(iconImage, card.definition.effect, new Vector2(42f, -42f));
             // Also aligns widgets already serialized in the scene/prefab.
             iconGlow.rectTransform.anchoredPosition = new Vector2(11f, -11f);
-            iconImage.color = new Color(tint.r * 0.35f + 0.65f, tint.g * 0.35f + 0.65f,
-                tint.b * 0.35f + 0.65f, 1f);
+            // The card's own colour, like its ring, rule and pips (the icon
+            // artwork is white, so the tint is the colour that shows).
+            iconImage.color = new Color(tint.r, tint.g, tint.b, 1f);
 
             bodyPanel.color = new Color(0.015f, 0.02f, 0.04f, 0.32f);
             glowBorder.color = new Color(tint.r, tint.g, tint.b, level > 2 ? 0.55f : evolved ? 0.35f : 0f);

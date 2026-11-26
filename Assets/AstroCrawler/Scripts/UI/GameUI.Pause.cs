@@ -195,9 +195,9 @@ namespace AstroCrawler
         {
             builder.Length = 0;
             builder.Append(L("ONDA ", "WAVE ", "OLEADA ")).Append(run.waveIndex);
-            if (!run.isEndless) builder.Append(" / ").Append(RunController.WavesPerRun);
+            if (!run.isInfinite) builder.Append(" / ").Append(RunController.WavesPerRun);
             builder.Append("   ·   ").Append(run.modeName);
-            if (run.isEndless) builder.Append("   ·   ").Append(L("PONTOS ", "SCORE ", "PUNTOS ")).Append(EndlessScore.Format(run.score));
+            if (run.isInfinite) builder.Append("   ·   ").Append(L("PONTOS ", "SCORE ", "PUNTOS ")).Append(EndlessScore.Format(run.score));
             if (run.shipDefinition != null)
             {
                 builder.Append('\n').Append(GameLocalization.Content(run.shipDefinition.name).ToUpperInvariant());
