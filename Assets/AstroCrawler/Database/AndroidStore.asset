@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 048dc3e8bcc547debf28b4870889f431, type: 3}
   m_Name: AndroidStore
   m_EditorClassIdentifier: Assembly-CSharp::AstroCrawler.AndroidStoreConfig
-  removeAdsProductId: primium
+  removeAdsProductId: premium
+  googlePlayProductId: remove_ads

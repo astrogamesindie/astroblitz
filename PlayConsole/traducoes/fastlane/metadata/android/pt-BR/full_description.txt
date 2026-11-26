@@ -1,0 +1,27 @@
+Pilote uma nave solitária por setores hostis do espaço profundo em Astro Blitz, um roguelite espacial rápido, feito para jogar com uma mão. Sua nave mira e atira sozinha, e as decisões são suas: escolha cartas de melhoria poderosas, ative o especial na hora certa e derrote chefes gigantes no fim de cada setor.
+
+Cada partida é diferente. Monte combinações únicas de cartas, vá mais longe a cada tentativa e gaste os créditos que ganhar em melhorias permanentes, cartas novas e novas naves.
+
+ESCOLHA SUA NAVE
+• Vanguarda-7 – nave de ataque que se cura ao abater inimigos; a Sobrecarga ofensiva dobra a cadência de tiro.
+• Bastião Aegis – fortaleza blindada; a Égide de emergência deixa a nave invulnerável.
+• Espectro Nulo – controle e precisão; a Estase temporal congela todos os inimigos, até o chefe.
+• Aurora Médica – nave de suporte com autorreparo, mísseis de cura e drones; o Reparo restaurador recupera vida na hora.
+• Orion – artilharia pesada com raios em cadeia e disparos de cerco; a Amplificação de dano dobra o dano do canhão.
+
+SUBA DE NÍVEL E MONTE COMBOS
+• A cada nível, escolha 1 entre 3 cartas de melhoria.
+• Combine lâminas, raios em cadeia, mísseis teleguiados, buracos negros e muito mais.
+• Libere cartas do deck base com créditos e cartas exclusivas conforme suas naves sobem de nível.
+
+PROGRESSÃO PERMANENTE
+• Melhore cadência, dano, casco, críticos e muito mais em cada nave.
+• Vença 10 setores cada vez mais difíceis, cada um terminando com um chefe.
+• Recompensas diárias e créditos bônus.
+
+AÇÃO ARCADE SCI-FI
+• Saltos espaciais entre setores, efeitos neon e impacto em cada tiro.
+• Partidas curtas, perfeitas para uma pausa rápida, com profundidade para você sempre voltar.
+
+Entre com sua conta para guardar o progresso na nuvem.
+É necessário estar conectado à internet para jogar.

@@ -101,7 +101,7 @@ namespace AstroCrawler
                     using (var player = new AndroidJavaClass("com.unity3d.player.UnityPlayer"))
                     using (var activity = player.GetStatic<AndroidJavaObject>("currentActivity"))
                         bridge = new AndroidJavaObject("com.astrocrawler.store.AstroBilling", activity,
-                            gameObject.name, config.removeAdsProductId);
+                            gameObject.name, config.ProductIdForPlatform);
                 }
                 bridge.Call(method == "restore" ? "refresh" : method);
             }
